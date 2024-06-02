@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "agents-of-inference"
+version = "0.1.0"
+description = ""
+authors = ["briancaffey"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.2.1"
+langgraph = "^0.0.60"
+langchain-openai = "^0.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
