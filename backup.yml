@@ -1,0 +1,55 @@
+cast:
+- background: British Intelligence Officer
+  ethnicity: Caucasian
+  full_name: James Alexander
+  gender: Male
+  main_character: true
+  nationality: British
+  physical_traits: Tall and athletic build
+  short_name: Alex
+- background: Russian Spy
+  ethnicity: Caucasian
+  full_name: Evelyn Stone
+  gender: Female
+  main_character: false
+  nationality: Russian
+  physical_traits: ' petite and agile build'
+  short_name: Evie
+- background: British Agent
+  ethnicity: Caucasian
+  full_name: Hazel Newman
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Fit and toned build
+  short_name: Haz
+- background: Spanish Double Agent
+  ethnicity: Latino
+  full_name: Rafael Morales
+  gender: Male
+  main_character: false
+  nationality: Spanish
+  physical_traits: Tall and strong build
+  short_name: Rafe
+- background: Russian Intelligence Officer
+  ethnicity: Caucasian
+  full_name: Victor Kuznetsov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  physical_traits: Large and menacing build
+  short_name: Viktor
+directory: '1717451929'
+locations:
+- country: Uzbekistan
+  environment: A bustling city with Soviet-era architecture, vibrant markets, and
+    a mix of modern and traditional buildings.
+  name: Tashkent, Uzbekistan
+- country: China
+  environment: A majestic ancient fortification stretching over 13,000 miles, winding
+    its way across mountains, valleys, and deserts.
+  name: The Great Wall of China, China
+- country: Australia
+  environment: A remote and rugged outback landscape with towering rock formations,
+    vast desert expanses, and a backdrop of endless blue skies.
+  name: Kata Tjuta, Australia

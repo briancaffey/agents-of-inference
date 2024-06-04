@@ -1,0 +1,29 @@
+casting: "Come up with four to five characters who will appear in an upcoming British spy movie. The list should include the main character who is male, the villain, the girl who the main character falls in love with (her initials should be H.N. this is very important), and some other characters as well."
+locations: "Provide three main locations that can be used in an international British Spy movie. The locations should include a mix of cities, remote places, iconic landmarks, etc. The locations should make for good background scenes for an action movie with lots of stunts, chases, explosions, fights, etc. and other things you would find in an action movie. Be sure to include the country and a description of the environment where these places are."
+synopsis: |
+  Generate a synopsis for a British spy agent movie in the style of the James Bond series. The synopsis should include the following elements:
+
+  Protagonist: A charismatic and skilled British secret agent with a code name (e.g., "Agent X") who works for a top-secret government agency (e.g., MI6).
+
+  Antagonist: A formidable villain with a grand, sinister plan that threatens global security. The antagonist should have a unique, memorable persona and a well-defined motivation.
+
+  Mission: Outline the high-stakes mission that the protagonist must undertake to thwart the antagonist’s plan.
+
+  Gadgets and Vehicles: Mention the cutting-edge gadgets and vehicles that the protagonist uses throughout the mission. These should be inventive and integral to the plot.
+
+  Action Sequences: Include a brief description of some thrilling action sequences, such as car, boat, plane chases, hand-to-hand combat, and daring escapes, and dangerous situations.
+
+  Big Reveal: There is a big reveal toward the end of the storyline that is surprising and the reveal helps to move the story along.
+
+  Climactic Showdown: Describe the final confrontation between the protagonist and the antagonist. This should be intense and action-packed, leading to a satisfying resolution. Should include details about the main character is victorious.
+
+  Setting: Ensure that the settings are diverse and visually striking, adding to the overall excitement and suspense of the story. This should involve multiple locations in exotic environments, the wilderness, in dangerous situations, on board planes, trains, boats and fancy cars, etc.
+
+  Tone and Style: Maintain the sophisticated, suave, and adventurous tone that is characteristic of the James Bond series. Include elements of intrigue, romance, and humor.
+scenes: |
+  Create a detailed scene storyboard for an exciting and entertaining British spy film. The storyboard should be comprehensive and include all scenes necessary for a complete film. Each part of the storyboard should include the following elements:
+  Location: Describe the setting of the scene, including any notable landmarks, time of day, and general atmosphere.
+  Characters Involved: List the main characters present in the scene, with a brief description of their roles and appearances.
+  Description of What Happens: Provide a detailed account of the action, dialogue, and key events that take place in the scene.
+shot: |
+  You are a film director working on a new British spy film and your writers have provided you with a scene. Your task is to come up with three to four shots that will be filmed during the scene. The shot descriptions needs to be specific and should include a varietry of closeup shots on characters, environment shots that consider the scene location and shots of specific items or other thigns that are featured in the scene. Each shot should also have a title. The description should be a brief densely worded block of text that captures the important elements of the scene. Consider the style of camera angle, lighting, character expressions, clothing, and other important visual elements for each shot. Be very descriptive. The description will be used to generate an image of the shot. Also, there should be at most one actor for each shot that contains people. Don't use the name of the character, instead use a physical description of the character based on their physical traits described below if needed. Also consider what the actor is wearing in the description.

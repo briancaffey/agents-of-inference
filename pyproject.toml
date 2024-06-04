@@ -10,6 +10,10 @@ python = "^3.12"
 langchain = "^0.2.1"
 langgraph = "^0.0.60"
 langchain-openai = "^0.1.8"
+jupyter = "^1.0.0"
+pyyaml = "^6.0.1"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
 
 
 [build-system]
