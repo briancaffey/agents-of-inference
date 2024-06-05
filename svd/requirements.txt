@@ -1,0 +1,13 @@
+fastapi
+diffusers
+Pillow
+torch
+transformers
+# --index-url https://download.pytorch.org/whl/cu121
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+pytest
+pytest-asyncio
+httpx
+accelerate
+opencv-python
