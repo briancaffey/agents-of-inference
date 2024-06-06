@@ -1,12 +1,11 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
+import io
+import os
+from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import FileResponse
-from typing import Optional
+from PIL import Image
 import torch
 from diffusers import StableVideoDiffusionPipeline
 from diffusers.utils import load_image, export_to_video
-from PIL import Image
-import io
-import os
 
 app = FastAPI()
 
@@ -21,10 +20,17 @@ async def startup_event():
     pipe.enable_model_cpu_offload()
 
 async def validate_image(file: UploadFile) -> Image.Image:
+    print(f"Uploaded file content type: {file.content_type}")
     if file.content_type not in ["image/png", "image/jpeg"]:
         raise HTTPException(status_code=400, detail="Invalid image format")
-    contents = await file.read()
-    return Image.open(io.BytesIO(contents))
+    try:
+        contents = await file.read()
+        image = Image.open(io.BytesIO(contents))
+        image.verify()  # Verify that it is, in fact, an image
+        return Image.open(io.BytesIO(contents))  # Reopen after verification
+    except Exception as e:
+        print(e)
+        raise HTTPException(status_code=400, detail="Invalid image content")
 
 @app.post("/api/img2vid")
 async def convert_img_to_vid(image_file: UploadFile = File(...)):
@@ -38,16 +44,19 @@ async def convert_img_to_vid(image_file: UploadFile = File(...)):
         # Generate frames using SVD
         generator = torch.manual_seed(42)
         print("processing video_frames")
-        video_frames = pipe(image, decode_chunk_size=2, generator=generator, motion_bucket_id=180, noise_aug_strength=0.1)
+        video_frames = pipe(image, decode_chunk_size=1, generator=generator, motion_bucket_id=180, noise_aug_strength=0.1)
 
         print("processing frames...")
         frames = video_frames.frames[0]
-
+        print("frames processed")
         # Save the generated video
         video_path = "generated.mp4"
-
+        print("export_to_video")
         export_to_video(frames, video_path, fps=7)
+        print("return FileResponse")
         return FileResponse(video_path, media_type="video/mp4", filename="generated.mp4")
+    except HTTPException as e:
+        raise e  # Re-raise HTTP exceptions as is
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     finally:
