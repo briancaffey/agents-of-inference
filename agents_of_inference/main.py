@@ -257,7 +257,6 @@ def stable_video_diffusion_agent(state):
             state["shots"][i]["video"] = f"00{i}.mp4"
             save_dict_to_yaml(state)
 
-        break
     return state
 
 # define graph

@@ -125,30 +125,35 @@ shots:
     from the heat.
   image: 001.png
   title: Close-up Shot of Jim's Face
+  video: 001.mp4
 - description: An over-the-shoulder shot of Petrov as he counts a stack of cash on
     a worn wooden table. The camera is positioned behind Jim, capturing his reaction
     to Petrov's wealth and power. The lighting is harsh and unforgiving, with the
     shadows cast by the table lamps accentuating the sharp lines of Petrov's face.
   image: 002.png
   title: Over-the-Shoulder Shot of Petrov Counting Cash
+  video: 002.mp4
 - description: A low-angle shot of Ellie as she surveys the scene from the top of
     a dusty staircase. The camera looks up at her, capturing her tall figure and bright
     red hair as she takes in the sights and sounds of the bustling market. The lighting
     is warm and golden, with the sun casting long shadows across the crowded streets.
   image: 003.png
   title: Low-Angle Shot of Ellie Surveying the Scene
+  video: 003.mp4
 - description: A medium shot of the bustling streets of Istanbul, with the sounds
     of honking horns and chatter filling the air. The camera pans across the rooftops,
     showing a mix of old and new architecture, before landing on a sleek black sports
     car speeding down the street, its headlights casting a bright glow.
   image: 004.png
   title: Establishing Shot
+  video: 004.mp4
 - description: A tight close-up shot of Jim's face, his piercing blue eyes locked
     intensely on the road ahead as he navigates the busy streets. His dark hair is
     ruffled by the wind, and his jawline is set in a determined expression. The camera
     lingers on the creases around his eyes, hinting at the weight of his mission.
   image: 005.png
   title: Jim's Closeup
+  video: 005.mp4
 - description: A dynamic medium shot of Kuz and Petrov engaging in hand-to-hand combat
     on the rooftop of a building. The camera moves quickly to capture the intense
     action, with the sound design emphasizing the grunts and punches. Petrov's balding
@@ -156,6 +161,7 @@ shots:
     from the struggle.
   image: 006.png
   title: Petrov's Hand-to-Hand Combat
+  video: 006.mp4
 - description: A high-angle shot of Ellie perched on a rooftop, her bright red hair
     tied back in a ponytail as she scans the streets below through binoculars. The
     camera pans out to reveal her rugged determination, her bright blue eyes fixed
@@ -163,6 +169,7 @@ shots:
     with a utility belt around her waist and a pistol holstered at her side.
   image: 007.png
   title: Ellie's Surveillance
+  video: 007.mp4
 - description: A high-angle shot of the secret MI6 facility in Scotland, with a sweeping
     aerial view of the sprawling complex. The camera pans across the facility's sleek,
     modern architecture, capturing the attention to detail and cutting-edge technology
@@ -170,6 +177,7 @@ shots:
     the facility's state-of-the-art security measures.
   image: 008.png
   title: Establishing Shot of Facility
+  video: 008.mp4
 - description: A tight close-up shot of Jim's face as he listens intently to Petrov's
     words. His piercing blue eyes are focused, his brow furrowed in concern. The camera
     lingers on the subtle tension lines around his mouth and eyes, capturing the weight
@@ -177,6 +185,7 @@ shots:
     the sharp angles of his facial structure.
   image: 009.png
   title: Close-up on Jim's Face
+  video: 009.mp4
 - description: A medium close-up shot of Petrov's hand as he gestures animatedly while
     speaking. His balding head and piercing green eyes are visible above the frame,
     adding to the sense of intensity and urgency. The camera captures the intricate
@@ -184,6 +193,7 @@ shots:
     he leads.
   image: 0010.png
   title: Shot of Petrov's Hand
+  video: 0010.mp4
 - description: An over-the-shoulder shot of H.N., looking concerned as she reviews
     documents on her laptop. Her bright green eyes are fixed intently on the screen,
     and her curly brown hair is tied back in a neat ponytail. The camera lingers on
@@ -191,6 +201,7 @@ shots:
     work.
   image: 0011.png
   title: Over-the-Shoulder Shot of H.N.
+  video: 0011.mp4
 - description: A medium shot of a winding road through the Scottish Highlands, with
     a sleek black luxury car driving down it. The camera pans across the rolling hills
     and rugged landscape, capturing the serene beauty of the environment. The car's
@@ -198,24 +209,28 @@ shots:
     the road.
   image: 0012.png
   title: Establishing Shot of the Highland Road
+  video: 0012.mp4
 - description: A tight close-up shot of Jim's face, his piercing blue eyes fixed intently
     on something in the distance. His expression is one of calm focus, his brow furrowed
     slightly as he surveys the surroundings. The camera lingers on his face for a
     few moments before cutting away to reveal the scene unfolding around him.
   image: 0013.png
   title: Close-up Shot of Jim's Face
+  video: 0013.mp4
 - description: A close-up shot of Petrov's hand, his fingers wrapped tightly around
     the grip of a sleek black pistol. The camera lingers on the gun for a moment before
     cutting to reveal the rest of his face, his piercing green eyes gleaming with
     a calculating intensity.
   image: 0014.png
   title: Shot of Petrov's Hand Holding a Gun
+  video: 0014.mp4
 - description: A medium shot of the car as it rounds the bend in the road, the camera
     positioned on the side of the vehicle to capture its sleek profile. The Scottish
     Highlands blur by outside, the camera's movement creating a sense of dynamic tension
     as the car speeds along.
   image: 0015.png
   title: Medium Shot of the Car in Motion
+  video: 0015.mp4
 - description: A close-up shot of Jim's face, his piercing blue eyes fixed intently
     on Petrov as he demands answers. The lighting is dim, with only a faint glow emanating
     from the setting sun behind him. His facial expression is stern, with a hint of
@@ -223,6 +238,7 @@ shots:
     He wears a tailored black suit with a crisp white shirt and a silver tie.
   image: 0016.png
   title: Jim's Determined Gaze
+  video: 0016.mp4
 - description: A medium shot of Petrov, standing tall with his arms crossed and a
     scowl etched on his face. The background is the imposing Great Wall of China,
     its ancient stones worn by time and weather. His balding head is illuminated by
@@ -230,6 +246,7 @@ shots:
     He wears a black tailored suit with a gold cufflink glinting in the dim light.
   image: 0017.png
   title: The Oligarch's Unyielding Stance
+  video: 0017.mp4
 - description: A close-up shot of Helen's face, her bright green eyes scanning the
     surroundings with a mixture of caution and curiosity. Her curly brown hair is
     slightly tousled from the wind, and she wears a subtle smile as if sizing up the
@@ -238,42 +255,49 @@ shots:
     is dressed in a simple white blouse with a pair of black pants.
   image: 0018.png
   title: Helen's Watchful Eye
+  video: 0018.mp4
 - description: A medium shot of Kuz, standing at attention with his eyes fixed on
     Jim and Petrov. His dark hair is neatly combed back, accentuating the sharp angles
     of his jawline and piercing brown eyes. He wears a crisp white shirt with black
     pants, his movements economical and precise as he assesses the situation.
   image: 0019.png
   title: Kuz's Alert Posture
+  video: 0019.mp4
 - description: A medium shot of the British Intelligence headquarters building, with
     a slight overcast and misty atmosphere. The camera pans across the imposing structure,
     highlighting its sleek design and modern architecture. The sound design features
     gentle whispers of activity within the building.
   image: 0020.png
   title: Establishing Shot of Headquarters
+  video: 0020.mp4
 - description: A tight close-up shot of Jim's face as he paces back and forth in front
     of a large screen displaying surveillance footage. His piercing blue eyes are
     filled with intensity, his brow furrowed in concentration. The lighting is dim,
     with only a faint glow emanating from the screens.
   image: 0021.png
   title: Close-up Shot of Jim's Face
+  video: 0021.mp4
 - description: A low-angle shot of Petrov's profile as he stands in front of a sleek
     black SUV parked outside the headquarters. His balding head is slightly angled,
     and his piercing green eyes seem to bore into the camera. The lighting is harsh,
     with only a faint glow from the surrounding streetlamps.
   image: 0022.png
   title: Low Angle Shot of Petrov's Profile
+  video: 0022.mp4
 - description: A medium shot of H.N.'s hands moving deftly across the keyboard as
     she works to crack a complex encryption code. The camera is positioned at a 45-degree
     angle, highlighting her short curly brown hair and bright green eyes focused intently
     on the screen. Soft, warm lighting illuminates the scene.
   image: 0023.png
   title: Medium Shot of H.N.'s Hands on Keyboard
+  video: 0023.mp4
 - description: An over-the-shoulder shot of Ellie as she engages in a heated conversation
     with Kuz, her voice rising and falling with emotion. Her bright blue eyes lock
     onto his piercing brown eyes, their faces inches apart. The lighting is dim, with
     only a faint glow from the surrounding room.
   image: 0024.png
   title: Over-the-Shoulder Shot of Ellie's Conversation
+  video: 0024.mp4
 synopsis: In 'Redemption', Agent X, a charismatic and skilled British secret agent,
   must use his cunning and expertise to thwart the sinister plan of Vladimir Petrov,
   a ruthless Russian oligarch with ties to organized crime. The mission takes Agent
