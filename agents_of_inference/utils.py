@@ -1,9 +1,13 @@
 from io import BytesIO
-import yaml
 import os
-import requests
+import warnings
 import base64
+
+import requests
 from PIL import Image
+from moviepy.editor import VideoFileClip, concatenate_videoclips
+import yaml
+
 
 def save_dict_to_yaml(dictionary):
     """
@@ -38,7 +42,7 @@ def generate_and_save_image(directory: str, prompt: str, id: str):
         "prompt": prompt.replace("\n", "  "),
         "steps": 50,
         "width": 1024,
-        "height": 1024,
+        "height": 576,
     }
 
     # Send said payload to said URL through the API.
@@ -85,3 +89,23 @@ def generate_and_save_video(id: str, image_path: str):
         print(f"HTTP request failed: {e}")
     except Exception as e:
         print(f"An error occurred: {e}")
+
+def create_movie(id: str):
+    """
+    Use moviepy to combine the mp4 files into a movie
+    """
+    # Suppress specific warnings
+    warnings.filterwarnings("ignore", category=SyntaxWarning, module="moviepy")
+
+    # List of video file paths
+
+    video_files = [f"output/{id}/videos/00{i}.mp4" for i in range(len(os.listdir(f"output/{id}/videos")))]
+
+    # Load the video files
+    video_clips = [VideoFileClip(video) for video in video_files]
+
+    # Concatenate the video clips
+    final_clip = concatenate_videoclips(video_clips)
+
+    # Save the final combined video
+    final_clip.write_videofile(f"output/{id}/final.mp4", codec='libx264')

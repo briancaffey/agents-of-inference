@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from utils import save_dict_to_yaml, generate_and_save_image, generate_and_save_video
+from utils import save_dict_to_yaml, generate_and_save_image, generate_and_save_video, create_movie
 from type_defs import AgentState, Characters, Locations, Synopsis, Scenes, Shots
 import yaml
 
@@ -259,6 +259,13 @@ def stable_video_diffusion_agent(state):
 
     return state
 
+def video_editing_agent(state):
+    """
+    Uses moviepy to create a video from mp4 files created by stable_video_diffusion_agent
+    """
+    create_movie(state["directory"])
+    return state
+
 # define graph
 graph.add_node("initialization_agent", initialization_agent)
 graph.add_node("casting_agent", casting_agent)
@@ -268,6 +275,7 @@ graph.add_node("scene_agent", scene_agent)
 graph.add_node("shot_agent", shot_agent)
 graph.add_node("stable_diffusion_agent", stable_diffusion_agent)
 graph.add_node("stable_video_diffusion_agent", stable_video_diffusion_agent)
+graph.add_node("video_editing_agent", video_editing_agent)
 
 graph.add_edge("initialization_agent", "casting_agent")
 graph.add_edge("casting_agent", "location_agent")
@@ -276,9 +284,10 @@ graph.add_edge("synopsis_agent", "scene_agent")
 graph.add_edge("scene_agent", "shot_agent")
 graph.add_edge("shot_agent", "stable_diffusion_agent")
 graph.add_edge("stable_diffusion_agent", "stable_video_diffusion_agent")
+graph.add_edge("stable_video_diffusion_agent", "video_editing_agent")
 
 graph.set_entry_point("initialization_agent")
-graph.set_finish_point("stable_video_diffusion_agent")
+graph.set_finish_point("video_editing_agent")
 
 runnable = graph.compile()
 
