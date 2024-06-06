@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from utils import save_dict_to_yaml, generate_and_save_image
+from utils import save_dict_to_yaml, generate_and_save_image, generate_and_save_video
 from type_defs import AgentState, Characters, Locations, Synopsis, Scenes, Shots
 import yaml
 
@@ -233,12 +233,31 @@ def stable_diffusion_agent(state):
     shot_count = len(state.get("shots"))
     # loop over all shots
     for i, shot in enumerate(state.get("shots")):
-        print(f"generating shot for {shot.get('title')}")
+        # print(f"generating shot for {shot.get('title')}")
         description = shot.get("description")
-        print(description)
-        print(f"00{i}/00{shot_count}")
-        generate_and_save_image(state.get("directory"), description, f"00{i}")
+        if 'image' not in state["shots"][i]:
+            generate_and_save_image(state.get("directory"), description, f"00{i}")
+            print(f"Generated image output/{state["directory"]}/images/00{i}.png")
+            state["shots"][i]["image"] = f"00{i}.png"
+            save_dict_to_yaml(state)
+            print(f"00{i}/00{shot_count}")
+            print(description)
 
+    return state
+
+def stable_video_diffusion_agent(state):
+    """
+    This agent loops over the files in output/{id}/images/ and generates videos from images
+    It uses the Stable Video Diffusion FastAPI service that is defined in the `svd` directory
+    """
+    for i, shot in enumerate(state.get("shots")):
+        if 'video' not in state["shots"][i]:
+            generate_and_save_video(state["directory"], f"00{i}.png")
+            print(f"Generated video output/{state["directory"]}/videos/00{i}.mp4")
+            state["shots"][i]["video"] = f"00{i}.mp4"
+            save_dict_to_yaml(state)
+
+        break
     return state
 
 # define graph
@@ -249,6 +268,7 @@ graph.add_node("synopsis_agent", synopsis_agent)
 graph.add_node("scene_agent", scene_agent)
 graph.add_node("shot_agent", shot_agent)
 graph.add_node("stable_diffusion_agent", stable_diffusion_agent)
+graph.add_node("stable_video_diffusion_agent", stable_video_diffusion_agent)
 
 graph.add_edge("initialization_agent", "casting_agent")
 graph.add_edge("casting_agent", "location_agent")
@@ -256,9 +276,10 @@ graph.add_edge("location_agent", "synopsis_agent")
 graph.add_edge("synopsis_agent", "scene_agent")
 graph.add_edge("scene_agent", "shot_agent")
 graph.add_edge("shot_agent", "stable_diffusion_agent")
+graph.add_edge("stable_diffusion_agent", "stable_video_diffusion_agent")
 
 graph.set_entry_point("initialization_agent")
-graph.set_finish_point("stable_diffusion_agent")
+graph.set_finish_point("stable_video_diffusion_agent")
 
 runnable = graph.compile()
 

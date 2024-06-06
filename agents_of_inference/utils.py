@@ -1,9 +1,16 @@
+from io import BytesIO
 import yaml
 import os
 import requests
 import base64
+from PIL import Image
 
 def save_dict_to_yaml(dictionary):
+    """
+    This is called at the end of every agent function that produces LLM output
+    The YAML file is saved and on subsequent runs the LLM responses are read from
+    the YAML file and are not generated again, caching the LLM responses
+    """
     if 'directory' in dictionary:
         directory = os.path.join('output', dictionary['directory'])
         if not os.path.exists(directory):
@@ -41,3 +48,40 @@ def generate_and_save_image(directory: str, prompt: str, id: str):
     # Decode and save the image.
     with open(f"{directory}/{id}.png", 'wb') as f:
         f.write(base64.b64decode(r['images'][0]))
+
+def generate_and_save_video(id: str, image_path: str):
+    """
+    This function takes a path to an image and uses an external SVD service to generate video
+    The SVD service is defined in the `svd` directory of this repository
+    """
+    directory = os.path.join('output', str(id), 'videos')
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    url = "http://192.168.5.96:8000/api/img2vid"
+
+    # Prepare the image to be used in the HTTP request
+    img = Image.open(f"output/{id}/images/{image_path}")
+    img_bytes = BytesIO()
+    img.save(img_bytes, format="PNG")
+    img_bytes.seek(0)
+
+    # Use a more readable way to prepare files for the request
+    files = {"image_file": ("image.png", img_bytes, "image/png")}
+
+    try:
+        response = requests.post(url, files=files)
+        response.raise_for_status()  # Raise an error for bad responses
+
+        video_file_name = image_path.replace(".png", "")
+        video_path = os.path.join(directory, f"{video_file_name}.mp4")
+
+        # Save the received video file
+        with open(video_path, "wb") as f:
+            f.write(response.content)
+
+        print("== stable video diffusion generation complete ==")
+    except requests.exceptions.RequestException as e:
+        print(f"HTTP request failed: {e}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
