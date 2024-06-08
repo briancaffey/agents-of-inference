@@ -263,7 +263,7 @@ def video_editing_agent(state):
     """
     Uses moviepy to create a video from mp4 files created by stable_video_diffusion_agent
     """
-    create_movie(state["directory"])
+    create_movie(state)
     return state
 
 # define graph

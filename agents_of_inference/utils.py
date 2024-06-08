@@ -5,7 +5,7 @@ import base64
 
 import requests
 from PIL import Image
-from moviepy.editor import VideoFileClip, concatenate_videoclips
+from moviepy.editor import VideoClip, TextClip, CompositeVideoClip, ColorClip, VideoFileClip, concatenate_videoclips
 import yaml
 
 
@@ -90,7 +90,7 @@ def generate_and_save_video(id: str, image_path: str):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-def create_movie(id: str):
+def create_movie(state: dict):
     """
     Use moviepy to combine the mp4 files into a movie
     """
@@ -98,14 +98,40 @@ def create_movie(id: str):
     warnings.filterwarnings("ignore", category=SyntaxWarning, module="moviepy")
 
     # List of video file paths
-
-    video_files = [f"output/{id}/videos/00{i}.mp4" for i in range(len(os.listdir(f"output/{id}/videos")))]
+    _id = state["directory"]
+    video_files = [f"output/{_id}/videos/00{i}.mp4" for i in range(len(os.listdir(f"output/{_id}/videos")))]
 
     # Load the video files
     video_clips = [VideoFileClip(video) for video in video_files]
+    print("trying to make text clips...")
+    # Create text overlays in moviepy
+
+
+    width, height = 1024, 576
+    duration = 10  # in seconds
+    fontsize = 30
+
+    # Create a black background clip
+    background_clip = ColorClip(size=(width, height), color=(0, 0, 0), duration=duration)
+
+    # Create text clips
+    text_clips = []
+    shots = state.get("shots")
+    for i in range(len(os.listdir(f"output/{_id}/videos"))):
+        text = shots[i]["description"]
+        text_clip = TextClip(text, fontsize=fontsize, color="white", method='caption', size=(800, 400), align='center')
+        text_clip = text_clip.set_position('center').set_duration(duration)
+
+        # Combine the background clip and the text clip
+        final_clip = CompositeVideoClip([background_clip, text_clip])
+        text_clips.append(final_clip)
+
+    combined = [val for pair in zip(text_clips, video_clips) for val in pair]
 
     # Concatenate the video clips
+    final_clip_captioned = concatenate_videoclips(combined)
     final_clip = concatenate_videoclips(video_clips)
 
-    # Save the final combined video
-    final_clip.write_videofile(f"output/{id}/final.mp4", codec='libx264')
+    # Save the final combined videos with and without text
+    final_clip.write_videofile(f"output/{_id}/final.mp4", codec='libx264')
+    final_clip_captioned.write_videofile(f"output/{_id}/final_captioned.mp4", codec='libx264')
