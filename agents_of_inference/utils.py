@@ -9,6 +9,9 @@ from moviepy.editor import VideoClip, TextClip, CompositeVideoClip, ColorClip, V
 import yaml
 
 
+# TODO: move to dotenv
+SD_API_URL = "http://192.168.5.96:7860"
+
 def save_dict_to_yaml(dictionary):
     """
     This is called at the end of every agent function that produces LLM output
@@ -24,6 +27,33 @@ def save_dict_to_yaml(dictionary):
     else:
         print("Error: 'directory' key is missing in the dictionary.")
 
+def generate_headshots_for_character(file_directory, character, _id):
+    """
+    This function takes the character information and
+    """
+    directory = os.path.join('output', str(file_directory), 'images', 'characters')
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    c = character
+    prompt = f"Headshot photo of a {c.get('ethnicity')} {c.get('gender')} with {c.get('physical_traits')} simple white background"
+
+    payload = {
+        "prompt": prompt.replace("\n", "  "),
+        "steps": 50,
+        "width": 1024,
+        "height": 1024,
+    }
+
+    # Send said payload to said URL through the API.
+    response = requests.post(url=f'{SD_API_URL}/sdapi/v1/txt2img', json=payload)
+    r = response.json()
+
+    # Decode and save the image.
+    with open(f"{directory}/{_id}.png", 'wb') as f:
+        f.write(base64.b64decode(r['images'][0]))
+    character["photos"] = [f"{_id}.png"]
+    return
 
 def generate_and_save_image(directory: str, prompt: str, id: str):
     """
@@ -35,9 +65,6 @@ def generate_and_save_image(directory: str, prompt: str, id: str):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    # Define the URL and the payload to send.
-    url = "http://192.168.5.96:7860"
-
     payload = {
         "prompt": prompt.replace("\n", "  "),
         "steps": 50,
@@ -46,7 +73,7 @@ def generate_and_save_image(directory: str, prompt: str, id: str):
     }
 
     # Send said payload to said URL through the API.
-    response = requests.post(url=f'{url}/sdapi/v1/txt2img', json=payload)
+    response = requests.post(url=f'{SD_API_URL}/sdapi/v1/txt2img', json=payload)
     r = response.json()
 
     # Decode and save the image.

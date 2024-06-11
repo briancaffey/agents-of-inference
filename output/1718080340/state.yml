@@ -1,0 +1,48 @@
+cast:
+- background: Former MI6 agent turned private spy
+  ethnicity: British
+  full_name: Jameson 'Jim' Thompson
+  gender: Male
+  main_character: true
+  nationality: British
+  photos:
+  - 00000.png
+  physical_traits: Tall, athletic build, piercing blue eyes
+  short_name: Jim
+- background: Ex-KGB agent turned rogue spy
+  ethnicity: Russian
+  full_name: Viktor Kuznetsov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  physical_traits: Tall, imposing figure with a scar above his left eyebrow
+  short_name: Kuznetsov
+- background: Intelligence analyst at MI6
+  ethnicity: British
+  full_name: Emily Windsor
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Attractive, curly brown hair, bright green eyes
+  short_name: Emmy
+- background: Ex-MI6 agent turned informant
+  ethnicity: British
+  full_name: Reginald 'Reg' Fletcher
+  gender: Male
+  main_character: false
+  nationality: British
+  physical_traits: Short, stocky build with a bushy beard
+  short_name: Reg
+- background: Cryptography expert at MI6
+  ethnicity: Indian-British
+  full_name: Sophia Patel
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Petite, dark hair, bright brown eyes
+  short_name: Sophie
+directory: '1718080340'
+locations: []
+scenes: []
+shots: []
+synopsis: ''

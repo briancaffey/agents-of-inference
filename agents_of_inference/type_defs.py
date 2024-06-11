@@ -50,6 +50,12 @@ class Shot(BaseModel):
 class Shots(BaseModel):
     shots: List[Shot]
 
+class CharacterFilePath(BaseModel):
+    filepath: str = Field(description="A filepath for a character's photo")
+
+class CharacterFilePaths(BaseModel):
+    filepaths: List[CharacterFilePath]
+
 
 class AgentState(TypedDict):
     # directory for all related files

@@ -1,0 +1,48 @@
+cast:
+- background: Former MI6 agent turned freelance spy
+  ethnicity: Caucasian
+  full_name: Jameson 'Jim' Thompson
+  gender: Male
+  main_character: true
+  nationality: British
+  photos:
+  - 0000{i}.png
+  physical_traits: Tall, dark hair, blue eyes
+  short_name: Jim
+- background: Former Russian intelligence officer turned mercenary
+  ethnicity: Russian
+  full_name: Viktor Kuznetsov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  physical_traits: Tall, blonde hair, piercing green eyes
+  short_name: Kuznetsov
+- background: Indian-born British actress and model
+  ethnicity: Indian-British
+  full_name: Sophia Patel
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Petite, dark hair, brown eyes
+  short_name: Sophie
+- background: Renowned expert on cryptography and code-breaking
+  ethnicity: Caucasian
+  full_name: Dr. Julian Lee
+  gender: Male
+  main_character: false
+  nationality: American
+  physical_traits: Middle-aged, balding, thick-rimmed glasses
+  short_name: Julian
+- background: Spanish-born MI6 agent and Jim's former colleague
+  ethnicity: Latin American-British
+  full_name: Maria Rodriguez
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Tall, curly brown hair, bright smile
+  short_name: Maria
+directory: '1718079985'
+locations: []
+scenes: []
+shots: []
+synopsis: ''

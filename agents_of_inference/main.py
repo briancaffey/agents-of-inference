@@ -1,15 +1,27 @@
 import os
 import time
 import argparse
+import uuid
 
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
+from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langgraph.graph import StateGraph
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from utils import save_dict_to_yaml, generate_and_save_image, generate_and_save_video, create_movie
-from type_defs import AgentState, Characters, Locations, Synopsis, Scenes, Shots
+from utils import (
+    save_dict_to_yaml,
+    generate_and_save_image,
+    generate_and_save_video,
+    generate_headshots_for_character,
+    create_movie
+)
+from type_defs import AgentState, Characters, Locations, Synopsis, Scenes, Shots, CharacterFilePaths
 import yaml
 
+
+# env vars from .env
+load_dotenv()
 
 # Arguments
 parser = argparse.ArgumentParser(description='CLI Program')
@@ -20,8 +32,16 @@ args = parser.parse_args()
 with open('agents_of_inference/prompts.yml', 'r') as file:
     prompts = yaml.safe_load(file)
 
-os.environ["OPENAI_API_KEY"] = "None"
-model = ChatOpenAI(model="gpt-4", base_url="http://192.168.5.96:5001/v1")
+
+# Use NVIDIA API
+if os.environ.get("NVIDIA_API_KEY"):
+    print("== ☁️ Using NVIDIA API ☁️ ==")
+    model = ChatNVIDIA(model="meta/llama3-70b-instruct")
+else:
+    # default to using local LLM
+    print("## 📀 Using local models 📀 ##")
+    os.environ["OPENAI_API_KEY"] = "None"
+    model = ChatOpenAI(model="llama3", base_url="http://192.168.5.96:5001/v1")
 
 # define state
 graph = StateGraph(AgentState)
@@ -34,14 +54,11 @@ def initialization_agent(state):
     """
     if args.id:
         # loading a cached state file
-        print(f"args.id is {args.id}")
         with open(f"output/{args.id}/state.yml", 'r') as file:
             existing_state = yaml.safe_load(file)
             state = existing_state
             save_dict_to_yaml(state)
     else:
-        print("no args.id")
-        # check to see if
         directory = str(int(time.time()))
         state["directory"] = directory
         save_dict_to_yaml(state)
@@ -52,8 +69,7 @@ def casting_agent(state):
     This agent casts the characters that will appear in the show
     """
     if not state.get("cast"):
-        print("no cast in state...")
-        print("== Casting ==")
+        print("## 🎭 Generating Cast 🎭 ##")
 
         parser = JsonOutputParser(pydantic_object=Characters)
 
@@ -69,20 +85,23 @@ def casting_agent(state):
 
         # saves a list of characters to the cast key
         state["cast"] = response.get("characters")
+
+        # generate photos of each character that can later be used for consistant characters
+        for i, character in enumerate(state["cast"]):
+            image_id = str(uuid.uuid4())
+            generate_headshots_for_character(state["directory"], character, image_id)
+            save_dict_to_yaml(state)
         save_dict_to_yaml(state)
     else:
-        print("== Using cached cast ==")
+        print("== 🎭 Using cached cast 🎭 ==")
     return state
 
 def location_agent(state):
     """
     Comes up with specific important locations that will be used in the movie
     """
-    # print("locations..")
-    # print(state.get("locations"))
     if not state.get("locations"):
-        print("no state in locations...")
-        print("== Locations ==")
+        print("## 🗺️ Generating Locations 🗺️ ##")
 
         parser = JsonOutputParser(pydantic_object=Locations)
 
@@ -98,7 +117,7 @@ def location_agent(state):
         state["locations"] = response.get("locations")
         save_dict_to_yaml(state)
     else:
-        print("== Using cached locations ==")
+        print("== 🗺️ Using cached locations 🗺️ ==")
     return state
 
 def synopsis_agent(state):
@@ -106,6 +125,7 @@ def synopsis_agent(state):
     Provides a synopsis of the movie based on the characters and the locations.
     """
     if not state.get("synopsis"):
+        print("## 📝 Generating Synopsis 📝 ##")
         parser = JsonOutputParser(pydantic_object=Synopsis)
 
         prompt = PromptTemplate(
@@ -116,7 +136,6 @@ def synopsis_agent(state):
 
         chain = prompt | model | parser
 
-        print("## Synopsis Query ##")
         synopsis_query_base = prompts.get("synopsis")
 
         # cast/characters
@@ -130,18 +149,18 @@ def synopsis_agent(state):
         # ask for a synopsis based on the characters and locations
         synopsis_query = f"{synopsis_query_base}\n\n{characters}\n\n{locations}"
 
-        print("## generating synopsis ##")
         response = chain.invoke({"synopsis_query": synopsis_query})
         synopsis = response.get("synopsis")
         state["synopsis"] = synopsis
         save_dict_to_yaml(state)
 
     else:
-        print("== Using cached synopsis ==")
+        print("== 📝 Using cached synopsis 📝 ==")
     return state
 
 def scene_agent(state):
     if not state.get("scenes"):
+        print("## 📒 Generating Scenes 📒 ##")
         parser = JsonOutputParser(pydantic_object=Scenes)
 
         prompt = PromptTemplate(
@@ -152,7 +171,6 @@ def scene_agent(state):
 
         chain = prompt | model | parser
 
-        print("## Scene Query ##")
         scene_query_base = prompts.get("scenes")
 
         # cast/characters
@@ -170,14 +188,13 @@ def scene_agent(state):
         # ask for a synopsis based on the characters and locations
         scene_query = f"{scene_query_base}\n\n{characters}\n\n{locations}\n\n{synopsis}"
 
-        print("## generating scenes ##")
         response = chain.invoke({"scene_query": scene_query})
         scenes = response.get("scenes")
         state["scenes"] = scenes
         save_dict_to_yaml(state)
 
     else:
-        print("== Using cached scene ==")
+        print("== 📒 Using cached scenes 📒 ==")
     return state
 
 def shot_agent(state):
@@ -186,9 +203,8 @@ def shot_agent(state):
     Each shot has a title and content
     The content of the shot is used later as the prompt for stable diffusion
     """
-    # intialize an empty shot list
     if not state.get("shots"):
-        print("## Generating Shots ##")
+        print("## 🎬 Generating Shots 🎬 ##")
 
         parser = JsonOutputParser(pydantic_object=Shots)
 
@@ -202,8 +218,8 @@ def shot_agent(state):
 
         shot_query_base = prompts.get("shot")
         shots = []
-        # loop over each scene
-        for scene in state.get("scenes"):
+        scene_count = len(state.get("scenes"))
+        for i, scene in enumerate(state.get("scenes")):
             # characters
             formatted_characters = yaml.dump(state.get("cast"), default_flow_style=False)
             characters = f"Characters:\n{formatted_characters}"
@@ -215,13 +231,14 @@ def shot_agent(state):
             shot_query = f"{shot_query_base}\n\n{characters}\n\n{scene_description}"
 
             response = chain.invoke({"shot_query": shot_query})
+            print(f"## Generated {len(response.get('shots'))} shots for scene {i+1}/{scene_count} ##")
 
             shots += response.get("shots")
 
         state["shots"] = shots
         save_dict_to_yaml(state)
     else:
-        print("== Using cached scenes ==")
+        print("== 🎬 Using cached scenes 🎬 ==")
 
     return state
 
@@ -229,19 +246,36 @@ def stable_diffusion_agent(state):
     """
     This agent goes through each shot and generates an image based on the shot content using SD
     """
+
+    character_filepath_parser = JsonOutputParser(pydantic_object=CharacterFilePaths)
+
+    prompt = PromptTemplate(
+        template="Answer the user query.\n{format_instructions}\n{character_query}\n",
+        input_variables=["character_query"],
+        partial_variables={"format_instructions": character_filepath_parser.get_format_instructions()},
+    )
+
+    chain = prompt | model | character_filepath_parser
+
+
     # setup
     shot_count = len(state.get("shots"))
     # loop over all shots
     for i, shot in enumerate(state.get("shots")):
-        # print(f"generating shot for {shot.get('title')}")
         description = shot.get("description")
         if 'image' not in state["shots"][i]:
+            print()
+            print(f"00{i}/00{shot_count}")
+            print(description)
+            print("Checking for characters...")
+            characters_photo_filepaths = chain.invoke(f"Characters: {state.get('cast')}\n Shot: {description}\n\nBase on the above information, please provide a list of the filepaths for the characters that appear in the shot description")
+            print("Deteced the following character photo filepaths:")
+            print(characters_photo_filepaths)
+
             generate_and_save_image(state.get("directory"), description, f"00{i}")
             print(f"Generated image output/{state["directory"]}/images/00{i}.png")
             state["shots"][i]["image"] = f"00{i}.png"
             save_dict_to_yaml(state)
-            print(f"00{i}/00{shot_count}")
-            print(description)
 
     return state
 

@@ -1,0 +1,397 @@
+cast:
+- background: Former MI6 agent turned freelance spy
+  ethnicity: British
+  full_name: James Edward Blackwood
+  gender: Male
+  main_character: true
+  nationality: British
+  physical_traits: Tall, dark hair, blue eyes
+  short_name: Jimmy Black
+- background: Russian former KGB agent turned mercenary
+  ethnicity: Russian
+  full_name: Alexander Petrov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  physical_traits: Tall, blonde hair, piercing green eyes
+  short_name: Sasha
+- background: British aristocrat and journalist
+  ethnicity: British
+  full_name: Emily Victoria Windsor
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Tall, curly brown hair, bright blue eyes
+  short_name: Evie
+- background: Indian ex-military officer turned private security expert
+  ethnicity: Indian
+  full_name: Rajinder Singh
+  gender: Male
+  main_character: false
+  nationality: British-Indian
+  physical_traits: Tall, dark hair, warm brown eyes
+  short_name: Raj
+- background: Cuban-American CIA agent
+  ethnicity: Cuban-American
+  full_name: Helena Maria Rodriguez
+  gender: Female
+  main_character: false
+  nationality: American
+  physical_traits: Short, curly black hair, bright green eyes
+  short_name: Helen
+directory: '1717992070'
+locations:
+- country: Russia
+  environment: A densely populated city with Soviet-era architecture, busy streets,
+    and a mix of modern and historic buildings.
+  name: Moscow
+- country: Switzerland
+  environment: A rugged mountain range with snow-capped peaks, picturesque villages,
+    and winding roads for high-stakes chases.
+  name: The Swiss Alps
+- country: Japan
+  environment: One of the busiest intersections in the world, surrounded by towering
+    skyscrapers, neon lights, and a vibrant atmosphere.
+  name: Tokyo's Shibuya Crossing
+scenes:
+- content: Agent X and Helen meet at a bustling market in Moscow to discuss their
+    plan to stop Sasha.
+  location: A densely populated city with Soviet-era architecture, busy streets, and
+    a mix of modern and historic buildings.
+  title: Moscow Market
+- content: Agent X and Raj chase down Sasha through the crowded streets of Tokyo's
+    Shibuya Crossing, avoiding pedestrians and traffic.
+  location: One of the busiest intersections in the world, surrounded by towering
+    skyscrapers, neon lights, and a vibrant atmosphere.
+  title: Tokyo Chase
+- content: Agent X and Helen pursue Sasha through the rugged Swiss Alps, navigating
+    winding roads and narrow mountain paths.
+  location: A rugged mountain range with snow-capped peaks, picturesque villages,
+    and winding roads for high-stakes chases.
+  title: Swiss Alps Pursuit
+- content: Agent X infiltrates Sasha's secret lair in the Swiss Alps, gathering intel
+    on his plans to unleash the deadly virus.
+  location: A heavily fortified compound deep in the Swiss Alps, with state-of-the-art
+    surveillance and security systems.
+  title: Sasha's Lair
+- content: Agent X confronts Sasha at a high-stakes showdown in Moscow, where he must
+    use all his skills to stop the mercenary from unleashing the virus.
+  location: A heavily guarded facility in Moscow, with multiple layers of security
+    and a team of skilled mercenaries.
+  title: Moscow Showdown
+- content: Agent X and Helen work together to contain the deadly virus, tracing its
+    source back to Sasha's lair in the Swiss Alps.
+  location: A secure laboratory deep in the Swiss Alps, with advanced technology and
+    a team of scientists working to find a cure.
+  title: Virus Containment
+- content: Agent X faces off against Sasha in an intense final confrontation, using
+    all his skills and training to stop the mercenary once and for all.
+  location: A heavily fortified location in Moscow, with multiple layers of security
+    and a team of skilled mercenaries.
+  title: Final Confrontation
+- content: Agent X reflects on the aftermath of the mission, knowing that he has saved
+    countless lives from the deadly virus.
+  location: The Swiss Alps, where Agent X takes a moment to reflect on his accomplishments
+    and plan for future missions.
+  title: Aftermath
+shots:
+- description: The camera pans over the bustling Moscow Market, capturing the vibrant
+    colors and sounds of the city. The Soviet-era architecture and historic buildings
+    are visible in the background as people of all ages hurry through the streets,
+    their faces a blur. The camera continues to pan across the market stalls, showing
+    vendors selling fresh produce, flowers, and handicrafts.
+  image: 000.png
+  title: Establishing Shot
+  video: 000.mp4
+- description: The camera zooms in on Helen's face as she walks down the street, her
+    bright green eyes scanning the crowd. Her curly black hair is pulled back into
+    a ponytail, revealing her sharp jawline and angular features. She wears a fitted
+    black jumpsuit with a silver belt buckle shaped like a snake, giving off an air
+    of sophistication and danger.
+  image: 001.png
+  title: Close-up on Helen
+  video: 001.mp4
+- description: Agent X stands out in the crowd, his tall frame and dark hair making
+    him stand out among the sea of people. He wears a black leather jacket over a
+    white button-down shirt, his piercing blue eyes scanning the area as he waits
+    for Helen to arrive. His jaw is set in a determined expression, giving off an
+    air of confidence and authority.
+  image: 002.png
+  title: Medium Shot of Agent X
+  video: 002.mp4
+- description: The camera focuses on a colorful market stall overflowing with fresh
+    produce, flowers, and handicrafts. The vendor, an elderly woman with silver hair
+    and a kind face, smiles as she arranges her wares with precision. The stall is
+    adorned with traditional Russian decorations, including intricate wooden carvings
+    and vibrant tapestries.
+  image: 003.png
+  title: Shot of Market Stall
+  video: 003.mp4
+- description: The camera zooms in on Sasha's briefcase, lying abandoned on a nearby
+    bench. The case is made of black leather, adorned with a silver lock and a small
+    Russian flag pin. The camera lingers on the intricate stitching and the subtle
+    sheen of the leather, hinting at the importance of its contents.
+  image: 004.png
+  title: Close-up on Sasha's Briefcase
+  video: 004.mp4
+- description: A medium shot of Sasha, with his blonde hair blown back by the wind,
+    as he hurries through the crowds at Shibuya Crossing. He is dressed in a black
+    leather jacket and jeans, with a determined look on his face. The camera captures
+    his piercing green eyes as he scans the surroundings, his tall frame moving swiftly
+    through the throngs of people.
+  image: 005.png
+  title: Sasha's Rushed Pace
+  video: 005.mp4
+- description: A close-up shot of Jimmy Black, wearing a dark suit and sunglasses,
+    as he follows Sasha through the crowds. His tall, athletic build is evident as
+    he weaves in and out of pedestrians, his blue eyes fixed intently on Sasha's retreating
+    figure.
+  image: 006.png
+  title: Jimmy's Pursuit
+  video: 006.mp4
+- description: A wide shot of Shibuya Crossing at night, with towering skyscrapers
+    and neon lights flashing all around. The camera captures the vibrant atmosphere
+    of the area, with people and traffic moving quickly in every direction. The sounds
+    of car horns and chatter fill the air.
+  image: 007.png
+  title: Neon Clutter
+  video: 007.mp4
+- description: A close-up shot of Rajinder Singh, dressed in a crisp white shirt and
+    dark trousers, as he looks around cautiously while keeping pace with Jimmy. His
+    warm brown eyes are fixed on Sasha, his tall frame moving smoothly through the
+    crowds.
+  image: 008.png
+  title: Raj's Alert Expression
+  video: 008.mp4
+- description: A high-angle shot of Shibuya Crossing, looking down from one of the
+    towering skyscrapers that line the area. The camera captures the bustling streets
+    below, with people and traffic moving quickly in every direction. The neon lights
+    of the billboards and advertisements create a colorful backdrop to the scene.
+  image: 009.png
+  title: Towering Skyscrapers
+  video: 009.mp4
+- description: A medium shot of Sasha as he dashes through a narrow mountain path,
+    his blonde hair blowing in the wind. He wears a black leather jacket and dark
+    jeans, his piercing green eyes fixed on the road ahead. The camera is positioned
+    at a 45-degree angle to capture his determination and speed.
+  image: 0010.png
+  title: Sasha's Fleeing Form
+  video: 0010.mp4
+- description: A close-up shot of Jimmy Black's profile as he drives through the winding
+    roads, his tall frame visible behind the wheel. He has dark hair and blue eyes,
+    wearing a black leather jacket and sunglasses. The camera is positioned to capture
+    his intense focus on the road.
+  image: 0011.png
+  title: Jimmy's Pursuing Profile
+  video: 0011.mp4
+- description: A sweeping pan shot of the Swiss Alps landscape as Agent X and Helen
+    pursue Sasha through the mountains. The camera captures the snow-capped peaks,
+    picturesque villages, and winding roads in a single take, showcasing the breathtaking
+    scenery.
+  image: 0012.png
+  title: Mountain Landscape Pan
+  video: 0012.mp4
+- description: A close-up shot of Helen's hands as she expertly navigates the treacherous
+    mountain roads. Her short, curly black hair is tied back, and her bright green
+    eyes are fixed on the road ahead. She wears a black tank top and dark pants, her
+    face set in a determined expression.
+  image: 0013.png
+  title: Helen's High-Stakes Driving
+  video: 0013.mp4
+- description: A medium shot of Sasha as he leaps from a rocky outcropping to avoid
+    Agent X and Helen's pursuit. He lands safely on his feet, his blonde hair mussed
+    and his piercing green eyes flashing with excitement. The camera is positioned
+    at a 45-degree angle to capture the daring stunt.
+  image: 0014.png
+  title: Sasha's Daring Leap
+  video: 0014.mp4
+- description: A sweeping wide-angle shot of Sasha's lair, capturing the imposing
+    structure and its surroundings in the Swiss Alps. The camera pans across the compound,
+    showcasing the state-of-the-art surveillance systems and security features. The
+    lighting is dim, with only a few flickering lights illuminating the area, creating
+    an ominous atmosphere.
+  image: 0015.png
+  title: Establishing Shot
+  video: 0015.mp4
+- description: A tight close-up shot of Jimmy Black's face, focusing on his intense
+    expression as he surveys the lair. His dark hair is messy, and his blue eyes are
+    narrowed in concentration. The camera lingers on his facial features, capturing
+    every subtle emotion.
+  image: 0016.png
+  title: Jimmy's Close-Up
+  video: 0016.mp4
+- description: A medium-shot of the lair's interior, showcasing the high-tech gadgets
+    and machinery surrounding Jimmy. The camera pans across the room, highlighting
+    the intricate details of the surveillance systems and Sasha's various contraptions.
+    The lighting is dim, with only a few faintly glowing screens providing illumination.
+  image: 0017.png
+  title: Lair Environment
+  video: 0017.mp4
+- description: A macro shot of the deadly virus sample, capturing its delicate structure
+    and the danger it poses. The camera zooms in on the sample's intricate details,
+    highlighting its unique properties and the devastating effects it could have if
+    unleashed.
+  image: 0018.png
+  title: Virus Sample Close-Up
+  video: 0018.mp4
+- description: A medium-shot of Jimmy Black and Emily Windsor standing face-to-face,
+    their expressions a mix of determination and concern. The camera captures the
+    tension between them as they discuss the virus and its potential consequences.
+    Evie's curly brown hair is slightly disheveled, and her bright blue eyes are fixed
+    intently on Jimmy.
+  image: 0019.png
+  title: Jimmy and Evie's Confrontation
+  video: 0019.mp4
+- description: Medium shot of Sasha walking into the heavily guarded facility in Moscow,
+    his blonde hair perfectly styled, wearing a sleek black suit and piercing green
+    eyes fixed on the camera. The camera captures his confident stride and the subtle
+    smirk playing on his lips as he approaches the confrontation. Lighting is dim
+    with a hint of blue tone to emphasize the tension.
+  image: 0020.png
+  title: Sasha's Entrance
+  video: 0020.mp4
+- description: Close-up shot of Agent X, Jimmy Black, his dark hair slightly messy,
+    wearing a tailored black jacket and blue shirt, his blue eyes intense as he gazes
+    directly into the camera. The camera captures the determination etched on his
+    face, his jaw clenched in preparation for the showdown. Soft focus with warm lighting
+    to convey a sense of urgency.
+  image: 0021.png
+  title: Agent X's Close-Up
+  video: 0021.mp4
+- description: Extreme close-up shot of the virus container, its metal surface reflecting
+    the dim light of the facility, the camera capturing every detail of the intricate
+    locking mechanism and warning labels. The focus is sharp, with a slight blur on
+    the surrounding environment to emphasize the importance of the container.
+  image: 0022.png
+  title: Virus Container Close-Up
+  video: 0022.mp4
+- description: Medium shot of Sasha standing confidently in front of the virus container,
+    his piercing green eyes fixed on Agent X, his blonde hair ruffled by the faint
+    breeze. The camera captures the relaxed yet menacing posture, the way he leans
+    against the container with an air of ownership. Soft focus and warm lighting to
+    convey a sense of confidence.
+  image: 0023.png
+  title: Sasha's Confidence
+  video: 0023.mp4
+- description: Establishing shot of Agent X standing opposite Sasha, their faces inches
+    apart, the tension palpable between them. The camera captures the dimly lit facility
+    in the background, the sound of guards patrolling outside muffled by the thick
+    walls. Sharp focus with a mix of warm and cool lighting to convey a sense of unease.
+  image: 0024.png
+  title: Confrontation Setup
+  video: 0024.mp4
+- description: A medium shot of the laboratory, with the camera placed slightly above
+    eye level. The room is well-lit, with rows of computers and equipment lining the
+    walls. In the center of the room, a team of scientists in white coats work together
+    to analyze data on large screens. The atmosphere is tense, with a sense of urgency
+    and focus. Jimmy Black, dressed in a crisp black suit and tie, stands at the edge
+    of the room, watching the scientists with a keen eye. Helen, wearing a simple
+    but elegant dress and a pair of high heels, stands beside him, her eyes fixed
+    on the screens.
+  image: 0025.png
+  title: Establishing Shot of Laboratory
+  video: 0025.mp4
+- description: A tight close-up shot of a virus sample under a microscope. The camera
+    zooms in on the tiny particles, revealing intricate details and colors. The lighting
+    is soft and even, highlighting the delicate structure of the virus.
+  image: 0026.png
+  title: Close-up Shot of Virus Sample
+  video: 0026.mp4
+- description: A medium shot of the entrance to Sasha's lair, with the camera placed
+    slightly above eye level. The exterior wall is covered in vines and moss, with
+    a large stone door adorned with intricate carvings. The atmosphere is ominous,
+    with a sense of foreboding.
+  image: 0027.png
+  title: Shot of Sasha's Lair Entrance
+  video: 0027.mp4
+- description: A medium shot of Jimmy Black, dressed in the same black suit and tie
+    as before, examining the lair's interior. He moves slowly and deliberately, taking
+    in every detail. The camera follows him closely, capturing his intense focus and
+    determination.
+  image: 0028.png
+  title: Medium Shot of Jimmy Black Investigating
+  video: 0028.mp4
+- description: A close-up shot of a computer screen displaying data on the virus.
+    The camera zooms in on the complex graphics and charts, revealing key findings
+    and breakthroughs. The lighting is bright and even, highlighting the importance
+    of the information.
+  image: 0029.png
+  title: Close-up Shot of Virus Data on Screen
+  video: 0029.mp4
+- description: Medium shot of Sasha walking through the heavily fortified location,
+    his blonde hair slicked back and piercing green eyes fixed intently on Agent X.
+    He wears a black tactical vest adorned with various pockets and pouches, carrying
+    an array of high-tech gadgets. The camera is positioned at a 45-degree angle to
+    emphasize Sasha's tall stature and imposing presence.
+  image: 0030.png
+  title: Sasha's Entrance
+  video: 0030.mp4
+- description: Close-up shot of Agent X, Jimmy Black, as he quickly scans the area
+    and adjusts his black leather jacket. His dark hair is mussed, and his blue eyes
+    are narrowed in focus. He wears a simple yet effective watch with a built-in GPS
+    device.
+  image: 0031.png
+  title: Agent X's Preparation
+  video: 0031.mp4
+- description: Establishing shot of the heavily fortified location, showcasing multiple
+    layers of security, including motion sensors, alarms, and a team of skilled mercenaries.
+    The camera pans across the area to highlight the intricate details and reinforce
+    the sense of urgency.
+  image: 0032.png
+  title: Security Measures
+  video: 0032.mp4
+- description: Close-up shot of Sasha's hand as he activates a high-tech gadget on
+    his wrist, its LED lights flashing rapidly. The camera lingers on the device for
+    a few seconds to emphasize its advanced technology and potential threat.
+  image: 0033.png
+  title: Sasha's Gadgetry
+  video: 0033.mp4
+- description: Medium shot of Agent X and Sasha facing each other, their eyes locked
+    in a tense stare-down. The atmosphere is heavy with anticipation as they circle
+    around each other, sizing up the opposition. Jimmy Black's dark hair is wind-blown
+    from the slight breeze, while Sasha's blonde locks remain immaculate.
+  image: 0034.png
+  title: Confrontation Begins
+  video: 0034.mp4
+- description: A medium shot of Jimmy Black, dressed in a crumpled suit with a hint
+    of fatigue around his eyes, standing at the edge of a mountain lake in the Swiss
+    Alps. The camera is positioned slightly above and to the side of him, capturing
+    his profile as he gazes out at the serene landscape. The lighting is soft, with
+    the sun casting a gentle glow on his face. His expression is contemplative, reflecting
+    on the events that have transpired.
+  image: 0035.png
+  title: Reflection
+  video: 0035.mp4
+- description: A close-up shot of a small vial containing the deadly virus, placed
+    delicately on a rock near Jimmy Black's feet. The camera is positioned directly
+    above the vial, emphasizing its importance and danger. The lighting is stark,
+    with the sun casting a sharp shadow behind the vial.
+  image: 0036.png
+  title: Viral Sample
+  video: 0036.mp4
+- description: A wide shot of the majestic mountain range in the Swiss Alps, with
+    Jimmy Black standing at the edge of the frame. The camera is positioned high above
+    him, capturing the breathtaking landscape and emphasizing his smallness in comparison
+    to nature's grandeur. The lighting is vibrant, with the sun casting a warm glow
+    on the mountains.
+  image: 0037.png
+  title: Mountain Range
+  video: 0037.mp4
+- description: A close-up shot of Jimmy Black's hand, holding a small notebook and
+    pen. His fingers are stained with dirt and his expression is focused as he begins
+    to write down notes and plans for future missions. The camera is positioned directly
+    above his hand, emphasizing the importance of his work. The lighting is soft,
+    with a hint of warmth from the setting sun.
+  image: 0038.png
+  title: Jimmy's Hand
+  video: 0038.mp4
+- description: A close-up shot of a small photo of Evie, placed on a nearby rock.
+    The camera is positioned directly above the photo, emphasizing its significance
+    and personal connection to Jimmy Black. The lighting is soft, with a hint of warmth
+    from the setting sun.
+  image: 0039.png
+  title: Evie's Photo
+  video: 0039.mp4
+synopsis: In 'Red Viper', James Edward Blackwood, aka Agent X, a charismatic and skilled
+  British secret agent, must stop Alexander Petrov, aka Sasha, a ruthless Russian
+  mercenary, from unleashing a deadly virus on the world.
