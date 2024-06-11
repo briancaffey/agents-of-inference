@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/briancaffey/agents-of-inference/compare/v0.2.0...v0.3.0) (2024-06-11)
+
+
+### Features
+
+* **faceid:** wip faceid with comfyUI for consistent characters ([289b376](https://github.com/briancaffey/agents-of-inference/commit/289b3763d2aae8f35566ce51a4ab86a14095c7b1))
+* **moviepy:** add generation of final movie with text strips showing SD prompts ([b95b51a](https://github.com/briancaffey/agents-of-inference/commit/b95b51a5f4dd73b84d4b93bd720e88b813e7746f))
+
 ## [0.2.0](https://github.com/briancaffey/agents-of-inference/compare/v0.1.0...v0.2.0) (2024-06-06)
 
 
