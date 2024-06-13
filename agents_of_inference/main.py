@@ -16,6 +16,7 @@ from utils import (
     generate_headshots_for_character,
     create_movie
 )
+from langchain_core.runnables.graph import MermaidDrawMethod
 from type_defs import AgentState, Characters, Locations, Synopsis, Scenes, Shots, CharacterFilePaths
 import yaml
 
@@ -324,6 +325,18 @@ graph.set_entry_point("initialization_agent")
 graph.set_finish_point("video_editing_agent")
 
 runnable = graph.compile()
+
+# draw graph
+image_data = runnable.get_graph().draw_mermaid_png(
+    draw_method=MermaidDrawMethod.API,
+)
+
+# Define the file path where you want to save the image
+file_path = "graph.png"
+
+# Open the file in binary write mode and write the image data
+with open(file_path, "wb") as file:
+    file.write(image_data)
 
 
 response = runnable.invoke({

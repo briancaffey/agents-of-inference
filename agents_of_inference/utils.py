@@ -9,6 +9,7 @@ from moviepy.editor import VideoClip, TextClip, CompositeVideoClip, ColorClip, V
 import yaml
 
 
+
 # TODO: move to dotenv
 SD_API_URL = "http://192.168.5.96:7860"
 
