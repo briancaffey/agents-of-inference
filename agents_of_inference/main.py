@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langgraph.graph import StateGraph
+from langgraph.graph.message import add_messages
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from utils import (
@@ -152,11 +153,15 @@ def synopsis_agent(state):
 
         response = chain.invoke({"synopsis_query": synopsis_query})
         synopsis = response.get("synopsis")
-        state["synopsis"] = synopsis
+        state["synopsis"].append(synopsis)
         save_dict_to_yaml(state)
 
     else:
         print("== 📝 Using cached synopsis 📝 ==")
+    return state
+
+def synopsis_review_agent(state):
+    print("in synopsis review node...")
     return state
 
 def scene_agent(state):
@@ -183,7 +188,7 @@ def scene_agent(state):
         locations = f"Characters:\n{formatted_locations}"
 
         # synopsis
-        formatted_synopsis = yaml.dump(state.get("synopsis"), default_flow_style=False)
+        formatted_synopsis = yaml.dump(state.get("synopsis")[-1], default_flow_style=False)
         synopsis = f"Synopsis:\n{formatted_synopsis}"
 
         # ask for a synopsis based on the characters and locations
@@ -306,6 +311,7 @@ graph.add_node("initialization_agent", initialization_agent)
 graph.add_node("casting_agent", casting_agent)
 graph.add_node("location_agent", location_agent)
 graph.add_node("synopsis_agent", synopsis_agent)
+graph.add_node("synopsis_review_agent", synopsis_review_agent)
 graph.add_node("scene_agent", scene_agent)
 graph.add_node("shot_agent", shot_agent)
 graph.add_node("stable_diffusion_agent", stable_diffusion_agent)
@@ -315,6 +321,8 @@ graph.add_node("video_editing_agent", video_editing_agent)
 graph.add_edge("initialization_agent", "casting_agent")
 graph.add_edge("casting_agent", "location_agent")
 graph.add_edge("location_agent", "synopsis_agent")
+graph.add_edge("synopsis_agent", "synopsis_review_agent")
+graph.add_edge("synopsis_review_agent", "synopsis_agent")
 graph.add_edge("synopsis_agent", "scene_agent")
 graph.add_edge("scene_agent", "shot_agent")
 graph.add_edge("shot_agent", "stable_diffusion_agent")
@@ -343,7 +351,7 @@ response = runnable.invoke({
     "cast": [],
     "directory": "",
     "locations": [],
-    "synopsis": "",
+    "synopsis": [],
     "scenes": [],
     "shots": [],
 })

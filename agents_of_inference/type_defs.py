@@ -1,8 +1,9 @@
 """
 This file defines all types for structured output
 """
-from typing import List, TypedDict
+from typing import Annotated, List, TypedDict
 from langchain_core.pydantic_v1 import BaseModel, Field
+from langgraph.graph.message import add_messages
 
 
 class Character(BaseModel):
@@ -62,6 +63,9 @@ class AgentState(TypedDict):
     directory: str = None
     cast: Characters = []
     locations: Locations = []
-    synopsis: str = None
+    # synopsis: str = None
+    synopsis: Annotated[list, add_messages]
+    # the number of synopsis drafts that have been done
+    synopsis_draft_num: int
     scenes: Scenes = []
     shots: Shots = []

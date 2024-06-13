@@ -60,24 +60,5 @@ locations:
 - country: France/Spain
   environment: Rocky Terrain
   name: Pyrenees Mountains
-scenes: []
 shots: []
-synopsis:
-- 'In ''Agent X: The Tokyo Tower Heist'', British secret agent James Alexander, codename
-  Agent X, must stop Russian intelligence officer Sergei Petrov''s plan to steal a
-  powerful encryption device from the Tokyo Tower. With the help of CIA agent Sophie
-  Patel and MI6 analyst Tom Harris, Agent X embarks on a thrilling adventure that
-  takes him from the urban jungle of Tokyo to the tropical rainforest of Iguazu Falls
-  and finally to the rocky terrain of the Pyrenees Mountains.
-
-
-  Along the way, Agent X uses his cutting-edge gadgets and vehicles, including a high-tech
-  motorcycle and a sleek submarine. He faces off against Petrov in intense hand-to-hand
-  combat and daring escapes from danger situations. The big reveal comes when Agent
-  X discovers that Sophie is working undercover for the CIA to help him complete his
-  mission.
-
-
-  In the climactic showdown at the Pyrenees Mountains, Agent X and Petrov engage in
-  an action-packed battle, with Agent X emerging victorious and recovering the stolen
-  encryption device.'
+synopsis: []
