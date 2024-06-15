@@ -1,0 +1,56 @@
+cast:
+- background: Former MI6 agent
+  ethnicity: Caucasian
+  full_name: Ethan Ryder
+  gender: Male
+  main_character: true
+  nationality: British
+  photos:
+  - ec45a783-b656-4130-8bd8-e2f5eb437303.png
+  physical_traits: Tall, dark hair, blue eyes
+  short_name: Ryder
+- background: Russian oligarch's daughter
+  ethnicity: Russian
+  full_name: Alessia Morozova
+  gender: Female
+  main_character: false
+  nationality: Russian
+  photos:
+  - cc188e02-0132-4b44-8362-1bbfbf9617e0.png
+  physical_traits: Blonde hair, green eyes, athletic build
+  short_name: Morozova
+- background: Ex-KGB operative
+  ethnicity: Russian
+  full_name: Viktor Kuznetsov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  photos:
+  - 1abe0129-ada1-4357-a429-eae3e24288c6.png
+  physical_traits: Bald, scar above left eyebrow
+  short_name: Kuznetsov
+- background: MI6 agent and Ryder's partner
+  ethnicity: Chinese
+  full_name: Lily Chen
+  gender: Female
+  main_character: false
+  nationality: British
+  photos:
+  - 46488f30-6f96-445b-84cc-3b237ed13d3d.png
+  physical_traits: Short, black hair, brown eyes
+  short_name: Chen
+- background: MI6 director
+  ethnicity: Caucasian
+  full_name: Sir Reginald Pembroke
+  gender: Male
+  main_character: false
+  nationality: British
+  photos:
+  - acc09ea9-53db-4ab0-ae5c-89e37ad347b0.png
+  physical_traits: Grey hair, bushy eyebrows
+  short_name: Pembroke
+directory: '1718422305'
+final_synopsis: ''
+locations: []
+scenes: []
+shots: []

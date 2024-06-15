@@ -1,0 +1,395 @@
+cast:
+- background: Former MI6 agent turned rogue
+  ethnicity: Caucasian
+  full_name: Alexander James
+  gender: Male
+  main_character: true
+  nationality: British
+  photos:
+  - 49dddea3-6d64-4bc3-b349-ac65c69992b0.png
+  physical_traits: Tall, dark hair, blue eyes
+  short_name: Alex
+- background: Russian spy turned double agent
+  ethnicity: Russian
+  full_name: Natalia Petrova
+  gender: Female
+  main_character: false
+  nationality: Russian
+  photos:
+  - c527a849-42ce-4253-a26f-64ad2e7d84d1.png
+  physical_traits: Petite, blonde hair, green eyes
+  short_name: Natasha
+- background: Notorious crime lord
+  ethnicity: Eastern European
+  full_name: Victor Vex
+  gender: Male
+  main_character: false
+  nationality: Unknown
+  photos:
+  - 1f1a70a9-f0ab-46b3-bb8f-757594b2d577.png
+  physical_traits: Tall, bald, scar above left eyebrow
+  short_name: Vex
+- background: MI6 analyst
+  ethnicity: Indian
+  full_name: Rajesh Patel
+  gender: Male
+  main_character: false
+  nationality: British
+  photos:
+  - ca39e35c-8ab9-4d53-8286-e4291d71d706.png
+  physical_traits: Average height, brown hair, brown eyes
+  short_name: Raj
+- background: CIA agent
+  ethnicity: Hispanic
+  full_name: Sophia Rodriguez
+  gender: Female
+  main_character: false
+  nationality: American
+  photos:
+  - e6b0f0e2-bf89-4b7e-ab98-2e6883cc5670.png
+  physical_traits: Athletic build, dark hair, brown eyes
+  short_name: Sophie
+directory: '1718422870'
+final_synopsis: "In a heart-stopping race against time, Agent Eclipse, a charismatic\
+  \ British secret agent, must outsmart the cunning Aur\xE9lien LaFleur, a former\
+  \ French intelligence operative, who threatens to destabilize the global economy\
+  \ by hacking into financial systems. From the high-stakes casinos of Monte Carlo\
+  \ to the treacherous jungles of Southeast Asia, Eclipse relies on his wit, charm,\
+  \ and cutting-edge gadgets to evade LaFleur's deadly henchmen. Teaming up with the\
+  \ brilliant cryptologist Dr. Sophia Patel, Eclipse navigates a complex web of codes\
+  \ and deceit, leading to a series of pulse-pounding action sequences. But as he\
+  \ closes in on LaFleur, a shocking twist throws everything off balance. In a tense,\
+  \ action-packed showdown at LaFleur's luxurious Maldives hideout, Eclipse must use\
+  \ all his skills to outmaneuver the villain and save the world from financial catastrophe."
+locations:
+- country: France
+  environment: A iconic iron lattice tower located in the heart of Paris, surrounded
+    by beautiful gardens and picturesque streets.
+  name: The Eiffel Tower
+- country: Switzerland
+  environment: A rugged and snowy mountain range with steep cliffs, frozen lakes,
+    and picturesque villages, perfect for high-stakes chases and intense action sequences.
+  name: The Swiss Alps
+- country: Morocco
+  environment: A vibrant and bustling city with colorful markets, narrow alleys, and
+    stunning architecture, ideal for high-octane car chases and intense hand-to-hand
+    combat.
+  name: The streets of Marrakech
+scenes:
+- content: Eclipse, dressed to the nines, infiltrates a high-stakes casino in Monte
+    Carlo, gathering intel on LaFleur's operation.
+  location: The luxurious Casino de Monte-Carlo, Monte Carlo, Monaco. The scene takes
+    place at night, with the sound of clinking glasses and roulette wheels spinning
+    in the background.
+  title: 'Scene 1: High-Stakes Casino Infiltration'
+- content: Eclipse meets Dr. Sophia Patel, a brilliant cryptologist, at a secure safehouse
+    in London. They discuss LaFleur's plans and devise a strategy to take him down.
+  location: A nondescript, high-tech safehouse in the heart of London, with advanced
+    surveillance equipment and encrypted communication systems.
+  title: 'Scene 2: Meeting Dr. Sophia Patel'
+- content: Eclipse and Dr. Patel are pursued by LaFleur's henchmen through the treacherous
+    jungles of Southeast Asia. The chase involves high-speed boat rides, hand-to-hand
+    combat, and clever gadgetry.
+  location: The dense, humid jungles of Southeast Asia, with exotic wildlife and treacherous
+    terrain.
+  title: 'Scene 3: Jungle Chase'
+- content: Eclipse and Dr. Patel navigate the vibrant streets of Marrakech, dodging
+    LaFleur's henchmen and deciphering cryptic clues.
+  location: The bustling souks and alleys of Marrakech, Morocco, with colorful markets,
+    stunning architecture, and narrow streets.
+  title: 'Scene 4: Marrakech Market Mayhem'
+- content: Eclipse and LaFleur engage in a high-stakes snowmobile chase through the
+    Swiss Alps, with heart-stopping jumps and narrow escapes.
+  location: The rugged, snowy mountain range of the Swiss Alps, with steep cliffs,
+    frozen lakes, and picturesque villages.
+  title: 'Scene 5: Swiss Alps Showdown'
+- content: Eclipse confronts LaFleur at the iconic Eiffel Tower, where a tense standoff
+    leads to a shocking twist that changes the course of the mission.
+  location: The Eiffel Tower, Paris, France, at sunset, with the city lights beginning
+    to twinkle in the background.
+  title: 'Scene 6: Eiffel Tower Confrontation'
+- content: Eclipse infiltrates LaFleur's luxurious Maldives hideout, using his gadgets
+    and cunning to evade detection and gather evidence.
+  location: LaFleur's luxurious, high-tech hideout in the Maldives, with sleek modern
+    architecture and stunning ocean views.
+  title: 'Scene 7: Maldives Hideout Infiltration'
+- content: Eclipse faces off against LaFleur in a tense, action-packed showdown, using
+    all his skills to outmaneuver the villain and save the world from financial catastrophe.
+  location: The luxurious Maldives hideout, with the ocean waves crashing in the background
+    and the fate of the global economy hanging in the balance.
+  title: 'Scene 8: Final Confrontation'
+shots:
+- description: A wide-angle shot of the luxurious Casino de Monte-Carlo's entrance,
+    with a sleek black sports car pulling up to the curb. The camera pans up to reveal
+    the elegant facade, with patrons dressed in formal attire walking in and out of
+    the casino. The sound of clinking glasses and roulette wheels spinning in the
+    background sets the tone for a night of high-stakes glamour.
+  image: 000.png
+  title: Grand Entrance
+  video: 000.mp4
+- description: A close-up shot of a tall, dark-haired, blue-eyed man (Alexander James)
+    stepping out of the sports car, dressed in a tailored tuxedo. The camera lingers
+    on his confident expression, as he adjusts his cufflinks and surveys the casino's
+    entrance.
+  image: 001.png
+  title: Eclipse's Arrival
+  video: 001.mp4
+- description: A medium shot of the bustling casino floor, with patrons gathered around
+    roulette tables and slot machines. The camera captures the whirlwind of activity,
+    with dealers shuffling cards and croupiers calling out bets. In the background,
+    a petite, blonde-haired, green-eyed woman (Natalia Petrova) sips a martini, her
+    eyes scanning the room.
+  image: 002.png
+  title: Casino Floor Bustle
+  video: 002.mp4
+- description: A close-up shot of a high-stakes roulette table, with a tall, bald
+    man with a scar above his left eyebrow (Victor Vex) placing a large bet. The camera
+    zooms in on the spinning wheel, as the croupier calls out the winning number.
+  image: 003.png
+  title: High-Stakes Table
+  video: 003.mp4
+- description: A medium shot of the dark-haired, blue-eyed man (Alexander James) sitting
+    at a bar, sipping a whiskey on the rocks. He's dressed in a tailored tuxedo, and
+    his eyes scan the room, taking in every detail. In the background, a group of
+    patrons laugh and chat, oblivious to his surveillance.
+  image: 004.png
+  title: Eclipse's Surveillance
+  video: 004.mp4
+- description: A wide-angle shot of the nondescript, high-tech safehouse in the heart
+    of London, showcasing its sleek and modern architecture, with subtle hints of
+    advanced surveillance equipment and encrypted communication systems. The camera
+    pans down to reveal the building's entrance, with a subtle glow of LED lights
+    and a hint of steel reinforcement.
+  image: 005.png
+  title: Secure Safehouse Establishing Shot
+  video: 005.mp4
+- description: A tight closeup shot of Dr. Sophia Patel, a woman with an athletic
+    build, dark hair, and brown eyes, looking intensely focused as she pores over
+    cryptic documents and codes. The lighting is soft and warm, with a subtle hint
+    of blue to convey a sense of intelligence and expertise.
+  image: 006.png
+  title: Dr. Sophia Patel Closeup
+  video: 006.mp4
+- description: A profile shot of Eclipse, a tall, dark-haired man with blue eyes,
+    standing near a window with a subtle hint of the London cityscape in the background.
+    He's dressed in a sleek black suit, with a hint of tension in his posture as he
+    listens intently to Dr. Patel's strategy.
+  image: 007.png
+  title: Eclipse Profile Shot
+  video: 007.mp4
+- description: A fast-paced montage of closeup shots showcasing cryptic documents,
+    codes, and ciphers, with the camera zooming in and out to create a sense of urgency
+    and intensity. The lighting is cool and blue, with subtle hints of high-tech gadgetry
+    in the background.
+  image: 008.png
+  title: Cryptic Documents Montage
+  video: 008.mp4
+- description: A wide-angle shot of the safehouse interior, showcasing the sleek and
+    modern decor, with Dr. Patel and Eclipse seated at a futuristic-looking conference
+    table, surrounded by holographic displays and advanced surveillance equipment.
+    The lighting is soft and warm, with a subtle hint of tension and urgency.
+  image: 009.png
+  title: Safehouse Interior Wide Shot
+  video: 009.mp4
+- description: Aerial shot of a high-speed boat ride, with Eclipse (tall, dark hair,
+    blue eyes) and Dr. Patel (average height, brown hair, brown eyes) dodging low-hanging
+    branches and leaping over obstacles, amidst the lush, vibrant greenery of the
+    jungle.
+  image: 0010.png
+  title: Jungle Pursuit
+  video: 0010.mp4
+- description: Close-up shot of a henchman (scar above left eyebrow, bald) lurking
+    behind a massive tree trunk, rifle at the ready, as the sounds of the jungle create
+    an eerie atmosphere.
+  image: 0011.png
+  title: Henchman Ambush
+  video: 0011.mp4
+- description: Macro shot of a sleek, high-tech gadget (a wrist-mounted grappling
+    hook) deployed by Eclipse, with a sleek, metallic sheen, as it fires out a thin
+    cable to swing him to safety.
+  image: 0012.png
+  title: Gadgetry in Action
+  video: 0012.mp4
+- description: Low-angle shot of Dr. Patel, crouched and scrambling through the underbrush,
+    as the sounds of gunfire and shouting create a sense of urgency, with the dense
+    foliage of the jungle floor surrounding him.
+  image: 0013.png
+  title: Jungle Floor Chaos
+  video: 0013.mp4
+- description: Medium shot of Eclipse, standing at the riverbank, looking out over
+    the water, with a determined expression, as the jungle atmosphere is tense with
+    anticipation, and the sound of the river flowing in the background.
+  image: 0014.png
+  title: Riverbank Standoff
+  video: 0014.mp4
+- description: A wide-angle shot of the vibrant Marrakech market, with colorful stalls
+    and crowded alleys. The sun casts a warm glow on the scene, with a hint of dust
+    and chaos in the air. People of all ages and ethnicities hurry about, while Eclipse
+    (tall, dark hair, blue eyes) and Dr. Patel (average height, brown hair, brown
+    eyes) navigate through the crowd, their faces focused and determined.
+  image: 0015.png
+  title: Marrakech Market Chaos
+  video: 0015.mp4
+- description: A close-up shot of Eclipse's face, his blue eyes scanning the crowd
+    as he whispers to Dr. Patel. His dark hair is slightly tousled, and his jawline
+    is set in a determined expression. The background is a blurred mix of market stalls
+    and people, with a hint of Moroccan architecture.
+  image: 0016.png
+  title: Eclipse's Close-Up
+  video: 0016.mp4
+- description: A medium shot of Dr. Patel, his brown eyes fixed intently on a cryptic
+    clue in his hand. His brown hair is neatly combed, and his expression is one of
+    concentration. The background is a blurred market stall, with vibrant colors and
+    intricate patterns.
+  image: 0017.png
+  title: Dr. Patel's Observant Glance
+  video: 0017.mp4
+- description: A low-angle shot of a LaFleur henchman (tall, bald, scar above left
+    eyebrow) lurking in the shadows of a market alley. His eyes are fixed menacingly
+    on Eclipse and Dr. Patel, and his hand rests on the grip of his gun. The background
+    is a dark, narrow alleyway with intricate stone carvings.
+  image: 0018.png
+  title: LaFleur's Henchman in the Shadows
+  video: 0018.mp4
+- description: A wide-angle shot of the stunning Marrakech architecture, with intricate
+    stone carvings and vibrant tile work. The sun casts a warm glow on the scene,
+    highlighting the beauty of the ancient buildings. The sound of merchants calling
+    out and the bustle of the market can be heard in the background.
+  image: 0019.png
+  title: Marrakech Market Architecture
+  video: 0019.mp4
+- description: Establishing shot of the Swiss Alps, with steep cliffs and frozen lakes
+    in the distance, surrounded by a picturesque village. Camera pans down to reveal
+    the snowmobiles, with a low-angle shot to emphasize the rugged terrain.
+  image: 0020.png
+  title: Mountainous Backdrop
+  video: 0020.mp4
+- description: Close-up shot of Alex, a tall, dark-haired man with blue eyes, wearing
+    a black snowmobile suit and goggles, with a determined expression on his face.
+    The camera is positioned at a slight angle, with a shallow depth of field to blur
+    the background.
+  image: 0021.png
+  title: Alex's Determined Gaze
+  video: 0021.mp4
+- description: Medium shot of Alex and Natasha, a petite, blonde-haired woman with
+    green eyes, riding snowmobiles through the snowy terrain, with a fast-paced camera
+    movement to convey the sense of speed and urgency.
+  image: 0022.png
+  title: Snowmobile Chase
+  video: 0022.mp4
+- description: Close-up shot of Vex, a tall, bald man with a scar above his left eyebrow,
+    wearing a black coat and gloves, with a sinister expression on his face. The camera
+    is positioned at a low angle, with a high contrast lighting to emphasize his menacing
+    presence.
+  image: 0023.png
+  title: Vex's Sinister Stare
+  video: 0023.mp4
+- description: Medium shot of Raj, an average-height man with brown hair and brown
+    eyes, wearing a warm coat and hat, with a look of anxiety on his face as he watches
+    the snowmobile chase from a distance. The camera is positioned at a slight angle,
+    with a shallow depth of field to blur the background.
+  image: 0024.png
+  title: Raj's Anxious Reaction
+  video: 0024.mp4
+- description: A wide, sweeping shot of the Eiffel Tower at sunset, with the city
+    lights of Paris beginning to twinkle in the background, capturing the iconic landmark's
+    grandeur and setting the tone for the tense confrontation to come.
+  image: 0025.png
+  title: Eiffel Tower Establishing Shot
+  video: 0025.mp4
+- description: A tight, high-contrast closeup shot of a tall, dark-haired man with
+    blue eyes (Alex) as he gazes up at the Eiffel Tower, his determined expression
+    and furrowed brow conveying his intensity and focus on the mission.
+  image: 0026.png
+  title: Alex's Determined Closeup
+  video: 0026.mp4
+- description: A medium shot of a petite, blonde-haired woman with green eyes (Natasha)
+    approaching the Eiffel Tower, her cautious movements and scanning gaze capturing
+    her role as a Russian spy turned double agent, dressed in a black leather jacket
+    and jeans.
+  image: 0027.png
+  title: Natasha's Cautious Approach
+  video: 0027.mp4
+- description: A low-angle shot of a tall, bald man with a scar above his left eyebrow
+    (Vex) standing in front of the Eiffel Tower, his menacing silhouette and imposing
+    presence casting a dark shadow over the scene, dressed in a black suit and tie.
+  image: 0028.png
+  title: Vex's Menacing Silhouette
+  video: 0028.mp4
+- description: A dynamic, handheld shot of Alex and Natasha facing off on the Eiffel
+    Tower's staircase, the tension between them palpable as they stand at opposite
+    ends of the staircase, the city lights of Paris twinkling in the background, capturing
+    the shocking twist that changes the course of the mission.
+  image: 0029.png
+  title: Eiffel Tower Staircase Confrontation
+  video: 0029.mp4
+- description: A wide establishing shot of LaFleur's luxurious Maldives hideout, showcasing
+    its sleek modern architecture and stunning ocean views. The camera pans over the
+    crystal-clear waters, capturing the vibrant colors of the tropical surroundings.
+    The sun is setting, casting a warm golden light over the scene.
+  image: 0030.png
+  title: Ocean View
+  video: 0030.mp4
+- description: A close-up shot of a tall, dark-haired man (Alexander James) in a black
+    tuxedo, sneaking through the shadows of the hideout. His blue eyes are fixed intently
+    on his surroundings, his expression a mixture of caution and determination. The
+    camera lingers on his hands, showcasing his gadgets and tools.
+  image: 0031.png
+  title: Tall, Dark, and Sneaky
+  video: 0031.mp4
+- description: A medium shot of the hideout's high-tech control room, with sleek computer
+    screens and futuristic gadgets lining the walls. The camera pans across the room,
+    capturing the intricate details of the technology and the lavish decorations.
+  image: 0032.png
+  title: High-Tech Lair
+  video: 0032.mp4
+- description: A close-up shot of a petite, blonde-haired woman (Natalia Petrova)
+    standing in front of a floor-to-ceiling window, gazing out at the ocean. Her green
+    eyes are piercing, her expression a mixture of sophistication and menace. She's
+    dressed in a sleek black evening gown, her hair styled perfectly.
+  image: 0033.png
+  title: Petite, Blonde, and Deadly
+  video: 0033.mp4
+- description: A close-up shot of a small, high-tech gadget in Alexander James' hand,
+    with the camera zooming in on its intricate details. The gadget's screen displays
+    a blueprint of the hideout, with various rooms and corridors highlighted. The
+    camera lingers on James' fingers, showcasing his expertise as he navigates the
+    device.
+  image: 0034.png
+  title: Gadget Inspection
+  video: 0034.mp4
+- description: Establishing shot of the luxurious Maldives hideout, with the turquoise
+    ocean waves crashing against the shore in the background, setting the tone for
+    the high-stakes confrontation. The camera pans over the pristine white sand, capturing
+    the warm sunlight reflecting off the water.
+  image: 0035.png
+  title: Oceanic Backdrop
+  video: 0035.mp4
+- description: Close-up shot of Alex, the former MI6 agent turned rogue, with his
+    tall, dark-haired figure and piercing blue eyes fixed intently on LaFleur. His
+    determined expression conveys a sense of urgency and focus, as he adjusts his
+    tailored black suit and prepares for the final confrontation.
+  image: 0036.png
+  title: Alex's Determined Gaze
+  video: 0036.mp4
+- description: Medium shot of Victor Vex, the notorious crime lord, with his bald
+    head and scar above his left eyebrow, as he flashes a cold, calculating smile.
+    The camera captures the menace in his eyes, as he stands tall, wearing a sleek
+    black tuxedo, exuding an air of confidence and control.
+  image: 0037.png
+  title: LaFleur's Sinister Smile
+  video: 0037.mp4
+- description: Wide shot of the luxurious hideout's interior, with Alex and LaFleur
+    facing off in a tense, action-packed standoff. The camera pans across the room,
+    capturing the opulent decorations, the sound of the ocean waves in the background,
+    and the electrifying atmosphere of the final confrontation.
+  image: 0038.png
+  title: High-Stakes Showdown
+  video: 0038.mp4
+- description: Over-the-shoulder shot of Natasha, the Russian spy turned double agent,
+    with her petite figure and blonde hair, as she observes the confrontation from
+    a safe distance. Her green eyes are fixed intently on the action, her expression
+    a mixture of concern and calculation, as she wears a sleek black evening gown.
+  image: 0039.png
+  title: Natasha's Watchful Eye
+  video: 0039.mp4

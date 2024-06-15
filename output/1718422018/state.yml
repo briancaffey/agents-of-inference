@@ -1,0 +1,56 @@
+cast:
+- background: Former MI6 agent
+  ethnicity: Caucasian
+  full_name: Alexander James
+  gender: Male
+  main_character: true
+  nationality: British
+  photos:
+  - e890cd01-ce3b-4edd-bbd5-4b64b8cecc76.png
+  physical_traits: Tall, dark hair, blue eyes
+  short_name: Alex
+- background: Russian spy
+  ethnicity: Russian
+  full_name: Natalia Petrov
+  gender: Female
+  main_character: false
+  nationality: Russian
+  photos:
+  - ba27d959-0ffb-4bdd-9d36-9880e977a4e1.png
+  physical_traits: Blonde hair, green eyes, athletic build
+  short_name: Natalia
+- background: Spanish assassin
+  ethnicity: Spanish
+  full_name: Elena Vasquez
+  gender: Female
+  main_character: false
+  nationality: Spanish
+  photos:
+  - a2fa64df-7a12-4a44-aa56-9194ac4cecc7.png
+  physical_traits: Dark hair, brown eyes, tattooed
+  short_name: Elena
+- background: Indian computer expert
+  ethnicity: Indian
+  full_name: Rajesh Patel
+  gender: Male
+  main_character: false
+  nationality: British
+  photos:
+  - 9e5fb0c6-00c2-47b0-b094-b71a1a373b80.png
+  physical_traits: Dark skin, black hair, glasses
+  short_name: Raj
+- background: Russian crime lord
+  ethnicity: Russian
+  full_name: Viktor Kuznetsov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  photos:
+  - 1f7ed742-3fa7-405a-b94f-e988b0aec469.png
+  physical_traits: Bald, muscular build
+  short_name: Viktor
+directory: '1718422018'
+final_synopsis: ''
+locations: []
+scenes: []
+shots: []

@@ -33,8 +33,11 @@ class Location(BaseModel):
 class Locations(BaseModel):
     locations: List[Location]
 
-class Synopsis(BaseModel):
+class SynopsisResponse(BaseModel):
     synopsis: str = Field(description="The full synopsis of the movie")
+
+class SynopsisFeedbackResponse(BaseModel):
+    feedback: str = Field(description="The suggested feedback")
 
 class Scene(BaseModel):
     title: str = Field(description="The title for the scene")
@@ -59,13 +62,21 @@ class CharacterFilePaths(BaseModel):
 
 
 class AgentState(TypedDict):
-    # directory for all related files
+    # directory under `output` for all related files
     directory: str = None
     cast: Characters = []
     locations: Locations = []
-    # synopsis: str = None
-    synopsis: Annotated[list, add_messages]
-    # the number of synopsis drafts that have been done
-    synopsis_draft_num: int
+
+    # SYNOPSIS
+    # the main synopsis
+    synopsis: Annotated[list[str], add_messages]
+    # feedback for each synopsis
+    synopsis_feedback: Annotated[list[str], add_messages]
+    final_synopsis: str = None
+
+
+    # SCENES
     scenes: Scenes = []
+
+    # SHOTS
     shots: Shots = []

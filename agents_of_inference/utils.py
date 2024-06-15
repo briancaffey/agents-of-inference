@@ -24,7 +24,15 @@ def save_dict_to_yaml(dictionary):
         if not os.path.exists(directory):
             os.makedirs(directory)
         with open(os.path.join(directory, 'state.yml'), 'w') as f:
-            yaml.dump(dictionary, f)
+            dict_copy = dictionary.copy()
+
+            # TODO: serialize this to list[str]
+            if "synopsis" in dict_copy:
+                # dict_copy["synopsis"] = [x for x in dict_copy["synopsis"]]
+                del dict_copy["synopsis"]
+            if "synopsis_feedback" in dict_copy:
+                del dict_copy["synopsis_feedback"]
+            yaml.dump(dict_copy, f)
     else:
         print("Error: 'directory' key is missing in the dictionary.")
 

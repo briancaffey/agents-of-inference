@@ -1,0 +1,56 @@
+cast:
+- background: Former MI6 agent turned rogue
+  ethnicity: Caucasian
+  full_name: Alexander James
+  gender: Male
+  main_character: true
+  nationality: British
+  photos:
+  - bd9f5214-e758-40c2-815b-72410b10e0a1.png
+  physical_traits: Tall, dark hair, blue eyes
+  short_name: Alex
+- background: Russian spy turned double agent
+  ethnicity: Russian
+  full_name: Natalia Petrova
+  gender: Female
+  main_character: false
+  nationality: Russian
+  photos:
+  - d6943d6f-e68b-44ed-8823-2e8591852f18.png
+  physical_traits: Petite, blonde hair, green eyes
+  short_name: Natasha
+- background: Former French intelligence officer turned mercenary
+  ethnicity: French
+  full_name: Victor LaGraine
+  gender: Male
+  main_character: false
+  nationality: French
+  photos:
+  - f6252ec3-d89b-4481-8c60-bace8625ff33.png
+  physical_traits: Tall, bald, scar above left eyebrow
+  short_name: Vic
+- background: British scientist specializing in cryptology
+  ethnicity: Indian
+  full_name: Dr. Sophia Patel
+  gender: Female
+  main_character: false
+  nationality: British
+  photos:
+  - b148039f-95e9-44c6-b4af-95259adfdacf.png
+  physical_traits: Short, dark hair, brown eyes
+  short_name: Sophie
+- background: Corrupt MI6 agent
+  ethnicity: Caucasian
+  full_name: Roderick Wellesley
+  gender: Male
+  main_character: false
+  nationality: British
+  photos:
+  - fd11a1a5-ed87-4d71-9d42-585f23f2215e.png
+  physical_traits: Tall, thinning hair, brown eyes
+  short_name: Rod
+directory: '1718422547'
+final_synopsis: ''
+locations: []
+scenes: []
+shots: []

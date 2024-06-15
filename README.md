@@ -5,7 +5,7 @@
 - Add agent/node for frame interpolation with ffmpeg
 
 ```
-ffmpeg -i output/1718300379/final.mp4 -crf 10 -vf "minterpolate=fps=14:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" output/1718300379/final.14fps.mp4
+ffmpeg -i output/1718422870/final.mp4 -crf 10 -vf "minterpolate=fps=14:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" output/1718422870/final.14fps.mp4
 ```
 
 ```python

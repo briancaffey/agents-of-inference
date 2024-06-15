@@ -18,7 +18,8 @@ from utils import (
     create_movie
 )
 from langchain_core.runnables.graph import MermaidDrawMethod
-from type_defs import AgentState, Characters, Locations, Synopsis, Scenes, Shots, CharacterFilePaths
+from langchain.output_parsers import PydanticOutputParser
+from type_defs import AgentState, Characters, Locations, SynopsisResponse, SynopsisFeedbackResponse, Scenes, Shots, CharacterFilePaths
 import yaml
 
 
@@ -38,7 +39,12 @@ with open('agents_of_inference/prompts.yml', 'r') as file:
 # Use NVIDIA API
 if os.environ.get("NVIDIA_API_KEY"):
     print("== ☁️ Using NVIDIA API ☁️ ==")
-    model = ChatNVIDIA(model="meta/llama3-70b-instruct")
+    # the ChatNVIDIA class was having issues parsing output, so switching to OpenAI class
+    model = ChatOpenAI(
+        model="meta/llama3-70b-instruct",
+        base_url="https://integrate.api.nvidia.com/v1",
+        api_key=os.environ.get("NVIDIA_API_KEY")
+    )
 else:
     # default to using local LLM
     print("## 📀 Using local models 📀 ##")
@@ -48,6 +54,10 @@ else:
 # define state
 graph = StateGraph(AgentState)
 
+
+#########
+# NODES #
+#########
 def initialization_agent(state):
     """
     This agent sets up a new directory for file storage if it does not exist
@@ -88,11 +98,12 @@ def casting_agent(state):
         # saves a list of characters to the cast key
         state["cast"] = response.get("characters")
 
-        # generate photos of each character that can later be used for consistant characters
-        for i, character in enumerate(state["cast"]):
-            image_id = str(uuid.uuid4())
-            generate_headshots_for_character(state["directory"], character, image_id)
-            save_dict_to_yaml(state)
+        # TODO: add this back in
+        # # generate photos of each character that can later be used for consistant characters
+        # for i, character in enumerate(state["cast"]):
+        #     image_id = str(uuid.uuid4())
+        #     generate_headshots_for_character(state["directory"], character, image_id)
+        #     save_dict_to_yaml(state)
         save_dict_to_yaml(state)
     else:
         print("== 🎭 Using cached cast 🎭 ==")
@@ -126,9 +137,9 @@ def synopsis_agent(state):
     """
     Provides a synopsis of the movie based on the characters and the locations.
     """
-    if not state.get("synopsis"):
-        print("## 📝 Generating Synopsis 📝 ##")
-        parser = JsonOutputParser(pydantic_object=Synopsis)
+    print("## ✍️ Generating Synopsis ✍️ ##")
+    if len(state.get("synopsis_feedback")) < 2:
+        parser = PydanticOutputParser(pydantic_object=SynopsisResponse)
 
         prompt = PromptTemplate(
             template="Answer the user query.\n{format_instructions}\n{synopsis_query}\n",
@@ -138,33 +149,44 @@ def synopsis_agent(state):
 
         chain = prompt | model | parser
 
-        synopsis_query_base = prompts.get("synopsis")
-
-        # cast/characters
-        formatted_characters = yaml.dump(state.get("cast"), default_flow_style=False)
-        characters = f"Characters:\n{formatted_characters}"
-
-        # locations
-        formatted_locations = yaml.dump(state.get("locations"), default_flow_style=False)
-        locations = f"Characters:\n{formatted_locations}"
-
-        # ask for a synopsis based on the characters and locations
-        synopsis_query = f"{synopsis_query_base}\n\n{characters}\n\n{locations}"
-
+        if len(state.get("synopsis_feedback")) == 0:
+            synopsis_query = prompts.get("synopsis")
+        else:
+            synopsis_query = f"Please rewrite the synopsis based on the feedback.\nFeedback:\n{state['synopsis_feedback'][-1]}\nSynopsis:\n{state['synopsis'][-1]}"
         response = chain.invoke({"synopsis_query": synopsis_query})
-        synopsis = response.get("synopsis")
-        state["synopsis"].append(synopsis)
-        save_dict_to_yaml(state)
+        synopsis = response.synopsis
+        state["synopsis"] = state["synopsis"] + [synopsis]
+        state["final_synopsis"] = synopsis
 
-    else:
-        print("== 📝 Using cached synopsis 📝 ==")
+    save_dict_to_yaml(state)
+
     return state
 
 def synopsis_review_agent(state):
-    print("in synopsis review node...")
+    """
+    Provides feedback for the synopsis_agent
+    """
+    print("## 📑 Reviewing Synopsis 📑 ##")
+
+    parser = PydanticOutputParser(pydantic_object=SynopsisFeedbackResponse)
+
+    prompt = PromptTemplate(
+        template="Answer the user query.\n{format_instructions}\n{synopsis_feedback_query}\n",
+        input_variables=["synopsis_feedback_query"],
+        partial_variables={"format_instructions": parser.get_format_instructions()},
+    )
+
+    chain = prompt | model | parser
+
+    synopsis_feedback_query = f"Please provide specific feedback for how the following synopsis can be improved:\n\nSynopsis:\n{state["synopsis"][-1]}"
+    response = chain.invoke({"synopsis_feedback_query": synopsis_feedback_query})
+    synopsis_feedback = str(response.feedback)
+    state["synopsis_feedback"] = state["synopsis_feedback"] + [synopsis_feedback]
+    save_dict_to_yaml(state)
     return state
 
 def scene_agent(state):
+    # exit(1)
     if not state.get("scenes"):
         print("## 📒 Generating Scenes 📒 ##")
         parser = JsonOutputParser(pydantic_object=Scenes)
@@ -188,7 +210,7 @@ def scene_agent(state):
         locations = f"Characters:\n{formatted_locations}"
 
         # synopsis
-        formatted_synopsis = yaml.dump(state.get("synopsis")[-1], default_flow_style=False)
+        formatted_synopsis = state.get("final_synopsis")
         synopsis = f"Synopsis:\n{formatted_synopsis}"
 
         # ask for a synopsis based on the characters and locations
@@ -273,10 +295,11 @@ def stable_diffusion_agent(state):
             print()
             print(f"00{i}/00{shot_count}")
             print(description)
-            print("Checking for characters...")
-            characters_photo_filepaths = chain.invoke(f"Characters: {state.get('cast')}\n Shot: {description}\n\nBase on the above information, please provide a list of the filepaths for the characters that appear in the shot description")
-            print("Deteced the following character photo filepaths:")
-            print(characters_photo_filepaths)
+            # TODO: add this back with character photo generation for consistent characters
+            # print("Checking for characters...")
+            # characters_photo_filepaths = chain.invoke(f"Characters: {state.get('cast')}\n Shot: {description}\n\nBase on the above information, please provide a list of the filepaths for the characters that appear in the shot description")
+            # print("Deteced the following character photo filepaths:")
+            # print(characters_photo_filepaths)
 
             generate_and_save_image(state.get("directory"), description, f"00{i}")
             print(f"Generated image output/{state["directory"]}/images/00{i}.png")
@@ -306,6 +329,18 @@ def video_editing_agent(state):
     create_movie(state)
     return state
 
+##############
+# CONDITIONS #
+##############
+# State in conditions is read only! we don't return state from these functions just the name of the next node
+def synopsis_condition(state):
+    # check to see how many revisions have been done
+    if len(state["synopsis_feedback"]) < 2:
+        print("## going to synopsis_review_agent ##")
+        return "synopsis_review_agent"
+    print("## going to scene_agent ##")
+    return "scene_agent"
+
 # define graph
 graph.add_node("initialization_agent", initialization_agent)
 graph.add_node("casting_agent", casting_agent)
@@ -321,9 +356,8 @@ graph.add_node("video_editing_agent", video_editing_agent)
 graph.add_edge("initialization_agent", "casting_agent")
 graph.add_edge("casting_agent", "location_agent")
 graph.add_edge("location_agent", "synopsis_agent")
-graph.add_edge("synopsis_agent", "synopsis_review_agent")
+graph.add_conditional_edges("synopsis_agent", synopsis_condition, ["synopsis_review_agent", "scene_agent"])
 graph.add_edge("synopsis_review_agent", "synopsis_agent")
-graph.add_edge("synopsis_agent", "scene_agent")
 graph.add_edge("scene_agent", "shot_agent")
 graph.add_edge("shot_agent", "stable_diffusion_agent")
 graph.add_edge("stable_diffusion_agent", "stable_video_diffusion_agent")
@@ -352,6 +386,8 @@ response = runnable.invoke({
     "directory": "",
     "locations": [],
     "synopsis": [],
+    "synopsis_feedback": [],
+    "final_synopsis": "",
     "scenes": [],
     "shots": [],
 })
