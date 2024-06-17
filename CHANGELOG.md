@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.4.0](https://github.com/briancaffey/agents-of-inference/compare/v0.3.0...v0.4.0) (2024-06-17)
+
+
+### Features
+
+* **edges:** wip conditional edges in graph ([dc3683d](https://github.com/briancaffey/agents-of-inference/commit/dc3683d70372b892c0726b648831008f2663e7da))
+* **readme:** update readme ([cb13ff3](https://github.com/briancaffey/agents-of-inference/commit/cb13ff3fb6e7c4d44a83f9e33d9565e9084ed484))
+* **synopsis_review:** add synopsis review agent using conditional edges ([d3c1971](https://github.com/briancaffey/agents-of-inference/commit/d3c197141842eb6a96060148489dad0f45832d54))
+* **viz:** add graph vizualization step ([cc00fd9](https://github.com/briancaffey/agents-of-inference/commit/cc00fd99463f58237724ee2c30636c35a8b7afd8))
+
+
+### Bug Fixes
+
+* **output:** cleanup old unused output ([4fb53d1](https://github.com/briancaffey/agents-of-inference/commit/4fb53d1f9771e23d20d8762218fbe47534a1ed1e))
+* **svg:** langchain svg logo color ([fd08dc5](https://github.com/briancaffey/agents-of-inference/commit/fd08dc5c234b3cfb50fe5910ba79d0c4e122ebb3))
+
 ## [0.3.0](https://github.com/briancaffey/agents-of-inference/compare/v0.2.0...v0.3.0) (2024-06-11)
 
 
