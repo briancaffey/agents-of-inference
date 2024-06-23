@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/briancaffey/agents-of-inference/compare/v0.4.0...v0.5.0) (2024-06-23)
+
+
+### Features
+
+* **trt-llm:** update prompts to work with both llama3 tensortrt-llm and q4_k_m gguf inference ([1b7899d](https://github.com/briancaffey/agents-of-inference/commit/1b7899d38ae40b35d84b5528e4c8a2d193e16583))
+
 ## [0.4.0](https://github.com/briancaffey/agents-of-inference/compare/v0.3.0...v0.4.0) (2024-06-17)
 
 
