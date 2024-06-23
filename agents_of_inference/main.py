@@ -49,7 +49,13 @@ else:
     # default to using local LLM
     print("## 📀 Using local models 📀 ##")
     os.environ["OPENAI_API_KEY"] = "None"
-    model = ChatOpenAI(model="llama3", base_url="http://192.168.5.96:5001/v1")
+    host = os.environ.get("HOST", "192.168.1.123")
+    port = os.environ.get("PORT", "8000")
+    model = ChatOpenAI(
+        model="llama3",
+        base_url=f"http://{host}:{port}/v1",
+        api_key=os.environ.get("OPENAI_API_KEY")
+    )
 
 # define state
 graph = StateGraph(AgentState)
@@ -86,7 +92,7 @@ def casting_agent(state):
         parser = JsonOutputParser(pydantic_object=Characters)
 
         prompt = PromptTemplate(
-            template="Answer the user query.\n{format_instructions}\n{casting_query}\n",
+            template="Don't include ANYTHING except for valid JSON in your response. Answer the user query in JSON only.\n{format_instructions}\n{casting_query}\n",
             input_variables=["casting_query"],
             partial_variables={"format_instructions": parser.get_format_instructions()},
         )
@@ -95,8 +101,12 @@ def casting_agent(state):
 
         response = chain.invoke({"casting_query": prompts["casting"]})
 
+        print("Response is:")
+        print(response)
+
         # saves a list of characters to the cast key
-        state["cast"] = response.get("characters")
+        # I don't like this, but doing this finally got LangnChain working with TensorRT-LLM Meta-Llama-8B-Instruct
+        state["cast"] = response if type(response) == list else response.get("characters")
 
         # TODO: add this back in
         # # generate photos of each character that can later be used for consistant characters
@@ -127,7 +137,7 @@ def location_agent(state):
         chain = prompt | model | parser
 
         response = chain.invoke({"locations_query": prompts["locations"]})
-        state["locations"] = response.get("locations")
+        state["locations"] = response if type(response) == list else response.get("locations")
         save_dict_to_yaml(state)
     else:
         print("== 🗺️ Using cached locations 🗺️ ==")
@@ -142,7 +152,7 @@ def synopsis_agent(state):
         parser = PydanticOutputParser(pydantic_object=SynopsisResponse)
 
         prompt = PromptTemplate(
-            template="Answer the user query.\n{format_instructions}\n{synopsis_query}\n",
+            template="Don't include ANYTHING except for valid JSON in your response. Answer the user query.\n{format_instructions}\n{synopsis_query}\n",
             input_variables=["synopsis_query"],
             partial_variables={"format_instructions": parser.get_format_instructions()},
         )
@@ -171,7 +181,7 @@ def synopsis_review_agent(state):
     parser = PydanticOutputParser(pydantic_object=SynopsisFeedbackResponse)
 
     prompt = PromptTemplate(
-        template="Answer the user query.\n{format_instructions}\n{synopsis_feedback_query}\n",
+        template="Don't include ANYTHING except for valid JSON in your response. Answer the user query in JSON only.\n{format_instructions}\n{synopsis_feedback_query}\n",
         input_variables=["synopsis_feedback_query"],
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
@@ -192,7 +202,7 @@ def scene_agent(state):
         parser = JsonOutputParser(pydantic_object=Scenes)
 
         prompt = PromptTemplate(
-            template="Answer the user query.\n{format_instructions}\n{scene_query}\n",
+            template="ONLY include valid JSON in your response. Answer the user query.\n{format_instructions}\n{scene_query}\n",
             input_variables=["scene_query"],
             partial_variables={"format_instructions": parser.get_format_instructions()},
         )
@@ -214,10 +224,10 @@ def scene_agent(state):
         synopsis = f"Synopsis:\n{formatted_synopsis}"
 
         # ask for a synopsis based on the characters and locations
-        scene_query = f"{scene_query_base}\n\n{characters}\n\n{locations}\n\n{synopsis}"
+        scene_query = f"{scene_query_base}\n\n{synopsis}"
 
         response = chain.invoke({"scene_query": scene_query})
-        scenes = response.get("scenes")
+        scenes = response if type(response) == list else response.get("scenes")
         state["scenes"] = scenes
         save_dict_to_yaml(state)
 
@@ -237,7 +247,7 @@ def shot_agent(state):
         parser = JsonOutputParser(pydantic_object=Shots)
 
         prompt = PromptTemplate(
-            template="Answer the user query.\n{format_instructions}\n{shot_query}\n",
+            template="Don't include ANYTHING except for valid JSON in your response. Answer the user query.\n{format_instructions}\n{shot_query}\n",
             input_variables=["shot_query"],
             partial_variables={"format_instructions": parser.get_format_instructions()},
         )
@@ -259,9 +269,11 @@ def shot_agent(state):
             shot_query = f"{shot_query_base}\n\n{characters}\n\n{scene_description}"
 
             response = chain.invoke({"shot_query": shot_query})
-            print(f"## Generated {len(response.get('shots'))} shots for scene {i+1}/{scene_count} ##")
 
-            shots += response.get("shots")
+
+            new_shots = response if type(response) == list else response.get("shots")
+            print(f"## Generated {len(new_shots)} shots for scene {i+1}/{scene_count} ##")
+            shots += new_shots
 
         state["shots"] = shots
         save_dict_to_yaml(state)
