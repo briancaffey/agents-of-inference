@@ -7,6 +7,7 @@ For reference: https://github.com/comfyanonymous/ComfyUI_TensorRT
 
 
 import io
+import os
 import json
 import random
 import uuid
@@ -20,7 +21,7 @@ import requests
 from .utils import get_images
 
 
-server_address = "192.168.5.96:8188"
+server_address = os.environ.get("COMFYUI_SERVER_ADDRESS", "192.168.5.96:8188")
 client_id = str(uuid.uuid4())
 
 # Similar to the example workflow show here:

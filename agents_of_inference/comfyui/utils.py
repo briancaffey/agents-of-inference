@@ -2,6 +2,7 @@
 # This is an example that uses the websockets api to know when a prompt execution is done
 # Once the prompt execution is done it downloads the images using the /history endpoint
 import io
+import os
 import json
 import random
 import uuid
@@ -11,7 +12,7 @@ import urllib.parse
 from PIL import Image
 import websocket
 
-server_address = "192.168.5.96:8188"
+server_address = os.environ.get("COMFYUI_SERVER_ADDRESS", "192.168.5.96:8188")
 
 def queue_prompt(prompt, client_id):
     p = {"prompt": prompt, "client_id": client_id}
