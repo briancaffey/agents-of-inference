@@ -137,31 +137,41 @@ shots:
     on the grand piano, where the lights of the city twinkle like diamonds in the
     background. The atmosphere is one of refined sophistication, setting the tone
     for the events about to unfold.
+  image: 000.png
   title: Establishing Shot - Penthouse Apartment
+  video: 000.mp4
 - description: A tight close-up shot frames James' chiseled features, his piercing
     blue eyes locked onto the scene as he observes the surroundings with a mixture
     of curiosity and suspicion. His dark hair is neatly trimmed, and his sharp jawline
     is accentuated by the soft light of the room. The camera lingers on his strong
     facial structure, capturing the intensity of his gaze.
+  image: 001.png
   title: Close-up - James' Face
+  video: 001.mp4
 - description: A medium shot captures Helga's workstation, showcasing the array of
     high-tech gadgets and equipment spread out before her. The camera pans across
     the array of screens and devices, highlighting the complexity of her work. The
     room is dimly lit, with only the soft glow of the screens illuminating Helga's
     focused expression, her red hair tied back in a tight ponytail.
+  image: 002.png
   title: Establishing Shot - Helga's Workstation
+  video: 002.mp4
 - description: As Victoria enters the room, the camera captures her statuesque figure,
     her blonde hair styled to perfection, and her striking blue eyes scanning the
     room with a sense of unease. She is dressed in a stunning evening gown, her shoulders
     squared, and her long legs striding purposefully across the room. The camera lingers
     on her confident stride, capturing the sense of poise and sophistication she exudes.
+  image: 003.png
   title: Medium Shot - Victoria's Entrance
+  video: 003.mp4
 - description: A close-up shot frames Ivan's hand, his long fingers deftly scrolling
     through a small device. The camera zooms in on the screen, revealing a complex
     sequence of codes and symbols. Ivan's brown eyes are focused intently on the screen,
     his brow furrowed in concentration. The lighting is dim, with only the soft glow
     of the screen illuminating his hand.
+  image: 004.png
   title: Close-up - Ivan's Hand
+  video: 004.mp4
 - description: A sweeping aerial shot of the British countryside, the sun shining
     down, casting a warm glow on the rolling hills and lush green forests. The camera
     pans left, revealing a sleek black airplane soaring through the sky, its wings
@@ -169,33 +179,43 @@ shots:
     through the speakers, evoking a sense of freedom and exhilaration. The shot is
     framed to capture the beauty of the landscape, with the airplane a small but dynamic
     element within it.
+  image: 005.png
   title: 'Shot 1: Freedom''s Call'
+  video: 005.mp4
 - description: A close-up shot of Helga's face, her green eyes narrowing in concern
     as she gazes out the window of the airplane. Her short, red hair is ruffled by
     the wind, and her fingers drum a staccato beat on the armrest. The camera is positioned
     low, looking up at her, emphasizing her anxiety and focus. Her attire is a crisp
     white blouse and a fitted black skirt, with a silver watch glinting on her wrist.
+  image: 006.png
   title: 'Shot 2: Helga''s Concern'
+  video: 006.mp4
 - description: A medium shot of James, his tall frame seated in the pilot's chair,
     his dark hair mussed from the wind. His blue eyes are fixed on the horizon, his
     jaw set in determination. He wears a worn leather jacket and a pair of aviator
     sunglasses, giving him a rugged, no-nonsense air. The camera is positioned slightly
     above him, looking down, emphasizing his authority and confidence.
+  image: 007.png
   title: 'Shot 3: James'' Steadfastness'
+  video: 007.mp4
 - description: A dynamic environment shot of the airplane soaring through the sky,
     the countryside blurring by below. The camera is mounted on the side of the plane,
     capturing the rush of wind and the thrill of the chase. The sound design is crucial
     here, with the roar of the engines and the whoosh of the air creating a sense
     of tension and excitement. The shot is framed to convey the sense of speed and
     freedom.
+  image: 008.png
   title: 'Shot 4: The Chase Unfolds'
+  video: 008.mp4
 - description: A medium shot of Sophia, her dark hair neatly tied back, her brown
     eyes scanning the horizon with a mixture of alertness and concern. She sits in
     the back of the airplane, her hands grasping the armrests, her posture tense.
     She wears a fitted white blouse and a pair of black pants, with a silver necklace
     glinting around her neck. The camera is positioned slightly above her, looking
     down, emphasizing her focus and attention.
+  image: 009.png
   title: 'Shot 5: Sophia''s Alertness'
+  video: 009.mp4
 synopsis_feedback_history:
 - The synopsis is engaging and provides a clear overview of the plot. However, it
   could benefit from more detail about the characters' motivations and the themes
@@ -207,6 +227,49 @@ synopsis_feedback_history:
   and think about ways to subvert or complicate the familiar spy thriller plot. Additionally,
   the language is overly dramatic and cliched - try to use more specific and evocative
   descriptions to bring the setting and characters to life.
+- The synopsis is engaging, but could benefit from more specificity and detail to
+  make it more compelling. Additionally, some of the scenes may feel overly familiar
+  or cliched, and the characters could be fleshed out more to make them more relatable
+  and interesting. Consider adding more nuance and complexity to the plot to make
+  it stand out from other spy thrillers.
+- The synopsis effectively conveys the main plot points and action sequences of the
+  film, but could benefit from more character development and thematic depth. Consider
+  adding more details about the motivations and backstories of Agent X and the mastermind
+  to create a more engaging and complex narrative.
+- The synopsis is engaging and has a clear structure, but it could benefit from more
+  specific details about the characters, particularly Agent X and the mastermind.
+  Additionally, the plot relies heavily on familiar tropes, such as the 'high-tech
+  lab' and 'high-speed chases', which may make it feel predictable. Consider adding
+  unique twists or surprises to keep the reader engaged.
+- "The synopsis is engaging and effectively conveys the plot and action elements of\
+  \ the story. To improve it, consider adding more depth and character development.\
+  \ What motivates Agent X and the mastermind? What are their backstories? Additionally,\
+  \ consider varying sentence structure and length to create a more dynamic reading\
+  \ experience. Finally, avoid clich\xE9s like high-speed chases and daring escapes;\
+  \ instead, focus on unique and creative action sequences."
+- The synopsis provides a clear and engaging summary of the story, but lacks depth
+  and emotional connection. Consider adding more character development and backstory
+  to make the protagonist more relatable and the stakes more compelling. The plot
+  is also somewhat predictable and could benefit from some unexpected twists and turns.
+  Additionally, the use of generic terms like 'henchmen' and 'high-tech lab' could
+  be replaced with more specific and descriptive language to add more flavor to the
+  story.
+- The synopsis is engaging, but could benefit from more specific details about the
+  characters, plot twists, and the stakes. Consider adding more tension and suspense
+  to the action scenes, and flesh out the supporting characters. Additionally, the
+  romantic subplot could be developed further. Overall, the synopsis has potential,
+  but needs refinement to make it more compelling.
+- The synopsis effectively establishes the main plot and characters, but could benefit
+  from more specific details and tension-building. Consider adding more descriptive
+  language to draw the reader in, and introducing conflicts or obstacles to make the
+  story more engaging.
+- "The synopsis has a promising start, setting the scene with an intriguing cryptic\
+  \ message and a sinister plot. However, the story relies heavily on clich\xE9s,\
+  \ such as the 'seasoned operative' and 'brilliant cryptologist' tropes. The plot\
+  \ is predictable, with a straightforward goal to infiltrate the organization, outsmart\
+  \ henchmen, and disable the device. The romantic subplot feels forced and lacks\
+  \ depth. Consider adding more complexity to the characters and plot to make it more\
+  \ engaging and memorable."
 synopsis_history:
 - 'In the shadows of the British countryside, a cryptic message sets off a chain reaction
   that exposes a sinister plot to hack the world''s financial systems. Agent X, a

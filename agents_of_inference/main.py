@@ -21,8 +21,10 @@ from langchain_core.prompts import PromptTemplate
 from utils import (
     save_dict_to_yaml,
     generate_and_save_image,
+    generate_and_save_image_comfyui,
+    generate_video,
     generate_and_save_video,
-    # generate_headshots_for_character,
+    # generate_headshots_for_character, # Pause temporarily
     create_movie
 )
 from langchain_core.runnables.graph import MermaidDrawMethod
@@ -109,9 +111,6 @@ def casting_agent(state):
 
         response = chain.invoke({"casting_query": prompts["casting"]})
 
-        print("Response is:")
-        print(response)
-
         # saves a list of characters to the cast key
         # I don't like this, but doing this finally got LangnChain working with TensorRT-LLM Meta-Llama-8B-Instruct
         state["cast"] = response if type(response) == list else response.get("characters")
@@ -155,8 +154,8 @@ def synopsis_agent(state):
     """
     Provides a synopsis of the movie based on the characters and the locations.
     """
-    print("## ✍️ Generating Synopsis ✍️ ##")
     if len(state.get("synopsis_feedback_history")) < 2:
+        print("## ✍️ Generating Synopsis ✍️ ##")
         parser = PydanticOutputParser(pydantic_object=SynopsisResponse)
 
         prompt = PromptTemplate(
@@ -170,7 +169,7 @@ def synopsis_agent(state):
         if len(state.get("synopsis_feedback")) == 0:
             synopsis_query = prompts.get("synopsis")
         else:
-            synopsis_query = f"Please rewrite the synopsis based on the feedback.\nFeedback:\n{state['synopsis_feedback'][-1]}\nSynopsis:\n{state['synopsis'][-1]}"
+            synopsis_query = f"Please rewrite the synopsis based on the feedback.\nFeedback:\n{state['synopsis_feedback'][-1]}\nSynopsis:\n{state['synopsis_history'][-1]}"
         response = chain.invoke({"synopsis_query": synopsis_query})
         synopsis = response.synopsis
 
@@ -179,6 +178,8 @@ def synopsis_agent(state):
         state["synopsis_history"].append(synopsis)
         state["synopsis"] = state["synopsis"] + [synopsis]
         state["final_synopsis"] = synopsis
+    else:
+        print("== ✍️ Using Cached Synopsis ✍️ ==")
 
     save_dict_to_yaml(state)
 
@@ -200,7 +201,7 @@ def synopsis_review_agent(state):
 
     chain = prompt | model | parser
 
-    synopsis_feedback_query = f"Please provide specific feedback for how the following synopsis can be improved:\n\nSynopsis:\n{state["synopsis"][-1]}"
+    synopsis_feedback_query = f"Please provide specific feedback for how the following synopsis can be improved:\n\nSynopsis:\n{state["synopsis_history"][-1]}"
     response = chain.invoke({"synopsis_feedback_query": synopsis_feedback_query})
     synopsis_feedback = str(response.feedback)
     state["synopsis_feedback_history"].append(synopsis_feedback)
@@ -332,7 +333,8 @@ def stable_diffusion_agent(state):
             # print("Deteced the following character photo filepaths:")
             # print(characters_photo_filepaths)
 
-            generate_and_save_image(state.get("directory"), description, f"00{i}")
+            # generate_and_save_image(state.get("directory"), description, f"00{i}")
+            generate_and_save_image_comfyui(state.get("directory"), description, f"00{i}")
             print(f"Generated image output/{state["directory"]}/images/00{i}.png")
             state["shots"][i]["image"] = f"00{i}.png"
             save_dict_to_yaml(state)
@@ -346,7 +348,8 @@ def stable_video_diffusion_agent(state):
     """
     for i, shot in enumerate(state.get("shots")):
         if 'video' not in state["shots"][i]:
-            generate_and_save_video(state["directory"], f"00{i}.png")
+            # generate_and_save_video(state["directory"], f"00{i}.png")
+            generate_video(state["directory"], f"00{i}")
             print(f"Generated video output/{state["directory"]}/videos/00{i}.mp4")
             state["shots"][i]["video"] = f"00{i}.mp4"
             save_dict_to_yaml(state)
@@ -366,7 +369,7 @@ def video_editing_agent(state):
 # State in conditions is read only! we don't return state from these functions just the name of the next node
 def synopsis_condition(state):
     # check to see how many revisions have been done
-    if len(state["synopsis_feedback"]) < 2:
+    if len(state["synopsis_feedback_history"]) < 2:
         print("## going to synopsis_review_agent ##")
         return "synopsis_review_agent"
     print("## going to scene_agent ##")

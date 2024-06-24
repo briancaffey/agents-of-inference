@@ -20,6 +20,8 @@ langchain-nvidia-ai-endpoints = "^0.1.1"
 websocket-client = "^1.8.0"
 ffmpeg-python = "^0.2.0"
 gradio-client = "^1.0.1"
+diffusers = "^0.29.1"
+opencv-python = "^4.10.0.84"
 
 
 [build-system]

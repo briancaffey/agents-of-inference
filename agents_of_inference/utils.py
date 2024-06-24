@@ -8,6 +8,10 @@ from PIL import Image
 from moviepy.editor import VideoClip, TextClip, CompositeVideoClip, ColorClip, VideoFileClip, concatenate_videoclips
 import yaml
 
+# ComfyUI API workflows
+from agents_of_inference.comfyui.sd_trt import generate_img_with_comfyui_trt
+from agents_of_inference.comfyui.svd_trt import generate_video_with_comfyui_trt
+
 
 
 # TODO: move to dotenv
@@ -88,6 +92,25 @@ def generate_and_save_image(directory: str, prompt: str, id: str):
     # Decode and save the image.
     with open(f"{directory}/{id}.png", 'wb') as f:
         f.write(base64.b64decode(r['images'][0]))
+
+def generate_and_save_image_comfyui(directory: str, prompt: str, shot_id: str):
+    """
+    uses comfyui API and tensorrt to generate images
+    """
+    d = os.path.join('output', str(directory), 'images')
+    if not os.path.exists(d):
+        os.makedirs(d)
+    generate_img_with_comfyui_trt(directory, prompt, shot_id)
+
+def generate_video(directory: str, shot_id: str):
+    """
+    Generates a short video from a static image
+    This function should support multiple SVD backends (NVIDIA API catalog, local svd service, comfyui+trt, etc.)
+    """
+    d = os.path.join('output', str(directory), 'videos')
+    if not os.path.exists(d):
+        os.makedirs(d)
+    generate_video_with_comfyui_trt(directory, shot_id)
 
 def generate_and_save_video(id: str, image_path: str):
     """
