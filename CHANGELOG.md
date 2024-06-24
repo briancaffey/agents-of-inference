@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.0](https://github.com/briancaffey/agents-of-inference/compare/v0.5.0...v0.6.0) (2024-06-24)
+
+
+### Features
+
+* **langsmith:** add langsmith api key to sample env and various bugfixes ([d88f207](https://github.com/briancaffey/agents-of-inference/commit/d88f207fd086705a5dc2ac814cc20fc25289415a))
+* **tensorrt:** replace sd and svd services with comfyui-tensorrt accelerated workflow ([9a67eec](https://github.com/briancaffey/agents-of-inference/commit/9a67eecde229a2063360bdf0d204be6fb143a6ac))
+
 ## [0.5.0](https://github.com/briancaffey/agents-of-inference/compare/v0.4.0...v0.5.0) (2024-06-23)
 
 
