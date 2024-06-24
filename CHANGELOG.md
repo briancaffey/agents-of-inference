@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.7.0](https://github.com/briancaffey/agents-of-inference/compare/v0.6.0...v0.7.0) (2024-06-24)
+
+
+### Features
+
+* **trt:** replace svd engine with svdxt engine optimized for more frames ([ec21f9c](https://github.com/briancaffey/agents-of-inference/commit/ec21f9c03d5e1eb5dd7b822a0325d5cad965b2f1))
+
+
+### Bug Fixes
+
+* **generations:** add test generations ([016bef5](https://github.com/briancaffey/agents-of-inference/commit/016bef52a8a300f091e803232a30b784de18246a))
+
 ## [0.6.0](https://github.com/briancaffey/agents-of-inference/compare/v0.5.0...v0.6.0) (2024-06-24)
 
 
