@@ -53,10 +53,10 @@ PROMPT_TEXT = """{
     "inputs": {
       "width": 1024,
       "height": 576,
-      "video_frames": 7,
-      "motion_bucket_id": 50,
+      "video_frames": 28,
+      "motion_bucket_id": 90,
       "fps": 7,
-      "augmentation_level": 0.06,
+      "augmentation_level": 0.7,
       "clip_vision": [
         "1",
         1
@@ -166,7 +166,7 @@ PROMPT_TEXT = """{
   },
   "15": {
     "inputs": {
-      "unet_name": "ComfyUI_DYN_$dyn-b-7-7-7-h-576-576-576-w-1024-1024-1024_00001_.engine",
+      "unet_name": "ComfyUI_DYN_SVD_XT_$dyn-b-28-28-28-h-576-576-576-w-1024-1024-1024_00001_.engine",
       "model_type": "svd"
     },
     "class_type": "TensorRTLoader",

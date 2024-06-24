@@ -284,6 +284,11 @@ def shot_agent(state):
 
             response = chain.invoke({"shot_query": shot_query})
 
+            # TODO fix this
+            # 🩹 sometimes the JSON is parsed incorrectly and returns a NoneType
+            if response is None:
+                continue
+
 
             new_shots = response if type(response) == list else response.get("shots")
 
