@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.1](https://github.com/briancaffey/agents-of-inference/compare/v0.7.0...v0.7.1) (2024-06-24)
+
+
+### Bug Fixes
+
+* **comfyui:** remove hardcoded url ([81281ea](https://github.com/briancaffey/agents-of-inference/commit/81281eadeb165786ce72a4ad0e227df1171c59dc))
+* **readme:** update readme and docstrings with installation instructions ([caec523](https://github.com/briancaffey/agents-of-inference/commit/caec523c0d10bd036f15526d75bd71fc9f40446d))
+
 ## [0.7.0](https://github.com/briancaffey/agents-of-inference/compare/v0.6.0...v0.7.0) (2024-06-24)
 
 
