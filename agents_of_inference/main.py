@@ -210,7 +210,9 @@ def synopsis_review_agent(state):
     return state
 
 def scene_agent(state):
-    # exit(1)
+    """
+    Generates a series of scenes based on the synopsis
+    """
     if not state.get("scenes"):
         print("## 📒 Generating Scenes 📒 ##")
         parser = JsonOutputParser(pydantic_object=Scenes)
@@ -380,7 +382,7 @@ def synopsis_condition(state):
     print("## going to scene_agent ##")
     return "scene_agent"
 
-# define graph
+# LangGraph
 graph.add_node("initialization_agent", initialization_agent)
 graph.add_node("casting_agent", casting_agent)
 graph.add_node("location_agent", location_agent)

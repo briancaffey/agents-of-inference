@@ -2,7 +2,7 @@
 
 Agents of Inference is an application that generates short films about British secret agents, inspiried by the 007 book and film series. This project is my submission for the Generative AI Agent Developer Contest by NVIDIA and LangChain. Here's the project submission video posted on X:
 
-![project video](/add-project-video-embed-here)
+<blockquote class="twitter-tweet tw-align-center" data-theme="dark"><p lang="en" dir="ltr">Agents of Inference<br>🍸🤵🏼‍♂️⚡️🎥🎬<a href="https://twitter.com/hashtag/NVIDIADevContest?src=hash&amp;ref_src=twsrc%5Etfw">#NVIDIADevContest</a> <a href="https://twitter.com/hashtag/LangChain?src=hash&amp;ref_src=twsrc%5Etfw">#LangChain</a> <a href="https://twitter.com/NVIDIAAIDev?ref_src=twsrc%5Etfw">@NVIDIAAIDev</a> <a href="https://t.co/VT3rgzFbD6">pic.twitter.com/VT3rgzFbD6</a></p>&mdash; Brian Caffey (@briancaffey) <a href="https://twitter.com/briancaffey/status/1802754703207583886?ref_src=twsrc%5Etfw">June 17, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Technology
 
@@ -26,19 +26,27 @@ The project supports a hybrid inference model, allowing for the application to c
 
 To run the program with local inference services, install and run the following:
 
-- Stable Diffusion WebUI (with `--api` flag)
-- ComfyUI
-- Stable Video Diffusion service (see `/svd` directory of this repo)
-
-Configure the URL (`server:port`) used for these services in `.env` (you need to create the file first, see `.env.example` for reference).
+- ComfyUI with the ComfyUI_TensorRT custom node package installed
+- Build the engines for Stable Diffusion and Stable Video Diffusion XT (see files in `agents_of_inference/comfyui` for more details)
+- [NVIDIA NIM inference microservice for Meta/Llama-3-8B-Instruct](https://build.nvidia.com/explore/discover?snippet_tab=Docker#llama3-8b). I have tested this on WSL, this may require that you change your UEFI/BIOS to use CPU graphics. If you prefer to use cloud APIs for LLM inference, please see instructions below
 
 ### Cloud Inference
 
 To run the project using NVIDIA AI endpoints, configure an `NVIDIA_API_KEY` value in `.env`.
 
+### LangSmith
+
+To use LangSmith for tracing, add the following to the `.env` file:
+
+```
+# LangSmith
+LANGCHAIN_TRACING_V2="true"
+LANGCHAIN_API_KEY=lsv2_pt_abc_123_xyz
+```
+
 ## Usage
 
-To run the program, execute the following command:
+To run the program, first create an `.env` file from the `.env.example` file with the appropriate keys and values. Then execute the following command:
 
 ```
 poetry run python agents_of_inference/main.py
