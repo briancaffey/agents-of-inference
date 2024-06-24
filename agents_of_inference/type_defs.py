@@ -70,8 +70,10 @@ class AgentState(TypedDict):
     # SYNOPSIS
     # the main synopsis
     synopsis: Annotated[list[str], add_messages]
+    synopsis_history: list[str] = []
     # feedback for each synopsis
     synopsis_feedback: Annotated[list[str], add_messages]
+    synopsis_feedback_history: list[str] = []
     final_synopsis: str = None
 
 

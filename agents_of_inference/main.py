@@ -1,7 +1,15 @@
+"""
+Agents of Inference
+
+This file is the main entrypoint for running the Agents of Inference program
+
+The program uses large language models (LLMs) and stable diffusion (SD) and
+stable video diffusion (SVD) to generate short films.
+"""
+
 import os
 import time
 import argparse
-import uuid
 
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
@@ -14,7 +22,7 @@ from utils import (
     save_dict_to_yaml,
     generate_and_save_image,
     generate_and_save_video,
-    generate_headshots_for_character,
+    # generate_headshots_for_character,
     create_movie
 )
 from langchain_core.runnables.graph import MermaidDrawMethod
@@ -52,7 +60,7 @@ else:
     host = os.environ.get("HOST", "192.168.1.123")
     port = os.environ.get("PORT", "8000")
     model = ChatOpenAI(
-        model="llama3",
+        model="meta/llama3-8b-instruct",
         base_url=f"http://{host}:{port}/v1",
         api_key=os.environ.get("OPENAI_API_KEY")
     )
@@ -148,7 +156,7 @@ def synopsis_agent(state):
     Provides a synopsis of the movie based on the characters and the locations.
     """
     print("## ✍️ Generating Synopsis ✍️ ##")
-    if len(state.get("synopsis_feedback")) < 2:
+    if len(state.get("synopsis_feedback_history")) < 2:
         parser = PydanticOutputParser(pydantic_object=SynopsisResponse)
 
         prompt = PromptTemplate(
@@ -165,6 +173,10 @@ def synopsis_agent(state):
             synopsis_query = f"Please rewrite the synopsis based on the feedback.\nFeedback:\n{state['synopsis_feedback'][-1]}\nSynopsis:\n{state['synopsis'][-1]}"
         response = chain.invoke({"synopsis_query": synopsis_query})
         synopsis = response.synopsis
+
+        # TODO: clean this up
+        # 🩹 I had issues serializing the Annotated type so I store the synopsis history as a simple list of strings as well
+        state["synopsis_history"].append(synopsis)
         state["synopsis"] = state["synopsis"] + [synopsis]
         state["final_synopsis"] = synopsis
 
@@ -191,6 +203,7 @@ def synopsis_review_agent(state):
     synopsis_feedback_query = f"Please provide specific feedback for how the following synopsis can be improved:\n\nSynopsis:\n{state["synopsis"][-1]}"
     response = chain.invoke({"synopsis_feedback_query": synopsis_feedback_query})
     synopsis_feedback = str(response.feedback)
+    state["synopsis_feedback_history"].append(synopsis_feedback)
     state["synopsis_feedback"] = state["synopsis_feedback"] + [synopsis_feedback]
     save_dict_to_yaml(state)
     return state
@@ -272,6 +285,12 @@ def shot_agent(state):
 
 
             new_shots = response if type(response) == list else response.get("shots")
+
+            # TODO fix this
+            # 🩹 sometimes the JSON is parsed incorrectly
+            if len(new_shots) == 1:
+                continue
+
             print(f"## Generated {len(new_shots)} shots for scene {i+1}/{scene_count} ##")
             shots += new_shots
 
@@ -398,7 +417,9 @@ response = runnable.invoke({
     "directory": "",
     "locations": [],
     "synopsis": [],
+    "synopsis_history": [],
     "synopsis_feedback": [],
+    "synopsis_feedback_history": [],
     "final_synopsis": "",
     "scenes": [],
     "shots": [],

@@ -1,0 +1,91 @@
+cast:
+- background: Former MI6 agent
+  ethnicity: Caucasian
+  full_name: Jameson Edward Thompson
+  gender: Male
+  main_character: true
+  nationality: British
+  physical_traits: Tall, dark hair, blue eyes
+  short_name: Jim
+- background: Russian intelligence officer
+  ethnicity: Russian
+  full_name: Nikolai Viktor Petrov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  physical_traits: Tall, fair hair, piercing green eyes
+  short_name: Nikolai
+- background: Former CIA analyst
+  ethnicity: Caucasian
+  full_name: Evelyn Claire Wilder
+  gender: Female
+  main_character: false
+  nationality: American
+  physical_traits: Intelligent, brown hair, bright blue eyes
+  short_name: Evie
+- background: Double agent
+  ethnicity: Greek
+  full_name: Sophia Isabella Costa
+  gender: Female
+  main_character: false
+  nationality: Greek
+  physical_traits: Beautiful, dark hair, green eyes
+  short_name: Sophie
+- background: MI6 agent
+  ethnicity: Russian
+  full_name: Alexander Romanov
+  gender: Male
+  main_character: false
+  nationality: British
+  physical_traits: Tall, blond hair, blue eyes
+  short_name: Alex
+directory: '1719179186'
+final_synopsis: In 'Eclipse', Agent Nova must infiltrate Aurora's high-tech fortress,
+  navigating treacherous underwater chases, high-speed plane pursuits, and intense
+  hand-to-hand combat to stop her from controlling global markets with revolutionary
+  technology. With his cunning, gadgets, and high-tech Aston Martin, Nova faces off
+  against deadly henchmen and Aurora in a climactic showdown on a luxury cruise ship,
+  saving the world from her evil plan.
+locations:
+- country: Japan
+  environment: Urban, high-rise skyscrapers, neon lights, and bustling streets
+  name: Tokyo City
+- country: Antarctica
+  environment: Remote, icy, and snowy, with rugged terrain and extreme weather conditions
+  name: Antarctic Research Station
+- country: China
+  environment: Ancient, rugged, and sprawling, with steep cliffs and watchtowers
+  name: The Great Wall of China
+scenes:
+- content: Nova approaches the perimeter of Aurora's high-tech fortress, carefully
+    avoiding detection by her heavily armed guards.
+  location: Aurora's high-tech fortress, overlooking the vast ocean
+  title: 'Scene 1: Infiltration'
+- content: Nova uses her diving gear to navigate through the underwater tunnels, pursued
+    by Aurora's henchmen in high-tech submersibles.
+  location: Underwater tunnels beneath the fortress
+  title: 'Scene 2: Underwater Chase'
+- content: Nova commandeers a nearby plane and engages in a high-speed chase with
+    Aurora's henchmen, dodging bullets and performing daring stunts.
+  location: Over the open skies, near the coast
+  title: 'Scene 3: High-Speed Plane Pursuit'
+- content: Nova confronts Aurora's top henchman in a brutal hand-to-hand combat, using
+    her martial arts skills to take him down.
+  location: Aurora's high-tech fortress, in a dimly lit laboratory
+  title: 'Scene 4: Hand-to-Hand Combat'
+- content: Nova infiltrates the luxury cruise ship, where Aurora is hosting a high-stakes
+    meeting with her accomplices. Nova faces off against Aurora in a tense showdown,
+    using her cunning and gadgets to outwit her foes.
+  location: Luxury cruise ship, in a lavish conference room
+  title: 'Scene 5: Luxury Cruise Ship Showdown'
+- content: Nova and Aurora engage in a final, intense battle on the cruise ship, with
+    Nova using her Aston Martin to outmaneuver Aurora's henchmen and ultimately defeat
+    the villainous mastermind.
+  location: Luxury cruise ship, on the deck
+  title: 'Scene 6: Climactic Confrontation'
+- content: Nova emerges victorious, having foiled Aurora's plan to control global
+    markets with revolutionary technology. He escapes the cruise ship, leaving behind
+    a trail of destruction and chaos.
+  location: Luxury cruise ship, as it sets sail away from the scene of the battle
+  title: 'Scene 7: Aftermath'
+shots: []

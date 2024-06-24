@@ -37,10 +37,10 @@ async def convert_img_to_vid(image_file: UploadFile = File(...)):
     try:
         # Validate the uploaded image
         image = await validate_image(image_file)
-        
+
         # Resize the image
         image = image.resize((1024, 576))
-        
+
         # Generate frames using SVD
         generator = torch.manual_seed(42)
         print("processing video_frames")

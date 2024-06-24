@@ -1,0 +1,72 @@
+cast:
+- background: MI6 agent
+  ethnicity: British
+  full_name: James Fletcher
+  gender: Male
+  main_character: true
+  nationality: British
+  physical_traits: Tall, athletic build
+  short_name: Fletch
+- background: Former KGB agent turned mercenary
+  ethnicity: German
+  full_name: "Eva M\xFCller"
+  gender: Female
+  main_character: false
+  nationality: German
+  physical_traits: Piercing blue eyes, raven-black hair
+  short_name: "M\xFCller"
+- background: British actress and model
+  ethnicity: Indian-British
+  full_name: Sophia Patel
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Exotic features, striking green eyes
+  short_name: Sophie
+- background: Russian mafia leader
+  ethnicity: Russian
+  full_name: Alexei Kuznetsov
+  gender: Male
+  main_character: false
+  nationality: Russian
+  physical_traits: Tough, imposing figure
+  short_name: Kuznetsov
+- background: MI6 analyst
+  ethnicity: Korean-British
+  full_name: Dr. Rachel Lee
+  gender: Female
+  main_character: false
+  nationality: British
+  physical_traits: Intelligent, reserved demeanor
+  short_name: Dr. Lee
+directory: '1719179281'
+final_synopsis: 'In the latest installment of the British spy agent franchise, Agent
+  X faces off against the enigmatic and ruthless villain, known only as ''The Architect.''
+  This mastermind has designed a diabolical plan to hack into the world''s most secure
+  data centers and hold the global economy hostage. With the stakes higher than ever,
+  Agent X is sent on a perilous mission to infiltrate The Architect''s lair and thwart
+  the sinister plot. Equipped with a wrist-mounted encryption device, a high-tech
+  wristwatch, and a sleek, high-speed speedboat, Agent X must use his quick wit and
+  cunning to outmaneuver The Architect''s henchmen and evade the villain''s cunning
+  traps. As the action unfolds, Agent X finds himself in a series of heart-pumping
+  chases, from a high-speed boat chase through the canals of Venice to a high-stakes
+  hand-to-hand combat sequence in a Tokyo nightclub. But just when it seems like Agent
+  X has the upper hand, The Architect unleashes his most devastating surprise yet:
+  a reveal that threatens to upend everything Agent X thought he knew about his mission
+  and his own identity. With his back against the wall, Agent X must use all his skills
+  and gadgets to outwit The Architect in a climactic showdown that takes him from
+  the rooftops of Paris to the depths of a Swiss alpine lake. In the end, Agent X
+  emerges victorious, having saved the world from certain destruction and solidifying
+  his reputation as the greatest spy of all time.'
+locations:
+- country: China
+  environment: ancient, rugged, and sprawling
+  name: The Great Wall of China
+- country: USA
+  environment: vast, rocky, and awe-inspiring
+  name: The Grand Canyon
+- country: Jordan
+  environment: ancient, mysterious, and sprawling
+  name: The ancient city of Petra
+scenes: []
+shots: []
