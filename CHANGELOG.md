@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/briancaffey/agents-of-inference/compare/v0.7.1...v0.8.0) (2024-06-27)
+
+
+### Features
+
+* **musicgen:** add musicgen service to be used for generating music ([3155ea5](https://github.com/briancaffey/agents-of-inference/commit/3155ea57815e32bf6c16220bdfad767bb55d6534))
+
 ## [0.7.1](https://github.com/briancaffey/agents-of-inference/compare/v0.7.0...v0.7.1) (2024-06-24)
 
 
