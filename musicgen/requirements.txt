@@ -1,0 +1,14 @@
+fastapi
+transformers
+scipy
+numpy<2
+# httpx
+requests
+
+torchaudio
+audiocraft==1.3.0
+
+pydub
+pytest
+aiohttp
+pytest-asyncio
