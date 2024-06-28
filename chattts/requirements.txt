@@ -1,1 +1,8 @@
 gradio-client
+fastapi
+uvicorn
+
+# testing
+pytest
+pytest-asyncio
+requests

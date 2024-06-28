@@ -1,11 +1,9 @@
-from fastapi import FastAPI, Body
+from fastapi import FastAPI
 import torch
 from audiocraft.models import MusicGen
 from audiocraft.data.audio import audio_write
 from fastapi.responses import StreamingResponse
-from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
-from pydub import AudioSegment
 from datetime import datetime
 import io
 

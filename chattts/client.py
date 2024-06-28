@@ -1,40 +1,22 @@
 import os
-import shutil
-from gradio_client import Client
+import requests
 
-client = Client("http://localhost:8080/")
-result = client.predict(
-		text="四川美食确实以辣闻名，但也有不辣的选择。比如甜水面、赖汤圆、蛋烘糕、叶儿粑等，这些小吃口味温和，甜而不腻，也很受欢迎。",
-		temperature=0.3,
-		top_P=0.7,
-		top_K=20,
-		audio_seed_input=2,
-		text_seed_input=42,
-		refine_text_flag=True,
-		api_name="/generate_audio"
-)
+chattts_server_url = os.environ.get("CHATTTS_SERVER_URL", "192.168.5.96")
+chattts_port = 8009
 
+url = f"http://{chattts_server_url}:{chattts_port}/generate_audio"
+text_data = {
+    "text": "四川美食确实以辣闻名，但也有不辣的选择。比如甜水面、赖汤圆、蛋烘糕、叶儿粑等，这些小吃口味温和，甜而不腻，也很受欢迎。"
+}
 
-print("result:")
-print(result)
+try:
+    response = requests.post(url, json=text_data)
+    response.raise_for_status()  # Raise an error for bad status codes
 
+    audio_filename = response.headers.get('content-disposition').split('filename=')[1].strip('"')
+    with open(audio_filename, 'wb') as f:
+        f.write(response.content)
+    print(f"Audio file has been saved as: {audio_filename}")
 
-# Extracting the audio file path from the result
-audio_file_info = result[0]
-audio_file_path = audio_file_info.split('=')[1].strip()
-
-# Downloading the audio file
-temp_dir = "\\".join(audio_file_path.split("\\")[:-1])
-audio_filename = audio_file_path.split("\\")[-1]
-
-# Create a destination folder if not exists
-destination_folder = "./downloads"
-os.makedirs(destination_folder, exist_ok=True)
-
-# Move the downloaded audio file to the downloads folder
-shutil.move(os.path.join(temp_dir, audio_filename), os.path.join(destination_folder, audio_filename))
-
-# Print confirmation message
-print(f"Audio has been downloaded and moved to {destination_folder}/{audio_filename}")
-
-# Optionally, you can now rename the file or perform other operations
+except requests.exceptions.RequestException as e:
+    print(f"Error: {e}")
