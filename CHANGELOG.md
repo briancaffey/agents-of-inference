@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.9.0](https://github.com/briancaffey/agents-of-inference/compare/v0.8.0...v0.9.0) (2024-06-29)
+
+
+### Features
+
+* **chattts:** add chattts service for text to speech ([75803fc](https://github.com/briancaffey/agents-of-inference/commit/75803fc59b719106e43267fab98000683a88db84))
+* **chattts:** wip add chattts service using gradio-client ([83428f6](https://github.com/briancaffey/agents-of-inference/commit/83428f6d8c2796f797359df2aa9e51271fade48a))
+
 ## [0.8.0](https://github.com/briancaffey/agents-of-inference/compare/v0.7.1...v0.8.0) (2024-06-27)
 
 
