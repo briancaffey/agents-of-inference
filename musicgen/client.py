@@ -1,11 +1,27 @@
+import os
+
 import requests
 import datetime
 
-url = "http://localhost:8000/generate_music"
+MUSICGEN_SERVICE_HOST = os.environ.get("MUSICGEN_SERVICE_HOST", "192.168.5.96")
+MUSICGEN_SERVICE_PORT = os.environ.get("MUSICGEN_SERVICE_PORT", "8011")
 
-description = "Upbeat pop rock"  # Replace with your song description
+url = f"http://{MUSICGEN_SERVICE_HOST}:{MUSICGEN_SERVICE_PORT}/generate_music"
 
-response = requests.post(url, json={"description": description, "duration": 10})
+# description = "Acoustic guitars, banjos, and fiddle-like instruments create a sense of rustic, earthy connection to the natural world and its migrations."
+description = """
+Somber tone Acoustic guitars, banjos, and fiddle-like instruments
+"""
+
+# description = """
+# funk music
+# """
+description = "Music for a fun gameshow"  # Replace with your song description
+
+
+response = requests.post(url, json={"description": description, "duration": 30})
+
+print(f"description: {description}")
 
 
 if response.status_code == 200:

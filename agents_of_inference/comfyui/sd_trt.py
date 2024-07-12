@@ -11,17 +11,16 @@ import os
 import json
 import random
 import uuid
-import urllib.request
-import urllib.parse
 
 import websocket
 from PIL import Image
-import requests
 
 from .utils import get_images
 
+comfyui_service_host = os.environ.get("COMFYUI_SERVICE_HOST", "192.168.5.96")
+comfyui_service_port = os.environ.get("COMFYUI_SERVICE_PORT", "8188")
 
-server_address = os.environ.get("COMFYUI_SERVER_ADDRESS", "192.168.5.96:8188")
+server_address = f"{comfyui_service_host}:{comfyui_service_port}"
 client_id = str(uuid.uuid4())
 
 # Similar to the example workflow show here:

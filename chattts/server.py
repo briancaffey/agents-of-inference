@@ -1,55 +1,110 @@
-from fastapi import FastAPI, HTTPException, File, UploadFile
-from pydantic import BaseModel
-from gradio_client import Client
-import datetime
+import io
 import os
-import shutil
-import uvicorn
-from fastapi.responses import FileResponse
+import sys
+import zipfile
+
+from fastapi import FastAPI
+from fastapi.responses import StreamingResponse
+
+
+if sys.platform == "darwin":
+    os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
+
+now_dir = os.getcwd()
+sys.path.append(now_dir)
+
+from typing import Optional
+
+import ChatTTS
+
+from tools.audio import wav_arr_to_mp3_view
+from tools.logger import get_logger
+import torch
+
+
+from pydantic import BaseModel
+
+
+logger = get_logger("Command")
 
 app = FastAPI()
 
-CHATTTS_URL = "http://192.168.5.96:8080/"
-client = Client(CHATTTS_URL)
 
-class TextRequest(BaseModel):
-    text: str
+@app.on_event("startup")
+async def startup_event():
+    global chat
 
-@app.post("/generate_audio")
-def generate_audio(request: TextRequest):
-    try:
-        result = client.predict(
-            text=request.text,
-            temperature=0.3,
-            top_P=0.7,
-            top_K=20,
-            audio_seed_input=2,
-            text_seed_input=42,
-            refine_text_flag=True,
-            api_name="/generate_audio"
+    chat = ChatTTS.Chat(get_logger("ChatTTS"))
+    logger.info("Initializing ChatTTS...")
+    if chat.load():
+        logger.info("Models loaded successfully.")
+    else:
+        logger.error("Models load failed.")
+        sys.exit(1)
+
+
+class ChatTTSParams(BaseModel):
+    text: list[str]
+    stream: bool = False
+    lang: Optional[str] = None
+    skip_refine_text: bool = False
+    refine_text_only: bool = False
+    use_decoder: bool = True
+    do_text_normalization: bool = True
+    do_homophone_replacement: bool = False
+    audio_seed: int
+    text_seed: int
+    params_refine_text: ChatTTS.Chat.RefineTextParams
+    params_infer_code: ChatTTS.Chat.InferCodeParams
+
+
+@app.post("/generate_voice")
+async def generate_voice(params: ChatTTSParams):
+    logger.info("Text input: %s", str(params.text))
+
+    # audio seed
+    if params.audio_seed:
+        torch.manual_seed(params.audio_seed)
+        params.params_infer_code.spk_emb = chat.sample_random_speaker()
+
+    # text seed for text refining
+    if params.params_refine_text and not params.skip_refine_text:
+        torch.manual_seed(params.text_seed)
+        text = chat.infer(
+            text=params.text, skip_refine_text=False, refine_text_only=True
         )
+        logger.info(f"Refined text: {text}")
+    else:
+        # no text refining
+        text = params.text
 
-        # Extracting the audio file path from the result
-        audio_file_info = result[0]
-        audio_file_path = audio_file_info
+    logger.info("Use speaker:")
+    logger.info(params.params_infer_code.spk_emb)
 
-        # Downloading the audio file
-        temp_dir = "/".join(audio_file_path.split("\\")[:-1])
-        audio_filename = audio_file_path.split("\\")[-1]
+    logger.info("Start voice inference.")
+    wavs = chat.infer(
+        text=text,
+        stream=params.stream,
+        lang=params.lang,
+        skip_refine_text=params.skip_refine_text,
+        use_decoder=params.use_decoder,
+        do_text_normalization=params.do_text_normalization,
+        do_homophone_replacement=params.do_homophone_replacement,
+        params_infer_code=params.params_infer_code,
+        params_refine_text=params.params_refine_text,
+    )
+    logger.info("Inference completed.")
 
-        # Create a destination folder if not exists
-        dt = datetime.datetime.now()
-        ts = int(dt.timestamp())
-        destination_folder = f"./{ts}/downloads"
-        os.makedirs(destination_folder, exist_ok=True)
+    # zip all of the audio files together
+    buf = io.BytesIO()
+    with zipfile.ZipFile(
+        buf, "a", compression=zipfile.ZIP_DEFLATED, allowZip64=False
+    ) as f:
+        for idx, wav in enumerate(wavs):
+            f.writestr(f"{idx}.mp3", wav_arr_to_mp3_view(wav))
+    logger.info("Audio generation successful.")
+    buf.seek(0)
 
-        # Move the downloaded audio file to the downloads folder
-        final_audio_path = os.path.join(destination_folder, audio_filename)
-        shutil.move(os.path.join(temp_dir, audio_filename), final_audio_path)
-
-        return FileResponse(final_audio_path, media_type='audio/mpeg', filename=audio_filename)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8009)
+    response = StreamingResponse(buf, media_type="application/zip")
+    response.headers["Content-Disposition"] = "attachment; filename=audio_files.zip"
+    return response

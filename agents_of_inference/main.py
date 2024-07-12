@@ -59,12 +59,15 @@ else:
     # default to using local LLM
     print("## 📀 Using local models 📀 ##")
     os.environ["OPENAI_API_KEY"] = "None"
-    host = os.environ.get("HOST", "192.168.1.123")
-    port = os.environ.get("PORT", "8000")
+    host = os.environ.get("LLM_SERVICE_HOST", "192.168.1.123")
+    port = os.environ.get("LLM_SERVICE_PORT", "8000")
+    model = os.environ.get("LLM_MODEL", "meta-llama/Meta-Llama-3-8B-Instruct")
+    base_url = f"http://{host}:{port}/v1"
+    api_key = os.environ.get("OPENAI_API_KEY", "None")
     model = ChatOpenAI(
-        model="meta/llama3-8b-instruct",
-        base_url=f"http://{host}:{port}/v1",
-        api_key=os.environ.get("OPENAI_API_KEY")
+        model=model,
+        base_url=base_url,
+        api_key=api_key
     )
 
 # define state
@@ -240,7 +243,7 @@ def scene_agent(state):
         synopsis = f"Synopsis:\n{formatted_synopsis}"
 
         # ask for a synopsis based on the characters and locations
-        scene_query = f"{scene_query_base}\n\n{synopsis}"
+        scene_query = f"{scene_query_base}\n\n{synopsis}\n\n{characters}\n\n{locations}"
 
         response = chain.invoke({"scene_query": scene_query})
         scenes = response if type(response) == list else response.get("scenes")
@@ -314,15 +317,17 @@ def stable_diffusion_agent(state):
     This agent goes through each shot and generates an image based on the shot content using SD
     """
 
-    character_filepath_parser = JsonOutputParser(pydantic_object=CharacterFilePaths)
+    print("## 📸 Generating Images 📸 ##")
 
-    prompt = PromptTemplate(
-        template="Answer the user query.\n{format_instructions}\n{character_query}\n",
-        input_variables=["character_query"],
-        partial_variables={"format_instructions": character_filepath_parser.get_format_instructions()},
-    )
+    # character_filepath_parser = JsonOutputParser(pydantic_object=CharacterFilePaths)
 
-    chain = prompt | model | character_filepath_parser
+    # prompt = PromptTemplate(
+    #     template="Answer the user query.\n{format_instructions}\n{character_query}\n",
+    #     input_variables=["character_query"],
+    #     partial_variables={"format_instructions": character_filepath_parser.get_format_instructions()},
+    # )
+
+    # chain = prompt | model | character_filepath_parser
 
 
     # setup
@@ -353,10 +358,11 @@ def stable_video_diffusion_agent(state):
     This agent loops over the files in output/{id}/images/ and generates videos from images
     It uses the Stable Video Diffusion FastAPI service that is defined in the `svd` directory
     """
+    print("## 🎥 Generating Video 🎥 ##")
     for i, shot in enumerate(state.get("shots")):
         if 'video' not in state["shots"][i]:
-            # generate_and_save_video(state["directory"], f"00{i}.png")
-            generate_video(state["directory"], f"00{i}")
+            generate_and_save_video(state["directory"], f"00{i}.png")
+            # generate_video(state["directory"], f"00{i}")
             print(f"Generated video output/{state["directory"]}/videos/00{i}.mp4")
             state["shots"][i]["video"] = f"00{i}.mp4"
             save_dict_to_yaml(state)
@@ -367,6 +373,7 @@ def video_editing_agent(state):
     """
     Uses moviepy to create a video from mp4 files created by stable_video_diffusion_agent
     """
+    print("## ✂️ Editing Video ✂️ ##")
     create_movie(state)
     return state
 

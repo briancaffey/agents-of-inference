@@ -121,7 +121,10 @@ def generate_and_save_video(id: str, image_path: str):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    url = "http://192.168.5.96:8000/api/img2vid"
+    # SVD service
+    SVD_SERVICE_HOST = os.environ.get("SVD_SERVICE_HOST", "192.168.1.123")
+    SVD_SERVICE_PORT = os.environ.get("SVD_SERVICE_PORT", "8006")
+    url = f"http://{SVD_SERVICE_HOST}:{SVD_SERVICE_PORT}/api/img2vid"
 
     # Prepare the image to be used in the HTTP request
     img = Image.open(f"output/{id}/images/{image_path}")

@@ -106,7 +106,7 @@ Generated video output/1718426686/videos/001.mp4
 - Add agent/node for frame interpolation with ffmpeg
 
 ```
-ffmpeg -i output/1719257066/final.mp4 -crf 10 -vf "minterpolate=fps=14:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" output/1719257066/final.14fps.mp4
+ffmpeg -i output/1719717009/final.mp4 -crf 10 -vf "minterpolate=fps=14:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1" output/1719717009/final.14fps.mp4
 ```
 
 ```python

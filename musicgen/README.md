@@ -15,6 +15,12 @@ pip install torch==2.1.0+cu121 torchaudio --index-url https://download.pytorch.o
 fastapi dev server.py
 ```
 
+Bind to `0.0.0.0`:
+
+```
+fastapi run .\server.py --port 8010
+```
+
 ## Test
 
 ```
