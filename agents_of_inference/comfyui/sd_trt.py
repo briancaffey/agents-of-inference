@@ -167,7 +167,9 @@ def generate_img_with_comfyui_trt(directory, positive_prompt, shot_id):
     ws = websocket.WebSocket()
     ws.connect("ws://{}/ws?clientId={}".format(server_address, client_id))
     images = get_images(ws, prompt, client_id)
-
+    # create directory
+    tgt = f"output/{directory}/images/"
+    os.makedirs(tgt, 0o755, exist_ok=True)
     for node_id in images:
         for image_data in images[node_id]:
             image = Image.open(io.BytesIO(image_data))

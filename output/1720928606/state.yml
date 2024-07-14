@@ -1,0 +1,111 @@
+directory: '1720928606'
+topics:
+- description: 探索神秘的海底世界，包括珊瑚礁、深海生物和海洋环境保护。
+  music: output/1720928606/music/0.wav
+  name: 海底世界
+  shots:
+  - image: output/1720928606/images/1.png
+    narration: output/1720928606/narration/1.mp3
+    sd_prompt: An old man is quietly sitting on a bench in the corner of the park,
+      holding a book in his hand, and next to him is a cup of steaming tea.
+    spoken_words: 这里是公园角落的景象，宁静而温馨。
+    title: 城市晨曦
+    visual_description: 一个老人在公园的角落里静静地坐在长椅上，手中拿着一卷书，旁边是一杯热气腾腾的茶。
+  - image: output/1720928606/images/2.png
+    narration: output/1720928606/narration/2.mp3
+    sd_prompt: A child is rolling on the grassy field of the park, surrounded by the
+      sounds of friends laughing and talking. On the adjacent bench, a mother gently
+      rocks a baby, enjoying the warm sunshine.
+    spoken_words: 午后的阳光洒在公园的草地上，带来一丝慵懒的气息。
+    title: 公园角落的午后
+    visual_description: 一个孩子在公园的草地上翻滚，周围是朋友们欢声笑语的声音。旁边的长椅上，一个母亲轻轻摇晃著婴儿，享受着和煦的阳光。
+  - image: output/1720928606/images/3.png
+    narration: output/1720928606/narration/3.mp3
+    sd_prompt: A couple of old people stroll slowly along a narrow path in the park,
+      holding hands and walking side by side. Behind them, the sun sets, reddening
+      the sky. Near them, a group of squirrels scamper busily in the trees, occasionally
+      peering down at the couple as if to share their stories.
+    spoken_words: 夕阳西下，公园里的漫步者们享受着一天最后的宁静。
+    title: 黄昏中的漫步
+    visual_description: 一对老夫妇手牵手在公园的小径上慢慢行走，背后是染红天空的夕阳。在他们身边，一群松鼠在树上忙碌着，偶尔向人看来，似乎在分享他们的故事。
+- description: 揭秘古埃及金字塔、玛雅城市、罗马斗兽场等遗迹的历史与文化价值。
+  music: output/1720928606/music/1.wav
+  name: 古文明遗迹
+  shots:
+  - image: output/1720928606/images/4.png
+    narration: output/1720928606/narration/4.mp3
+    sd_prompt: An old man is quietly sitting on a bench in the corner of the park,
+      holding a book in his hand, and beside him is a cup of steaming tea.
+    spoken_words: 第一缕晨曦穿透了城市的云层，洒在了宁静的公园角落。
+    title: 城市晨曦
+    visual_description: 一个老人在公园的角落里静静地坐在长椅上，手中拿着一卷书，旁边是一杯热气腾腾的茶。
+  - image: output/1720928606/images/5.png
+    narration: output/1720928606/narration/5.mp3
+    sd_prompt: A group of morning runners are dressed in sports gear, running along
+      the small path of the park. Nearby on an open field, several older individuals
+      are practicing Tai Chi, performing soft and fluid movements.
+    spoken_words: 公园里的人开始了一天中的第一项运动，跑步和太极拳。
+    title: 晨练的人们
+    visual_description: 一群晨跑者穿着运动装备，沿着公园的小径跑步。不远处的空地上，几名老人正在练习太极拳，动作柔和而连贯。
+  - image: output/1720928606/images/6.png
+    narration: output/1720928606/narration/6.mp3
+    sd_prompt: In the children's playground shining under the sun, the children play
+      happily on the slide and swing. Next to them, a mother sits on a bench gently
+      watching the children.
+    spoken_words: 晨光中，孩子们的欢声笑语充满了活力。
+    title: 儿童乐园
+    visual_description: 在阳光下闪闪发光的儿童乐园里，孩子们在滑梯和秋千上欢快地玩耍。旁边，一位母亲坐在长椅上，温柔地看着孩子们。
+- description: 了解人类探索宇宙的历史，包括载人航天、探测器任务和太空站建设。
+  music: output/1720928606/music/2.wav
+  name: 太空探索
+  shots:
+  - image: output/1720928606/images/7.png
+    narration: output/1720928606/narration/7.mp3
+    sd_prompt: '"In the early morning, the city, as the sky begins to turn red at
+      the horizon, is bathed in sunlight on its bustling streets; people start their
+      daily labor."'
+    spoken_words: 城市渐渐苏醒，新的一天开始了。
+    title: 城市晨曦
+    visual_description: 清晨的城市，天边开始泛红，阳光洒在忙碌的街道上，人们开始了一天的劳作。
+  - image: output/1720928606/images/8.png
+    narration: output/1720928606/narration/8.mp3
+    sd_prompt: A bustling street, with vehicles flowing back and forth, pedestrians
+      hurrying about, and shop signs gleaming in the sunlight.
+    spoken_words: 繁忙的街道上，人们来来往往。
+    title: 繁忙街道
+    visual_description: 一条繁忙的街道，车辆川流不息，行人匆匆忙忙，店铺的招牌在阳光下闪闪发光。
+  - image: output/1720928606/images/9.png
+    narration: output/1720928606/narration/9.mp3
+    sd_prompt: '"Under the night sky, the city lights begin to glow, and the bustling
+      city of the day seems especially tranquil as a solitary figure stands on the
+      pedestrian overpass, gazing at the city."'
+    spoken_words: 夜幕降临，城市变得宁静。
+    title: 夜幕降临
+    visual_description: 夜幕下的城市，灯光渐渐亮起，白天喧嚣的城市此刻显得格外宁静，一个人独自站在天桥上，望着这座城市。
+- description: 分析地震、洪水、飓风等自然灾害的成因、影响和应对措施。
+  music: output/1720928606/music/3.wav
+  name: 自然灾害
+  shots:
+  - image: output/1720928606/images/10.png
+    narration: output/1720928606/narration/10.mp3
+    sd_prompt: An old man is quietly sitting on a bench in the corner of the park,
+      holding a book in his hand, and beside him is a cup of hot tea steaming away.
+    spoken_words: 这里是公园角落的景象，宁静而温馨。
+    title: 城市晨曦
+    visual_description: 一个老人在公园的角落里静静地坐在长椅上，手中拿着一卷书，旁边是一杯热气腾腾的茶。
+  - image: output/1720928606/images/11.png
+    narration: output/1720928606/narration/11.mp3
+    sd_prompt: A couple sits on a long bench in the park. The boy is holding a bouquet
+      of flowers, preparing to propose to the girl. The girl's face shows a look of
+      surprise and happiness.
+    spoken_words: 午后的阳光洒在公园的长椅上，带来一份慵懒的舒适。
+    title: 午后休闲
+    visual_description: 一对情侣坐在公园的长椅上，男孩手中拿着一朵鲜花正准备向女孩求婚，女孩脸上露出惊讶和幸福的表情。
+  - image: output/1720928606/images/12.png
+    narration: output/1720928606/narration/12.mp3
+    sd_prompt: A group of children are chasing and playing in the playground of the
+      park, the sunlight of the setting sun shines on their happy smiles, creating
+      a picture full of vitality.
+    spoken_words: 傍晚的天空被晚霞染成了金红色，公园里的孩子们嬉戏玩耍，充满了活力。
+    title: 傍晚暮色
+    visual_description: 一群孩子在公园的游乐场上追逐嬉戏，夕阳的光线映照在他们的欢笑脸上，构成一幅生机勃勃的画面。

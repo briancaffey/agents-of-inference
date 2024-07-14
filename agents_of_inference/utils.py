@@ -1,4 +1,5 @@
 from io import BytesIO
+import logging
 import os
 import warnings
 import base64
@@ -12,7 +13,7 @@ import yaml
 from agents_of_inference.comfyui.sd_trt import generate_img_with_comfyui_trt
 from agents_of_inference.comfyui.svd_trt import generate_video_with_comfyui_trt
 
-
+# logger = logging.getLogger(__name__).
 
 # TODO: move to dotenv
 SD_API_URL = "http://192.168.5.96:7860"
@@ -36,7 +37,7 @@ def save_dict_to_yaml(dictionary):
                 del dict_copy["synopsis"]
             if "synopsis_feedback" in dict_copy:
                 del dict_copy["synopsis_feedback"]
-            yaml.dump(dict_copy, f)
+            yaml.dump(dict_copy, f, allow_unicode=True, encoding=None, indent=2)
     else:
         print("Error: 'directory' key is missing in the dictionary.")
 

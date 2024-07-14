@@ -1,0 +1,7 @@
+topics: Create a list of four different topics covering a variety of different interesting and varied subjects.
+topics_cn: "创建一个包含四种不同话题的列表，涵盖多种不同有趣且多样的主题。"
+
+shots: For the given topic, create a list of 3 different shots that tell a story about the topic. Each shot should include a title, visual description and spoken text. The spoken text is the narration for the shot and the visual description should be a prompt that can be used for image generation in stable diffusion
+# shots_cn:
+
+music: Please use English to a single short prompt of no more than 10 words that can be used to generate music for a music generation service that will provide appropriate music for the following scenes. Keep the description simple, include the mood, tempo, instruments, etc. Only generate one description that will be used for the different shots

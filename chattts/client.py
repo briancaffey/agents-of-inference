@@ -3,27 +3,32 @@ import os
 import zipfile
 from io import BytesIO
 
+from dotenv import load_dotenv
 import requests
 
+load_dotenv()
+
 chattts_service_host = os.environ.get("CHATTTS_SERVICE_HOST", "localhost")
-chattts_service_port = os.environ.get("CHATTTS_SERVICE_PORT", "8000")
+chattts_service_port = os.environ.get("CHATTTS_SERVICE_PORT", "8007")
+
+chattts_service_host = "192.168.5.144"
+chattts_service_port = "8007"
 
 CHATTTS_URL = f"http://{chattts_service_host}:{chattts_service_port}/generate_voice"
-
+print(CHATTTS_URL)
 
 # main infer params
 body = {
     "text": [
-        "四川美食确实以辣闻名，但也有不辣的选择。",
-        "比如甜水面、赖汤圆、蛋烘糕、叶儿粑等，这些小吃口味温和，甜而不腻，也很受欢迎。",
+        "当夜幕降临，都市展现出另一番景象。高楼的霓虹灯闪烁着耀眼的光芒，车流像河流一样在街道上流淌，夜市的小摊上飘散着诱人的食物香味。"
     ],
     "stream": False,
     "lang": None,
-    "skip_refine_text": True,
+    "skip_refine_text": False,
     "refine_text_only": False,
     "use_decoder": True,
-    "audio_seed": 12345678,
-    "text_seed": 87654321,
+    "audio_seed": None,
+    "text_seed": None,
     "do_text_normalization": True,
     "do_homophone_replacement": False,
 }
