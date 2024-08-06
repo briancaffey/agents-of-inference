@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/briancaffey/agents-of-inference/compare/v0.9.0...v0.10.0) (2024-08-06)
+
+
+### Features
+
+* **k8s:** add kubernetes resources for vllm and comfyui ([74b3b22](https://github.com/briancaffey/agents-of-inference/commit/74b3b228f6356bd2418a9b01bf62a456b9bc7066))
+
 ## [0.9.0](https://github.com/briancaffey/agents-of-inference/compare/v0.8.0...v0.9.0) (2024-06-29)
 
 
