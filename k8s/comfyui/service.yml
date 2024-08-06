@@ -1,0 +1,15 @@
+#service.yml
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: comfyui-service
+spec:
+  type: NodePort
+  ports:
+  - port: 8848
+    targetPort: 8848
+    protocol: TCP
+    nodePort: 30000 # Optional: specify a node port or let Kubernetes assign one automatically
+  selector:
+    app: comfyui

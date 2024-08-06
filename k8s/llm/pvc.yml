@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: huggingface-pv
+  namespace: default
+spec:
+  capacity:
+    storage: 10Gi  # Adjust the size as needed
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /home/brian/.cache/huggingface  # Adjust the path as needed
+  storageClassName: manual
+
+---
+
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: huggingface-pvc
+  namespace: default
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi  # Should match or be less than the size specified in PV
+  storageClassName: manual
