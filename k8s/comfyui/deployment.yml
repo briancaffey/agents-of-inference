@@ -16,21 +16,21 @@ spec:
     spec:
       containers:
       - name: comfyui
-        image: localhost:32000/comfyui:latest
+        image: briancaffey/comfyui:latest
         ports:
         - containerPort: 8848
         volumeMounts:
         - mountPath: /app/ComfyUI/output
-          name: output-volume
+          name: comfyui-output-volume
         - mountPath: /app/ComfyUI/models
-          name: models-volume
+          name: comfyui-models-volume
         resources:
           limits:
             nvidia.com/gpu: 1 # Request a GPU
       volumes:
-      - name: output-volume
+      - name: comfyui-output-volume
         persistentVolumeClaim:
-          claimName: output-pvc
-      - name: models-volume
+          claimName: comfyui-output-pvc
+      - name: comfyui-models-volume
         persistentVolumeClaim:
-          claimName: models-pvc
+          claimName: comfyui-models-pvc

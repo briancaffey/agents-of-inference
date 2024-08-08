@@ -8,7 +8,6 @@ These resources are for setting up the inference environment on a local kubernet
 
 - start a microk8s kubernetes cluster with the following add-ons:
     - nvidia
-    - hostpath-storage
     - dashboard
     - registry
 - check the plugins with `microk8s status`
@@ -18,11 +17,11 @@ These resources are for setting up the inference environment on a local kubernet
 ## Deploy resources
 
 ```
-microk8s kubectl apply -f k8s/comfyui/pvc.yml
+microk8s kubectl apply -f k8s/comfyui/storage.yml
 microk8s kubectl apply -f k8s/comfyui/deployment.yml
 microk8s kubectl apply -f k8s/comfyui/service.yml
 
-microk8s kubectl apply -f k8s/llm/pvc.yml
+microk8s kubectl apply -f k8s/llm/storage.yml
 microk8s kubectl apply -f k8s/llm/hf-secret.yml
 microk8s kubectl apply -f k8s/llm/deployment.yml
 microk8s kubectl apply -f k8s/llm/service.yml
