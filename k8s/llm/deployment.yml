@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vllm-deployment
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vllm
+  template:
+    metadata:
+      labels:
+        app: vllm
+    spec:
+      containers:
+      - name: vllm-container
+        image: vllm/vllm-openai:v0.5.3.post1
+        args: ["--model", "meta-llama/Meta-Llama-3.1-8B-Instruct", "--max-model-len", "18160"]
+        ports:
+        - containerPort: 8000
+        volumeMounts:
+        - name: huggingface-cache
+          mountPath: /root/.cache/huggingface
+        env:
+        - name: HUGGING_FACE_HUB_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: huggingface-secret
+              key: HUGGING_FACE_HUB_TOKEN
+      restartPolicy: Always
+      volumes:
+      - name: huggingface-cache
+        persistentVolumeClaim:
+          claimName: huggingface-pvc

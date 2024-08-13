@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.10.1](https://github.com/briancaffey/agents-of-inference/compare/v0.10.0...v0.10.1) (2024-08-08)
+
+
+### Bug Fixes
+
+* **k8s:** remove hostpath storage and replace with pv using node affinity and FileSystem volumeMode with local path ([299f7ac](https://github.com/briancaffey/agents-of-inference/commit/299f7ac1d62a519e78c1804c1768a2865035a00b))
+
+## [0.10.0](https://github.com/briancaffey/agents-of-inference/compare/v0.9.0...v0.10.0) (2024-08-06)
+
+
+### Features
+
+* **k8s:** add kubernetes resources for vllm and comfyui ([74b3b22](https://github.com/briancaffey/agents-of-inference/commit/74b3b228f6356bd2418a9b01bf62a456b9bc7066))
+
 ## [0.9.0](https://github.com/briancaffey/agents-of-inference/compare/v0.8.0...v0.9.0) (2024-06-29)
 
 

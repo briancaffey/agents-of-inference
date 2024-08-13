@@ -1,0 +1,36 @@
+# deployment.yml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: comfyui-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: comfyui
+  template:
+    metadata:
+      labels:
+        app: comfyui
+    spec:
+      containers:
+      - name: comfyui
+        image: briancaffey/comfyui:latest
+        ports:
+        - containerPort: 8848
+        volumeMounts:
+        - mountPath: /app/ComfyUI/output
+          name: comfyui-output-volume
+        - mountPath: /app/ComfyUI/models
+          name: comfyui-models-volume
+        resources:
+          limits:
+            nvidia.com/gpu: 1 # Request a GPU
+      volumes:
+      - name: comfyui-output-volume
+        persistentVolumeClaim:
+          claimName: comfyui-output-pvc
+      - name: comfyui-models-volume
+        persistentVolumeClaim:
+          claimName: comfyui-models-pvc
