@@ -1,0 +1,69 @@
+directory: '1721166508'
+lines:
+- content: 特朗普上台的时候，我们中国可是赚了不少啊。
+  context: 特朗普执政期间中国受益
+  image: output/1721166508/images/1.png
+  narration: output/1721166508/narration/1.mp3
+  sd_prompt: The translation of "角色A得意地笑着" from Chinese to English is "Role A is laughing得意ly."
+  seed: 1721166509
+  speaker: 角色A
+  visual: 角色A得意地笑着
+- content: 是吗？拜登上台，我们中国不也挺好的？
+  context: 拜登执政的中国情况
+  image: output/1721166508/images/2.png
+  narration: output/1721166508/narration/2.mp3
+  sd_prompt: '"角色B疑惑地问" translates to "Role B asked doubtfully" or "Role B questioned
+    doubtfully" in English. This phrase describes a situation where Role B is expressing
+    uncertainty or confusion through their inquiry.'
+  seed: 1721166508
+  speaker: 角色B
+  visual: 角色B疑惑地问
+- content: 拜登那会儿，我们中国是挺好的，但是特朗普更亲啊！
+  context: 比较特朗普和拜登对中国的好感度
+  image: output/1721166508/images/3.png
+  narration: output/1721166508/narration/3.mp3
+  sd_prompt: '"Role A makes a face of complete resignation."'
+  seed: 1721166509
+  speaker: 角色A
+  visual: 角色A摆出一脸无奈的表情
+- content: 亲中国，亲到连亲娘都不要了？
+  context: 讽刺特朗普对中国过于亲密
+  image: output/1721166508/images/4.png
+  narration: output/1721166508/narration/4.mp3
+  sd_prompt: '"Role B makes an over-the-top gesture"'
+  seed: 1721166508
+  speaker: 角色B
+  visual: 角色B做出夸张的夸张
+- content: 特朗普是亲中国亲儿子，拜登是亲中国亲孙子。
+  context: 对比特朗普和拜登对中国的亲疏关系
+  image: output/1721166508/images/5.png
+  narration: output/1721166508/narration/5.mp3
+  sd_prompt: Character A made a thumbs-up gesture with their hand.
+  seed: 1721166509
+  speaker: 角色A
+  visual: 角色A用手比了个大拇指
+- content: 那你觉得我们应该选谁？
+  context: 询问角色A的意见
+  image: output/1721166508/images/6.png
+  narration: output/1721166508/narration/6.mp3
+  sd_prompt: Character B hands on their chin, attentively listening
+  seed: 1721166508
+  speaker: 角色B
+  visual: 角色B手托下巴，认真倾听
+- content: 选特朗普啊，谁让他是中国亲儿子呢。
+  context: 坚持认为特朗普对中国更好
+  image: output/1721166508/images/7.png
+  narration: output/1721166508/narration/7.mp3
+  sd_prompt: "\"Role A is smiling得意地.\" \n\n(Note: \"得意地\" means proudly or smugly.)"
+  seed: 1721166509
+  speaker: 角色A
+  visual: 角色A得意地笑着
+- content: 那我们也只能认命，等特朗普儿子回来吧。
+  context: 接受特朗普对中国的影响
+  image: output/1721166508/images/8.png
+  narration: output/1721166508/narration/8.mp3
+  sd_prompt: Role B shrugs, appearing somewhat helpless.
+  seed: 1721166508
+  speaker: 角色B
+  visual: 角色B摊手，显得有些无奈
+music: ''

@@ -1,0 +1,72 @@
+directory: '1721175469'
+lines:
+- content: 特朗普先生上台后，我们面对的竞争更大了，但是他的关税政策对我们来说也不是完全没有好处。
+  context: 开场白，调侃特朗普上台后的贸易战
+  image: output/1721175469/images/1.png
+  narration: output/1721175469/narration/1.mp3
+  sd_prompt: Zhang Juzhi (张九龄) has his arms crossed over his chest, with a slight
+    furrow in his brow.
+  seed: 1721175470
+  speaker: 张九龄
+  visual: 张九龄双手抱胸，眉头微皱
+- content: 嗯，拜登老爷子嘛，上台后我们倒是能安稳些，但生意也做不大。
+  context: 回应张九龄，调侃拜登的贸易政策
+  image: output/1721175469/images/2.png
+  narration: output/1721175469/narration/2.mp3
+  sd_prompt: '"Wang Zijian threw up his hands, with a smile of resignation on his
+    face."'
+  seed: 1721175469
+  speaker: 王自健
+  visual: 王自健摊手，脸上带着无奈的微笑
+- content: 特朗普的国际关系，就像是咱们的单口相声，一场接一场，精彩纷呈！
+  context: 继续调侃特朗普的外交风格
+  image: output/1721175469/images/3.png
+  narration: output/1721175469/narration/3.mp3
+  sd_prompt: Zhang Juzheng's gestures are exaggerated, and his expression is triumphant.
+  seed: 1721175470
+  speaker: 张九龄
+  visual: 张九龄手势夸张，表情得意
+- content: 拜登呢，就像是我们的小品，笑过之后，最后总要回归平淡。
+  context: 回应张九龄，调侃拜登的外交政策
+  image: output/1721175469/images/4.png
+  narration: output/1721175469/narration/4.mp3
+  sd_prompt: Wang Zijian shakes his head and moves his body, imitating the funny movements
+    in the sketch.
+  seed: 1721175469
+  speaker: 王自健
+  visual: 王自健摇头晃脑，模仿小品中的滑稽动作
+- content: 咱们中国啊，最好是特朗普和拜登合体，关税政策一通操作，国际关系风生水起！
+  context: 提出一个荒谬的想法，引发笑点
+  image: output/1721175469/images/5.png
+  narration: output/1721175469/narration/5.mp3
+  sd_prompt: Zhang Ji Ling gestures with both hands, expression exaggerated.
+  seed: 1721175470
+  speaker: 张九龄
+  visual: 张九龄双手比划，表情夸张
+- content: 那不就变成双排轮滑了？轮子转得快，就是停不下来！
+  context: 回应张九龄的荒谬想法，继续调侃
+  image: output/1721175469/images/6.png
+  narration: output/1721175469/narration/6.mp3
+  sd_prompt: Wang Zijian imitates the action of rollerblading with double skates,
+    showing a painful expression.
+  seed: 1721175469
+  speaker: 王自健
+  visual: 王自健模仿双排轮滑的动作，表情痛苦
+- content: 哈哈，说得对，特朗普和拜登合体，那我们就是‘特朗普轮滑队’了！
+  context: 接受王自健的回应，幽默收场
+  image: output/1721175469/images/7.png
+  narration: output/1721175469/narration/7.mp3
+  sd_prompt: Zhang Juzhi displayed comical facial expressions and mimicked wheel-like
+    hand gestures.
+  seed: 1721175470
+  speaker: 张九龄
+  visual: 张九龄摆出滑稽的面部表情，手势模仿滑轮
+- content: 对对对，我们是‘轮滑’，不是‘轮圈’，那得转多少圈啊！
+  context: 继续幽默，强调主题
+  image: output/1721175469/images/8.png
+  narration: output/1721175469/narration/8.mp3
+  sd_prompt: Wang Zijian shook his head and made a face of resignation.
+  seed: 1721175469
+  speaker: 王自健
+  visual: 王自健摇头，摆出无奈的表情
+music: ''

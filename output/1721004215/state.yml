@@ -1,0 +1,142 @@
+directory: '1721004215'
+topics:
+- description: A haunted mansion where every room is inhabited by a living mirror,
+    reflecting not just your physical form but also your deepest fears and desires.
+    Each mirror has its own voice and personality, leading guests on a psychologically
+    twisted tour through their own psyche.
+  music: output/1721004215/music/0.wav
+  name: Mimicry Mansion
+  shots:
+  - image: output/1721004215/images/1.png
+    narration: output/1721004215/narration/1.mp3
+    sd_prompt: Behind a half-open door, in the dim light, a massive full-length mirror
+      reflected the silhouette of a guest. In the reflection, there was a twisted
+      smile behind the image of the guest; the deepest fear of the guest. The mirror
+      spoke softly, guiding the guest into a deeper exploration of their self.
+    spoken_words: 欢迎来到模仿 mansion，你的每个恐惧和欲望，我们都能在这里找到对应。
+    title: 惊魂镜室
+    visual_description: 一扇半开的门后，昏暗的灯光下，一个巨大的全身镜映照出客人的身影，镜中反射出一张扭曲的笑脸，笑容背后是客人最深的恐惧。镜中声音温柔地引导客人进入更深层的自我探索。
+  - image: output/1721004215/images/2.png
+    narration: output/1721004215/narration/2.mp3
+    sd_prompt: A beam of light pierced through a small window at the end of the corridor,
+      landing on an ancient dressing mirror. The reflection of the guest, along with
+      a ghostly figure, appeared in the mirror; this could be interpreted as the guest's
+      unknown desire or an omen of the misfortune that was to come.
+    spoken_words: 看看自己，也看看未来。
+    title: 幻影走廊
+    visual_description: 走廊尽头的一扇小窗透进一束光线，打在一面古老的穿衣镜上，镜子反射出客人的倒影，以及一个虚幻的身影，那似乎是客人未知的愿望或是即将到来的厄运。
+  - image: output/1721004215/images/3.png
+    narration: output/1721004215/narration/3.mp3
+    sd_prompt: In a room with ornate decorations, in front of a mirror wall composed
+      of numerous small mirror tiles, every step the guest takes causes the mirror
+      wall to change into different patterns and reflections. Each mirror emits a
+      different sound - some encouraging, others sarcastic, some pleading, and others
+      threatening. Each sound represents a different aspect of the guest's inner self.
+    spoken_words: 这里，镜子不只是镜子，它是你的内心世界。
+    title: 镜中幻境
+    visual_description: 一个装饰华丽的房间内，一面面小镜片拼成的镜子墙前，客人每走一步，镜子墙就变换出不同的图案和反射，每一面镜子都传出不同的声音，有的鼓励，有的讽刺，有的哀求，有的威胁，每个声音都是客人内心的不同面。
+- description: A universe where stars are made of liquid, and planets are composed
+    of gelatinous substances. Life forms here have slithery, malleable bodies that
+    can be stretched, squeezed, or even fused together to form new species. The gravity
+    is also unique, making the inhabitants float or stick to surfaces in unexpected
+    ways.
+  music: output/1721004215/music/1.wav
+  name: Gooey Galaxy
+  shots:
+  - image: output/1721004215/images/4.png
+    narration: output/1721004215/narration/4.mp3
+    sd_prompt: A shot showing a gooey star, its surface swirling and flowing like
+      liquid. Planets in the background are gelatinous, with organic shapes and textures.
+    spoken_words: 在这片gooey galaxy中，我们看到了一颗颗流动的恒星，它们像液体一样缓缓流淌，而环绕其周围的行星则是由gelatinous物质构成。
+    title: 星河蠕动
+    visual_description: A shot showing a gooey star, its surface swirling and flowing
+      like liquid. Planets in the background are gelatinous, with organic shapes and
+      textures.
+  - image: output/1721004215/images/5.png
+    narration: output/1721004215/narration/5.mp3
+    sd_prompt: A photograph capturing a living being gliding over a gelatinous planet,
+      its body stretching and twisting in a smooth motion, interacting with the environment
+      in a harmonious manner.
+    spoken_words: 生命体在这片宇宙中，以拥有滑腻、柔韧的身体为特征。它们可以在各种环境下自如地伸展、挤压或融合，创造出新的物种。
+    title: 星球漫步
+    visual_description: A shot capturing a life form gliding over a gelatinous planet,
+      its body stretching and contorting in a fluid motion, interacting with the environment
+      in a harmonious manner.
+  - image: output/1721004215/images/6.png
+    narration: output/1721004215/narration/6.mp3
+    sd_prompt: A shot showing a creature drifting in space, seemingly defying the
+      laws of gravity as it wanders aimlessly or clings to a sticky surface, with
+      stars and planets swirling in the background.
+    spoken_words: 这里的重力法则与众不同，使得居民们能在表面上悬浮或粘附，展现出令人费解的姿态。
+    title: 漂浮之谜
+    visual_description: A shot depicting a being floating in space, seemingly defying
+      the laws of gravity as it drifts aimlessly or clings to a gelatinous surface,
+      with stars and planets swirling in the background.
+- description: A village where people cannot speak, but they can project their thoughts
+    into the air as whispers that anyone can hear. Communication becomes a delicate
+    dance of subtle gestures, facial expressions, and the interpretation of distant
+    echoes. Whispers can also become curses, haunting the village with negative thoughts,
+    and the village council must constantly strive to keep the air clean of harmful
+    thoughts.
+  music: output/1721004215/music/2.wav
+  name: Echoes of Silence
+  shots:
+  - image: output/1721004215/images/7.png
+    narration: output/1721004215/narration/7.mp3
+    sd_prompt: 'The translation from Chinese to English is:
+
+
+      Villagers stand in a circle, hands clasped, intently listening to the distant
+      whispers. The scene depicts a cluster of villagers with lips sealed, their gazes
+      fixed, and their palms interlocked as a symbol of solidarity and attentiveness.
+      The backdrop is a tranquil landscape with faint sounds of murmurs reverberating
+      in the distance, establishing an atmosphere of intrigue and interconnectedness.'
+    spoken_words: 在这片无声的村落里，我们只能聆听空气中的低语。
+    title: 无声回响之凝听
+    visual_description: ' villagers stand in a circle, hands clasped, listening intently
+      to the distant whispers. The visual features a group of villagers with closed
+      mouths, their eyes focused, and their hands clasped together in a gesture of
+      unity and attentiveness. The background is a serene landscape with distant echoes
+      of murmurs floating in the air, creating a sense of mystery and connection.'
+  - image: output/1721004215/images/8.png
+    narration: output/1721004215/narration/8.mp3
+    sd_prompt: A close-up shot of a villager's face displays subtle expressions of
+      surprise, sadness, or joy, with no accompanying sound. The visual emphasizes
+      the profound depth of non-verbal communication, as the individual's eyes and
+      lips barely move yet effectively convey a rich emotional landscape. The backdrop
+      is a bustling village scene, where people are occupied with various activities,
+      all of them engaged in silent communication.
+    spoken_words: 通过细微的面部表情，他们传达了复杂的情感。
+    title: 无声村落之微表情
+    visual_description: A close-up of a villager's face, showing subtle expressions
+      of surprise, sadness, or joy, without any sound. The visual emphasizes the depth
+      of non-verbal communication, with the person's eyes and lips barely moving,
+      yet conveying a rich emotional landscape. The background is a busy village scene,
+      where people are engaged in various activities, all communicating silently.
+  - image: output/1721004215/images/9.png
+    narration: output/1721004215/narration/9.mp3
+    sd_prompt: 'A group of villagers perform a graceful, synchronized dance in the
+      foreground, their movements fluid and expressive. In the background, dark clouds
+      gather, symbolizing the spread of negative thoughts. As the dance progresses,
+      the clouds lift, revealing a clear sky, indicating the cleansing of the air.
+      The visual is dynamic, capturing the tension and release of the dance as it
+      works to dispel the negativity.
+
+
+      In English, this translates to:
+
+
+      A cluster of villagers execute a smooth and synchronized dance routine at the
+      forefront, with their movements flowing and conveying emotions. Meanwhile, in
+      the background, dark clouds accumulate, symbolizing the proliferation of pessimistic
+      ideas. As the dance continues, the clouds recede, unveiling a bright sky, signifying
+      the purification of the atmosphere. The scene is full of energy, illustrating
+      the tension and release of the dance as it endeavors to eliminate the negativity.'
+    spoken_words: 当恶意的低语在空气中回荡，村民们必须跳舞，以净化这些有害的思想。
+    title: 净化之舞：驱散恶意的回响
+    visual_description: A group of villagers perform a graceful, synchronized dance
+      in the foreground, their movements fluid and expressive. In the background,
+      dark clouds gather, symbolizing the spread of negative thoughts. As the dance
+      progresses, the clouds lift, revealing a clear sky, indicating the cleansing
+      of the air. The visual is dynamic, capturing the tension and release of the
+      dance as it works to dispel the negativity.

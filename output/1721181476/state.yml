@@ -1,0 +1,86 @@
+directory: '1721181476'
+lines:
+- content: 特朗普的政策对中国是有利的。
+  context: 开始讨论特朗普的政策对中国的利弊。
+  image: output/1721181476/images/1.png
+  narration: output/1721181476/narration/1.mp3
+  sd_prompt: '"Trump''s policies are beneficial to China."'
+  seed: 1721181477
+  speaker: 张三
+  visual: 张三双手交叉，表情严肃。
+- content: 可是他的政策太不可预测了。
+  context: 反驳张三的观点。
+  image: output/1721181476/images/2.png
+  narration: output/1721181476/narration/2.mp3
+  sd_prompt: '"But his policies are too unpredictable."'
+  seed: 1721181476
+  speaker: 李四
+  visual: 李四摇头摆手，表情无奈。
+- content: 拜登的政策虽然稳定，但对中国未必有利。
+  context: 转换话题，继续讨论拜登的政策。
+  image: output/1721181476/images/3.png
+  narration: output/1721181476/narration/3.mp3
+  sd_prompt: '"Biden''s policies are stable, but they may not be advantageous for
+    China."'
+  seed: 1721181477
+  speaker: 张三
+  visual: 张三摊手，显得有些无奈。
+- content: 他连任会对中国更有利。
+  context: 提出自己的观点。
+  image: output/1721181476/images/4.png
+  narration: output/1721181476/narration/4.mp3
+  sd_prompt: '"His re-election would be more advantageous for China."'
+  seed: 1721181476
+  speaker: 李四
+  visual: 李四点头，显得很有信心。
+- content: 那是你们民主党人的想法。
+  context: 反驳李四的观点。
+  image: output/1721181476/images/5.png
+  narration: output/1721181476/narration/5.mp3
+  sd_prompt: That is your Democratic Party's idea.
+  seed: 1721181477
+  speaker: 张三
+  visual: 张三摇头，显得不以为然。
+- content: 特朗普对中国太好了，可惜他太会挑拨离间。
+  context: 继续讨论特朗普对中国的利弊。
+  image: output/1721181476/images/6.png
+  narration: output/1721181476/narration/6.mp3
+  sd_prompt: Trump is too good to China, but unfortunately, he is too good at stirring
+    up trouble.
+  seed: 1721181476
+  speaker: 李四
+  visual: 李四皱眉，显得有些苦恼。
+- content: 拜登虽然对中国不太友好，但至少不会乱来。
+  context: 继续讨论拜登对中国的态度。
+  image: output/1721181476/images/7.png
+  narration: output/1721181476/narration/7.mp3
+  sd_prompt: '"Although Biden is not very friendly towards China, at least he won''t
+    act recklessly."'
+  seed: 1721181477
+  speaker: 张三
+  visual: 张三摊手，显得有些无奈。
+- content: 那我们中国还不如选举一个对自己好的。
+  context: 提出自己的主张。
+  image: output/1721181476/images/8.png
+  narration: output/1721181476/narration/8.mp3
+  sd_prompt: '"Then why don''t we in China elect someone who is good for us."'
+  seed: 1721181476
+  speaker: 李四
+  visual: 李四摊手，显得有些无奈。
+- content: 对，特朗普对中国好，我们就选他。
+  context: 最终决定支持特朗普。
+  image: output/1721181476/images/9.png
+  narration: output/1721181476/narration/9.mp3
+  sd_prompt: '"Yes, Trump is good to China, so we''ll choose him."'
+  seed: 1721181477
+  speaker: 张三
+  visual: 张三兴奋地拍手。
+- content: 那我们美国人民就选拜登。
+  context: 最终决定支持拜登。
+  image: output/1721181476/images/10.png
+  narration: output/1721181476/narration/10.mp3
+  sd_prompt: '"Then we American people will vote for Biden."'
+  seed: 1721181476
+  speaker: 李四
+  visual: 李四得意地微笑。
+music: ''

@@ -1,0 +1,124 @@
+directory: '1721181665'
+lines:
+- content: 美国大选快结束了，特朗普和拜登的竞争很激烈。
+  context: 开场白，引入话题。
+  image: output/1721181665/images/1.png
+  narration: output/1721181665/narration/1.mp3
+  sd_prompt: '"The US election is almost over, and the competition between Trump and
+    Biden is very fierce."'
+  seed: 1721181666
+  speaker: 赵本山
+  visual: 赵本山表情严肃，手势夸张。
+- content: 是啊，特朗普好比是个小商贩，天天想着怎么挣钱。
+  context: 评价特朗普，比喻其商业背景。
+  image: output/1721181665/images/2.png
+  narration: output/1721181665/narration/2.mp3
+  sd_prompt: '"Yeah, Trump is like a small merchant, constantly thinking about how
+    to make money."'
+  seed: 1721181665
+  speaker: 赵本山
+  visual: 赵本山手拿算盘，做出计算的样子。
+- content: 拜登呢，就像个老干部，整天讲政治，不接地气。
+  context: 继续评价拜登，比喻其政治背景。
+  image: output/1721181665/images/3.png
+  narration: output/1721181665/narration/3.mp3
+  sd_prompt: '"Biden is like a veteran bureaucrat; he spends his days talking about
+    politics but doesn''t understand the real needs of the people."'
+  seed: 1721181666
+  speaker: 赵本山
+  visual: 赵本山戴上老花镜，摆出一本正经的样子。
+- content: 那咱们看看，这俩人哪个对中国更有利？
+  context: 转向中国视角，提问。
+  image: output/1721181665/images/4.png
+  narration: output/1721181665/narration/4.mp3
+  sd_prompt: '"Then let''s see, which of these two individuals is more advantageous
+    to China?"'
+  seed: 1721181665
+  speaker: 赵本山
+  visual: 赵本山瞪大眼睛，显得好奇。
+- content: 特朗普好啊，来了就提"美国优先"，对中国来说，这可是个机会。
+  context: 支持特朗普，认为其政策对中国有利。
+  image: output/1721181665/images/5.png
+  narration: output/1721181665/narration/5.mp3
+  sd_prompt: Trump is doing well. He has come and brought up "America First," and
+    for China, this is indeed an opportunity.
+  seed: 1721181666
+  speaker: 赵本山
+  visual: 赵本山手势有力，显得自信。
+- content: 什么？特朗普优先，这不是欺负人吗？
+  context: 郭冬临反对，认为特朗普政策对国际关系不利。
+  image: output/1721181665/images/6.png
+  narration: output/1721181665/narration/6.mp3
+  sd_prompt: What? Trump First, isn't that picking on someone?
+  seed: 1721181665
+  speaker: 郭冬临
+  visual: 郭冬临眉头紧锁，表情不满。
+- content: 欺负人是吧？那你说说，拜登怎么欺负人？
+  context: 赵本山反问，挑战郭冬临。
+  image: output/1721181665/images/7.png
+  narration: output/1721181665/narration/7.mp3
+  sd_prompt: '"Are you saying that someone is bullying others? Well, then, tell me,
+    how is Biden bullying people?"'
+  seed: 1721181666
+  speaker: 赵本山
+  visual: 赵本山面带微笑，不以为然。
+- content: 拜登那政策，说白了就是"世界老大"，中国得小心翼翼。
+  context: 郭冬临评价拜登，认为其政策对中国有压力。
+  image: output/1721181665/images/8.png
+  narration: output/1721181665/narration/8.mp3
+  sd_prompt: 'Translation: In essence, Biden''s policy is to be the "world number
+    one," and China must be very careful.'
+  seed: 1721181665
+  speaker: 郭冬临
+  visual: 郭冬临摇头晃脑，显得有些无奈。
+- content: 小心翼翼？中国都这么大了，还小心翼翼？
+  context: 赵本山反驳，强调中国地位。
+  image: output/1721181665/images/9.png
+  narration: output/1721181665/narration/9.mp3
+  sd_prompt: '"Carefully? China is already so big, yet you still act carefully?"'
+  seed: 1721181666
+  speaker: 赵本山
+  visual: 赵本山站得笔直，显得正气凛然。
+- content: 得得得，咱们别光说不练。
+  context: 郭冬临转换话题，准备新的论点。
+  image: output/1721181665/images/10.png
+  narration: output/1721181665/narration/10.mp3
+  sd_prompt: Okay, okay, let's not just talk about it; let's do it.
+  seed: 1721181665
+  speaker: 郭冬临
+  visual: 郭冬临摆出暂停的手势，表情认真。
+- content: 那咱们就打个赌，看谁能当上美国总统。
+  context: 赵本山提议赌注，增加节目趣味性。
+  image: output/1721181665/images/11.png
+  narration: output/1721181665/narration/11.mp3
+  sd_prompt: '"Then let''s make a bet, see who can become the President of the United
+    States."'
+  seed: 1721181666
+  speaker: 赵本山
+  visual: 赵本山伸出手，做出悬赏的样子。
+- content: 好，输了的人，上台唱段京剧。
+  context: 郭冬临接受挑战，确定赌注内容。
+  image: output/1721181665/images/12.png
+  narration: output/1721181665/narration/12.mp3
+  sd_prompt: '"Alright, the person who loses, come up here and sing a piece of Beijing
+    Opera."'
+  seed: 1721181665
+  speaker: 郭冬临
+  visual: 郭冬临点头同意，显得自信。
+- content: 哼哼，你当我怕你啊？
+  context: 赵本山接受挑战，表示不怕输。
+  image: output/1721181665/images/13.png
+  narration: output/1721181665/narration/13.mp3
+  sd_prompt: Hmph, you think I'm afraid of you?
+  seed: 1721181666
+  speaker: 赵本山
+  visual: 赵本山眉毛一挑，显得有些得意。
+- content: 那咱们就拭目以待，看看谁能笑到最后。
+  context: 郭冬临结束对话，等待结果。
+  image: output/1721181665/images/14.png
+  narration: output/1721181665/narration/14.mp3
+  sd_prompt: '"Then let''s watch and see, who can laugh last."'
+  seed: 1721181665
+  speaker: 郭冬临
+  visual: 郭冬临摊手，显得轻松。
+music: ''

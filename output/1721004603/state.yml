@@ -1,0 +1,103 @@
+directory: '1721004603'
+topics:
+- description: Sonicorium is a sprawling metropolis composed entirely of metallic
+    materials, where the citizens communicate through pulsating light patterns and
+    high-pitched sonic frequencies. The city is powered by a series of geomagnetic
+    generators, allowing it to float above the ground and move effortlessly across
+    the landscape.
+  music: output/1721004603/music/0.wav
+  name: 'Sonicorium: The Metallic City'
+  shots:
+  - image: output/1721004603/images/1.png
+    narration: output/1721004603/narration/1.mp3
+    sd_prompt: A series of skyscrapers composed of thin metal plates reflect the stars
+      in the night sky, presenting a dazzling light show. Some advanced light and
+      sound wave propagation systems travel between the buildings, creating vivid
+      scenes of light and shadow interplay.
+    spoken_words: 欢迎来到漂浮于夜空的Sonicorium
+    title: 夜空中的闪耀
+    visual_description: 一列列由薄薄的金属板构成的摩天大楼，在夜空中反射着星光，呈现出璀璨的灯光秀。一些先进的光线与声波传播系统在建筑物间穿梭，创造出一幅幅生动的光影交错图景。
+  - image: output/1721004603/images/2.png
+    narration: output/1721004603/narration/2.mp3
+    sd_prompt: City dwellers emit high-frequency sounds through head-mounted devices,
+      forming a vivid symphony of sound waves in the city's sky, creating a unique
+      urban musical composition that, together with the city's metal structure, weaves
+      a moving musical picture.
+    spoken_words: 让我们探索Sonicorium的声波交流
+    title: 金属交响乐
+    visual_description: 城市居民通过头戴装置，发出高频率的声音，这些声音在城市上空形成一个生动的声波交响乐，形成独特的城市乐章，与城市的金属结构共同编织出一幅动人的乐图。
+  - image: output/1721004603/images/3.png
+    narration: output/1721004603/narration/3.mp3
+    sd_prompt: The bottom of Sonicorium is a huge electromagnetic engine. When they
+      are running, they emit a dazzling light. As the engine rotates, the entire city
+      slowly rises and hovers in the air, then glides to the next destination, just
+      like a state-of-the-art airborne vessel, zipping between cities.
+    spoken_words: Sonicorium是如何在土地上自由移动的呢？
+    title: 漂浮之城
+    visual_description: Sonicorium的底部是巨大的电磁引擎，它们在运行时发出耀眼的光芒，随着引擎旋转，整座城市缓缓升起，悬浮在空中，然后轻盈地移动到下一个目的地，宛如一艘高科技的空中航行器，在城市之间穿梭。
+- description: Funguland is a bioluminescent realm governed by sentient fungi, where
+    the landscape is a vast, undulating forest of towering mushrooms. The inhabitants
+    of Funguland communicate through chemical signals and the glowing hues of their
+    mycelial bodies. Agriculture and transportation are mediated by a complex network
+    of fungal highways and underground spore trains.
+  music: output/1721004603/music/1.wav
+  name: 'Funguland: The Mushroom Kingdom'
+  shots:
+  - image: output/1721004603/images/4.png
+    narration: output/1721004603/narration/4.mp3
+    sd_prompt: A vast forest, with trees towering into the clouds, each emitting a
+      gentle glow, permeated with a mysterious and tranquil ambiance. The inhabitants
+      of the fungus forest communicate through chemical signals and the luminescence
+      emitted by their mycelium.
+    spoken_words: 这里是夜光森林，一个被智能真菌统治的萤光世界。
+    title: 夜光森林
+    visual_description: 一个巨大的森林，树木高耸入云，每棵树都发出柔和的萤光，森林中弥漫着一种神秘而宁静的氛围，真菌森林的居民通过化学信号和其菌丝体发出的光芒进行交流。
+  - image: output/1721004603/images/5.png
+    narration: output/1721004603/narration/5.mp3
+    sd_prompt: A winding path composed of countless fungal hyphae, faintly visible
+      under the weak bioluminescence, connects every nook and cranny of the forest.
+      The fungi traverse these pathways for transport and agricultural activities.
+    spoken_words: 这是菌丝之路，真菌王国交通的大动脉。
+    title: 菌丝之路
+    visual_description: 一条由无数菌丝构成的蜿蜒小径，在微弱的萤光下隐约可见，这些菌丝连接着森林中的每一个角落，真菌们沿着这些路径进行运输和农业活动。
+  - image: output/1721004603/images/6.png
+    narration: output/1721004603/narration/6.mp3
+    sd_prompt: '"A sight of an array of countless spore trains composed of rows, gliding
+      slowly along underground tracks, emitting faint sounds. Although invisible to
+      the naked eye, their journeying noises form the symphony of this peculiar world."'
+    spoken_words: 这是地下火车的鸣笛，真菌王国的运输之声。
+    title: 地下火车的鸣笛
+    visual_description: 一列由无数孢子列车组成的景象，这些孢子列车在地下轨道上缓缓行驶，发出细微的声响，虽然无法用肉眼看见，但它们的旅行声构成了这个奇异世界的交响乐。
+- description: Stellarium is a city that orbits a small, dim star, where the inhabitants
+    have genetically modified themselves to thrive in low-light conditions. The city
+    itself is constructed from starship debris and floating space habitats, and it
+    orbits a nebula, giving its inhabitants a constant array of breathtaking cosmic
+    phenomena to observe. Communication is conducted through laser signals and interstellar
+    radio broadcasts.
+  music: output/1721004603/music/2.wav
+  name: 'Stellarium: The Star City'
+  shots:
+  - image: output/1721004603/images/7.png
+    narration: output/1721004603/narration/7.mp3
+    sd_prompt: A city formed by the debris of a spaceship and a floating space station,
+      surrounded by dazzling nebulas, provides residents with endless observing beauty
+      as the ever-changing cosmic phenomena.
+    spoken_words: 欢迎来到星城启示录，这里是一个环绕着微弱恒星的太空城市，居民们经过基因改造，适应了低光环境。
+    title: 星城启示录
+    visual_description: 一个太空船废料和漂浮空间站构成的城市，周围是绚丽的星云，不断变换的宇宙现象为居民们提供了无尽的观测美景。
+  - image: output/1721004603/images/8.png
+    narration: output/1721004603/narration/8.mp3
+    sd_prompt: A resident holds a laser pen and sends laser signals on the streets
+      of Star City, surrounded by blinking space telescopes and receiving antennas,
+      symbolizing interstellar broadcasting.
+    spoken_words: 在星城，通讯方式非常特别，我们使用激光信号和穿越星际空间的无线电波进行交流。
+    title: 星际通讯
+    visual_description: 一个居民手持激光笔，在星城的街道上发送激光信号，周围是闪烁的太空望远镜和接收天线，象征着星际广播。
+  - image: output/1721004603/images/9.png
+    narration: output/1721004603/narration/9.mp3
+    sd_prompt: '"Under the night sky, the Star City, where lights and stars shine
+      together, the outline of the city becomes hazy under the backdrop of starry
+      clouds, as if it were a dream city in the Milky Way."'
+    spoken_words: 每当夜幕降临，星城就会展现出它的魔力，整个城市像是由银河中的星星碎片搭建而成。
+    title: 星城夜景
+    visual_description: 夜幕下的星城，灯光与星空辉映，城市的轮廓在星云的映衬下变得模糊，仿佛是银河中的梦幻城市。

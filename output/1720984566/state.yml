@@ -1,0 +1,118 @@
+directory: '1720984566'
+topics:
+- description: 介绍地球上的奇特景观和自然现象
+  music: output/1720984566/music/0.wav
+  name: 自然奇观
+  shots:
+  - image: output/1720984566/images/1.png
+    narration: output/1720984566/narration/1.mp3
+    sd_prompt: A high-definition lens captures the city's skyscrapers, with brightly
+      lit windows and continuous traffic on the roads. Star trails are clearly visible
+      in the night sky, and the horizon is dotted with lights.
+    spoken_words: 这是一座繁忙的城市，夜幕降临，灯光开始闪烁。
+    title: 城市夜景
+    visual_description: 一个高清镜头展示城市的摩天大楼，窗户灯光通明，道路川流不息。星轨在夜空中清晰可见，天际线被灯光点缀。
+  - image: output/1720984566/images/2.png
+    narration: output/1720984566/narration/2.mp3
+    sd_prompt: A low-angle shot shows the beach, with the sky at dawn bathed in the
+      orange-red radiance of the sun, and waves gently lapping at the shore. The serene
+      and beautiful beach bathed in the dawn light.
+    spoken_words: 太阳即将升起，海滩上空呈现出壮丽的景色。
+    title: 海滩上的日出
+    visual_description: 一个低角度镜头展示海滩，天边被橙红色的日光辉映，海浪轻轻拍打着沙滩。晨曦中的海滩宁静而美丽。
+  - image: output/1720984566/images/3.png
+    narration: output/1720984566/narration/3.mp3
+    sd_prompt: A serene shot shows the interior of the forest, where the trees are
+      lush and green, and sunlight filtered through the leaves casts intricate patterns.
+      Wildlife moves quietly in the distance, and the air is filled with the scent
+      of soil and leaves.
+    spoken_words: 在这片茂密的森林深处，隐藏着自然的秘密。
+    title: 森林深处
+    visual_description: 一个静谧的镜头展示森林内部，树木郁郁葱葱，阳光斑驳地透过树叶。野生动物在远处悄然活动，空气中弥漫着泥土和树叶的气息。
+- description: 探索人类历史中的重要遗迹和遗址
+  music: output/1720984566/music/1.wav
+  name: 历史遗迹
+  shots:
+  - image: output/1720984566/images/4.png
+    narration: output/1720984566/narration/4.mp3
+    sd_prompt: In the morning of the city, the sky at the horizon gradually reveals
+      a pink hue, and the first ray of sunlight falls upon the urban skyline, making
+      the outlines of the tall buildings more distinct. Against the backdrop are the
+      early morning runners on the quiet streets.
+    spoken_words: 1. 城市清晨的宁静。
+    title: 城市的清晨
+    visual_description: 城市的清晨，天边渐渐透出粉色，第一缕阳光洒在都市的天际线，高楼大厦的轮廓开始变得清晰。背景是安静街道上的晨跑者。
+  - image: output/1720984566/images/5.png
+    narration: output/1720984566/narration/5.mp3
+    sd_prompt: On the streets of the city, vehicles flow like a river. Buses, private
+      cars, and motorcycles weave together, showcasing the bustling rhythm of urban
+      life. People's expressions vary; some are focused, while others are weary.
+    spoken_words: 2. 繁忙的交通。
+    title: 交通繁忙
+    visual_description: 城市的街道上，车辆川流不息。公交车、私家车、摩托车交织在一起，展现出都市的繁忙节奏。人们的表情各异，有的专注，有的疲惫。
+  - image: output/1720984566/images/6.png
+    narration: output/1720984566/narration/6.mp3
+    sd_prompt: In the park, the sun shines on the long bench. A young couple with
+      their child is flying a kite on the grass. Far away, an elderly person is practicing
+      Tai Chi, and the children are playing and running after each other. The whole
+      scene is filled with a relaxed and joyful atmosphere.
+    spoken_words: 3. 公园午后的悠闲。
+    title: 公园的午后
+    visual_description: 公园里，阳光照在长椅上，一对年轻夫妻带着孩子在草地上放风筝。远处的老人在打太极，孩子们在嬉戏追逐。整个场景充满了轻松和愉悦的气息。
+- description: 聚焦最新的科技发展和创新应用
+  music: output/1720984566/music/2.wav
+  name: 科技前沿
+  shots:
+  - image: output/1720984566/images/7.png
+    narration: output/1720984566/narration/7.mp3
+    sd_prompt: '"The city at night, with shadows dancing under the street lamps. A
+      faint glimmer of dawn rises along the far horizon, signaling the onset of a
+      new day. The outline of the city becomes increasingly clear against the hazy
+      play of light and shadow."'
+    spoken_words: 1. 城市在黎明前沉默。
+    title: 都市的黎明
+    visual_description: 夜晚的城市，路灯下影影绰绰。远处天际线上升起一条微弱的曙光，预示着新的一天即将开始。城市的轮廓在朦胧的光影中逐渐清晰。
+  - image: output/1720984566/images/8.png
+    narration: output/1720984566/narration/8.mp3
+    sd_prompt: The bustling street, people hurriedly passing by, vehicles weaving
+      in and out. From the coffee shop at the corner wafts a fragrance of coffee,
+      awakening every corner of the street.
+    spoken_words: 2. 喧闹的街道上，生活开始了它的步伐。
+    title: 繁忙街道
+    visual_description: 繁忙的街道，人们匆匆走过，车辆穿梭其间。街角的咖啡店传出一阵飘香的咖啡气味，唤醒了街道的每一个角落。
+  - image: output/1720984566/images/9.png
+    narration: output/1720984566/narration/9.mp3
+    sd_prompt: In the home kitchen, a family sits around the dining table, enjoying
+      breakfast together. Sunlight streams through the windows onto the table, casting
+      golden light that reflects the happy smiles.
+    spoken_words: 3. 在家的温馨角落，一天有了温暖的起点。
+    title: 日常的温馨
+    visual_description: 家中厨房，一家人围坐在餐桌旁，共享早餐。阳光透过窗户洒在餐桌上，金色的光线映照着幸福的笑脸。
+- description: 深入了解各国的文化和传统宝藏
+  music: output/1720984566/music/3.wav
+  name: 文化瑰宝
+  shots:
+  - image: output/1720984566/images/10.png
+    narration: output/1720984566/narration/10.mp3
+    sd_prompt: The skyline of the city is soft in the morning light, with windows
+      on the buildings reflecting warm yellow light. On the streets, the first ray
+      of sunlight falls on a cup of coffee steaming with heat.
+    spoken_words: 第一幕，都市的黎明。晨光熹微，繁忙的都市开始苏醒。
+    title: 都市的黎明
+    visual_description: 城市的天际线在晨曦中柔和，建筑物上的窗户透出暖黄的灯光。街道上，第一缕阳光照射在一杯冒着热气的咖啡上。
+  - image: output/1720984566/images/11.png
+    narration: output/1720984566/narration/11.mp3
+    sd_prompt: The sun sets in the west, and the beach sand by the sea is dyed golden.
+      A couple sits by the sea, gazing at the sunset, holding a flickering small lantern
+      in their hands.
+    spoken_words: 第二幕，海边的落日。余晖洒在海面上，波光粼粼，海鸥在空中盘旋。
+    title: 海边的落日
+    visual_description: 夕阳西下，海边的沙滩被染成金色。一对情侣坐在海边，望着落日，手中拿着一盏闪烁的小灯笼。
+  - image: output/1720984566/images/12.png
+    narration: output/1720984566/narration/12.mp3
+    sd_prompt: Under the night sky, the forest is bathed in a starry glow, with trees
+      casting dancing shadows on the ground. Distant, the faint sound of flowing water
+      can be heard, occasionally punctuated by the chirps of birds breaking the stillness.
+    spoken_words: 第三幕，森林的夜曲。夜晚的森林中，星辰低垂，万籁俱寂。
+    title: 森林的夜曲
+    visual_description: 夜幕下的森林，星光斑驳，树木的影子在地面上摇曳。远处传来微微的流水声，偶尔一两声鸟鸣划破宁静。

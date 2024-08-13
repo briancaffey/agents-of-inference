@@ -1,0 +1,112 @@
+directory: '1721181870'
+lines:
+- content: 特朗普总统，您知道吗，他的大嘴巴啊，有时候真的让人难以忍受。
+  context: 开场白
+  image: output/1721181870/images/1.png
+  narration: output/1721181870/narration/1.mp3
+  sd_prompt: President Trump, do you know? His big mouth, sometimes it's really hard
+    to bear.
+  seed: 1721181871
+  speaker: 小品王
+  visual: 小品王摇头晃脑，手捂嘴巴做惊恐状
+- content: 哦？那你认为谁更好呢？拜登总统？
+  context: 提出反问
+  image: output/1721181870/images/2.png
+  narration: output/1721181870/narration/2.mp3
+  sd_prompt: Oh? Then who do you think is better? President Biden?
+  seed: 1721181870
+  speaker: 笑星李
+  visual: 笑星李眯着眼，做出好奇的样子
+- content: 拜登总统，他的年纪啊，都快赶上咱们国家的人瑞了。
+  context: 调侃拜登年龄
+  image: output/1721181870/images/3.png
+  narration: output/1721181870/narration/3.mp3
+  sd_prompt: President Biden, his age, is almost as old as the centenarians in our
+    country.
+  seed: 1721181871
+  speaker: 小品王
+  visual: 小品王用手比划，做出年纪大的样子
+- content: 对对，而且他还经常忘词，竞选演讲都快成口误集锦了。
+  context: 继续调侃拜登
+  image: output/1721181870/images/4.png
+  narration: output/1721181870/narration/4.mp3
+  sd_prompt: '"Yes, and he often forgets his lines as well. His campaign speeches
+    are almost turning into a collection of verbal errors."'
+  seed: 1721181870
+  speaker: 笑星李
+  visual: 笑星李摆手，做出无奈的表情
+- content: 但是特朗普总统，他的生意头脑，咱们可是得承认，全世界都认可。
+  context: 转而称赞特朗普
+  image: output/1721181870/images/5.png
+  narration: output/1721181870/narration/5.mp3
+  sd_prompt: '"But President Trump, his business acumen, we must admit, is recognized
+    worldwide."'
+  seed: 1721181871
+  speaker: 小品王
+  visual: 小品王拍手，显得非常认同
+- content: 没错，他要是来当总统，咱们中国都得发财。
+  context: 回应小品王的观点
+  image: output/1721181870/images/6.png
+  narration: output/1721181870/narration/6.mp3
+  sd_prompt: '"Yes, if he were to come and be president, we China would all become
+    rich."'
+  seed: 1721181870
+  speaker: 笑星李
+  visual: 笑星李笑容满面，做出发财的姿态
+- content: 但是啊，特朗普总统，他的国际关系处理，有时候也是让人头疼。
+  context: 转折特朗普的缺点
+  image: output/1721181870/images/7.png
+  narration: output/1721181870/narration/7.mp3
+  sd_prompt: But ah, President Trump, his handling of international relations, sometimes
+    also gives people headaches.
+  seed: 1721181871
+  speaker: 小品王
+  visual: 小品王皱眉，做出苦恼的样子
+- content: 那咱们中国呢，两边都得拉拢，两边都得送礼。
+  context: 分析中美关系
+  image: output/1721181870/images/8.png
+  narration: output/1721181870/narration/8.mp3
+  sd_prompt: '"Then, what about our China? We need to court both sides and give gifts
+    to both sides."'
+  seed: 1721181870
+  speaker: 笑星李
+  visual: 笑星李两手一摊，显得无奈
+- content: 哎，这就是政治，没办法的事。
+  context: 感慨政治的复杂性
+  image: output/1721181870/images/9.png
+  narration: output/1721181870/narration/9.mp3
+  sd_prompt: 'Alright, here is the translation in English: "Well, this is politics,
+    it''s just something that can''t be helped."'
+  seed: 1721181871
+  speaker: 小品王
+  visual: 小品王轻叹，摇头
+- content: 对啊，不管怎样，咱们老百姓，还是希望国家安定，生活幸福。
+  context: 回归普通百姓的愿望
+  image: output/1721181870/images/10.png
+  narration: output/1721181870/narration/10.mp3
+  sd_prompt: '"Yes, no matter what, as common people, we still hope for a stable country
+    and a happy life."'
+  seed: 1721181870
+  speaker: 笑星李
+  visual: 笑星李摊手，做出无奈又乐观的样子
+- content: 好，让我们祝福两国人民，都能过上好日子。
+  context: 结束语
+  image: output/1721181870/images/11.png
+  narration: output/1721181870/narration/11.mp3
+  sd_prompt: '好的，让我们祝福两国人民，都能过上好日子.
+
+
+    Translation: "Alright, let us bless both countries'' people to be able to live
+    a good life."'
+  seed: 1721181871
+  speaker: 小品王
+  visual: 小品王举杯，做出祝福的姿态
+- content: 也祝愿我们的节目，越办越好！
+  context: 回应祝福
+  image: output/1721181870/images/12.png
+  narration: output/1721181870/narration/12.mp3
+  sd_prompt: '"Also wishing our program to be better and better!"'
+  seed: 1721181870
+  speaker: 笑星李
+  visual: 笑星李举杯，笑容满面
+music: ''

@@ -1,0 +1,208 @@
+directory: '1721178417'
+lines:
+- content: 哎，各位观众，今天我们俩就来聊聊美国大选这个话题。
+  context: 引入话题
+  image: output/1721178417/images/1.png
+  narration: output/1721178417/narration/1.mp3
+  sd_prompt: '"Wave hand to greet the audience"'
+  seed: 1721178418
+  speaker: 李明亮
+  visual: 摆手致意观众
+- content: 没错，特朗普和拜登俩人谁当总统，对中国来说影响可大可小。
+  context: 切入主题
+  image: output/1721178417/images/2.png
+  narration: output/1721178417/narration/2.mp3
+  sd_prompt: '"Hands crossed in front of the chest"'
+  seed: 1721178417
+  speaker: 王大拿
+  visual: 双手交叉胸前
+- content: 哎，王大拿，你这不是废话么？
+  context: 回应
+  image: output/1721178417/images/3.png
+  narration: output/1721178417/narration/3.mp3
+  sd_prompt: The translation of "摆手表示不耐烦" from Chinese to English is "Shaking the
+    head indicates impatience."
+  seed: 1721178418
+  speaker: 李明亮
+  visual: 摆手表示不耐烦
+- content: 废话？不，这是政治敏感话题。特朗普在位，咱们有贸易战。
+  context: 展开讨论
+  image: output/1721178417/images/4.png
+  narration: output/1721178417/narration/4.mp3
+  sd_prompt: The translation of "摊手表示无奈" from Chinese to English is "to spread one's
+    hands to show helplessness" or "to make a spread-the-fingers gesture to indicate
+    helplessness or resignation." This expression is used to depict a situation where
+    someone is powerless, unable to change a situation, or simply expressing their
+    lack of control over a matter.
+  seed: 1721178417
+  speaker: 王大拿
+  visual: 摊手表示无奈
+- content: 对，对，对，贸易战，汽车被罚，关税高得离谱。
+  context: 接话
+  image: output/1721178417/images/5.png
+  narration: output/1721178417/narration/5.mp3
+  sd_prompt: The translation of "摊手表示无奈" from Chinese to English is "to put one's
+    hands out to show helplessness." This phrase describes a gesture where someone
+    spreads their hands apart, either in front of their body or to the sides, often
+    in a non-aggressive manner, as a way of expressing their inability to do something
+    or their lack of control over a situation. It's akin to the English expression
+    "what can you do?" or "there's nothing I can do about it."
+  seed: 1721178418
+  speaker: 李明亮
+  visual: 摊手表示无奈
+- content: 但是啊，拜登上台，咱们也得小心。
+  context: 转折话题
+  image: output/1721178417/images/6.png
+  narration: output/1721178417/narration/6.mp3
+  sd_prompt: The translation of "挑眉暗示" from Chinese to English is "Raised Eyebrow
+    Implication" or "Brows Raised Implication." This phrase typically refers to an
+    implied or non-verbal communication where someone raises their eyebrows as a way
+    to express surprise, skepticism, curiosity, or even disapproval without using
+    words. The raised eyebrow can be seen as a universal gesture across different
+    cultures.
+  seed: 1721178417
+  speaker: 王大拿
+  visual: 挑眉暗示
+- content: 怎么小心？
+  context: 追问
+  image: output/1721178417/images/7.png
+  narration: output/1721178417/narration/7.mp3
+  sd_prompt: The translation of "皱眉疑问" from Chinese to English is "Brow-furrowing
+    question." This phrase typically refers to a situation where someone is confused
+    or has a doubt, and it is evident from their furrowing brow.
+  seed: 1721178418
+  speaker: 李明亮
+  visual: 皱眉疑问
+- content: 因为拜登要是赢了，对中国来说，咱们就得重新审视跟他的关系了。
+  context: 进一步阐述
+  image: output/1721178417/images/8.png
+  narration: output/1721178417/narration/8.mp3
+  sd_prompt: 'To express uncertainty, one can translate "摊手表示不确定性" into English as
+    "Flopping one''s hands to indicate uncertainty."
+
+
+    In this expression, "摊手" (dān shǒu) means to spread out one''s hands, which is
+    a gesture often used to show that something is unclear or that the person is expressing
+    confusion or disagreement about a particular topic. "表示" (bèi bù qí) means "to
+    indicate" or "to show," and "不确定性" (bùdìng qíxù) translates to "uncertainty."
+    So, the whole phrase describes a visual way of communicating that something is
+    not clear or certain.'
+  seed: 1721178417
+  speaker: 王大拿
+  visual: 摊手表示不确定性
+- content: 哎呀，特朗普至少说话直来直去。
+  context: 总结
+  image: output/1721178417/images/9.png
+  narration: output/1721178417/narration/9.mp3
+  sd_prompt: The translation of "摊手表示无奈" from Chinese to English is "Flat hand gesture
+    to show helplessness."
+  seed: 1721178418
+  speaker: 李明亮
+  visual: 摊手表示无奈
+- content: 对，特朗普，咱们中国人叫他"特没谱"。
+  context: 接话
+  image: output/1721178417/images/10.png
+  narration: output/1721178417/narration/10.mp3
+  sd_prompt: 'To perform the translation task from Chinese to English, I will break
+    down the sentence into its components and translate each part accordingly, then
+    combine them to form a coherent English sentence.
+
+
+    1. 摊手: This is a compound word in Chinese, where 摊 (tān4) means "unfold" or "spread"
+    and 手 (shǒu) means "hand". So, 摊手 (tān shǒu) literally means "spread your hand"
+    or "to spread your hands", which is an action used to express frustration or helplessness.
+
+
+    2. 表示: This is a verb in Chinese that means "to show", "to indicate", or "to express".
+
+
+    3. 无奈: This is an adjective that means "helpless" or "despondent". It is composed
+    of 无 (wú), meaning "without", and 奈 (nài), a verb that means "to bear" or "to
+    endure". So, 无奈 (wúnài) literally means "without (being able to) endure" or "helpless".
+
+
+    Now, combining these components to form an English sentence:
+
+
+    "To spread your hands as a gesture to express helplessness."
+
+
+    This translation conveys the action of spreading one''s hands and the emotional
+    state of being helpless or despondent.'
+  seed: 1721178417
+  speaker: 王大拿
+  visual: 摊手表示无奈
+- content: 拜登呢，拜登谁知道他心里想啥。
+  context: 继续讨论
+  image: output/1721178417/images/11.png
+  narration: output/1721178417/narration/11.mp3
+  sd_prompt: 'To translate the phrase "摊手表示不确定" from Chinese to English, we break
+    it down into its components:
+
+
+    - 摊手 (tān shǒu) - to spread one''s arms out, to gesture with one''s arms spread
+    wide, or to make a gesture of helplessness or uncertainty.
+
+    - 表示 (bì xiǎng) - to indicate, to show, or to express.
+
+    - 不确定 (bù duì bù dìng) - uncertain, unsure, or indecisive.
+
+
+    Putting it together, the translation of "摊手表示不确定" to English is "to gesture with
+    one''s arms spread wide to indicate uncertainty." This phrase describes a common
+    non-verbal communication gesture in which someone spreads their arms out wide,
+    often accompanied by a shrug of the shoulders or a look of confusion or uncertainty,
+    to express that they are unsure or unclear about something.'
+  seed: 1721178418
+  speaker: 李明亮
+  visual: 摊手表示不确定
+- content: 哎，不管了，中国现在最需要的就是，自己强大起来，别管他俩谁赢。
+  context: 总结
+  image: output/1721178417/images/12.png
+  narration: output/1721178417/narration/12.mp3
+  sd_prompt: 'To translate "摊手表示无力" from Chinese to English, you can say:
+
+
+    "Flattening the palms in front of the chest to show helplessness or inability."
+
+
+    This phrase describes a gesture where someone spreads their hands flat in front
+    of their chest as a way of expressing that they are unable to do something or
+    are powerless in a particular situation. This gesture is often used in both Chinese
+    and English-speaking cultures as a non-verbal way to communicate frustration,
+    helplessness, or resignation.'
+  seed: 1721178417
+  speaker: 王大拿
+  visual: 摊手表示无力
+- content: 没错，咱们老百姓，只希望生活安定，别再有啥贸易战了。
+  context: 共鸣
+  image: output/1721178417/images/13.png
+  narration: output/1721178417/narration/13.mp3
+  sd_prompt: 'To translate the given phrase from Chinese to English:
+
+
+    摊手表示希望
+
+
+    The translation would be:
+
+
+    Shrugging indicates hope
+
+
+    Step-by-step explanation:
+
+
+    1. 摊手 (tān shǒu) - This is the verb "to shrug" or "to shrug one''s shoulders."
+
+    2. 表示 (biǎo shì) - This means "to indicate" or "to show."
+
+    3. 希望 (xī wàng) - This means "hope" or "desire."
+
+
+    By translating each word individually and then combining the meanings, we arrive
+    at the English translation "Shrugging indicates hope."'
+  seed: 1721178418
+  speaker: 李明亮
+  visual: 摊手表示希望
+music: ''

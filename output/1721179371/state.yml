@@ -1,0 +1,73 @@
+directory: '1721179371'
+lines:
+- content: 特朗普对中国来说，就像是一把双刃剑。
+  context: 特朗普的政策对中国的既有利也有弊。
+  image: output/1721179371/images/1.png
+  narration: output/1721179371/narration/1.mp3
+  sd_prompt: Zhao Benshan has his hands crossed, with a slight furrow between his
+    brows, looking deep in thought.
+  seed: 1721179372
+  speaker: 赵本山
+  visual: 赵本山双手交叉，眉头微蹙，一副沉思的样子。
+- content: 拜登，那就像是温水，对中国来说，舒服得很。
+  context: 与特朗普相比，拜登的政策对中国来说更温和。
+  image: output/1721179371/images/2.png
+  narration: output/1721179371/narration/2.mp3
+  sd_prompt: Gao Dehang smiled and gently patted Zhao Benshan's shoulder with his
+    hand.
+  seed: 1721179371
+  speaker: 郭德纲
+  visual: 郭德纲微笑着，用手轻轻拍了拍赵本山的肩膀。
+- content: 但是，特朗普的政策，就像是变脸，你永远不知道下一秒他会变成什么样子。
+  context: 特朗普的政策变幻莫测，让人难以捉摸。
+  image: output/1721179371/images/3.png
+  narration: output/1721179371/narration/3.mp3
+  sd_prompt: Zhao Benshan's imitation of a face-changing performance is so fast that
+    it is amazing.
+  seed: 1721179372
+  speaker: 赵本山
+  visual: 赵本山模仿变脸的表演，手速快得惊人。
+- content: 拜登的政策，就像是老朋友，你永远知道他会给你一碗热腾腾的泡面。
+  context: 拜登的政策相对稳定，对中国来说，长期合作的可能性更大。
+  image: output/1721179371/images/4.png
+  narration: output/1721179371/narration/4.mp3
+  sd_prompt: '"Guo Degang is holding a prop that is drawn with instant noodles, and
+    he has a smile on his face."'
+  seed: 1721179371
+  speaker: 郭德纲
+  visual: 郭德纲手拿一个画有泡面的道具，面带微笑。
+- content: 特朗普，他上台的时候，我们都担心，他会不会把中国当成了他的舞伴。
+  context: 特朗普与中国频繁互动，让人猜测他的外交政策。
+  image: output/1721179371/images/5.png
+  narration: output/1721179371/narration/5.mp3
+  sd_prompt: Zhao Benshan exaggeratedly danced a few steps, then helplessly shook
+    his head.
+  seed: 1721179372
+  speaker: 赵本山
+  visual: 赵本山夸张地跳了几下舞步，然后无奈地摇头。
+- content: 拜登上台，我们总算松了口气，他不会把中国当成他的舞伴，但是，他可能会把中国当成他的床伴。
+  context: 拜登的政策相对稳定，不过也可能寻求与中国建立密切关系。
+  image: output/1721179371/images/6.png
+  narration: output/1721179371/narration/6.mp3
+  sd_prompt: '"Guo De Gang used his hands to gesture a sleeping position, and then
+    made a look of resignation."'
+  seed: 1721179371
+  speaker: 郭德纲
+  visual: 郭德纲用手比划了一个睡觉的姿势，然后做出一个无奈的表情。
+- content: 不管是特朗普，还是拜登，对中国来说，都是机会和风险并存。
+  context: 两位候选人的政策对中国都有利有弊。
+  image: output/1721179371/images/7.png
+  narration: output/1721179371/narration/7.mp3
+  sd_prompt: Zhao Benshan spread his hands open, indicating he had no choice.
+  seed: 1721179372
+  speaker: 赵本山
+  visual: 赵本山摊开双手，表示无可奈何。
+- content: 我们只能希望，不管谁当总统，都不要忘了，中国是一个好伙伴，不是吗？
+  context: 希望两位候选人都能认识到中国作为伙伴的重要性。
+  image: output/1721179371/images/8.png
+  narration: output/1721179371/narration/8.mp3
+  sd_prompt: Kong De Gang puts his hands together, expression is sincere.
+  seed: 1721179371
+  speaker: 郭德纲
+  visual: 郭德纲双手合十，表情真诚。
+music: ''

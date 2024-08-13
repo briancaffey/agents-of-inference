@@ -1,0 +1,186 @@
+directory: '1721184315'
+lines:
+- content: 特朗普先生, 您看这场选举, 哪个候选人对中国更有利呢？
+  context: 甲切入话题
+  image: output/1721184315/images/1.png
+  narration: output/1721184315/narration/1.mp3
+  sd_prompt: Mr. Trump, in your view, which candidate would be more favorable to China?
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲手拿麦克风, 面带微笑, 眼神直视乙
+- content: 这个啊, 那我可得好好想想. 特朗普先生, 您觉得呢？
+  context: 乙回应甲的提问
+  image: output/1721184315/images/2.png
+  narration: output/1721184315/narration/2.mp3
+  sd_prompt: 这个啊，那我得好好想想。特朗普先生，您觉得呢？
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙低头沉思, 不时抬头看看甲, 双手交叉在胸前
+- content: 哦, 这个拜登啊, 他那个岁数, 头脑有点糊涂了.
+  context: 甲发表看法
+  image: output/1721184315/images/3.png
+  narration: output/1721184315/narration/3.mp3
+  sd_prompt: Oh, this Biden, he's quite old, his mind is a bit confused.
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲摇头晃脑, 摆出一副长辈的姿态
+- content: 特朗普先生, 您这么说会不会太... 直接了？
+  context: 乙打断甲的话
+  image: output/1721184315/images/4.png
+  narration: output/1721184315/narration/4.mp3
+  sd_prompt: Mr. Trump, don't you think that's a bit... direct?
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙摆出一副无奈的表情, 双手扶额
+- content: 直接？我这叫实事求是. 拜登上台, 那一通贸易战, 让咱中国损失惨重.
+  context: 甲继续发表看法
+  image: output/1721184315/images/5.png
+  narration: output/1721184315/narration/5.mp3
+  sd_prompt: '"Directly? What I mean is to be factual and accurate. With Biden taking
+    office, that trade war caused us China a significant loss."'
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲两手一摊, 显得有些生气
+- content: 那特朗普先生, 您说说, 您上台这几年, 咱中国不是也吃了不少亏吗？
+  context: 乙反驳甲
+  image: output/1721184315/images/6.png
+  narration: output/1721184315/narration/6.mp3
+  sd_prompt: '"So, Mr. Trump, you know, during the time you''ve been in office, hasn''t
+    China also suffered quite a bit?"'
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙站起身来, 显得有些激动
+- content: 这不一样, 拜登... 他那个政策, 咱们摸不着头脑.
+  context: 甲回应乙
+  image: output/1721184315/images/7.png
+  narration: output/1721184315/narration/7.mp3
+  sd_prompt: This is different, Biden... his policy, we can't understand it.
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲摆出一副长者的样子, 摇头晃脑
+- content: 摸不着头脑？那您倒是摸得着啊？
+  context: 乙调侃甲
+  image: output/1721184315/images/8.png
+  narration: output/1721184315/narration/8.mp3
+  sd_prompt: '"Are you confused? Then you are the one who is not confused!"
+
+
+    This Chinese phrase translates to a statement expressing confusion or incredulity
+    in English. The speaker is pointing out that the person they are addressing is
+    the one who is not confused, despite claiming to be so.'
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙撇嘴, 做出一副不屑的表情
+- content: 哎, 我说乙啊, 咱们不扯这些了, 还是谈谈经济合作吧.
+  context: 甲转移话题
+  image: output/1721184315/images/9.png
+  narration: output/1721184315/narration/9.mp3
+  sd_prompt: Ah, I say to you E, let's not talk about these things anymore, let's
+    discuss economic cooperation instead.
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲摆手, 显得有些无奈
+- content: 对对对, 合作是王道. 那特朗普先生, 您觉得哪位候选人能让咱中国的企业有更多发展机会呢？
+  context: 乙顺着甲的话讲
+  image: output/1721184315/images/10.png
+  narration: output/1721184315/narration/10.mp3
+  sd_prompt: '"Yes, yes, yes, cooperation is the way of the powerful. Then, Mr. Trump,
+    do you think which candidate could give our Chinese enterprises more development
+    opportunities?"'
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙点头, 显得很赞同
+- content: 那必须是特朗普先生您啊, 您不是常说, 中国是朋友吗？
+  context: 甲调侃乙
+  image: output/1721184315/images/11.png
+  narration: output/1721184315/narration/11.mp3
+  sd_prompt: That must be Mr. Trump, you. You always say, China is our friend, right?
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲做出一副惊讶的表情, 双手摊开
+- content: 哎呀, 特朗普先生, 您可别开玩笑了.
+  context: 乙回应甲
+  image: output/1721184315/images/12.png
+  narration: output/1721184315/narration/12.mp3
+  sd_prompt: Oh my, Mr. Trump, you shouldn't joke about that.
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙摆手, 显得有些无奈
+- content: 我说的是真的, 中国需要更多的市场, 更需要更多的朋友.
+  context: 甲认真起来
+  image: output/1721184315/images/13.png
+  narration: output/1721184315/narration/13.mp3
+  sd_prompt: What I'm saying is true, China needs more markets, and even more importantly,
+    it needs more friends.
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲挺直身子, 显得很严肃
+- content: 那特朗普先生, 您认为哪位候选人能给中国带来这样的市场呢？
+  context: 乙追问
+  image: output/1721184315/images/14.png
+  narration: output/1721184315/narration/14.mp3
+  sd_prompt: '"So, Mr. Trump, do you think which candidate can bring such a market
+    to China?"'
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙皱眉, 显得很严肃
+- content: 当然是拜登先生了, 他上台, 咱们中国...
+  context: 甲回答乙的问题
+  image: output/1721184315/images/15.png
+  narration: output/1721184315/narration/15.mp3
+  sd_prompt: Of course it's Mr. Biden. Once he takes office, China...
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲停下, 做出一副思考的样子
+- content: 特朗普先生, 您这是什么意思？难道拜登先生对咱中国不利？
+  context: 乙追问
+  image: output/1721184315/images/16.png
+  narration: output/1721184315/narration/16.mp3
+  sd_prompt: Mr. Trump, what do you mean? Are you saying that Mr. Biden is not good
+    for our China?
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙显得有些急躁
+- content: 哎呀, 别急别急, 我说的是, 拜登先生...
+  context: 甲解释
+  image: output/1721184315/images/17.png
+  narration: output/1721184315/narration/17.mp3
+  sd_prompt: Oh dear, don't rush, what I'm saying is, Mr. Biden...
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲摆手, 显得有些无奈
+- content: 特朗普先生, 您倒是说啊, 拜登先生怎么了？
+  context: 乙追问
+  image: output/1721184315/images/18.png
+  narration: output/1721184315/narration/18.mp3
+  sd_prompt: Mr. Trump, what's the matter with Mr. Biden, you haven't said anything
+    yet?
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙显得有些急躁
+- content: 哎呀, 我这不是还没说完嘛. 拜登先生, 他那个政策, 咱摸得着头脑啊.
+  context: 甲补充
+  image: output/1721184315/images/19.png
+  narration: output/1721184315/narration/19.mp3
+  sd_prompt: Ah, I haven't finished speaking yet. Mr. Biden's policy, it's understandable.
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲摊手, 显得有些无奈
+- content: 摸得着头脑？那您倒是摸得着啊？
+  context: 乙调侃甲
+  image: output/1721184315/images/20.png
+  narration: output/1721184315/narration/20.mp3
+  sd_prompt: '"Can you understand what''s going on? Then you can understand it too?"'
+  seed: 1721184315
+  speaker: 乙
+  visual: 乙摊手, 显得有些无奈
+- content: 哎呀, 我说乙啊, 咱们不扯这些了, 还是谈谈经济合作吧.
+  context: 甲转移话题
+  image: output/1721184315/images/21.png
+  narration: output/1721184315/narration/21.mp3
+  sd_prompt: Ah, I said to Yi, let's not talk about these things anymore, let's discuss
+    economic cooperation instead.
+  seed: 1721184316
+  speaker: 甲
+  visual: 甲摆手, 显得有些无奈
+music: ''

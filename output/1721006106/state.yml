@@ -1,0 +1,97 @@
+directory: '1721006106'
+topics:
+- description: A clandestine community of individuals who possess the ability to communicate
+    with pet rocks, fostering a bond that transcends the typical owner-pet relationship.
+    These whisperers can predict their rock's needs, desires, and even future actions,
+    leading to a unique form of companionship.
+  music: output/1721006106/music/0.wav
+  name: Pet Rock Whisperer
+  shots:
+  - image: output/1721006106/images/1.png
+    narration: output/1721006106/narration/1.mp3
+    sd_prompt: The scene shows a telepath sitting in front of a desk, surrounded by
+      a pile of brightly colored stones. She closes her eyes and gently touches one
+      of the stones, her eyes soft and focused. The stone seems to respond to her
+      touch, and a faint melody can be heard in the background.
+    spoken_words: 大家好，现在我将带你们进入一个神秘的世界，这里有一些人被称为'岩石心灵感应者'。他们能够与宠物岩石沟通，建立一种超越普通主人宠物的特殊联系。他们能够预知岩石的需求、愿望，甚至未来的行为，因此他们之间形成了一种独特的友谊。
+    title: 岩石的心灵感应
+    visual_description: 画面呈现一位心灵感应者坐在书桌前，旁边放着一堆五彩斑斓的石头。她闭上眼睛，轻轻抚摸着其中一块石头，眼神温柔而专注。石头似乎在回应她的触摸，背景中隐约传来轻柔的音乐。
+  - image: output/1721006106/images/2.png
+    narration: output/1721006106/narration/2.mp3
+    sd_prompt: The video shows a telepathic person (or clairvoyant) engaged in silent
+      communication with her rock companion. She gently shakes the rock, and the rock
+      seems to mimic the motion of wagging its tail. Walls around the room are adorned
+      with stones of various shapes and sizes, creating a warm and peculiar atmosphere.
+    spoken_words: 在这段视频中，我们将见证一位心灵感应者与她的岩石伙伴之间的互动。
+    title: 岩石的沟通
+    visual_description: 视频显示心灵感应者正在和她的岩石伙伴进行无声的交流。她轻轻地晃动岩石，而岩石似乎在模拟摇尾巴的动作。周围的墙上挂满了不同形状和大小的石头，营造出一种温馨而又奇异的氛围。
+  - image: output/1721006106/images/3.png
+    narration: output/1721006106/narration/3.mp3
+    sd_prompt: The scene shows a rock glowing under the night sky, as if it is telling
+      a mysterious story. A telepath quietly sits beside the rock, gazing up at the
+      stars, as if listening to the secrets of the universe. The light and shadows
+      on the rock sway gently in the wind, creating a surreal dreamlike feel.
+    spoken_words: 想象一下，如果你的宠物不仅能够听懂你的话，还能够告诉你它的梦想。
+    title: 岩石的梦想
+    visual_description: 画面展示一块岩石在夜幕下发光，仿佛它在讲述一个神秘的故事。心灵感应者静静地坐在岩石旁边，抬头仰望星空，似乎在倾听宇宙中的秘密。岩石上的光影随着风轻轻摇曳，营造出一种超现实的梦幻感。
+- description: A group of tattoo artists who specialize in inking vivid, personalized
+    dreamscapes onto their clients' skin. These dreamscapes are designed to be activated
+    through lucid dreaming, providing the wearer with a unique, immersive dream environment
+    that can be triggered and explored at will.
+  music: output/1721006106/music/1.wav
+  name: Dreamscape Tattoo Artists
+  shots:
+  - image: output/1721006106/images/4.png
+    narration: output/1721006106/narration/4.mp3
+    sd_prompt: The camera lens focuses on an exquisite tattoo design, which is composed
+      of flowing stars, flying pterosaurs, and swaying phantasmal trees. It appears
+      to be the entrance to a dream.
+    spoken_words: 今晚，你将进入你的梦境，而你的梦，是由你的梦境刺青所编织。
+    title: 梦境开启
+    visual_description: 镜头聚焦在一幅精致的刺青图案上，图案由流动的星辰、翱翔的翼龙、摇曳的幻树构成，仿佛是梦境的入口。
+  - image: output/1721006106/images/5.png
+    narration: output/1721006106/narration/5.mp3
+    sd_prompt: The scene shows a woman flying in her dream, and behind her is a mysterious
+      starry sky reflected by her exclusive tattoo, with sparkling lights that are
+      captivating.
+    spoken_words: 每一次入梦，都是一次全新的旅程。
+    title: 潜梦之旅
+    visual_description: 画面呈现一位女子在梦中飞翔，她的背后是一片由她专属刺青映射出的神秘星空，光芒闪烁，引人入梦。
+  - image: output/1721006106/images/6.png
+    narration: output/1721006106/narration/6.mp3
+    sd_prompt: The camera shows a tattoo artist in mysterious attire, drawing a delicate
+      dream pattern on a client's skin. Under the light, the pattern seems to come
+      alive.
+    spoken_words: 他们是梦境的织梦人，用刺青勾勒出你的梦之地图。
+    title: 梦境刺青师
+    visual_description: 镜头展示一位身着神秘服装的刺青师，正在为客户绘制一幅精细的梦境图案，灯光下，图案仿佛活了过来。
+- description: A subculture of enthusiasts who seek out and open abandoned time capsules,
+    tracing their histories and uncovering the artifacts left behind by the capsule's
+    creators. These archaeologists engage in a delicate dance of preserving the capsule's
+    contents while studying human history, culture, and nostalgia through the lens
+    of the past.
+  music: output/1721006106/music/2.wav
+  name: Time-Capsule Archaeologists
+  shots:
+  - image: output/1721006106/images/7.png
+    narration: output/1721006106/narration/7.mp3
+    sd_prompt: A mysterious archaeologist stands next to an excavated time capsule,
+      surrounded by scattered old newspapers and yellowed photographs. Light emanates
+      from the capsule, symbolizing the awakening of history.
+    spoken_words: 欢迎来到时光考古学者的世界，我们寻找那些被遗忘的时光胶囊，揭开它们的历史，见证过去的回忆。
+    title: 发现时光胶囊
+    visual_description: 一个神秘的考古学家站在一个被挖掘出的时光胶囊旁边，四周是散落的旧报纸和泛黄的照片，光芒从胶囊上散发出来，象征着历史的觉醒。
+  - image: output/1721006106/images/8.png
+    narration: output/1721006106/narration/8.mp3
+    sd_prompt: An archaeologist carefully opens an ancient time capsule, the items
+      inside like messengers of time, bringing us back to that era.
+    spoken_words: 每一次打开，都是对过去的又一次触摸。这些时光胶囊里藏匿着过去的秘密，等待着我们去发现。
+    title: 胶囊的秘密
+    visual_description: 一个考古学家小心翼翼地打开一个古老的时光胶囊，里面的物品像时光的信使，将我们带回那个时代。
+  - image: output/1721006106/images/9.png
+    narration: output/1721006106/narration/9.mp3
+    sd_prompt: A group of people sits around an open time capsule, closely examining
+      the items inside, as if listening to the voices from long ago.
+    spoken_words: 我们在保存的同时，也在聆听历史的回声。时光胶囊不仅仅是过去的见证，更是对未来的启示。
+    title: 历史的回声
+    visual_description: 一个团队围坐在打开的时光胶囊旁边，仔细研究着里面的物品，仿佛在聆听那些久远时光中的声音。

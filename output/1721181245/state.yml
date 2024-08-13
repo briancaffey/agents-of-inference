@@ -1,0 +1,89 @@
+directory: '1721181245'
+lines:
+- content: 特朗普上台时，美国和中国的关系比较紧张。
+  context: 开场白，引入话题
+  image: output/1721181245/images/1.png
+  narration: output/1721181245/narration/1.mp3
+  sd_prompt: When Trump took office, relations between the United States and China
+    were rather tense.
+  seed: 1721181246
+  speaker: 李伯伯
+  visual: 坐在沙发上，手拿茶杯，表情严肃
+- content: 但是拜登上台后，中美关系缓和了不少。
+  context: 补充观点，表达不同意见
+  image: output/1721181245/images/2.png
+  narration: output/1721181245/narration/2.mp3
+  sd_prompt: But after Biden took office, Sino-American relations have eased significantly.
+  seed: 1721181245
+  speaker: 王叔叔
+  visual: 坐在对面的沙发上，手比划着
+- content: 特朗普的政策对咱们中国来说，不是太好。
+  context: 强调个人观点
+  image: output/1721181245/images/3.png
+  narration: output/1721181245/narration/3.mp3
+  sd_prompt: Trump's policies are not very good for our China.
+  seed: 1721181246
+  speaker: 李伯伯
+  visual: 摇头，表情不满
+- content: 但是，特朗普给美国企业家的政策，对中国企业来说也不是好事。
+  context: 反驳并解释理由
+  image: output/1721181245/images/4.png
+  narration: output/1721181245/narration/4.mp3
+  sd_prompt: But, Trump's policy towards American entrepreneurs is not good news for
+    Chinese enterprises.
+  seed: 1721181245
+  speaker: 王叔叔
+  visual: 摊手，表示无奈
+- content: 拜登的政策相对稳定，对咱们的企业来说，风险小一点。
+  context: 再次强调观点，并提出好处
+  image: output/1721181245/images/5.png
+  narration: output/1721181245/narration/5.mp3
+  sd_prompt: '"Biden''s policies are relatively stable, and for our businesses, the
+    risk is a little lower."'
+  seed: 1721181246
+  speaker: 李伯伯
+  visual: 点头，表情认同
+- content: 但是，拜登的年纪大了，如果当选，他可能只有四年的任期。
+  context: 提出潜在的风险
+  image: output/1721181245/images/6.png
+  narration: output/1721181245/narration/6.mp3
+  sd_prompt: But Biden is getting older, and if he wins the election, he might only
+    have a four-year term.
+  seed: 1721181245
+  speaker: 王叔叔
+  visual: 皱眉，显得有些担忧
+- content: 特朗普上台时，咱们中国的企业还能在海外多关注一些。
+  context: 分析特朗普政策的利弊
+  image: output/1721181245/images/7.png
+  narration: output/1721181245/narration/7.mp3
+  sd_prompt: '"When Trump took office, China''s enterprises could pay more attention
+    to overseas markets."'
+  seed: 1721181246
+  speaker: 李伯伯
+  visual: 手指点着，显得有些得意
+- content: 但是拜登上台，美国可能会重新加入一些国际组织，这可能会限制咱们的海外发展。
+  context: 反驳并提出拜登可能带来的不利
+  image: output/1721181245/images/8.png
+  narration: output/1721181245/narration/8.mp3
+  sd_prompt: But when Biden takes office, America may rejoin some international organizations,
+    which could limit our overseas development.
+  seed: 1721181245
+  speaker: 王叔叔
+  visual: 双手交叉，显得有些担心
+- content: 总之，不管是特朗普还是拜登，都有利有弊。
+  context: 总结观点
+  image: output/1721181245/images/9.png
+  narration: output/1721181245/narration/9.mp3
+  sd_prompt: In summary, whether it's Trump or Biden, there are advantages and disadvantages.
+  seed: 1721181246
+  speaker: 李伯伯
+  visual: 摊手，显得有些无奈
+- content: 那咱们还是希望，美国选举早点儿有个结果。
+  context: 结束语，表达期望
+  image: output/1721181245/images/10.png
+  narration: output/1721181245/narration/10.mp3
+  sd_prompt: '"Then we still hope that the US election will have a result sooner."'
+  seed: 1721181245
+  speaker: 王叔叔
+  visual: 微笑，显得很宽厚
+music: ''

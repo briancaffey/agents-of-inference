@@ -1,0 +1,111 @@
+directory: '1721010137'
+topics:
+- description: A species of chameleons with the unique ability to manipulate time
+    within a limited range. They use this power to blend into the environment, becoming
+    virtually invisible to predators, or to simply enjoy time travel to witness historical
+    events firsthand.
+  music: output/1721010137/music/0.wav
+  name: Chrono-Chameleons
+  shots:
+  - image: output/1721010137/images/1.png
+    narration: output/1721010137/narration/1.mp3
+    sd_prompt: The scene depicts a chameleon-like creature as it hunts, visually blurring
+      the boundary between its body and the historical setting, such as the ancient
+      stone blocks of the Great Wall and the lingering glow of the setting sun. Its
+      body color merges seamlessly with the rocks of the Great Wall, almost distancing
+      itself from reality, leaving only the fluid texture of time fluctuating around
+      it as a symbol of its ability to traverse time.
+    spoken_words: 狩时变色龙在时间之河中轻轻滑行，将自身与周围环境完美融合。
+    title: 狩时变色龙：时间融合
+    visual_description: 画面描绘一只狩时变色龙，其身体在视觉上模糊了与历史场景的界限，例如长城的古朴石块和落日的余晖。它的身体颜色与长城的岩石融为一体，几乎与现实脱离，只剩下流体的时间纹理在它周围波动，象征着它穿越时间的能力。
+  - image: output/1721010137/images/2.png
+    narration: output/1721010137/narration/2.mp3
+    sd_prompt: The camera shows the chameleon-like lizard changing its form in different
+      historical backgrounds, such as battlefields during the Napoleonic Wars, the
+      pyramids of ancient Egypt, and even the skyscrapers of the future city. Its
+      body is like a colorful Rubik's Cube, constantly rearranging itself to adapt
+      to the colors and styles of every era.
+    spoken_words: 在这片由狩时变色龙操控的时间舞台上，历史的风云变幻，成为它们的私人表演。
+    title: 狩时变色龙的时空舞台
+    visual_description: 镜头展示狩时变色龙在不同的历史背景下变换形态，如拿破仑战争中的战场、古埃及的金字塔、甚至是未来的都市天际线。它的身体像是一块色彩斑斓的魔方，不断重组以适应每一个时代的色彩和风格。
+  - image: output/1721010137/images/3.png
+    narration: output/1721010137/narration/3.mp3
+    sd_prompt: In the tranquil night, a hunting tortoise-shell dragon quietly stands
+      under the moonlight, its form blending with the shadows of the surrounding environment.
+      Only the occasional glimmer in its eyes betray its mastery over time. In the
+      background, the outline of historical ruins appears and disappears beneath the
+      moon, as if guardians imbued with the passage of time.
+    spoken_words: 狩时变色龙，这些时间中的隐匿者，在无声的岁月中留下它们的足迹。
+    title: 时间的隐匿者：狩时变色龙
+    visual_description: 一个静谧的夜晚，狩时变色龙静静地站在月光下，它的身形与周围环境的阴影融为一体，只有偶尔闪烁的眼神透露出它对时间的操控。背景中，月光下历史遗迹的轮廓若隐若现，如同时间赋予的守护者。
+- description: Art installations created by sculpting materials that generate sound
+    waves at specific frequencies, creating the illusion of moving objects that emit
+    a high-pitched sonic boom. These sculptures can appear to run, jump, and perform
+    acrobatic feats, leaving onlookers bewildered and entertained.
+  music: output/1721010137/music/1.wav
+  name: Sonic Sculptures
+  shots:
+  - image: output/1721010137/images/4.png
+    narration: output/1721010137/narration/4.mp3
+    sd_prompt: A high-definition camera captures a metal sculpture whose surface has
+      been intricately carved to present a dynamic pose of high-speed running. The
+      sculpture seems to come alive before the audience's eyes, swiftly moving, and
+      the high-frequency sound produced by the friction of its surface forms a strong
+      shockwave in the air.
+    spoken_words: 准备开始第一镜头，幻影疾走。观众围观下，雕塑仿佛拥有生命，快速移动，发出尖锐的声波。
+    title: 幻影疾走
+    visual_description: 一个高清镜头捕捉到一个金属雕塑，表面经过精细雕刻，呈现出高速奔跑的形态。雕塑在观众眼前仿佛活过来，快速移动，其表面摩擦产生的高频声音在空气中形成强烈的声波冲击。
+  - image: output/1721010137/images/5.png
+    narration: output/1721010137/narration/5.mp3
+    sd_prompt: The camera shoots from bottom up, revealing a dynamic flow on the surface
+      of the sculpture. In the stable optical stabilization, the sculpture leaps upward
+      at astonishing speed, like an air ballet. The sound waves produced during the
+      leap resonate with the hearts of the audience.
+    spoken_words: 接下来是第二镜头，空中飞跃。雕塑跃起，仿佛要触摸天空，声波在跳跃中变得更加激昂。
+    title: 空中飞跃
+    visual_description: 镜头从下往上拍摄，雕塑表面展现出跳跃的动感。在稳定的光学稳定中，雕塑以惊人的速度跃起，宛如空中芭蕾，其跳跃过程中产生的声波震动观众的心灵。
+  - image: output/1721010137/images/6.png
+    narration: output/1721010137/narration/6.mp3
+    sd_prompt: The camera quickly captures every movement of the sculpture, with its
+      surface carvings displaying complex motions, including flipping, spinning, and
+      more. Under the stability of visual technology, the sculpture performs extreme
+      acrobatics while the sounds waves emitted by the friction on its surface reach
+      a crescendo, synchronizing with the movements and leaving a profound impact
+      on the viewer.
+    spoken_words: 最后是第三镜头，极限特技。雕塑进行一系列高难度动作，声音越来越响，仿佛是它们动作的真实写照。
+    title: 极限特技
+    visual_description: 镜头快速捕捉雕塑的每一个动作，其表面雕刻呈现出复杂的动作，包括翻转、旋转等。在视觉稳定技术下，雕塑表演极限特技的同时，其表面摩擦发出的声波达到高潮，与动作同步，震撼人心。
+- description: A secretive practice of blending rare and exotic fragrances to create
+    potions that alter the emotional and psychological state of those who inhale their
+    scent. Aroma Alchemists use these potions for personal gain, healing, or to manipulate
+    social situations.
+  music: output/1721010137/music/2.wav
+  name: Aroma Alchemy
+  shots:
+  - image: output/1721010137/images/7.png
+    narration: output/1721010137/narration/7.mp3
+    sd_prompt: An ancient and mysterious laboratory, with dim light, a perfumer in
+      a black robe stands in front of a incense burner emitting alluring light. In
+      his hand, he gently sprinkles several peculiar spices, which intertwine in the
+      air to form a halo.
+    spoken_words: 感受这香气，仿佛带你进入一个神秘的境界。
+    title: 诱惑之香
+    visual_description: 一个古老而神秘的实验室，昏暗的光线中，一位身着黑色长袍的炼香师站在一个散发着诱人光芒的香炉前，手中轻轻挥洒着几种奇异的香料，它们在空中交织，形成一个光环。
+  - image: output/1721010137/images/8.png
+    narration: output/1721010137/narration/8.mp3
+    sd_prompt: In a tranquil garden, a perfumer is focused on concocting his secret
+      perfumes. His movements are graceful and mysterious, and the tools in his hands,
+      used for blending scents, shine faintly in the morning light. The flowers around
+      seem to become more vibrant because of these potions.
+    spoken_words: 这不仅仅是香水，它是心灵的解药。
+    title: 心灵之药
+    visual_description: 在一个宁静的花园里，一位炼香师正在专注地调配着他的秘制药剂。他的动作优雅而神秘，手中的调香工具在晨光中闪着微光。周围的花朵似乎因为这些药剂而更加鲜艳。
+  - image: output/1721010137/images/9.png
+    narration: output/1721010137/narration/9.mp3
+    sd_prompt: In a lavishly decorated living room, a wealthy woman lightly parts
+      her lips, her words revealing a sense of nobility and confidence. A unique fragrance
+      emanates from her person, impossible to ignore. Surrounding her are guests drawn
+      to this scent, whose gaze and speech are softened by its influence.
+    spoken_words: 这香气，可以让你在社交场合中掌握主动权。
+    title: 社交之术
+    visual_description: 在一间装饰华丽的客厅里，一位贵妇人轻启嘴唇，话语间透露着高贵与自信。她的身上散发着一种独特的香气，让人无法忽视。她的身边围绕着一些被这香气吸引的宾客，他们的目光和言语都在这香气的影响下变得柔和。

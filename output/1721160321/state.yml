@@ -1,0 +1,76 @@
+directory: '1721160321'
+lines:
+- content: 哎呀，朋友们，今天咱们聊聊最近网上最火的，AI引起的恐慌，社会都快崩溃了！
+  context: 开场白，引入话题
+  image: output/1721160321/images/1.png
+  narration: output/1721160321/narration/1.mp3
+  sd_prompt: Li Lei exaggeratedly gestured the "collapse" pose with his hands.
+  seed: 1721160322
+  speaker: 李雷
+  visual: 李雷夸张地用手比划着‘崩溃’的姿势
+- content: 王海，你听说了吗？AI开始接管工作了，人类都快失业了！
+  context: 抛出话题
+  image: output/1721160321/images/2.png
+  narration: output/1721160321/narration/2.mp3
+  sd_prompt: Li Lei pointed to the AI icon on the screen with a worried expression.
+  seed: 1721160321
+  speaker: 李雷
+  visual: 李雷表情忧虑地指向屏幕上的AI图标
+- content: 哪有啊，李雷。我倒是觉得AI来了，咱们可以省好多事儿呢。
+  context: 王海反驳
+  image: output/1721160321/images/3.png
+  narration: output/1721160321/narration/3.mp3
+  sd_prompt: '"Wang Hai put on an easygoing demeanor, flipping through the phone."'
+  seed: 1721160322
+  speaker: 王海
+  visual: 王海摆出一副轻松的样子，翻着手机
+- content: 省事儿？你想想，机器人都开始写诗了，我们还写啥！
+  context: 进一步阐述担忧
+  image: output/1721160321/images/4.png
+  narration: output/1721160321/narration/4.mp3
+  sd_prompt: '"Li Lei shook his head, holding a book of poetry in his hands."'
+  seed: 1721160321
+  speaker: 李雷
+  visual: 李雷摇头，手中拿着一本诗集
+- content: 那不是更好吗？我们可以专心搞科研，提高生产效率，多快好省！
+  context: 王海继续坚持自己的观点
+  image: output/1721160321/images/5.png
+  narration: output/1721160321/narration/5.mp3
+  sd_prompt: '"Wang Hai is gesturing with his hands as the gears spin rapidly."'
+  seed: 1721160322
+  speaker: 王海
+  visual: 王海双手比划着飞速旋转的齿轮
+- content: 提高效率？那旅游呢，AI都懂，还要我们去干嘛！
+  context: 李雷强调人文情感的重要性
+  image: output/1721160321/images/6.png
+  narration: output/1721160321/narration/6.mp3
+  sd_prompt: Li Lei shrugged, with a helpless expression.
+  seed: 1721160321
+  speaker: 李雷
+  visual: 李雷摊手，表情无奈
+- content: 那我们可以去创造新的体验啊，AI不可能那么好玩！
+  context: 王海试图调和
+  image: output/1721160321/images/7.png
+  narration: output/1721160321/narration/7.mp3
+  sd_prompt: '"Wang Hai adopts a posture to challenge AI"'
+  seed: 1721160322
+  speaker: 王海
+  visual: 王海摆出挑战AI的姿态
+- content: 哎呀，朋友们，你们说得都对，咱俩观点要是有碰撞，社会就真的崩溃了！
+  context: 幽默总结
+  image: output/1721160321/images/8.png
+  narration: output/1721160321/narration/8.mp3
+  sd_prompt: Li Lei and Wang Hai exchanged a glance and smiled, their expressions
+    exaggerated.
+  seed: 1721160321
+  speaker: 李雷
+  visual: 李雷和王海相视而笑，表情夸张
+- content: 对对对，大家伙儿别吵了，咱们还是坐下来，打两把AI游戏，放松放松吧！
+  context: 幽默转折，避免争吵
+  image: output/1721160321/images/9.png
+  narration: output/1721160321/narration/9.mp3
+  sd_prompt: Wang Hai playfully winked and picked up the game controller.
+  seed: 1721160322
+  speaker: 王海
+  visual: 王海调皮地眨眼，拿起游戏手柄
+music: ''

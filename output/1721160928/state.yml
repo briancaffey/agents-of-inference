@@ -1,0 +1,113 @@
+directory: '1721160928'
+lines:
+- content: 哎呀，朋友们，今天我们俩来聊个新鲜的，说是人工智能这玩意儿，早晚要让人类灭绝！
+  context: 开场白，引入话题
+  image: output/1721160928/images/1.png
+  narration: output/1721160928/narration/1.mp3
+  sd_prompt: Zhang San made exaggerated gestures and his expression was serious.
+  seed: 1721160929
+  speaker: 张三
+  visual: 张三做出夸张的手势，表情严肃
+- content: 李四，你听我说，AI那可是一把双刃剑，用好了是福，用不好...
+  context: 对AI的初步评价
+  image: output/1721160928/images/2.png
+  narration: output/1721160928/narration/2.mp3
+  sd_prompt: Wang Wuyi looks worried, with his hands making cutting motions.
+  seed: 1721160928
+  speaker: 王五
+  visual: 王五一脸担忧，双手比划着剪刀
+- content: 福什么福！我看这是要咱们的老命！看看那些个无人驾驶，一不留神，交通事故一大把！
+  context: 反驳王五，举例AI的负面作用
+  image: output/1721160928/images/3.png
+  narration: output/1721160928/narration/3.mp3
+  sd_prompt: Zhang San shook his head and neck, with exaggerated hand gestures.
+  seed: 1721160929
+  speaker: 张三
+  visual: 张三摇头晃脑，手势夸张
+- content: 那不是AI的问题，是人出了问题，要我说，AI这东西，咱得让它更智能，让人少犯错！
+  context: 重新提出观点，强调AI的潜力
+  image: output/1721160928/images/4.png
+  narration: output/1721160928/narration/4.mp3
+  sd_prompt: Wang Wuyu stood tall and straight, with both hands forming a guiding
+    gesture.
+  seed: 1721160928
+  speaker: 王五
+  visual: 王五站得笔直，双手做出引导状
+- content: 智能？智能个头，看看那些个智能音箱，动不动就把咱家的隐私泄露出去，这叫智能？这是要命！
+  context: 继续反驳，强调安全问题
+  image: output/1721160928/images/5.png
+  narration: output/1721160928/narration/5.mp3
+  sd_prompt: Zhang San made a scared face and pointed at the sky.
+  seed: 1721160929
+  speaker: 张三
+  visual: 张三做出惊恐状，手指指向天空
+- content: 泄露隐私？那你不会把设置改成只有你自己能听见啊？
+  context: 反问，试图转移话题
+  image: output/1721160928/images/6.png
+  narration: output/1721160928/narration/6.mp3
+  sd_prompt: Wang Wubiao threw his hands up, a look of utter helplessness on his face.
+  seed: 1721160928
+  speaker: 王五
+  visual: 王五摊手，一副无奈的样子
+- content: 你可拉倒吧，你见过给自己买个东西还得先给自己设置权限的？
+  context: 调侃回应，再次强调AI失控的担忧
+  image: output/1721160928/images/7.png
+  narration: output/1721160928/narration/7.mp3
+  sd_prompt: Zhang San shook his head and made a face of disdain.
+  seed: 1721160929
+  speaker: 张三
+  visual: 张三摇头，做出鄙视的样子
+- content: 那不是AI的错，是...哎呀，你听我慢慢说，人工智能如果真的发展到那个程度，咱们连反抗的机会都没有了！
+  context: 提出更深的忧虑，强调AI的潜在威胁
+  image: output/1721160928/images/8.png
+  narration: output/1721160928/narration/8.mp3
+  sd_prompt: '"Wang Wu makes a serious expression, and with his hands, he makes a
+    motion of drawing a sword."'
+  seed: 1721160928
+  speaker: 王五
+  visual: 王五做出严肃表情，双手做出比划剑的动作
+- content: 反抗？反抗个头，反抗了也是白搭，你看那些个机器人，那力量，咱能打过？
+  context: 继续强调无力感，用幽默减轻紧张气氛
+  image: output/1721160928/images/9.png
+  narration: output/1721160928/narration/9.mp3
+  sd_prompt: Zhang San is gesturing to resist with his hands, his expression is exaggerated.
+  seed: 1721160929
+  speaker: 张三
+  visual: 张三用手比划着做抵抗的架势，表情夸张
+- content: 张三啊张三，你这是被AI吓傻了，咱们现在不还是在人治社会吗？
+  context: 提醒现实情况，缓和气氛
+  image: output/1721160928/images/10.png
+  narration: output/1721160928/narration/10.mp3
+  sd_prompt: '"Wang Wubei laughs and shakes his head, making a helpless expression."'
+  seed: 1721160928
+  speaker: 王五
+  visual: 王五笑着摇头，做出无奈的表情
+- content: 人治社会？好好治治，治到哪天，咱不就变成AI治社会了？
+  context: 调侃回应，幽默带过话题
+  image: output/1721160928/images/11.png
+  narration: output/1721160928/narration/11.mp3
+  sd_prompt: Zhang San is in a thinking pose, lightly tapping his head with his fingers.
+  seed: 1721160929
+  speaker: 张三
+  visual: 张三做思考状，手指轻敲头部
+- content: 行了行了，不说了不说了，咱们还是谈谈怎么用AI造福人类吧！
+  context: 结束话题，转而积极面对未来
+  image: output/1721160928/images/12.png
+  narration: output/1721160928/narration/12.mp3
+  sd_prompt: 'Wang Wubia shǒu, chū chū xiāng chǎng de dòng zuò.
+
+
+    In English, this translates to: "Wang Wuxie waved his hands and made the motion
+    to end the event."'
+  seed: 1721160928
+  speaker: 王五
+  visual: 王五摆手，做出收场的动作
+- content: 对对对，咱们一起来，用AI的智慧，创造美好的未来！
+  context: 附和结束，共同展望未来
+  image: output/1721160928/images/13.png
+  narration: output/1721160928/narration/13.mp3
+  sd_prompt: Zhang San nodded, making a warm invitation gesture.
+  seed: 1721160929
+  speaker: 张三
+  visual: 张三点头，做出热情的邀请姿态
+music: ''

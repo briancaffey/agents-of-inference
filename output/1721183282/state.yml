@@ -1,0 +1,138 @@
+directory: '1721183282'
+lines:
+- content: 特朗普显然更了解中国，他经常和中国打交道。
+  context: 胖子开场观点
+  image: output/1721183282/images/1.png
+  narration: output/1721183282/narration/1.mp3
+  sd_prompt: Trump obviously has a better understanding of China; he frequently interacts
+    with China.
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子坐姿放松，手托下巴
+- content: 拜登不一样，他是我们传统的民主党的代表，对华政策一贯强硬。
+  context: 瘦子反驳胖子观点
+  image: output/1721183282/images/2.png
+  narration: output/1721183282/narration/2.mp3
+  sd_prompt: Biden is different; he is the traditional representative of the Democratic
+    Party that we see, and his policy towards China has been consistently tough.
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子站姿，手插口袋，表情严肃
+- content: 但是，特朗普对中国可是有好感的。
+  context: 胖子补充
+  image: output/1721183282/images/3.png
+  narration: output/1721183282/narration/3.mp3
+  sd_prompt: '"But Trump has a liking for China."'
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子点头，手指指向天安门
+- content: 拜登呢，他支持一中政策，不会让中国感到自在。
+  context: 瘦子继续反驳
+  image: output/1721183282/images/4.png
+  narration: output/1721183282/narration/4.mp3
+  sd_prompt: '"Where is Biden? He supports the one-China policy and will not make
+    China feel comfortable."'
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子摇头，表情夸张
+- content: 特朗普，他有时候会批评中国，但背后都是生意。
+  context: 胖子再次强调观点
+  image: output/1721183282/images/5.png
+  narration: output/1721183282/narration/5.mp3
+  sd_prompt: Trump, he sometimes criticizes China, but it's all about business behind
+    the scenes.
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子手势夸张，好像在做交易的手势
+- content: 拜登，他对中国贸易强硬，但不会涉及到政治问题。
+  context: 瘦子回应，试图扭转局势
+  image: output/1721183282/images/6.png
+  narration: output/1721183282/narration/6.mp3
+  sd_prompt: Biden, he is tough on China trade, but it will not involve political
+    issues.
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子手势夸张，好像在划界限
+- content: 特朗普是生意人，他懂中国。
+  context: 胖子坚持立场
+  image: output/1721183282/images/7.png
+  narration: output/1721183282/narration/7.mp3
+  sd_prompt: Trump is a businessman, he understands China.
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子摆出一个胜利的手势
+- content: 拜登，他更注重价值观。
+  context: 瘦子试图突出拜登的优势
+  image: output/1721183282/images/8.png
+  narration: output/1721183282/narration/8.mp3
+  sd_prompt: '"Biden, he places more emphasis on values."'
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子两手一摊，表示无奈
+- content: 价值观？在中国眼里，美国所谓的价值观，不都是生意吗？
+  context: 胖子反问，语气讽刺
+  image: output/1721183282/images/9.png
+  narration: output/1721183282/narration/9.mp3
+  sd_prompt: Values? In China's eyes, aren't the so-called values of the United States
+    all about business?
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子摇头，表情夸张
+- content: 但特朗普，他懂啊，他知道在中国做生意，要有一套。
+  context: 瘦子接受胖子的说法，两人开始达成某种共识
+  image: output/1721183282/images/10.png
+  narration: output/1721183282/narration/10.mp3
+  sd_prompt: But Trump, he knows that, he understands that doing business in China
+    requires a special set of skills.
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子点头，好像有所领悟
+- content: 所以，从中国的角度来看，特朗普是懂事的。
+  context: 胖子总结，语气肯定
+  image: output/1721183282/images/11.png
+  narration: output/1721183282/narration/11.mp3
+  sd_prompt: So, from China's perspective, Trump is mature.
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子双手抱胸，一副得意的样子
+- content: 拜登，他虽然不懂做生意，但他有原则。
+  context: 瘦子试图为拜登正名，强调其政治立场
+  image: output/1721183282/images/12.png
+  narration: output/1721183282/narration/12.mp3
+  sd_prompt: Biden, although he may not know how to do business, he has principles.
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子两手举起，好像展示自己的清白
+- content: 原则？在中国，原则是个奢侈品。
+  context: 胖子调侃，再次强调中国的务实态度
+  image: output/1721183282/images/13.png
+  narration: output/1721183282/narration/13.mp3
+  sd_prompt: Principle? In China, a principle is a luxury item.
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子摊手，好像在说无解
+- content: 那我们说到底，还是希望中国好。
+  context: 瘦子试图跳出话题，转而关注中美关系的大局
+  image: output/1721183282/images/14.png
+  narration: output/1721183282/narration/14.mp3
+  sd_prompt: '"At the end of the day, we still hope that China is doing well."'
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子表情认真，好像在做出承诺
+- content: 所以，特朗普，他更懂中国。
+  context: 胖子再次强调，语气坚决
+  image: output/1721183282/images/15.png
+  narration: output/1721183282/narration/15.mp3
+  sd_prompt: Therefore, Trump, he understands China better.
+  seed: 1721183283
+  speaker: 胖子
+  visual: 胖子摆手，好像在说定了
+- content: 拜登，他也有他的好。
+  context: 瘦子认同，语气平和
+  image: output/1721183282/images/16.png
+  narration: output/1721183282/narration/16.mp3
+  sd_prompt: Biden also has his strengths.
+  seed: 1721183282
+  speaker: 瘦子
+  visual: 瘦子点头，表示理解
+music: ''

@@ -1,0 +1,111 @@
+directory: '1721009842'
+topics:
+- description: Sonicorium is a realm where dreams are charged with electricity, allowing
+    inhabitants to control electrical currents in their slumber. Buildings are constructed
+    from neon lights, and citizens communicate through lightning bolts. The challenge
+    lies in navigating the dreamscape without getting zapped.
+  music: output/1721009842/music/0.wav
+  name: 'Sonicorium: The Kingdom of Electric Dreams'
+  shots:
+  - image: output/1721009842/images/1.png
+    narration: output/1721009842/narration/1.mp3
+    sd_prompt: The night sky hung low, and countless neon lights twinkled like stars,
+      lighting up the whole city. On the streets, people exchanged information using
+      a lightning-fast communication method, and the buildings stood like lighthouses,
+      towering over the ocean of electric light.
+    spoken_words: 在这片被电能充盈的梦境王国，我们每个人都是电的掌控者。
+    title: 夜光之城
+    visual_description: 夜幕低垂，无数颗 neon灯如同繁星般闪烁，照亮整个城市。街道上，人们用闪电般的交流方式传递信息，而建筑如同灯塔，矗立在电光的海洋中。
+  - image: output/1721009842/images/2.png
+    narration: output/1721009842/narration/2.mp3
+    sd_prompt: The sky splits open, and lightning resembles silver cords, connecting
+      every corner of the dream. People dance in the electricity, with each bolt of
+      lightning marking a touch of the soul.
+    spoken_words: 在这片神秘的土地上，闪电不仅仅是天空中的一道划痕，而是沟通你我他的一种语言。
+    title: 梦境闪电
+    visual_description: 天空裂开，闪电如同一道道银色的纽带，将梦境中的各个角落连接起来。人们如同在电光中起舞，每一次闪电都是一次心灵的触碰。
+  - image: output/1721009842/images/3.png
+    narration: output/1721009842/narration/3.mp3
+    sd_prompt: Walking along streets interlaced with electromagnetic waves, every
+      gust of wind carries the rhythm of electricity, every step falls in the beat
+      of light. Every corner of the city is a junction of dreams and reality.
+    spoken_words: 在这片电光闪闪的王国，每一次漫步都是一次心灵的旅行。
+    title: 电梦漫步
+    visual_description: 漫步在电波交织的街道上，每一阵风都携带着电的节奏，每一步都踏在光的节拍。城市的每一个角落，都是梦境与现实的交汇点。
+- description: Fossilia is a museum dedicated to preserving the essence of the famous
+    and the infamous through time-freezing technology. Artifacts and diaries are on
+    display, but the real thrill is the chance to meet and converse with historical
+    figures, who are eternally trapped in their frozen moments of glory or scandal.
+  music: output/1721009842/music/1.wav
+  name: 'Fossilia: The Museum of Immortals'
+  shots:
+  - image: output/1721009842/images/4.png
+    narration: output/1721009842/narration/4.mp3
+    sd_prompt: A massive transparent sphere floats in the center, housing a vividly
+      expressive and stately historical figure, such as Napoleon or Marie Antoinette.
+      Gentle lighting encircles the sphere's surface, as if the figure is telling
+      their story and era to the audience. Spectators stand outside the sphere, able
+      to listen to the figure's voice through wireless headphones while visual elements
+      are provided by AI-generated imagery.
+    spoken_words: 在逝去的历史长河中，与名人进行跨越时空的对话。
+    title: 时空对话者
+    visual_description: 一个巨大的透明球体悬浮在中央，球体内是一个表情生动、气度非凡的历史人物，如拿破仑或玛丽·安托瓦内特。球体表面有柔和的灯光环绕，人物似乎在向观众诉说他们的故事和时代。观众站在球体之外，可以通过无线耳机听到人物的声音，而视觉则由AI生成的图像提供。
+  - image: output/1721009842/images/5.png
+    narration: output/1721009842/narration/5.mp3
+    sd_prompt: In the museum, an intelligent holographic projection system is displaying
+      various precious artifacts and documents, such as mummies from ancient Egypt,
+      paintings from the Renaissance period or diaries from the First World War. These
+      artifacts and documents gradually appear under soft lighting, as if telling
+      one lively historical story after another.
+    spoken_words: 见证那些永恒的瞬间，感受历史的温度。
+    title: 永恒的瞬间
+    visual_description: 博物馆内，一个智慧型全息投影系统正在展示各种珍贵的文物和档案，如古埃及的木乃伊、文艺复兴时期的画作或第一次世界大战的日记。这些文物和档案在柔和的灯光下逐渐显现，仿佛在讲述着一个个鲜活的历史故事。
+  - image: output/1721009842/images/6.png
+    narration: output/1721009842/narration/6.mp3
+    sd_prompt: The exhibition area of the museum is designed as a massive ice crystal,
+      within which are displayed the living scenes and significant moments of famous
+      historical figures. Visitors can see these figures as if they are living within
+      the ice crystal, engaged in dialogue and activities through the transparent
+      glass windows. Visitors can also use augmented reality glasses to interact with
+      these historical figures, listening to their thoughts and last words.
+    spoken_words: 在Fossilia博物馆，与历史人物进行一场冰封的对话。
+    title: 冰封的对话
+    visual_description: 博物馆的展览区域被设计为一个巨大的冰水晶，冰水晶内部展示着历史上著名人物的生活场景和重要时刻。参观者通过透明的玻璃窗，可以看到这些人物仿佛在冰晶中生活，进行着他们的对话和活动。参观者可以通过增强现实眼镜，与这些历史人物进行互动，聆听他们的见解和遗言。
+- description: Sylphid Haven is a mystical forest where the air is alive with ethereal
+    voices known as sylphids, whispering ancient secrets and guiding lost souls. Trees
+    here are not just plants but living entities, sharing their wisdom with those
+    who listen. The challenge is to learn to understand the silvery whispers and to
+    not be overwhelmed by the forest's enchanting soliloquies.
+  music: output/1721009842/music/2.wav
+  name: 'Sylphid Haven: The Whispering Forest'
+  shots:
+  - image: output/1721009842/images/7.png
+    narration: output/1721009842/narration/7.mp3
+    sd_prompt: The forest bathed in the dawn, sunlight filtering through the treetops,
+      casting a glow on the face of a traveler who listened quietly. His gaze pierced
+      the forest and met the gaze of a tree spirit nearby. A silvery glow suffused
+      the bark of the tree, as if the words of the tree spirit were turning in the
+      air.
+    spoken_words: 迎接新的一天，听我轻声细语。
+    title: 晨曦之语
+    visual_description: 晨曦映照下的森林，阳光透过树梢，洒在一位旅人安静聆听的脸上。他的目光穿透森林，与一旁的树精对视，树肤上呈现出银白色的光晕，仿佛是树精的话语在空气中流转。
+  - image: output/1721009842/images/8.png
+    narration: output/1721009842/narration/8.mp3
+    sd_prompt: As the sun began to set, a gentle silver light filtered through the
+      dense forest. A traveler sat quietly on an open expanse of land, surrounded
+      by towering trees, and could hear the faint rustling of leaves all around. Closing
+      his eyes, the traveler felt as though he could sense each leaf, as if it were
+      the delicate whisper of an unseen fairy.
+    spoken_words: 在这寂静的角落，倾听自然的心声。
+    title: 林间低语
+    visual_description: 黄昏时分，森林中透出柔和的银光，旅人静静坐在一片开阔地，四周是高耸的树木，树叶间传来细碎的响声。旅人闭上眼睛，仿佛能感受到每一片叶子都像是一位正低声细语的精灵。
+  - image: output/1721009842/images/9.png
+    narration: output/1721009842/narration/9.mp3
+    sd_prompt: Under the night sky, the forest presented a serene scene. Below the
+      moonlight, tree shadows swayed gracefully, and the silver glow danced between
+      the treetops. On a secluded clearing within the forest, a traveler began to
+      dance to the faint music that seemed to lead him, as if the soul of the forest
+      was guiding him, performing a mysterious moonlit dance together.
+    spoken_words: 当夜幕降临，让心灵随着旋律起舞。
+    title: 夜幕轻歌
+    visual_description: 夜幕下的森林呈现出一派宁静，月光下，树影婆娑，银色的光芒在树梢间跳跃。在一片幽静的林间空地上，一位旅人随着若有若无的音乐轻轻起舞，仿佛森林的灵魂在引导着他，共同演绎着一场神秘的月光之舞。

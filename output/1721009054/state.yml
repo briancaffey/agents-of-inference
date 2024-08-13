@@ -1,0 +1,105 @@
+directory: '1721009054'
+topics:
+- description: A drink that, when consumed, alters your perception of sound to that
+    of a flowing river, allowing the drinker to experience the sound of running water
+    constantly in their ears.
+  music: output/1721009054/music/0.wav
+  name: Sonic Beverage
+  shots:
+  - image: output/1721009054/images/1.png
+    narration: output/1721009054/narration/1.mp3
+    sd_prompt: A person sits by the riverbank, watching the clear flowing water and
+      hearing the crisp sound of the water in their ears.
+    spoken_words: 感受大自然潺潺水声，仿佛身临其境。
+    title: 潺潺水声
+    visual_description: 一个人坐在河边，看着清澈的流水，耳边不断传来清脆的流水声。
+  - image: output/1721009054/images/2.png
+    narration: output/1721009054/narration/2.mp3
+    sd_prompt: In the evening, the gentle sound of flowing water along the riverbank
+      is reflected in the moonlight, creating a peaceful atmosphere.
+    spoken_words: 宁静的河岸，流水声伴你入眠。
+    title: 静谧河岸
+    visual_description: 夜晚，河岸边流水声轻轻响起，倒影着月光，营造出宁静的氛围。
+  - image: output/1721009054/images/3.png
+    narration: output/1721009054/narration/3.mp3
+    sd_prompt: 'In Chinese, this sentence says, "With a cup of Sonic Beverage in hand,
+      gently swaying to the rhythm of the water flow sound, it''s as if savoring a
+      flowing piece of music."
+
+
+      Here''s a simpler explanation: Imagine holding a cup with a special drink called
+      Sonic Beverage. You''re swaying it back and forth, like dancing, to the sound
+      of water moving. It feels like you''re enjoying a beautiful song that flows
+      like the water.'
+    spoken_words: 每一口饮料，都像是在品味一首流淌的音符。
+    title: 流淌的音符
+    visual_description: 一杯Sonic Beverage在手，随着水流声的节奏轻轻摇晃，仿佛在品味一杯流动的音乐。
+- description: A species of chameleons that, when in close proximity to humans, change
+    color according to the viewers' emotional states, creating a living, breathing
+    mood indicator for the environment.
+  music: output/1721009054/music/1.wav
+  name: Sleepy Chameleons
+  shots:
+  - image: output/1721009054/images/4.png
+    narration: output/1721009054/narration/4.mp3
+    sd_prompt: A group of lizards dwell around humans, their skin changing color in
+      sync with the emotional fluctuations of the people nearby. The lizards' eyes
+      fixate intently on the facial expressions of the crowd, as if they are deciphering
+      the emotions of those around them. Against a backdrop of a hazy crowd where
+      only the outlines of faces are visible, the lizards' hues shift with the rise
+      and fall of the crowd's mood, presenting a vivid emotional map.
+    spoken_words: 感受周围的情绪变化，看看这些会变色的蜥蜴是怎么反应的。
+    title: 色彩感应师
+    visual_description: 一群蜥蜴栖息在人类的周围，它们的皮肤随着周围人的情绪波动而变换颜色。蜥蜴的眼睛紧盯着人们的脸部表情，仿佛在读取他们的情绪。背景是模糊的人流，只露出脸部的轮廓。蜥蜴的颜色随着人们的情绪高涨或低落而变化，展示出一幅生动的情绪地图。
+  - image: output/1721009054/images/5.png
+    narration: output/1721009054/narration/5.mp3
+    sd_prompt: The close-up shot adheres to the head of a lizard, its eyes fixed on
+      a person who is smiling, and then begins to gradually change colors. The lens
+      slowly zooms out, revealing that more lizards are synchronously undergoing emotional
+      changes, forming a vivid emotional ecosystem. It seems that there is a sense
+      of resonance throughout the air, creating a subtle emotional connection between
+      the lizards and the person.
+    spoken_words: 这些蜥蜴能够同步周围人的情绪，观察一下它们是如何做到的。
+    title: 情绪共鸣
+    visual_description: 特写镜头紧贴着一只蜥蜴的头部，它的眼睛紧盯着一个正在微笑的人，然后开始逐渐改变颜色。镜头缓慢拉远，显示出更多蜥蜴也同步着不同的情绪变化，形成了一个生动的情绪生态系统。周围的空气中似乎弥漫着一种共鸣，蜥蜴与人之间形成了一种微妙的情感联系。
+  - image: output/1721009054/images/6.png
+    narration: output/1721009054/narration/6.mp3
+    sd_prompt: The camera captures scenes of lizards interacting with the crowd, with
+      the lizards' colors changing in sync with the emotional fluctuations of the
+      group. The camera quickly cuts between shots, showcasing the lizards' colors
+      shifting with different moods - from warm yellows to tense greens, and then
+      to calm blues. Finally, the camera freezes on a painting-like scene of the lizards
+      together, seemingly demonstrating to the audience the emotional state of the
+      entire environment.
+    spoken_words: 看看这些会变色的蜥蜴，它们就像一个活的、跳动的环境心情表。
+    title: 环境心情表
+    visual_description: 镜头展示着蜥蜴与人群互动的场景，蜥蜴的色彩随着人群的情绪波动而变化。镜头快速剪辑，呈现出蜥蜴的色彩随着不同情绪的转变，从温馨的黄色到紧张的绿色，再到平静的蓝色。镜头最后定格在蜥蜴们组成的一幅动态情绪画卷上，仿佛在向观众展示整个环境的情绪状态。
+- description: Clocks that, upon being wound, can be set to any time period in history,
+    allowing the user to observe the ticking of time as it was in that era. These
+    clocks do not actually alter the user's reality, but only show past times.
+  music: output/1721009054/music/2.wav
+  name: Time-Shifting Clocks
+  shots:
+  - image: output/1721009054/images/7.png
+    narration: output/1721009054/narration/7.mp3
+    sd_prompt: '"An ancient dial, with the hands pointing to the 19th century, a scholar
+      in long robes is flipping through ancient texts."'
+    spoken_words: 请转动这个古老的表冠，选择您想要回望的年代。
+    title: 往昔的钟声
+    visual_description: 一个古老的表盘，指针指向19世纪，一位穿着长衫的书生正在翻阅古籍。
+  - image: output/1721009054/images/8.png
+    narration: output/1721009054/narration/8.mp3
+    sd_prompt: A massive pocket watch with its hands pointing to the time of World
+      War II, where soldiers are training intensely, set against the background of
+      the roar of approaching bombers.
+    spoken_words: 感受一下这股历史的风，让我们把时钟拨回到那个充满传奇的年代。
+    title: 历史的长河
+    visual_description: 一个巨大的怀表，表针指向二战时期，士兵们在紧张地训练，背景是隆隆的轰炸机声。
+  - image: output/1721009054/images/9.png
+    narration: output/1721009054/narration/9.mp3
+    sd_prompt: A little girl is chasing an old-fashioned bicycle on the stone pavement;
+      the bicycle is carrying a family back from the market. In the background, there
+      are tall chimneys and busy workers.
+    spoken_words: 让我们见证历史的一刻，将时钟设置为那个激荡人心的年代。
+    title: 穿越的见证
+    visual_description: 一个小女孩在石板路上追逐着老式自行车，自行车上载着刚从集市归来的家庭，背景是高耸的烟囱和忙碌的工人。

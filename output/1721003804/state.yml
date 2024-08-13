@@ -1,0 +1,103 @@
+directory: '1721003804'
+topics:
+- description: A mystical forest where trees can communicate with each other through
+    a series of silent whispers. The forest is home to a community of talking plants
+    and animals, and visitors can participate in a silent symphony of nature.
+  music: output/1721003804/music/0.wav
+  name: Whispering Woods
+  shots:
+  - image: output/1721003804/images/1.png
+    narration: output/1721003804/narration/1.mp3
+    sd_prompt: Under a tall ancient tree, several leaves danced lightly with the wind,
+      and sunlight filtered through the leaves and scattered patterns of light on
+      the ground. A small squirrel rubbed against the trunk, as if listening to the
+      tree's whispers. Then, a butterfly fluttered about in the flowers, its wings
+      gently beating, as if adding a touch of life to the serene forest.
+    spoken_words: 树木之间在悄悄交流着...
+    title: 林间低语
+    visual_description: 一棵高大的古树下，几片落叶随风轻舞，阳光透过树叶洒在地面上，形成一个光斑。一只小松鼠在树干上轻轻地蹭了蹭，仿佛在听取树语。然后，一只蝴蝶在花间飞舞，它的翅膀轻轻拍打，似乎在为这静谧的森林增添一份生趣。
+  - image: output/1721003804/images/2.png
+    narration: output/1721003804/narration/2.mp3
+    sd_prompt: The tourists quietly sat under the shade of the trees, closing their
+      eyes, as if they could hear the soft whispers between the leaves and feel every
+      low hum of the wind, every light tap of raindrop. Around them was a silence,
+      only the silent dialogue between trees, plants, and animals composed a beautiful
+      symphony in the woods.
+    spoken_words: 这是大自然的交响乐...
+    title: 林中交响
+    visual_description: 游客们静静地坐在树荫下，闭上眼睛，仿佛能听见树叶间细语，感受着每一声风的低吟，每一滴雨的轻敲。周围是一片寂静，只有树木、植物、动物之间的无声对话，构成了一首动听的林间交响乐。
+  - image: output/1721003804/images/3.png
+    narration: output/1721003804/narration/3.mp3
+    sd_prompt: As the night falls, stars twinkle in the treetops. A beam of moonlight
+      filters through the leaves, casting a glow on the face of a curious child. He
+      turns his ear to the side, as if he can hear the stories of every tree, the
+      dreams of every leaf—a pure natural world, a melody of the forest that can only
+      be felt through the soul.
+    spoken_words: 聆听树木的心声...
+    title: 林源之音
+    visual_description: 夜幕降临，星辰在林梢闪烁，一束月光透过树的缝隙，打在一个好奇的孩子脸上。他侧耳倾听，仿佛能听到每一棵树的故事，每一片叶子的梦想，这是一个纯粹的自然界，一个只能通过心灵去感受的林源之音。
+- description: A dimension where time flows backwards. Events unfold in reverse order,
+    and people can see their futures and recall their pasts with ease. Objects and
+    memories are tangible here, and the concept of causality is reversed.
+  music: output/1721003804/music/1.wav
+  name: Echoes of the Past
+  shots:
+  - image: output/1721003804/images/4.png
+    narration: output/1721003804/narration/4.mp3
+    sd_prompt: The scene shows a train moving slowly backward in the tunnel of spacetime.
+      The iron tracks stretch towards the past, and steam smoke swirls around. Raindrops
+      on the windows slide backward, and the smiles of the passengers fade gradually.
+    spoken_words: 在这逆流的时间维度中，一切都在倒退。
+    title: 逆流时光
+    visual_description: 画面显示一列火车在时空的隧道中慢慢后退，铁轨向过去延伸，蒸汽烟雾缭绕，车窗上的雨滴逆向滑落，乘客的微笑渐渐消失。
+  - image: output/1721003804/images/5.png
+    narration: output/1721003804/narration/5.mp3
+    sd_prompt: The scene shows an old man holding a glowing crystal ball in his hand.
+      Within the ball, it reflects the young version of himself. The old man's eyes
+      reveal a look of nostalgia for the past.
+    spoken_words: 你可以触摸到你的未来，感受它的温暖。
+    title: 未来的回忆
+    visual_description: 画面是一位老人手中拿着一个发光的水晶球，球中映现出年轻时的自己，老人的眼中流露出对过去的追忆。
+  - image: output/1721003804/images/6.png
+    narration: output/1721003804/narration/6.mp3
+    sd_prompt: The scene is of an ancient tree, with the trunk marked by the passage
+      of time, yet the leaves are drifting towards the tree's root, as if time is
+      drawing the leaves back to the past.
+    spoken_words: 在这个维度，物可以依旧，人却可以改变。
+    title: 物是人非
+    visual_description: 画面是一棵古老的树，树干上刻着岁月的痕迹，但树叶却在飘向树的根部，仿佛时间在让树叶返回到过去。
+- description: A subterranean water world where water glows with a bioluminescent
+    light, creating a mesmerizing underwater garden. Fish and other sea creatures
+    have evolved to emit soft, ethereal lights, making nighttime underwater exploration
+    a spectacle of spectral beauty.
+  music: output/1721003804/music/2.wav
+  name: Glimmering Grotto
+  shots:
+  - image: output/1721003804/images/7.png
+    narration: output/1721003804/narration/7.mp3
+    sd_prompt: A snapshot of a tranquil underwater realm aglow with bioluminescent
+      light, establishing an alluring underwater garden. Fish and other marine life
+      emit gentle, ethereal lights, transforming nighttime exploration into a sight
+      of spectral splendor.
+    spoken_words: 这里是璀璨的幽光水境，水中的生物发出荧光，创造出一个令人着迷的水下花园。
+    title: 幽光水境
+    visual_description: A shot of a serene underwater world glowing with bioluminescent
+      light, creating an enchanting underwater garden. Fish and other sea creatures
+      emit soft, ethereal lights, making the nighttime exploration a spectacle of
+      spectral beauty.
+  - image: output/1721003804/images/8.png
+    narration: output/1721003804/narration/8.mp3
+    sd_prompt: A picture of fish gracefully swimming in the water, their bodies casting
+      shimmering light, resembling stars in the night sky.
+    spoken_words: 看那些鱼儿，它们的身姿在水中轻盈舞动，每一尾都仿佛是夜空中最亮的星。
+    title: 幻彩鱼群
+    visual_description: A visual of fish gracefully swimming in the water, their bodies
+      casting shimmering light, resembling stars in the night sky.
+  - image: output/1721003804/images/9.png
+    narration: output/1721003804/narration/9.mp3
+    sd_prompt: A snapshot of coral reefs softly glowing in the bioluminescent light,
+      as if they are the gems of the deep sea.
+    spoken_words: 珊瑚礁在这幽光中绽放，仿佛是海底的宝石。
+    title: 幽光珊瑚
+    visual_description: A shot of coral reefs glowing softly in the bioluminescent
+      light, as if they are the gems of the deep sea.

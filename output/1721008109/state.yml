@@ -1,0 +1,97 @@
+directory: '1721008109'
+topics:
+- description: An alternate dimension where classical fairy tales are real, but the
+    story is told from the perspective of mythical creatures attempting to adapt to
+    the modern world.
+  music: output/1721008109/music/0.wav
+  name: Echoes of the Forgotten Realms
+  shots:
+  - image: output/1721008109/images/1.png
+    narration: output/1721008109/narration/1.mp3
+    sd_prompt: '"Dawn''s Forest," the sprites stand amidst the underbrush, gazing
+      at the distant city. Their wings, barely discernible in the morning mist, gleam
+      faintly, and in their eyes there is a touch of melancholy and resolve.'
+    spoken_words: 新的太阳升起，对人类来说，这是新的一天。但对我们来说，这是又一个挑战。
+    title: 精灵的晨曦
+    visual_description: 晨曦中的森林，精灵站在树丛中，凝视着远方的城市。他们的翅膀在薄雾中微微发光，眼神中带着一丝忧伤和决心。
+  - image: output/1721008109/images/2.png
+    narration: output/1721008109/narration/2.mp3
+    sd_prompt: A mermaid stands at the water's edge, her long hair gleaming in the
+      moonlight, holding a stone as clear as glass in her hand. Her gaze drifts back
+      and forth between the water and the land.
+    spoken_words: 海洋对我来说依旧熟悉，但这个世界的节奏已经变了。我该遵循本能，还是学会呼吸空气？
+    title: 人鱼的选择
+    visual_description: 人鱼站在水边，她的长发在月光下闪闪发光，手中举着一块玻璃般的石头。她的目光在水中与陆地之间游移不定。
+  - image: output/1721008109/images/3.png
+    narration: output/1721008109/narration/3.mp3
+    sd_prompt: Under the setting sun, a giant dragon circled above the towering peaks.
+      Its wings were covered in ancient bronze scales, and its eyes reflected the
+      waning light of day. As its tail swept past an abandoned village, it left a
+      trail of dust in its wake.
+    spoken_words: 时代变迁，古老的传说也成了回忆。但在这遗忘的国度，我们仍然是守护者的角色。
+    title: 巨龙的黄昏
+    visual_description: 夕阳下，一只巨龙盘旋在高高的山峰上。它的翅膀覆盖着古铜色的鳞片，眼中映着即将消逝的日光。它的尾巴轻扫过一片被遗忘的村庄，留下尘埃。
+- description: A universe where every action creates a new timeline, forcing individuals
+    to navigate through a labyrinth of past decisions and the consequences of altering
+    the quantum fabric of reality.
+  music: output/1721008109/music/1.wav
+  name: Quantum Jigsaw
+  shots:
+  - image: output/1721008109/images/4.png
+    narration: output/1721008109/narration/4.mp3
+    sd_prompt: The scene shows a character穿梭 among numerous time lines, each with
+      a different environment and characters, creating a labyrinthine scene that is
+      intricate and complex.
+    spoken_words: 在这个宇宙里，每一个选择都会创造出一个新的时间线。
+    title: 时空拼图：一个行动造就新历史的宇宙
+    visual_description: 画面呈现一名角色在众多时间线之间穿梭，每个时间线上都有不同的环境和人物，形成如迷宫般错综复杂的景象。
+  - image: output/1721008109/images/5.png
+    narration: output/1721008109/narration/5.mp3
+    sd_prompt: The scene shows an intersection where four roads lead to different
+      futures, each with its own outcome.
+    spoken_words: 每个选择都像是一个十字路口，你无法预知未来。
+    title: 决策的十字路口
+    visual_description: 画面展示一个路口，四条道路通向不同的未来，每个未来都有不同的结果。
+  - image: output/1721008109/images/6.png
+    narration: output/1721008109/narration/6.mp3
+    sd_prompt: The screen displays the microscopic structure of quantum fabric, with
+      each point representing a quantum event. Every movement and action of the characters
+      result in changes within this dense cluster of points.
+    spoken_words: 改变现实的每一个小动作，都在量子织构中引发巨大的涟漪。
+    title: 改变现实的量子织构
+    visual_description: 画面展示量子织构的微观结构，每个点代表一个量子事件，角色的一举一动都在这密密麻麻的点中产生变化。
+- description: A world where memories are as tangible as physical objects, allowing
+    individuals to steal, trade, and even erase memories from others, sparking a societal
+    struggle for identity and privacy.
+  music: output/1721008109/music/2.wav
+  name: Tangible Memories
+  shots:
+  - image: output/1721008109/images/7.png
+    narration: output/1721008109/narration/7.mp3
+    sd_prompt: A man mysteriously stood on a dimly lit street with a weathered memory
+      card in his hand, emitting a faint light. On the card, a distant and hazy recollection
+      appeared - a woman's laughter floating in the air. The man quietly observed
+      passersby, waiting for the next transaction.
+    spoken_words: 这是一张记忆的卡片，我想把它卖给您。
+    title: 偷窃的回声
+    visual_description: 一个男人神秘地站在昏暗的街道上，手里拿着一张泛黄的记忆卡片，上面闪烁着微光。卡片上显现出一段遥远而模糊的记忆画面，一个女人的笑容在空中荡漾。男人静静地看着路人，等待着下一个交易。
+  - image: output/1721008109/images/8.png
+    narration: output/1721008109/narration/8.mp3
+    sd_prompt: A man sat in an empty room, gazing at his empty hands. In his eyes
+      was a sense of confusion and pain. His eyes reflected the fragments of memories,
+      but no matter how he tried, he couldn't piece together the whole of his past.
+      In the corner of the room, as if there was an invisible hand whispering, it
+      stole his memories.
+    spoken_words: 我的记忆，不见了。
+    title: 记忆的失窃
+    visual_description: 一个男子坐在空荡荡的房间里，凝视着空无一物的手，眼神中充满了迷茫和痛苦。他的眼中映着回忆的碎片，却怎么也拼凑不起完整的过去。房间的角落里，似乎有无形的手在窃窃私语，偷走了他的记忆。
+  - image: output/1721008109/images/9.png
+    narration: output/1721008109/narration/9.mp3
+    sd_prompt: A person sits in front of the mirror with a bottle of silver-glittering
+      cleaner in hand. He gently pours the liquid in an arc towards the mirror, creating
+      a cascade of white light in the air. Eventually, the droplets fall onto his
+      own reflection in the mirror. As the liquid seeps in, the face in the mirror
+      becomes increasingly blurred, and memories seem to melt away.
+    spoken_words: 您想要一份干净的记忆吗？
+    title: 遗忘的代价
+    visual_description: 一个人坐在镜子前，手中拿着一瓶闪着银光的清洁剂。他对着镜子轻轻地倒出液体的弧线，液体在空中划出一道道白色的光晕，最终滴落在镜子里自己的倒影上。随着液体的渗透，镜子里的面孔逐渐模糊，记忆似乎在消融。

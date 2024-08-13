@@ -1,0 +1,110 @@
+directory: '1721180068'
+lines:
+- content: 特朗普对中国来说是个好总统。
+  context: 小张认为特朗普对中国的利益更有利。
+  image: output/1721180068/images/1.png
+  narration: output/1721180068/narration/1.mp3
+  sd_prompt: '"Little Zhang nodded, with a serious expression."'
+  seed: 1721180069
+  speaker: 小张
+  visual: 小张点头，表情严肃。
+- content: 你说特朗普对中国好？他不是一直在指责我们操纵汇率吗？
+  context: 小李质疑小张的观点。
+  image: output/1721180068/images/2.png
+  narration: output/1721180068/narration/2.mp3
+  sd_prompt: Little Li frowned and crossed her arms on the table.
+  seed: 1721180068
+  speaker: 小李
+  visual: 小李皱眉，双手交叉放在桌上。
+- content: 是啊，但他这么说是为了和中国保持友好关系。
+  context: 小张解释特朗普的策略。
+  image: output/1721180068/images/3.png
+  narration: output/1721180068/narration/3.mp3
+  sd_prompt: '"Little Zhang shrugs, looking a bit helpless."'
+  seed: 1721180069
+  speaker: 小张
+  visual: 小张摊手，显得有些无奈。
+- content: 友好关系？那你没听说过特朗普对中国产品发起的贸易战吗？
+  context: 小李进一步质疑小张的观点。
+  image: output/1721180068/images/4.png
+  narration: output/1721180068/narration/4.mp3
+  sd_prompt: '小李做出翻白眼的动作.
+
+
+    In English, this sentence translates to:
+
+
+    "Little Li made the gesture of rolling her eyes."'
+  seed: 1721180068
+  speaker: 小李
+  visual: 小李做出翻白眼的动作。
+- content: 那是因为他认为那样能给美国带来更多利益。
+  context: 小张继续解释特朗普的政策动机。
+  image: output/1721180068/images/5.png
+  narration: output/1721180068/narration/5.mp3
+  sd_prompt: '小张摆手，似乎在说这不是关键。
+
+
+    Translated to English: "Little Zhang waved his hands, as if saying that this is
+    not the key."'
+  seed: 1721180069
+  speaker: 小张
+  visual: 小张摆手，似乎在说这不是关键。
+- content: 那你看看拜登，他对中国可是言辞激烈，誓要打败中国。
+  context: 小李试图扭转话题，支持拜登的观点。
+  image: output/1721180068/images/6.png
+  narration: output/1721180068/narration/6.mp3
+  sd_prompt: '"Xiao Li waved his hands, looking a bit excited."'
+  seed: 1721180068
+  speaker: 小李
+  visual: 小李挥动双手，显得有些激动。
+- content: 那是因为拜登认为美国应该在国际上保持领导地位。
+  context: 小张试图理解并解释拜登的立场。
+  image: output/1721180068/images/7.png
+  narration: output/1721180068/narration/7.mp3
+  sd_prompt: '小张低头，沉思片刻。
+
+
+    English translation:
+
+
+    Little Zhang bowed his head, and thought for a moment.'
+  seed: 1721180069
+  speaker: 小张
+  visual: 小张低头，沉思片刻。
+- content: 但这对中国来说，真的好吗？拜登的政策可能会让中国陷入孤立。
+  context: 小李继续反驳，强调拜登政策对中国的不利影响。
+  image: output/1721180068/images/8.png
+  narration: output/1721180068/narration/8.mp3
+  sd_prompt: Little Li shrugged, showing a hint of resignation.
+  seed: 1721180068
+  speaker: 小李
+  visual: 小李摊手，显得有些无奈。
+- content: 那对中国来说，特朗普的政策不是更有利吗？
+  context: 小张总结观点，强调特朗普政策对中国的好处。
+  image: output/1721180068/images/9.png
+  narration: output/1721180068/narration/9.mp3
+  sd_prompt: '小张抬起手，做出一个明确的结论。
+
+
+    Translation: Xiao Zhang raised his hand and made a clear conclusion.'
+  seed: 1721180069
+  speaker: 小张
+  visual: 小张抬手，做出一个明确的结论。
+- content: 哈哈，看来小张你是认为中国应该支持对自己更有利的政策了。
+  context: 小李调侃小张的立场。
+  image: output/1721180068/images/10.png
+  narration: output/1721180068/narration/10.mp3
+  sd_prompt: Little Li laughed and shook his head, making a mocking gesture.
+  seed: 1721180068
+  speaker: 小李
+  visual: 小李笑着摇头，做出嘲讽的手势。
+- content: 没错，政治嘛，总是要权衡利弊的。
+  context: 小张回应小李的调侃，依然坚持观点。
+  image: output/1721180068/images/11.png
+  narration: output/1721180068/narration/11.mp3
+  sd_prompt: '"Little Zhang shrugged, appearing somewhat helpless."'
+  seed: 1721180069
+  speaker: 小张
+  visual: 小张耸肩，显得有些无奈。
+music: ''

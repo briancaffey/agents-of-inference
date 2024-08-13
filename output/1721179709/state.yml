@@ -1,0 +1,118 @@
+directory: '1721179709'
+lines:
+- content: 哎，听说咱们要聊美国总统选举？
+  context: 开场白，引出话题
+  image: output/1721179709/images/1.png
+  narration: output/1721179709/narration/1.mp3
+  sd_prompt: '"Take the fan in your hand, smile and watch your opponent."'
+  seed: 1721179710
+  speaker: 李雷
+  visual: 一手拿扇子，笑看对方
+- content: 嗯，是啊，咱们来说说这个选举对咱中国有什么好处。
+  context: 接话，提出具体讨论点
+  image: output/1721179709/images/2.png
+  narration: output/1721179709/narration/2.mp3
+  sd_prompt: Nodding, hand in pocket, eyes full of expectation.
+  seed: 1721179709
+  speaker: 韩梅梅
+  visual: 点头，手插口袋，眼神期待
+- content: 特朗普啊，他要是赢了，咱们中国就是赚到了。
+  context: 开始分析特朗普的优势
+  image: output/1721179709/images/3.png
+  narration: output/1721179709/narration/3.mp3
+  sd_prompt: '"With a flick of the hand, the expression is one of triumph" or "With
+    a flick of the hand, the expression depicts pride and satisfaction."'
+  seed: 1721179710
+  speaker: 李雷
+  visual: 手一挥，表情得意
+- content: 为什么啊？特朗普不是商人吗，他懂什么政治。
+  context: 提出疑问
+  image: output/1721179709/images/4.png
+  narration: output/1721179709/narration/4.mp3
+  sd_prompt: '"Hit the table with your hand, without blinking your eyes."'
+  seed: 1721179709
+  speaker: 韩梅梅
+  visual: 用手拍桌，眼睛一眨不眨
+- content: 因为他务实啊，他管不了多久，最多四年。
+  context: 回应疑问，转折观点
+  image: output/1721179709/images/5.png
+  narration: output/1721179709/narration/5.mp3
+  sd_prompt: '"Shake your head, smile without speaking"'
+  seed: 1721179710
+  speaker: 李雷
+  visual: 摇头，笑而不语
+- content: 那拜登呢？他可是政治老手，他要是上台，咱们中国可就不好说了。
+  context: 分析拜登的潜在风险
+  image: output/1721179709/images/6.png
+  narration: output/1721179709/narration/6.mp3
+  sd_prompt: '"Hold your arms across your chest, with a slight furrow on your brow."'
+  seed: 1721179709
+  speaker: 韩梅梅
+  visual: 双手抱胸，眉头微蹙
+- content: 拜登？他能当上总统？别做梦了，他怎么可能赢过特朗普。
+  context: 打趣拜登的胜选可能性
+  image: output/1721179709/images/7.png
+  narration: output/1721179709/narration/7.mp3
+  sd_prompt: '"Laughing while lifting the head up, clapping hands on the table."'
+  seed: 1721179710
+  speaker: 李雷
+  visual: 仰头大笑，手拍桌子
+- content: 哎，你还别小看了拜登，他要是赢了，咱们得倒大霉。
+  context: 再次强调拜登的潜在风险
+  image: output/1721179709/images/8.png
+  narration: output/1721179709/narration/8.mp3
+  sd_prompt: '"Hands outstretched, expression solemn"'
+  seed: 1721179709
+  speaker: 韩梅梅
+  visual: 双手摊开，表情严肃
+- content: 怎么说？他要是赢了，咱们中国的企业还怎么在美国做生意？
+  context: 反驳，提出具体问题
+  image: output/1721179709/images/9.png
+  narration: output/1721179709/narration/9.mp3
+  sd_prompt: '"Throw your hands up, with a puzzled expression."'
+  seed: 1721179710
+  speaker: 李雷
+  visual: 手一摊，表情疑惑
+- content: 特朗普不一样？他上台不也是各种针对中国企业？
+  context: 反驳李雷的论点
+  image: output/1721179709/images/10.png
+  narration: output/1721179709/narration/10.mp3
+  sd_prompt: '"A smile played on the corners of his lips, and his eyes sparkled with
+    a crafty glint."'
+  seed: 1721179709
+  speaker: 韩梅梅
+  visual: 嘴角一翘，眼神狡黠
+- content: 特朗普啊，他虽然针对，但他讲道理。
+  context: 再次强调特朗普的优势
+  image: output/1721179709/images/11.png
+  narration: output/1721179709/narration/11.mp3
+  sd_prompt: '"Pointing with one hand, with a serious expression."'
+  seed: 1721179710
+  speaker: 李雷
+  visual: 手一指，表情认真
+- content: 那拜登呢？他要是上台，咱们中国可能连道理都讲不明白了。
+  context: 再次强调拜登的危险性
+  image: output/1721179709/images/12.png
+  narration: output/1721179709/narration/12.mp3
+  sd_prompt: '"With a single sweep of their hand, the expression is highly exaggerated."'
+  seed: 1721179709
+  speaker: 韩梅梅
+  visual: 手一挥，表情夸张
+- content: 哎，你说说，这俩人，谁能赢啊？
+  context: 总结话题，发问
+  image: output/1721179709/images/13.png
+  narration: output/1721179709/narration/13.mp3
+  sd_prompt: Shake your head and sigh, touching your chin with your hand.
+  seed: 1721179710
+  speaker: 李雷
+  visual: 摇头叹息，手摸下巴
+- content: 这个啊，咱们拭目以待。
+  context: 不给出明确答案，留下悬念
+  image: output/1721179709/images/14.png
+  narration: output/1721179709/narration/14.mp3
+  sd_prompt: A mysterious smile spreads across their face, accompanied by a quick
+    wave of the hand.
+  seed: 1721179709
+  speaker: 韩梅梅
+  visual: 神秘一笑，手一挥
+music: ''

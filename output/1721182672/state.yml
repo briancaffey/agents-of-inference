@@ -1,0 +1,196 @@
+directory: '1721182672'
+lines:
+- content: 特朗普的贸易政策，对中国好处多。
+  context: 表达了对特朗普贸易政策的看法
+  image: output/1721182672/images/1.png
+  narration: output/1721182672/narration/1.mp3
+  sd_prompt: Trump's trade policy has more advantages for China.
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 脸上带着微笑，手势夸张
+- content: 哦，真的吗？特朗普的政策，让美国工业振兴了，我们中国呢？大量制造业外迁。
+  context: 反驳甲的观点
+  image: output/1721182672/images/2.png
+  narration: output/1721182672/narration/2.mp3
+  sd_prompt: Oh, really? Trump's policies revitalized American industry, but what
+    about us in China? We have seen a massive relocation of manufacturing.
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 表情有些惊讶，双手摆动
+- content: 别急，乙哥。特朗普的关税，让美国企业回流，对中国来说，也是个机会。
+  context: 解释甲的观点
+  image: output/1721182672/images/3.png
+  narration: output/1721182672/narration/3.mp3
+  sd_prompt: Don't rush, E Gong (E哥 is a colloquial term for "E Brother" in Chinese).
+    The tariffs imposed by Trump have the potential to bring American businesses back
+    home, and this presents an opportunity for China as well.
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 摆出一副深思的样子，手指轻敲桌子
+- content: 回流？回流了，中国工人怎么办？机器换人，我们这些蓝领，不就成了历史？
+  context: 表达了对特朗普政策对中国劳动市场的担忧
+  image: output/1721182672/images/4.png
+  narration: output/1721182672/narration/4.mp3
+  sd_prompt: '"Recirculation? Recirculated, what should be done about Chinese workers?
+    Machine replacement, will we blue-collar workers become part of history?"'
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 眉头紧锁，双手放在胸前
+- content: 拜登呢？拜登上台，贸易谈判，中国利益受损。
+  context: 谈论拜登的政策对中国的潜在影响
+  image: output/1721182672/images/5.png
+  narration: output/1721182672/narration/5.mp3
+  sd_prompt: '"Where is Biden? Biden took office, trade negotiations, China''s interests
+    were damaged."
+
+
+    In this sentence, the speaker is asking about the whereabouts of President Joe
+    Biden and then mentioning that as soon as he took office, there were trade negotiations
+    that resulted in China''s interests being harmed.'
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 表情严肃，双手交叉
+- content: 拜登？美国企业，在中国市场，有巨大的潜力和利益。拜登放松贸易限制，对中国企业，不是好事吗？
+  context: 对拜登政策对中国企业的潜在利益进行讨论
+  image: output/1721182672/images/6.png
+  narration: output/1721182672/narration/6.mp3
+  sd_prompt: Biden? American companies have enormous potential and interests in the
+    Chinese market. Wouldn't it be a good thing for Biden to ease trade restrictions
+    on Chinese enterprises?
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 自信地摊开双手，微微点头
+- content: 拜登上台，中国科技，受打压。华为、中兴，美国市场，门儿都没有。
+  context: 谈论拜登对中国高科技企业的潜在政策
+  image: output/1721182672/images/7.png
+  narration: output/1721182672/narration/7.mp3
+  sd_prompt: '"Once Biden takes office, China''s tech sector will be under pressure.
+    Huawei, ZTE, no door for the U.S. market."'
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 表情夸张，摊开双手
+- content: 打压？打压，也是为了保护美国国家安全。中国科技企业，掌握的高科技，确实值得警惕。
+  context: 解释对拜登对中国高科技企业的政策的立场
+  image: output/1721182672/images/8.png
+  narration: output/1721182672/narration/8.mp3
+  sd_prompt: Suppress? Suppressing, it is also for the protection of American national
+    security. Chinese technology enterprises, the high technology they control, is
+    indeed worth being vigilant about.
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 表情认真，双手放在桌子上
+- content: 总结一下，特朗普，对中国好处多。拜登上台，中国利益受损。
+  context: 重申对两位候选人的政策对中国的评估
+  image: output/1721182672/images/9.png
+  narration: output/1721182672/narration/9.mp3
+  sd_prompt: To summarize, Trump benefited China more. With Biden taking office, China's
+    interests are harmed.
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 手指指向乙，表情得意
+- content: 特朗普，对中国好，这是你的观点。但特朗普的贸易战，全球经济，都受到了影响。
+  context: 讨论特朗普贸易战对全球经济的整体影响
+  image: output/1721182672/images/10.png
+  narration: output/1721182672/narration/10.mp3
+  sd_prompt: Trump, is good for China, this is your view. But Trump's trade war, the
+    global economy, have all been affected.
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 摇头，双手抱胸
+- content: 全球经济受影响，这确实。但对中国来说，特朗普的政策，让中国企业，有了重新布局的机会。
+  context: 讨论特朗普政策对中国企业的积极影响
+  image: output/1721182672/images/11.png
+  narration: output/1721182672/narration/11.mp3
+  sd_prompt: The global economy is affected, indeed. However, for China, Trump's policies
+    have provided Chinese enterprises with an opportunity to re-strategize.
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 手势夸张，眼神坚定
+- content: 机会？机会，还是挑战？中国企业，在全球市场的竞争力，是提高了，还是下降了？
+  context: 对特朗普政策提高中国企业全球竞争力的质疑
+  image: output/1721182672/images/12.png
+  narration: output/1721182672/narration/12.mp3
+  sd_prompt: '"Opportunity? Opportunity, or challenge? Is the competitiveness of Chinese
+    enterprises in the global market improved, or decreased?"'
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 皱眉，双手放在桌子上
+- content: 特朗普的政策，让中国，在国际舞台上，有了更多话语权。这是最大的机会。
+  context: 强调特朗普政策对中国在国际舞台上的地位的影响
+  image: output/1721182672/images/13.png
+  narration: output/1721182672/narration/13.mp3
+  sd_prompt: "Trump's policies have given China more influence on the international\
+    \ stage. This is the biggest opportunity. \n\n(Note: It's important to note that\
+    \ the translation provided is a direct translation from the given Chinese text.\
+    \ The context of the statement implies a potentially positive view of Trump's\
+    \ policies from the perspective of China gaining more influence. However, it's\
+    \ widely debated and discussed in international relations and politics whether\
+    \ Donald Trump's presidency actually led to China gaining more influence on the\
+    \ international stage, and to what extent this is considered a \"biggest opportunity.\"\
+    )"
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 自信地一挥手
+- content: 话语权？话语权，是说了算吗？美国大选，中国，只是一个观察者。
+  context: 对特朗普政策下中国在国际舞台上的实际影响力的质疑
+  image: output/1721182672/images/14.png
+  narration: output/1721182672/narration/14.mp3
+  sd_prompt: '"Hearse power? Hearsay power, is it the one who counts? The US presidential
+    election, China, just a spectator."
+
+
+    Please note that this translation does not accurately convey the nuances of the
+    original Chinese text, especially considering the context of political commentary.
+    The original text more likely would be translated as:
+
+
+    "Hearse power? Having the power to speak, does that mean you get your way? The
+    US presidential election, China, is just an observer."
+
+
+    This translation attempts to better capture the meaning of the original text,
+    which is questioning the notion of having "hearse power" or "hearse say" (a colloquial
+    expression in Chinese, loosely translated as "the power to speak" or "the ability
+    to influence the narrative") and its direct correlation to getting one''s way,
+    particularly in reference to the US presidential election where China is mentioned
+    as a country observing the event rather than a participant with significant influence.'
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 摇头，双手做出观察者的姿势
+- content: 美国大选，不管谁赢，对中国来说，都是选择。我们，要抓住这个机会。
+  context: 总结对美国大选对中国机遇的看法
+  image: output/1721182672/images/15.png
+  narration: output/1721182672/narration/15.mp3
+  sd_prompt: '"The US election, regardless of who wins, is a choice for China. We
+    must seize this opportunity."'
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 表情认真，手指指向乙
+- content: 抓住机会？机会，也要看怎么抓。特朗普，还是拜登，对中国来说，都是挑战。
+  context: 提出对特朗普和拜登候选下中国面临的挑战的看法
+  image: output/1721182672/images/16.png
+  narration: output/1721182672/narration/16.mp3
+  sd_prompt: '"Catch the opportunity? Opportunities, too, depend on how they are seized.
+    Whether it''s Trump or Biden, both pose challenges to China."'
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 点头，双手放在胸前
+- content: 挑战？挑战，也是机遇。我们要有准备，有对策，才能抓住机遇。
+  context: 强调对中国应对挑战的准备和策略的重要性
+  image: output/1721182672/images/17.png
+  narration: output/1721182672/narration/17.mp3
+  sd_prompt: '"Challenge? Challenge is also an opportunity. We must be prepared and
+    have strategies in place in order to seize the opportunity."'
+  seed: 1721182673
+  speaker: 相声演员甲
+  visual: 相声演员甲, 手势夸张，眼神坚定
+- content: 准备，对策，这都是我们该做的。不管特朗普，还是拜登，中国，都要自强。
+  context: 总结对中国应对挑战的自强策略
+  image: output/1721182672/images/18.png
+  narration: output/1721182672/narration/18.mp3
+  sd_prompt: Preparation, countermeasures, these are things we should do. Whether
+    it's Trump, Biden, China, we must strengthen ourselves.
+  seed: 1721182672
+  speaker: 相声演员乙
+  visual: 相声演员乙, 点头，双手抱胸
+music: ''

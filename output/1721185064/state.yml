@@ -1,0 +1,113 @@
+directory: '1721185064'
+lines:
+- content: 特朗普说他很欣赏中国，中国也很欣赏他。
+  context: 张三开场白，调侃特朗普对中国的好感。
+  image: output/1721185064/images/1.png
+  narration: output/1721185064/narration/1.mp3
+  sd_prompt: Trump said that he admires China, and China also admires him.
+  seed: 1721185065
+  speaker: 张三
+  visual: 张三夸张地眨眼，暗示特朗普的言论。
+- content: 我听说他还要给中国建个白宫呢。
+  context: 张三继续调侃，指特朗普曾提到要在中国建白宫。
+  image: output/1721185064/images/2.png
+  narration: output/1721185064/narration/2.mp3
+  sd_prompt: '"I heard that he still wants to build a White House for China."'
+  seed: 1721185064
+  speaker: 张三
+  visual: 张三做出一副惊讶的表情，摊开双手。
+- content: 那是他的口头禅，我们都没当真。
+  context: 李四打趣，指出特朗普的言论不可信。
+  image: output/1721185064/images/3.png
+  narration: output/1721185064/narration/3.mp3
+  sd_prompt: That is his catchphrase, and we didn't take it seriously.
+  seed: 1721185065
+  speaker: 李四
+  visual: 李四摇头，表情无奈。
+- content: 拜登就不同了，他上台后，中美关系一直紧张。
+  context: 张三转而讨论拜登，提到中美关系紧张。
+  image: output/1721185064/images/4.png
+  narration: output/1721185064/narration/4.mp3
+  sd_prompt: '"Biden is different, after he took office, Sino-US relations have been
+    tense."'
+  seed: 1721185064
+  speaker: 张三
+  visual: 张三皱眉，做出一副担忧的表情。
+- content: 是啊，中国当然希望拜登能赢。
+  context: 李四幽默回应，暗示中国希望拜登胜选，以维持紧张关系。
+  image: output/1721185064/images/5.png
+  narration: output/1721185064/narration/5.mp3
+  sd_prompt: '"Yes, China certainly hopes that Biden can win."'
+  seed: 1721185065
+  speaker: 李四
+  visual: 李四微笑，做出一副得意洋洋的样子。
+- content: 因为特朗普一上台，我们就赚翻了。
+  context: 张三继续调侃，指出特朗普上台对中国经济有利。
+  image: output/1721185064/images/6.png
+  narration: output/1721185064/narration/6.mp3
+  sd_prompt: '"We made a killing as soon as Trump took office."'
+  seed: 1721185064
+  speaker: 张三
+  visual: 张三摊手，仿佛在说一切尽在掌握之中。
+- content: 拜登要是上台，我们就要勒紧裤腰带了。
+  context: 李四接着张三的话说，提到拜登上台对中国经济的挑战。
+  image: output/1721185064/images/7.png
+  narration: output/1721185064/narration/7.mp3
+  sd_prompt: If Biden were to take office, we would have to tighten our belts.
+  seed: 1721185065
+  speaker: 李四
+  visual: 李四用手比划紧裤腰带的样子，表情严肃。
+- content: 那不如我们给拜登发个红包，让中美关系和和气气。
+  context: 张三提出一个幽默的建议，用红包来缓和中美关系。
+  image: output/1721185064/images/8.png
+  narration: output/1721185064/narration/8.mp3
+  sd_prompt: '"Well, let''s then send a red envelope to Biden to make the Sino-US
+    relations peaceful and harmonious."'
+  seed: 1721185064
+  speaker: 张三
+  visual: 张三做出一个发红包的动作，表情滑稽。
+- content: 这个主意不错，我们还可以写封信，建议他多学学中文。
+  context: 李四接上话，建议拜登多学中文，以便更好地与中国沟通。
+  image: output/1721185064/images/9.png
+  narration: output/1721185064/narration/9.mp3
+  sd_prompt: This idea is good. We can also write a letter to suggest that he study
+    more Chinese.
+  seed: 1721185065
+  speaker: 李四
+  visual: 李四翻开一本中文书，表情认真。
+- content: 这样他就不会说出"从实力的地位出发和中国谈话"这种话了。
+  context: 张三调侃拜登曾说过的这句话，指出其外交失误。
+  image: output/1721185064/images/10.png
+  narration: output/1721185064/narration/10.mp3
+  sd_prompt: '"He will no longer say things like ''talking with China from the position
+    of power based on our strength.''"'
+  seed: 1721185064
+  speaker: 张三
+  visual: 张三做出一副恍然大悟的样子，摇头叹息。
+- content: 嗯，我们应该感谢他说的这段话，让我们这么多年的努力宣传都白费了。
+  context: 李四幽默回应，提到拜登的话让中国的宣传努力变得徒劳。
+  image: output/1721185064/images/11.png
+  narration: output/1721185064/narration/11.mp3
+  sd_prompt: Well, we should thank him for what he said, as it made all our years
+    of effort to promote it go to waste.
+  seed: 1721185065
+  speaker: 李四
+  visual: 李四摆出一副无奈的表情，两手一摊。
+- content: 不过，我们还是要认真投票，选一个对中国更有利的总统。
+  context: 张三总结，提醒观众要严肃对待投票，选择对中国有利的总统。
+  image: output/1721185064/images/12.png
+  narration: output/1721185064/narration/12.mp3
+  sd_prompt: However, we still need to vote seriously and elect a president who is
+    more beneficial to China.
+  seed: 1721185064
+  speaker: 张三
+  visual: 张三严肃地举起拳头，表情认真。
+- content: 毕竟，不管哪个上台，中国都是赢家。
+  context: 李四以一句幽默的总结结束对话，强调中国在国际政治中的地位。
+  image: output/1721185064/images/13.png
+  narration: output/1721185064/narration/13.mp3
+  sd_prompt: After all, whoever takes office, China is the winner.
+  seed: 1721185065
+  speaker: 李四
+  visual: 李四得意地耸肩，做出一副无所谓的样子。
+music: ''

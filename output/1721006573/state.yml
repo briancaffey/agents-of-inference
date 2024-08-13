@@ -1,0 +1,100 @@
+directory: '1721006573'
+topics:
+- description: A hidden dimension where the laws of physics are governed by the spectral
+    harmonics of various electronic devices, allowing individuals to harness the power
+    of digital frequencies for superhuman feats.
+  music: output/1721006573/music/0.wav
+  name: Sonicorium Spectralis
+  shots:
+  - image: output/1721006573/images/1.png
+    narration: output/1721006573/narration/1.mp3
+    sd_prompt: The screen presents an eerie space filled with floating glowing electronic
+      components. Light bends and reflects within the space, creating a dazzling array
+      of colors and spectra. A well-trained warrior is drawing energy from a device,
+      his body enveloped in streams of energy that resemble electronic waves, as if
+      he is dancing in tandem with these light waves.
+    spoken_words: 欢迎来到超频之境，一个由电子设备 spectral harmonics 支配物理法则的世界。
+    title: 超频之境
+    visual_description: 画面展示一个奇异的空间，到处漂浮着发光的电子元件，光线在空间内扭曲反射，形成绚丽的色彩和光谱。一位训练有素的战士正从一台设备中汲取能量，他的身体被电子波般的能量流包裹，仿佛他正在与这些光波共舞。
+  - image: output/1721006573/images/2.png
+    narration: output/1721006573/narration/2.mp3
+    sd_prompt: A warrior hovers in the air, encircled by high-frequency electromagnetic
+      waves around his body. His fingers lightly touch a blinking modem, instantly
+      releasing a series of light arrows that pierce through the unidentified creature
+      in front of him. The creature trembles in the high-frequency light waves, ultimately
+      disintegrating into nothingness.
+    spoken_words: 在这个世界，每个人都有可能变成频率战士。
+    title: 频率战士
+    visual_description: 战士悬浮在空中，身体周围环绕着高频的电子波，他的手指轻触一个闪烁的调制解调器，瞬间释放出一道道光箭，穿透前方的不明生物，生物在高频的光波中颤抖，最终灰飞烟灭。
+  - image: output/1721006573/images/3.png
+    narration: output/1721006573/narration/3.mp3
+    sd_prompt: The scene focuses on an army composed of a group of frequency warriors,
+      encircling a massive crystal. The crystal emits a soft blue light, and the warriors
+      absorb energy through the crystal. Their bodies begin to glow, creating a light
+      shield that protects the precious crystal within.
+    spoken_words: 在光谱的每一端，都有可能创造出奇迹。
+    title: 光谱奇迹
+    visual_description: 画面聚焦在一群频率战士组成的军队，他们围绕着一块巨大的晶片，晶片发出柔和的蓝光，战士们通过晶片吸收能量，身体开始发光，形成一个光罩，保护着内部珍贵的晶片。
+- description: A network of cavernous labyrinths located on dormant moons, where ancient
+    alien civilizations left behind their forgotten technology and secrets, now accessible
+    only to those who can navigate the labyrinth's cryptic riddles.
+  music: output/1721006573/music/1.wav
+  name: Lunar Labyrinth of the Dormant Moons
+  shots:
+  - image: output/1721006573/images/4.png
+    narration: output/1721006573/narration/4.mp3
+    sd_prompt: A tranquil shot, showcasing an exploration team traversing a vast cave
+      teeming with remnants of an ancient extraterrestrial civilization. The camera
+      focuses on the team leader's helmet lamp, illuminating the path ahead.
+    spoken_words: 探索古老的遗迹，揭开月之迷宫的秘密。
+    title: 秘境启航
+    visual_description: 一个静谧的镜头，展示一个探险队穿越一个巨大的、布满古代外星文明的遗迹的洞穴。镜头聚焦于队长的头盔式灯具，照亮前方的路。
+  - image: output/1721006573/images/5.png
+    narration: output/1721006573/narration/5.mp3
+    sd_prompt: The explorer paused at the fork in the Labyrinth of the Moon, gazing
+      at the riddle etched on the wall as if time had stood still. The wall bore enigmatic
+      symbols, some of which were enhanced by a light and shadow effect that mimicked
+      the mysterious glow of ancient script.
+    spoken_words: 解开月之迷宫中的古老谜题，才能继续你的旅程。
+    title: 谜题之中
+    visual_description: 探险者在月之迷宫的岔路前停下，他们凝视着墙壁上的谜题，仿佛时间都静止了。墙上刻着谜一样的符号，一些光影效果模拟着古代文字的神秘光芒。
+  - image: output/1721006573/images/6.png
+    narration: output/1721006573/narration/6.mp3
+    sd_prompt: The camera shows the interior of a huge cave, suddenly, the stone slabs
+      on the walls slide open slowly, revealing a deep and mysterious treasure pit.
+      The camera zooms out, the treasure pit gleams with ancient and mysterious light,
+      casting shadows on the explorers.
+    spoken_words: 这里藏有古代文明的宝藏和秘密，等待有缘人发现。
+    title: 宝藏揭示
+    visual_description: 镜头展示一个巨大的洞穴内部，突然，墙壁上的石板缓缓移开，露出一个深邃的宝藏坑。镜头拉远，宝藏坑中闪烁着古老而神秘的光芒，映照着探险者们的身影。
+- description: An underground city built by sentient fungi that manipulate time and
+    space, allowing them to travel through different eras and plant spores that can
+    alter the course of history, forcing visitors to navigate through a fungal maze
+    that changes with the seasons.
+  music: output/1721006573/music/2.wav
+  name: Chrono-Fungal Fungalopolis
+  shots:
+  - image: output/1721006573/images/7.png
+    narration: output/1721006573/narration/7.mp3
+    sd_prompt: A dim underground passage, filled with spores that moisten the air,
+      in front of the passage is an ancient door of fungal mycelium.
+    spoken_words: 欢迎来到时光迷宫，我们即将带你穿越时空，见证历史的一刻。
+    title: 时光迷宫序章
+    visual_description: 一个昏暗的地下通道，空气中弥漫着潮湿的孢子，通道前方是一个由菌丝构成的古老门扉。
+  - image: output/1721006573/images/8.png
+    narration: output/1721006573/narration/8.mp3
+    sd_prompt: A labyrinth that is intricate and complex, with walls formed by ever-changing
+      mycelium, sunlight filtering through the huge mushrooms above and scattering
+      on the ground, and in the labyrinth there floats the dust of history.
+    spoken_words: 注意，迷宫正在变形，选择你的路径，以免迷失方向。
+    title: 时空变奏曲
+    visual_description: 一个错综复杂的迷宫，墙壁由变化多端的菌丝构成，阳光透过上方巨大的蘑菇，洒在地面上，迷宫中飘散着历史的尘埃。
+  - image: output/1721006573/images/9.png
+    narration: output/1721006573/narration/9.mp3
+    sd_prompt: An explorer holds a weak torch, cautiously weaving through a labyrinth
+      that is constantly changing, with fungal filaments around him that alternately
+      take on the appearance of an ancient civilization's features and then transform
+      back into the likeness of a medieval castle.
+    spoken_words: 我们的每一个决定都可能影响历史的走向，让我们谨慎前行。
+    title: 历史的选择
+    visual_description: 一位探险者手持微弱的火把，小心翼翼地穿梭于不断变化的迷宫中，四周的菌丝时而呈现出古代文明的风貌，时而又变回中世纪的城堡。

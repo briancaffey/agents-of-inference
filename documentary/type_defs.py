@@ -16,9 +16,9 @@ class Topics(BaseModel):
 
 
 class Shot(BaseModel):
-    title: str = None
-    visual_description: str = None
-    spoken_words: str = None
+    title: str = Field(description="A title for the given shot")
+    visual_description: str = Field(description="A visual description of the shot")
+    spoken_words: str = Field(description="The spoken words to be used for the shot")
 
 
 class Shots(BaseModel):

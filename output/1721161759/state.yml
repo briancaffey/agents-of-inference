@@ -1,0 +1,108 @@
+directory: '1721161759'
+lines:
+- content: 哎呀，朋友们，今天我们俩一上台，就能感觉到空气中弥漫着一股 AI 的味道。
+  context: 张三开场调侃 AI 的影响。
+  image: output/1721161759/images/1.png
+  narration: output/1721161759/narration/1.mp3
+  sd_prompt: Zhang San puts on an exaggerated smelling pose.
+  seed: 1721161760
+  speaker: 张三
+  visual: 张三摆出一副夸张的嗅闻姿态。
+- content: 哎，李四，你闻到了吗？这社会，现在不靠人靠 AI，你说能行吗？
+  context: 张三调侃李四。
+  image: output/1721161759/images/2.png
+  narration: output/1721161759/narration/2.mp3
+  sd_prompt: Zhang San gave Li Si a look, Li Si shook his head indicating that he
+    didn't smell anything.
+  seed: 1721161759
+  speaker: 张三
+  visual: 张三朝李四使眼色，李四摇头表示没闻到。
+- content: 没有，我说张三，咱们快说正事儿吧，这 AI 一来，多少人得失业啊！
+  context: 李四提醒张三转移话题。
+  image: output/1721161759/images/3.png
+  narration: output/1721161759/narration/3.mp3
+  sd_prompt: Li Si waved his hands to indicate that Zhang San should speak the main
+    topic quickly, and Zhang San nodded.
+  seed: 1721161760
+  speaker: 李四
+  visual: 李四摆手示意张三快说正题，张三点头。
+- content: 这不，昨天我听说啊，连交警都让 AI 取代了，现在都是无人驾驶，路上连交警叔叔都不见了。
+  context: 张三举例AI取代职业的情况。
+  image: output/1721161759/images/4.png
+  narration: output/1721161759/narration/4.mp3
+  sd_prompt: Zhang San is exaggerating by gesturing with his hands at the scene of
+    autonomous driving and the absence of traffic cops.
+  seed: 1721161759
+  speaker: 张三
+  visual: 张三夸张地用手比划着无人驾驶和不见交警的场景。
+- content: 那交警失业了，交通事故不就更多了吗？这 AI 真能把社会带向何方啊？
+  context: 李四担忧AI带来的社会问题。
+  image: output/1721161759/images/5.png
+  narration: output/1721161759/narration/5.mp3
+  sd_prompt: Li Si furrows his brow and makes a thinking gesture, Zhang San exaggerates
+    his expression by shaking his head.
+  seed: 1721161760
+  speaker: 李四
+  visual: 李四皱眉做出思考状，张三表情夸张地摇头。
+- content: 别担心，李四，你看这 AI 连交通事故都开始预测了，那咱们以后不就有个 "预知" 交警了吗？
+  context: 张三试图幽默地化解李四的担忧。
+  image: output/1721161759/images/6.png
+  narration: output/1721161759/narration/6.mp3
+  sd_prompt: Zhang San made an exaggerated prediction gesture, and Li Si shook his
+    head to indicate disbelief.
+  seed: 1721161759
+  speaker: 张三
+  visual: 张三做出夸张的预测动作，李四摇头表示不信。
+- content: 预测？那万一它预测错了呢？这不是玩命吗？
+  context: 李四继续质疑AI的安全性。
+  image: output/1721161759/images/7.png
+  narration: output/1721161759/narration/7.mp3
+  sd_prompt: Li Si had his arms crossed and looked very serious.
+  seed: 1721161760
+  speaker: 李四
+  visual: 李四双手抱胸，表情严肃。
+- content: 那咱们就祈祷，AI 永远都别预测错了。
+  context: 张三调侃AI的不可预测性。
+  image: output/1721161759/images/8.png
+  narration: output/1721161759/narration/8.mp3
+  sd_prompt: Zhang San puts his hands together in a praying motion, doing it in an
+    exaggerated way.
+  seed: 1721161759
+  speaker: 张三
+  visual: 张三双手合十，做出祈祷的夸张动作。
+- content: 社会要适应 AI ，这第一步，先把我们这些老骨头适应了再说吧。
+  context: 李四指出适应AI的重要性。
+  image: output/1721161759/images/9.png
+  narration: output/1721161759/narration/9.mp3
+  sd_prompt: Li Si has both arms around his chest, with a serious expression on his
+    face.
+  seed: 1721161760
+  speaker: 李四
+  visual: 李四两手抱胸，表情认真。
+- content: 对对，适应 AI ，咱们得先学会用智能手机，还得学会在网上买菜。
+  context: 张三顺着李四的话，调侃现在的科技生活。
+  image: output/1721161759/images/10.png
+  narration: output/1721161759/narration/10.mp3
+  sd_prompt: Zhang San takes out his phone and makes a gesture as if he is making
+    a shopping payment.
+  seed: 1721161759
+  speaker: 张三
+  visual: 张三掏出手机，做出购物支付的样子。
+- content: 哎，朋友们，说到这你就得说，这 AI 可真是个大趋势，咱们得适应它。
+  context: 李四总结AI的不可逆趋势。
+  image: output/1721161759/images/11.png
+  narration: output/1721161759/narration/11.mp3
+  sd_prompt: Li Si shook his head with a sigh, his expression one of resignation.
+  seed: 1721161760
+  speaker: 李四
+  visual: 李四摇头叹息，表情无奈。
+- content: 是是是，适应 AI ，学好国粹，咱们还得继续说相声，让 AI 也听听咱们的智慧。
+  context: 张三强调传统文化的价值。
+  image: output/1721161759/images/12.png
+  narration: output/1721161759/narration/12.mp3
+  sd_prompt: Zhang San pulls off a proud demeanor, imitating the manner of performing
+    crosstalk.
+  seed: 1721161759
+  speaker: 张三
+  visual: 张三摆出一副自豪的姿态，模仿说相声的样子。
+music: ''

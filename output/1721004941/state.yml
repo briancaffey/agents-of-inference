@@ -1,0 +1,96 @@
+directory: '1721004941'
+topics:
+- description: Explore the unusual phenomenon of merpeople living in the deepest part
+    of the world's oceans, communicating through bioluminescent signals and weaving
+    their existence into the lore of ancient myths.
+  music: output/1721004941/music/0.wav
+  name: 'Cryptids of the Deep: The Merpeople of Mariana Trench'
+  shots:
+  - image: output/1721004941/images/1.png
+    narration: output/1721004941/narration/1.mp3
+    sd_prompt: '"The deep sea is dark, and only the female sea goddess can be seen,
+      cloaked in the bioluminescence of the creatures. In the gently swaying water
+      currents, her mysterious presence is set off by the pressure of the sea and
+      the quiet depth of the abyss, adding to her solemn majesty."'
+    spoken_words: 这里是地球上最深的地方，也是传说中女海神的家园。
+    title: 幽光潜渊：马里亚纳海沟的女海神
+    visual_description: 深海幽暗，唯见女海神身披生物荧光，在水流中轻轻摆动。海水的压力与深渊的静谧衬托出这一神秘生物的庄严。
+  - image: output/1721004941/images/2.png
+    narration: output/1721004941/narration/2.mp3
+    sd_prompt: The ancient scroll is unfurled, depicting the legend of the female
+      sea goddess and the human hero. In the painting, the female sea goddess coexists
+      peacefully with marine life, and in the flickering glow, it seems to narrate
+      a tale from the distant past.
+    spoken_words: 在古老的史籍中，女海神的身影屡屡提及，她们以神秘的荧光信号交流，编织在人类的历史与传说之中。
+    title: 古籍遗韵：史书中的女海神传说
+    visual_description: 古籍卷轴展开，描绘着女海神与人类英雄的传说，画面中，女海神与海洋生物和谐共存，荧光闪烁中，仿佛诉说着遥远的故事。
+  - image: output/1721004941/images/3.png
+    narration: output/1721004941/narration/3.mp3
+    sd_prompt: The scuba diver is holding a snorkel mask. In the lens, the sea nymph
+      and her companions are sparkling with fluorescence, as if they are passing on
+      an ancient language. In the sea water, their outlines appear and disappear in
+      the fluorescence, mysterious and captivating.
+    spoken_words: 在潜水镜下，潜水员目睹了奇景：女海神以荧光信号交流，似乎在述说着深海中的秘密。
+    title: 潜镜之下：深海中的神秘交流
+    visual_description: 潜水员手持潜镜，镜头中女海神与同伴们荧光闪烁，仿佛在传递着古老的语言。海水中，她们的轮廓在荧光中时隐时现，神秘而迷人。
+- description: Journey into the realm of Hell where a group of demons organize guided
+    tours of their underworld, showcasing its various infernal attractions, from fiery
+    pits to the beauty of eternal darkness.
+  music: output/1721004941/music/1.wav
+  name: 'Infernal Fables: Tales of Hell''s Tourism'
+  shots:
+  - image: output/1721004941/images/4.png
+    narration: output/1721004941/narration/4.mp3
+    sd_prompt: A demon stands beside a large, burning pit, with raging fires beneath
+      it. Tourists stand at the edge, cautiously watching.
+    spoken_words: 欢迎来到地狱，游客们，跟随我，我们的第一个景点是烈焰之坑。看那些火焰，它们燃烧着，永不熄灭。感受那份热量，那是灵魂的熔炉。
+    title: 烈焰之旅
+    visual_description: 一个恶魔站在一个巨大的、燃烧的坑旁边，坑下是熊熊烈火，游客们站在边缘，小心翼翼地观看。
+  - image: output/1721004941/images/5.png
+    narration: output/1721004941/narration/5.mp3
+    sd_prompt: A demon guide points to the sky, with a background of a vast, endless
+      darkness, illuminated only by the flickering stars of hell. The tourists quietly
+      observe in the darkness, feeling awe-struck.
+    spoken_words: 接下来，让我们体验地狱的黑暗之美。看那些星辰，它们与众不同，因为它们是地狱的星辰。感受那份宁静，它是永恒的。
+    title: 黑暗之美
+    visual_description: 恶魔导游指向星空，背景是一个巨大的、无尽的黑暗，只有地狱的星辰在闪烁。游客们在黑暗中静静地观看，感到震撼。
+  - image: output/1721004941/images/6.png
+    narration: output/1721004941/narration/6.mp3
+    sd_prompt: A group of devils are dancing, their movements twisted yet graceful,
+      accompanied by the music of hell. Tourists are drawn in by this mysterious and
+      exotic performance.
+    spoken_words: 现在，让我们欣赏一场地狱的舞蹈表演。这些恶魔的舞姿，它们既扭曲又美丽，展现了地狱的独特魅力。
+    title: 恶魔之舞
+    visual_description: 一群恶魔在跳舞，他们的动作扭曲而优雅，伴随着地狱的音乐。游客们被这种神秘而充满异域风情的表演所吸引。
+- description: Discover a peculiar device that allows users to whistle into the past,
+    creating ripples in time that can alter personal histories and social structures,
+    each whistle a chance to rewrite history with cautionary tales of unintended consequences.
+  music: output/1721004941/music/2.wav
+  name: 'Time''s Leash: The Whistle Stop Chronicles'
+  shots:
+  - image: output/1721004941/images/7.png
+    narration: output/1721004941/narration/7.mp3
+    sd_prompt: One person holds an ancient-copper colored flute in their hand, adorned
+      with mysterious symbols and ancient patterns, set against a backdrop of yellowed,
+      aged books and an ancient clock, creating a sense of mysterious time travel.
+    spoken_words: 准备吹响时光倒流笛，体验一次穿越历史的奇妙旅程。每一次吹响，都是对过往的呼唤，对未来的探索。
+    title: 时光倒流笛
+    visual_description: 一个人手拿一支古铜色的笛子，笛子上有着神秘的符号和古老的纹路，背景是泛黄的老旧书籍和古老的时钟，营造出一种时光穿梭的神秘感。
+  - image: output/1721004941/images/8.png
+    narration: output/1721004941/narration/8.mp3
+    sd_prompt: A person stands at the center of a whirlpool composed of time, surrounded
+      by drifting fragments of history, such as photographs, letters, and antique
+      furniture. At the heart of the whirlpool, a beam of white light shoots upwards,
+      as if it is the source of time.
+    spoken_words: 每一次吹响，历史的涟漪在空间中扩散，过去的记忆被唤醒，未来的可能性悄然展开。小心翼翼地操控这股力量，以免造成不可逆转的后果。
+    title: 历史的涟漪
+    visual_description: 一个人站在一个由时间组成的漩涡中心，周围是飘动的历史碎片，如照片、信件和老式家具，漩涡的中心有一束白色的光束向上射出，仿佛是时间的源头。
+  - image: output/1721004941/images/9.png
+    narration: output/1721004941/narration/9.mp3
+    sd_prompt: A massive circular mirror is centered around a river of time. Floating
+      within the river are various life scenes, each composed of different characters
+      and events. At the end of the river is the protagonist, who is about to play
+      his flute. In the reflection, he is facing different destinies.
+    spoken_words: 看看这个时间倒流笛的后果，它会告诉你，每一个选择都可能改变一切。这些镜像展示了不同的生活轨迹，每一个都充满了无法预见的后果。
+    title: 后果的镜像
+    visual_description: 一个巨大的圆形镜子中央有一条时光河流，河流中飘浮着不同的生活场景，每个场景都由不同的人物和事件构成，河流的尽头是一个即将吹响笛子的主角，镜像中的他正面临着不同的命运。

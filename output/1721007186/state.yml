@@ -1,0 +1,104 @@
+directory: '1721007186'
+topics:
+- description: A study on garments designed to adapt to and even influence historical
+    eras, blending fashion with the concept of time travel. This includes garments
+    that change color, texture, and style based on the time period they are worn,
+    as well as pieces that can alter the wearer's perception of time to navigate through
+    different eras comfortably.
+  music: output/1721007186/music/0.wav
+  name: 'Chrono-Fashion: The Art of Time-Travel Clothing'
+  shots:
+  - image: output/1721007186/images/1.png
+    narration: output/1721007186/narration/1.mp3
+    sd_prompt: The scene shows a person dressed in time travel fashion standing in
+      a transparent time tunnel. The clothing changes in color and style according
+      to the markers of different historical periods within the tunnel.
+    spoken_words: 欢迎来到时空时装的世界，探索服饰如何与时间旅行结合。我们的服装会随着穿戴时间的不同，改变颜色、质地和风格，甚至能够影响穿戴者的时空感知，让你轻松穿越不同的历史时期。
+    title: 时空时装：穿梭时空的服饰艺术
+    visual_description: 画面展现一位身穿时空时装的人站在一个透明的时空隧道中，服装随着隧道中不同历史时期的标记变化着颜色和风格。
+  - image: output/1721007186/images/2.png
+    narration: output/1721007186/narration/2.mp3
+    sd_prompt: Display a series of clothing styles, ranging from ancient Egyptian
+      to futuristic technology, with each style brought to life. The models seamlessly
+      switch between styles as if they are truly traveling through time.
+    spoken_words: 我们的服饰采用了先进的技术，能够即时适应任何历史时期的风格。
+    title: 时光穿梭：服饰的风格变奏
+    visual_description: 展示一系列服装，从古埃及风格到未来科技感，每种风格都栩栩如生，模特儿在不同风格的服装间无缝切换，仿佛真的在穿梭时光。
+  - image: output/1721007186/images/3.png
+    narration: output/1721007186/narration/3.mp3
+    sd_prompt: The scene displays an outfit that changes as the wearer moves through
+      different historical moments. The details and decorations on the clothing continuously
+      evolve, reflecting the cultural characteristics of various periods.
+    spoken_words: 在这件服装上，不仅能够感知时间的流转，更能够直接感受到历史的气息。
+    title: 时间之眼：服饰的历史映像
+    visual_description: 画面展示一件服装随着穿戴者走过不同的历史时刻，服装上的细节和装饰不断变化，反映出不同时期的文化特色。
+- description: An exploration of music as it would be performed by extraterrestrial
+    life forms, considering the unique sounds and techniques they might use. This
+    could include analyzing soundscapes from exoplanets, synthesizing music based
+    on planetary compositions, or even attempting to decode signals from distant civilizations
+    to understand their musical expressions.
+  music: output/1721007186/music/1.wav
+  name: 'Alien Choir: The Harmony of Exoplanetary Music'
+  shots:
+  - image: output/1721007186/images/4.png
+    narration: output/1721007186/narration/4.mp3
+    sd_prompt: On the screen appears a beam of light emanating from a distant star,
+      slowly traversing the darkness of the universe. At the end of the light, the
+      outline of a planet becomes increasingly clear, with the planet's surface sparkling
+      with vivid hues.
+    spoken_words: 观众朋友们，今天我们将探索外星生命可能的音乐表演，从他们可能使用的独特声音和技巧出发。
+    title: 星际合唱：外行星乐器的和谐
+    visual_description: 屏幕上出现一束从遥远恒星出发的光线，缓缓穿过宇宙的黑暗。光线尽头，一个星球的轮廓渐渐清晰，星球表面闪烁着异彩。
+  - image: output/1721007186/images/5.png
+    narration: output/1721007186/narration/5.mp3
+    sd_prompt: The screen displays a series of simulated interstellar sound waveforms,
+      which are visually converted into colorful spectra to simulate the sound waves
+      of distant planets.
+    spoken_words: 首先，我们分析来自其他恒星系统的声音景观，试图捕捉那些不同于我们地球的音乐元素。
+    title: 外行星音景分析
+    visual_description: 屏幕展示一系列模拟的星际声音波形，声音波形在视觉上被转换成彩色的光谱，模拟遥远行星的声波。
+  - image: output/1721007186/images/6.png
+    narration: output/1721007186/narration/6.mp3
+    sd_prompt: On stage, alien instruments are arranged in a row, each with a unique
+      shape, emitting strange light and musical notes. The musicians are not human;
+      they are composed of light points. Their movements transform into musical notes
+      that float in the air.
+    spoken_words: 接着，我们将这些分析所得的声音合成一首宇宙交响乐，每一乐章都对应一个外行星的独特声响。
+    title: 行星合奏：宇宙交响乐
+    visual_description: 舞台上，外星乐器排成一列，每个乐器都有独特的外形，发出奇异的光芒和音符。乐手并非人类，而是由光点组成，他们的动作幻化成音符飘散在空中。
+- description: A conceptual study on the creation of buildings and sanctuaries that
+    could be constructed using supercritical fluids. These could be structures that
+    float in the air, dissolve and reform based on environmental conditions, or even
+    self-assemble using the unique properties of supercritical fluids. This theme
+    delves into the boundaries of architecture, blending technology, and the natural
+    sciences to imagine a world where the physical form is not limited by gravity
+    or conventional materials.
+  music: output/1721007186/music/2.wav
+  name: 'Liquid Temples: Architectural Imagination in Supercritical Fluids'
+  shots:
+  - image: output/1721007186/images/7.png
+    narration: output/1721007186/narration/7.mp3
+    sd_prompt: A magnificent building floats in the air, surrounded by a faint mist
+      of supercritical fluid. The sunlight passes through the transparent surface
+      of the building, showcasing a semi-transparent effect.
+    spoken_words: 欢迎来到漂浮殿堂，这是一座用超临界流体建造的漂浮建筑物。
+    title: 漂浮殿堂
+    visual_description: 一座宏伟的建筑物悬浮在空中，周围是淡淡的超临界流体雾气。阳光透过建筑物的透明表面，呈现出半透明的效果。
+  - image: output/1721007186/images/8.png
+    narration: output/1721007186/narration/8.mp3
+    sd_prompt: A building changes its form as the surrounding environment changes,
+      from a sturdy rock gradually dissolving into a supercritical fluid, and then
+      re-condensing into a new structure. The light, temperature, and pressure of
+      the environment affect its form.
+    spoken_words: 接下来，我们将目睹变幻神殿的奇景。
+    title: 变幻神殿
+    visual_description: 一座建筑随着周围环境的变化而变化形态，从坚固的磐石逐渐溶解成超临界流体，然后重新凝结成新的结构。环境的光线、温度和压力影响了它的形态。
+  - image: output/1721007186/images/9.png
+    narration: output/1721007186/narration/9.mp3
+    sd_prompt: Supercritical fluids spontaneously condense in the air, as if they
+      were alive and arranging themselves into exquisite buildings. Each structure
+      is the result of the interactions between supercritical fluid molecules, without
+      the need for external intervention.
+    spoken_words: 自组装圣所展示了超临界流体自我组织的奇迹。
+    title: 自组装圣所
+    visual_description: 超临界流体在空中自然凝聚，仿佛有生命般自行排列成一座座精美的建筑。每一个结构都是超流体分子相互作用的结果，无需外部干预。

@@ -1,0 +1,68 @@
+directory: '1721165234'
+lines:
+- content: 特朗普说，他喜欢自己，因为他能给中国带来更多的贸易机会。
+  context: 特朗普试图向中国选民展示他的优势。
+  image: output/1721165234/images/1.png
+  narration: output/1721165234/narration/1.mp3
+  sd_prompt: Trump confidently stood on the stage, making powerful gestures.
+  seed: 1721165235
+  speaker: 特朗普
+  visual: 特朗普自信地站在舞台上，手势有力。
+- content: 拜登说，特朗普的贸易政策只会让中国损失惨重。
+  context: 拜登批评特朗普的贸易政策。
+  image: output/1721165234/images/2.png
+  narration: output/1721165234/narration/2.mp3
+  sd_prompt: Biden had a serious expression, waving his hands in the air.
+  seed: 1721165234
+  speaker: 拜登
+  visual: 拜登表情严肃，手在空气中比划。
+- content: 特朗普反驳说，拜登的政策会让中国失去在世界上的竞争力。
+  context: 特朗普反击拜登的批评。
+  image: output/1721165234/images/3.png
+  narration: output/1721165234/narration/3.mp3
+  sd_prompt: Trump shook his head, with a mocking expression.
+  seed: 1721165235
+  speaker: 特朗普
+  visual: 特朗普摇头，表情嘲讽。
+- content: 拜登笑笑，说："特朗普的政策就像是赌博，赢了当然好，输了就得重新来过。"
+  context: 拜登用比喻回应特朗普。
+  image: output/1721165234/images/4.png
+  narration: output/1721165234/narration/4.mp3
+  sd_prompt: '"Biden smiles, making light of the gesture."'
+  seed: 1721165234
+  speaker: 拜登
+  visual: 拜登微笑，手势轻松。
+- content: 特朗普不甘示弱，说："拜登的政策就像是温水煮青蛙，等你反应过来，已经晚了。"
+  context: 特朗普反击拜登的比喻。
+  image: output/1721165234/images/5.png
+  narration: output/1721165234/narration/5.mp3
+  sd_prompt: Trump's expression is resolute, his gestures exaggerated.
+  seed: 1721165235
+  speaker: 特朗普
+  visual: 特朗普表情坚毅，手势夸张。
+- content: 拜登笑着说："那还不如做一只会游泳的青蛙，至少能在锅里游泳逃生。"
+  context: 拜登再次回应，保持幽默。
+  image: output/1721165234/images/6.png
+  narration: output/1721165234/narration/6.mp3
+  sd_prompt: '"Biden has a bright smile and is mimicking a swimming motion with his
+    hands in front of him."'
+  seed: 1721165234
+  speaker: 拜登
+  visual: 拜登笑容灿烂，手在胸前模拟游泳动作。
+- content: 特朗普说，他喜欢自己，因为他能给中国带来更多的贸易机会。
+  context: 特朗普试图向中国选民展示他的优势。
+  image: output/1721165234/images/7.png
+  narration: output/1721165234/narration/7.mp3
+  sd_prompt: Trump confidently stood on the stage, making powerful gestures.
+  seed: 1721165235
+  speaker: 特朗普
+  visual: 特朗普自信地站在舞台上，手势有力。
+- content: 拜登说，特朗普的贸易政策只会让中国损失惨重。
+  context: 拜登批评特朗普的贸易政策。
+  image: output/1721165234/images/8.png
+  narration: output/1721165234/narration/8.mp3
+  sd_prompt: '"Biden''s expression is serious, and he is gesturing in the air."'
+  seed: 1721165234
+  speaker: 拜登
+  visual: 拜登表情严肃，手在空气中比划。
+music: ''

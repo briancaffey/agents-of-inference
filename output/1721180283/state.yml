@@ -1,0 +1,117 @@
+directory: '1721180283'
+lines:
+- content: 特朗普政府时期，中美关系还是比较友好的。
+  context: 开篇引出话题
+  image: output/1721180283/images/1.png
+  narration: output/1721180283/narration/1.mp3
+  sd_prompt: The translation of "手拿国旗" from Chinese to English is "hand holding the
+    national flag."
+  seed: 1721180284
+  speaker: 张三
+  visual: 手拿国旗
+- content: 哦，是吗？拜登上台后，中美关系就完全变了吗？
+  context: 提出疑问
+  image: output/1721180283/images/2.png
+  narration: output/1721180283/narration/2.mp3
+  sd_prompt: The translation of "皱眉" in English is "furrowed brow" or "furrowing (the)
+    brow," which refers to the action of making one's eyebrows into a steeple by compressing
+    them together in a manner that expresses worry, concern, or confusion.
+  seed: 1721180283
+  speaker: 李四
+  visual: 皱眉
+- content: 拜登虽然年纪大，但政治手腕一流啊。
+  context: 转折话题，调侃拜登
+  image: output/1721180283/images/3.png
+  narration: output/1721180283/narration/3.mp3
+  sd_prompt: The translation of "耸肩" from Chinese to English is "shrug."
+  seed: 1721180284
+  speaker: 张三
+  visual: 耸肩
+- content: 那特朗普呢？他上台对中国有什么好处？
+  context: 再次提问
+  image: output/1721180283/images/4.png
+  narration: output/1721180283/narration/4.mp3
+  sd_prompt: The translation of "双手抱胸" from Chinese to English is "hands around chest."
+    This phrase can be used in various contexts, such as when someone is protecting
+    themselves, showing defensiveness, or just positioning their hands in a particular
+    way for comfort or warmth.
+  seed: 1721180283
+  speaker: 李四
+  visual: 双手抱胸
+- content: 关税啊、贸易战啊，都是特朗普的好手笔。
+  context: 讲述特朗普时期的负面影响
+  image: output/1721180283/images/5.png
+  narration: output/1721180283/narration/5.mp3
+  sd_prompt: The Chinese word "挥手" (huī shǒu) translates to "wave" or "wave (your)
+    hand" in English. It refers to the action of raising and lowering one's hand (usually
+    the right hand) in a sweeping motion to acknowledge, say goodbye to, or signal
+    someone from a distance.
+  seed: 1721180284
+  speaker: 张三
+  visual: 挥手
+- content: 关税高了，中国企业成本增加，利润减少，这不就是自残吗？
+  context: 反驳张三的观点
+  image: output/1721180283/images/6.png
+  narration: output/1721180283/narration/6.mp3
+  sd_prompt: The Chinese word "摇头" translates to "shaking one's head" in English.
+    This expression is often used to indicate disagreement, skepticism, or disapproval.
+    It can also convey the idea of a negative response or a shake of the head in disapproval
+    or disbelief.
+  seed: 1721180283
+  speaker: 李四
+  visual: 摇头
+- content: 那拜登呢？他上台对中国有什么好处？
+  context: 再次询问拜登的好处
+  image: output/1721180283/images/7.png
+  narration: output/1721180283/narration/7.mp3
+  sd_prompt: Looking expectantly at Li Si
+  seed: 1721180284
+  speaker: 张三
+  visual: 期待地看着李四
+- content: 环保啊，气候啊，这些都是拜登的强项。
+  context: 讲述拜登的强项
+  image: output/1721180283/images/8.png
+  narration: output/1721180283/narration/8.mp3
+  sd_prompt: '"摆手" in Chinese translates to "wave your hand" or simply "wave" in English.
+    It refers to the action of moving your hand back and forth, typically used to
+    get someone''s attention, say goodbye, or indicate no or not interested.'
+  seed: 1721180283
+  speaker: 李四
+  visual: 摆手
+- content: 环保、气候，这些都离我们太远，我们关心的是实实在在的生意。
+  context: 强调实用性
+  image: output/1721180283/images/9.png
+  narration: output/1721180283/narration/9.mp3
+  sd_prompt: '"Two hands spread out" or "What can I do?"'
+  seed: 1721180284
+  speaker: 张三
+  visual: 两手一摊
+- content: 那特朗普呢？他上台对中国有什么好处？
+  context: 再次询问特朗普的好处
+  image: output/1721180283/images/10.png
+  narration: output/1721180283/narration/10.mp3
+  sd_prompt: '"笑眯眯" translates to "smiling widely" or "with a wide smile" in English.
+    This term describes someone who is smiling very big, often implying that the person
+    is very happy, friendly, or kind.'
+  seed: 1721180283
+  speaker: 李四
+  visual: 笑眯眯
+- content: 嗯，特朗普上台，中国可以多买美国大豆。
+  context: 给出特朗普时期的正面影响
+  image: output/1721180283/images/11.png
+  narration: output/1721180283/narration/11.mp3
+  sd_prompt: The translation of the Chinese phrase "得意微笑" to English is "satisfied
+    grin" or "satisfied smile." It refers to a content and pleased smile that someone
+    shows when they feel successful or satisfied with their achievements.
+  seed: 1721180284
+  speaker: 张三
+  visual: 得意微笑
+- content: 买大豆？那你们赚得更多啊。
+  context: 调侃大豆交易对中国的实际影响
+  image: output/1721180283/images/12.png
+  narration: output/1721180283/narration/12.mp3
+  sd_prompt: The translation of "眨眼" in English is "to blink."
+  seed: 1721180283
+  speaker: 李四
+  visual: 眨眼
+music: ''

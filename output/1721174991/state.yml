@@ -1,0 +1,67 @@
+directory: '1721174991'
+lines:
+- content: 特朗普说，我是他最好的朋友。
+  context: 特朗普在节目中表示他和习近平主席关系非常好。
+  image: output/1721174991/images/1.png
+  narration: output/1721174991/narration/1.mp3
+  sd_prompt: Trump laughed and patted his partner on the shoulder with his hand.
+  seed: 1721174992
+  speaker: 特朗普
+  visual: 特朗普笑着用手拍着搭档的肩膀。
+- content: 拜登说，我也想和他交朋友。
+  context: 拜登在节目中表示他也想和习近平主席交朋友。
+  image: output/1721174991/images/2.png
+  narration: output/1721174991/narration/2.mp3
+  sd_prompt: Biden made a friendly gesture, but his expression looked a little awkward.
+  seed: 1721174991
+  speaker: 拜登
+  visual: 拜登做出一个友好的手势，但表情显得有些尴尬。
+- content: 特朗普说，但我觉得拜登不适合做总统。
+  context: 特朗普对拜登的总统资格提出质疑。
+  image: output/1721174991/images/3.png
+  narration: output/1721174991/narration/3.mp3
+  sd_prompt: Trump makes a gesture of shrugging his shoulders.
+  seed: 1721174992
+  speaker: 特朗普
+  visual: 特朗普做出一个摊手动作。
+- content: 拜登说，那是因为你嫉妒我的年龄。
+  context: 拜登用年龄来反击特朗普。
+  image: output/1721174991/images/4.png
+  narration: output/1721174991/narration/4.mp3
+  sd_prompt: '"Biden gently waved his hand, appearing very relaxed."'
+  seed: 1721174991
+  speaker: 拜登
+  visual: 拜登轻轻地摆了摆手，显得非常轻松。
+- content: 特朗普说，你错了，因为你的年纪太大，不适合做总统。
+  context: 特朗普再次强调拜登不适合做总统。
+  image: output/1721174991/images/5.png
+  narration: output/1721174991/narration/5.mp3
+  sd_prompt: Trump makes a head-shaking gesture.
+  seed: 1721174992
+  speaker: 特朗普
+  visual: 特朗普做出一个摇头动作。
+- content: 拜登说，那你年纪也不小了。
+  context: 拜登提醒特朗普自己的年龄也不小了。
+  image: output/1721174991/images/6.png
+  narration: output/1721174991/narration/6.mp3
+  sd_prompt: Biden gave a slight smile, as if making a jest about Trump.
+  seed: 1721174991
+  speaker: 拜登
+  visual: 拜登微微一笑，似乎是在调侃特朗普。
+- content: 特朗普说，是啊，但我们两个都比那个只会说谎的拜登更适合当总统。
+  context: 特朗普再次强调自己的总统资格。
+  image: output/1721174991/images/7.png
+  narration: output/1721174991/narration/7.mp3
+  sd_prompt: '"Trump put on an air of confidence."'
+  seed: 1721174992
+  speaker: 特朗普
+  visual: 特朗普摆出一副自信的样子。
+- content: 拜登说，那我可得小心点了。
+  context: 拜登开玩笑地表示自己要更加努力。
+  image: output/1721174991/images/8.png
+  narration: output/1721174991/narration/8.mp3
+  sd_prompt: '"Biden makes an earnest listening pose, as if he is making fun of himself."'
+  seed: 1721174991
+  speaker: 拜登
+  visual: 拜登做出一个认真听讲的样子，似乎在自嘲。
+music: ''

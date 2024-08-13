@@ -1,0 +1,278 @@
+directory: '1721137017'
+topics:
+- description: 一片壮观的景象：一个被迷雾笼罩的岛屿，孤独地漂浮在茫茫大海之中。晨雾慢慢散去，露出一片郁郁葱葱的森林，和一条神秘的小径。
+  music: output/1721137017/music/0.wav
+  name: 序幕：迷失的岛屿
+  shots:
+  - image: output/1721137017/images/1.png
+    narration: output/1721137017/narration/1.mp3
+    sd_prompt: Vision of a distant horizon, a magnificent sea view, with islands in
+      the distance shrouded in mist. Sunlight piercing through the clouds, scattered
+      on the sea, with light and mist intertwining, presenting a dreamlike play of
+      light and shadow.
+    spoken_words: (旁白)
+    title: 晨雾消散
+    visual_description: 远景，壮观的海景，远处岛屿被迷雾环绕，阳光透过云层，散落在海面，光线与雾气交织，呈现出梦幻般的光影效果。
+  - image: output/1721137017/images/2.png
+    narration: output/1721137017/narration/2.mp3
+    sd_prompt: Medium shot, the outline of the island gradually becomes clear, waves
+      softly slap against the shore of the island, and in the mist, the island seems
+      to be ready to vanish at any moment.
+    spoken_words: (旁白) 这是迷失的岛屿，隐藏在无尽的海洋之中。
+    title: 岛屿轮廓
+    visual_description: 中景，岛屿轮廓逐渐清晰，海浪轻拍着岛屿的岸边，雾气中岛屿仿佛随时可能消失。
+  - image: output/1721137017/images/3.png
+    narration: output/1721137017/narration/3.mp3
+    sd_prompt: Close-up, the forest panorama, with lush trees, sunlight filtering
+      through the treetops, and a kaleidoscope of light spots dancing on the ground.
+    spoken_words: (旁白) 晨雾逐渐散去，露出了郁郁葱葱的森林。
+    title: 森林初现
+    visual_description: 近景，森林全景，树木繁茂，阳光透过树梢，斑驳陆离的光斑在地上跳跃。
+  - image: output/1721137017/images/4.png
+    narration: output/1721137017/narration/4.mp3
+    sd_prompt: Close-up, the winding path through the forest is lined with large tree
+      trunks on either side, paved with rocks. Occasionally, birds fly by, leaving
+      a few clear chirps.
+    spoken_words: (旁白) 在这片茂密的森林中，有一条神秘的小径。
+    title: 神秘小径
+    visual_description: 特写，小径蜿蜒穿过森林，石块铺就的小路两旁是高耸的树干，偶尔有鸟儿飞过，留下几声清脆的鸣叫。
+  - image: output/1721137017/images/5.png
+    narration: output/1721137017/narration/5.mp3
+    sd_prompt: Medium shot, the explorer stands at the beginning of the path, gazing
+      ahead, one foot lightly steps on the path, foreshadowing the beginning of the
+      adventure.
+    spoken_words: 探险者 (轻声) 看来，是时候踏上这神秘的旅程了。
+    title: 探险开始
+    visual_description: 中景，探险者站在小径起点，凝视着前方，一只脚轻轻踏上小径，预示着冒险的开始。
+- description: 主角，一位探险家，在森林中迷路了。他偶然发现了一个隐藏的洞穴，洞穴的入口被奇异的藤蔓和花朵覆盖。当主角进入洞穴，发现里面有一个古老的图书馆，藏有失传的魔法书。
+  music: output/1721137017/music/1.wav
+  name: 第一章：偶遇
+  shots:
+  - image: output/1721137017/images/6.png
+    narration: output/1721137017/narration/6.mp3
+    sd_prompt: An explorer walks through a dense forest, sunlight filtering through
+      the leaves' gaps and casting dappled shadows on the soil. Suddenly, a beam of
+      light is blocked by an unusual vine, revealing a cave hidden in the corner.
+      Between the vines, a few flowers bloom, radiating a faint glow, just like the
+      guardian spirits of the forest.
+    spoken_words: 哦，这是个意外的发现！
+    title: 洞口奇遇
+    visual_description: 探险家走在茂密的森林中，阳光透过树叶的缝隙，斑驳地洒在泥土上。突然，一束光线被奇异的藤蔓遮挡，露出了隐藏在角落的洞口。藤蔓间点缀着几朵绽放的花朵，花朵散发着淡淡的光芒，就像是森林的守护精灵。
+  - image: output/1721137017/images/7.png
+    narration: output/1721137017/narration/7.mp3
+    sd_prompt: The explorer cautiously entered the cave, the torch in his hand lighting
+      the way ahead. Stalactites dripped from the cave walls, casting shimmering light
+      reflections. An ancient atmosphere hung in the air.
+    spoken_words: 小心，路不平坦。
+    title: 进入洞穴
+    visual_description: 探险家小心翼翼地走进洞穴，手中的火把照亮了前方。洞壁上滴落的石钟乳映照出波光粼粼的光影，空气中弥漫着古老的气息。
+  - image: output/1721137017/images/8.png
+    narration: output/1721137017/narration/8.mp3
+    sd_prompt: In the depths of the cave, the explorer discovered a spacious area,
+      in the center of which stood an ancient library constructed from ancient trees
+      and stones. Row after row of yellowed books were neatly arranged on the shelves,
+      and in the corner, a pile of parchment papers danced lightly in the wind, as
+      if telling the tales of yesteryears.
+    spoken_words: 这是什么地方？魔法书？
+    title: 古旧图书馆
+    visual_description: 洞穴的深处，探险家发现了一片开阔的空间，中央放着一座由古木和石头构建的古旧图书馆。书架上一排排泛黄的书籍整齐排列，角落里的一堆文献纸张在风中轻轻摇曳，仿佛在诉说着过往的岁月。
+  - image: output/1721137017/images/9.png
+    narration: output/1721137017/narration/9.mp3
+    sd_prompt: An explorer picked up a book with a cover depicting mysterious symbols.
+      As he opened it, golden text danced across the pages. With each turn, the entire
+      library seemed to be surrounded by rays of light, and a magic air stirred in
+      the air.
+    spoken_words: 这些书... 似乎有魔力！
+    title: 魔法之书
+    visual_description: 探险家拿起一本封面绘有神秘符号的书籍，翻开时，书页上跳跃着金色的文字，随着翻动，整个图书馆似乎都被一束束光芒环绕，魔法的气息在空气中激荡。
+  - image: output/1721137017/images/10.png
+    narration: output/1721137017/narration/10.mp3
+    sd_prompt: The explorer stood at the doorway of the library, glancing back at
+      the place brimming with the unknown. He carried a book of magic from the cave
+      and as he left, everything in the forest seemed even more mysterious under the
+      remaining light of the sunset. His journey of adventure was about to begin a
+      new chapter.
+    spoken_words: 这片森林藏着太多秘密，我的探险才刚刚开始。
+    title: 探险新开始
+    visual_description: 探险家站在图书馆门口，回头望了望这座充满未知的地方。他带着一本魔法书离开了洞穴，森林中的一切都在夕阳的余晖中显得更加神秘莫测，他的冒险之旅即将展开新的篇章。
+- description: 主角在图书馆里阅读了魔法书，揭示了这个岛屿曾是一个高度发达的魔法文明所在地。书中的插图展示了古代的宫殿，高耸的塔楼，以及现在只剩下遗迹和废墟的地方。
+  music: output/1721137017/music/2.wav
+  name: 第二章：失落的文明
+  shots:
+  - image: output/1721137017/images/11.png
+    narration: output/1721137017/narration/11.mp3
+    sd_prompt: Towering palace architecture stands before them, its walls adorned
+      with ancient murals, and in the center, a finely crafted throne. Light beams
+      through the high windows, illuminating the floor of the palace, reflecting golden
+      hues.
+    spoken_words: 看！这是曾经的宫殿，金碧辉煌。
+    title: 古代宫殿的辉煌
+    visual_description: 高大的宫殿建筑，墙上挂满了古老的壁画，中央有一座精致的宝座。光线从高高的窗户中透射进来，照耀在宫殿的地面上，反射出金色的光芒。
+  - image: output/1721137017/images/12.png
+    narration: output/1721137017/narration/12.mp3
+    sd_prompt: Row upon row of skyscrapers pierce the sky, creating a visual balance
+      between them. The spires of the towers seem to reach almost to the blue sky,
+      and each floor is adorned with exquisite relief carvings.
+    spoken_words: 这些塔楼直插云霄，它们曾经用于通信和观察。
+    title: 高耸的塔楼
+    visual_description: 一栋栋塔楼直冲天际，相互之间形成一种视觉上的平衡。塔楼尖端似乎触手可及蓝天，每一层都装饰有精美的浮雕。
+  - image: output/1721137017/images/13.png
+    narration: output/1721137017/narration/13.mp3
+    sd_prompt: The walls, once grand, are now covered in moss and weeds; the stone
+      path is pitted and uneven. What was once a magnificent building now stands as
+      a ruin, the weight of history crashing down upon you.
+    spoken_words: 如今，这里只剩下被时间侵蚀的遗迹和废墟。
+    title: 遗迹与废墟
+    visual_description: 破败的墙壁上布满了苔藓和杂草，石板路上坑坑洼洼。曾经宏伟的建筑现在只能看见残垣断壁，历史的沧桑感扑面而来。
+  - image: output/1721137017/images/14.png
+    narration: output/1721137017/narration/14.mp3
+    sd_prompt: Under the moonlight, the ruins radiated a faint blue glow, as if the
+      residual waves of magic were flowing through the air. The stone tablets in the
+      ruins bore mysterious runes, inscribing the tales of the past.
+    spoken_words: 这些遗迹是魔法文明的遗产，每一个角落都充满了神秘和力量。
+    title: 魔法文明的遗产
+    visual_description: 在月光下，遗迹散发着淡淡的蓝光，仿佛有魔法的余波在空气中流动。废墟中的石碑上刻有神秘的符文，讲述着过往的故事。
+  - image: output/1721137017/images/15.png
+    narration: output/1721137017/narration/15.mp3
+    sd_prompt: In the dim light of the library, rows of ancient shelves loom, filled
+      to the brim with spellbooks and historical documents covered in arcane symbols.
+      Through the aisles between the shelves, the protagonist searches for clues leading
+      to the truth.
+    spoken_words: 图书馆中隐藏着更多的秘密，等待着我们去发现。
+    title: 图书馆中的秘密
+    visual_description: 在图书馆昏暗的灯光下，一排排古老的书架耸立，上面堆满了写满符文的魔法书和历史文献。书架间的通道上，主角正在寻找通往真相的线索。
+- description: 主角继续探索，发现了一条通向时空之门的密道。在他的旅程中，他遇到了各种守护者，包括一只巨大的守护兽，以及一个神秘的守护者，他掌握着古老的魔法，保护着这个文明免受外界的侵扰。
+  music: output/1721137017/music/3.wav
+  name: 第三章：时空之门
+  shots:
+  - image: output/1721137017/images/16.png
+    narration: output/1721137017/narration/16.mp3
+    sd_prompt: A map of old vintage, marked with a winding path leading to an unknown
+      destination, gleams with a faint light as if guiding the protagonist forward.
+    spoken_words: 哦，这里有一个入口...
+    title: 密道入口
+    visual_description: 一张古老的地图，上面标记着一条弯曲的路径通向一个未知的地方，地图上泛着微光，仿佛在引导着主角前进。
+  - image: output/1721137017/images/17.png
+    narration: output/1721137017/narration/17.mp3
+    sd_prompt: A massive guardian beast sits quietly at the end of the secret passage,
+      its body covered in hard scales, and its eyes emit a mysterious glow, as if
+      guarding something.
+    spoken_words: 这是什么生物...
+    title: 守护兽
+    visual_description: 一个巨大的守护兽静静地坐在密道的尽头，它的身体覆盖着坚硬的鳞片，双眼发出神秘的光芒，似乎在守护着什么。
+  - image: output/1721137017/images/18.png
+    narration: output/1721137017/narration/18.mp3
+    sd_prompt: A mysterious guardian stands on one side of the secret passage, his
+      hands condensing brilliant light, forming a protective magical ring that surrounds
+      this civilization.
+    spoken_words: 那是谁？他正在施展古老的魔法。
+    title: 古老的魔法
+    visual_description: 一个神秘的守护者站在密道的一侧，他的手中凝聚着璀璨的光芒，形成了一个保护性的魔法光环，环绕着这个文明。
+  - image: output/1721137017/images/19.png
+    narration: output/1721137017/narration/19.mp3
+    sd_prompt: The main character stands in front of the gate of time and space, which
+      is covered with complex runes, emitting dazzling light, as if it could transport
+      a person to another time and space.
+    spoken_words: 时空之门就在前方，我终于找到了！
+    title: 时空之门
+    visual_description: 主角站在时空之门的面前，门上布满了复杂的符文，散发着耀眼的光芒，仿佛能够将人带入另一个时空。
+  - image: output/1721137017/images/20.png
+    narration: output/1721137017/narration/20.mp3
+    sd_prompt: The main character turned back to look at the secret passageway. There
+      was a desire for exploration and a curiosity about the unknown in his eyes.
+      The secret passageway slowly disappeared into the dust of history under his
+      gaze.
+    spoken_words: 这段探险让我对这片文明有了更深的了解。
+    title: 探险结束
+    visual_description: 主角回头望向密道，他的眼中充满了探索的渴望和对未知的好奇，密道在他的视线下慢慢消失在历史的尘埃中。
+- description: 随着故事的发展，主角必须与入侵者的军队作战，以保护这个古老的文明。在一次激烈的战斗中，主角发现了一个隐藏的秘密，这个秘密可能会导致时空的崩溃，他必须做出选择：牺牲自己，还是牺牲整个文明。
+  music: output/1721137017/music/4.wav
+  name: 第四章：战斗与选择
+  shots:
+  - image: output/1721137017/images/21.png
+    narration: output/1721137017/narration/21.mp3
+    sd_prompt: The screen shows the protagonist on the battlefield, surrounded by
+      scenes of intense combat, where enemy armies clash with the defenders of ancient
+      civilizations. The protagonist, amidst the chaos, discovers an ancient device,
+      etched with strange symbols.
+    spoken_words: 不，这不可能！
+    title: 战场上的发现
+    visual_description: 画面显示主角在战场上，四周是激烈的战斗景象，敌人军队和古代文明守卫者交战。主角在混乱中发现了一个古老的装置，上面刻有奇异的符号。
+  - image: output/1721137017/images/22.png
+    narration: output/1721137017/narration/22.mp3
+    sd_prompt: The main character picks up the device, and the camera zooms in on
+      the device, revealing that the symbols are flickering and emitting a mysterious
+      glow. The main character's facial expression is one of confusion and shock.
+    spoken_words: 这是什么？
+    title: 秘密的揭露
+    visual_description: 主角拿起装置，画面特写装置，可以看到符号在闪烁，发出神秘的光芒。主角的脸部表情充满疑惑和震惊。
+  - image: output/1721137017/images/23.png
+    narration: output/1721137017/narration/23.mp3
+    sd_prompt: The main character stands before the ruins of an ancient civilization,
+      with in the background a rift in time and space on the verge of collapse. The
+      main character looks down at the device in their hand, their eyes filled with
+      struggle and determination.
+    spoken_words: 我的生命可以停止这一切...
+    title: 选择的时刻
+    visual_description: 主角站在古老的文明废墟前，背后是即将崩溃的时空裂缝。主角低头看着手中的装置，眼中是挣扎和决心。
+  - image: output/1721137017/images/24.png
+    narration: output/1721137017/narration/24.mp3
+    sd_prompt: The scene shows the main character tossing the device into the crack,
+      where it explodes. The spacetime begins to stabilize. The main character reveals
+      a smile of sacrifice, then turns to face the victorious defender.
+    spoken_words: 不，我不能这么做，文明比我的命更重要！
+    title: 牺牲的代价
+    visual_description: 画面展示主角将装置抛向裂缝，装置在裂缝中爆炸，时空开始稳定。主角面露牺牲的微笑，转身面向胜利的守卫者。
+  - image: output/1721137017/images/25.png
+    narration: output/1721137017/narration/25.mp3
+    sd_prompt: The final scene of the film shows a peaceful scene around the ruins
+      of civilization, where the guardians are celebrating their victory. The main
+      character stands atop the ruins, gazing at the starry sky in the distance. As
+      the scene fades to darkness, it leaves the audience with endless speculation
+      and contemplation.
+    spoken_words: 文明得救了，而我...
+    title: 新的希望
+    visual_description: 画面最后是文明废墟周围的和平景象，守卫者们庆祝胜利。主角站在废墟上，望着远方的星空，画面渐渐暗淡，留给观众无限的遐想。
+- description: 主角做出了选择，牺牲了自己，维持了时空的稳定。当他醒来，发现自己回到了现代，但携带了一些不属于自己的记忆。主角决定将这些记忆带到现代，开始新生活，希望它们能帮助人类理解并实现自己的魔法文明。
+  music: output/1721137017/music/5.wav
+  name: 尾声：新的开始
+  shots:
+  - image: output/1721137017/images/26.png
+    narration: output/1721137017/narration/26.mp3
+    sd_prompt: The protagonist stands on a familiar street, surrounded by towering
+      skyscrapers and hurried crowds. The sunlight falls upon his face, appearing
+      especially warm.
+    spoken_words: 这是最后的画面，主角回到了现代，带着时空的秘密。
+    title: 尾声：新的回归
+    visual_description: 主角站在熟悉的街道上，周围是高楼大厦和匆忙的人群。阳光洒在他脸上，显得格外温暖。
+  - image: output/1721137017/images/27.png
+    narration: output/1721137017/narration/27.mp3
+    sd_prompt: The main character's brow is tightly furrowed, holding a peculiar stone
+      in their hand. The stone is emitting a faint glow.
+    spoken_words: 主角睁开眼睛，发现自己回到了现代，但他的记忆却不再属于这里。
+    title: 记忆的觉醒
+    visual_description: 主角眉头紧锁，手中拿着一块奇特的石头，石头散发着微弱的光芒。
+  - image: output/1721137017/images/28.png
+    narration: output/1721137017/narration/28.mp3
+    sd_prompt: The protagonist stands at the school's entrance, his face lighting
+      up with a determined smile. His backpack is filled with peculiar magic books
+      and notes.
+    spoken_words: 主角决定将这些记忆带到现代，开始新生活。
+    title: 新生活的启程
+    visual_description: 主角站在学校的门口，脸上露出坚定的微笑。他的书包里装满了奇异的魔法书籍和笔记。
+  - image: output/1721137017/images/29.png
+    narration: output/1721137017/narration/29.mp3
+    sd_prompt: The main character stands on an open stage, holding a magic book that
+      is emitting light in their hands, with an audience of astonished and curious
+      listeners in front of them.
+    spoken_words: 希望这些记忆能帮助人类理解并实现自己的魔法文明。
+    title: 新世界的希望
+    visual_description: 主角站在一个开放式的舞台上，手里拿着一本发着光的魔法书，面前是惊讶和好奇的听众。
+  - image: output/1721137017/images/30.png
+    narration: output/1721137017/narration/30.mp3
+    sd_prompt: The main character looks up at the night sky, with countless stars
+      that seem to be telling him the stories of his past and the beginning of his
+      new life.
+    spoken_words: 主角站在星空下，心中充满了希望和梦想。
+    title: 尾声：新的开始
+    visual_description: 主角仰望夜空，满天繁星仿佛在诉说着他过去的故事和新生活的开始。

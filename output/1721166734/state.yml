@@ -1,0 +1,98 @@
+directory: '1721166734'
+lines:
+- content: 哎，各位观众，今天咱们就来聊聊美国的总统大选。
+  context: 开场白，引入话题。
+  image: output/1721166734/images/1.png
+  narration: output/1721166734/narration/1.mp3
+  sd_prompt: '"Liang Zidong stands with a smile on his face, holding a folding fan
+    in his hand."'
+  seed: 1721166735
+  speaker: 梁子栋
+  visual: 梁子栋面带微笑，手拿折扇，站立姿势。
+- content: 哦，梁先生，您说的这美国总统选举，可是最近全球都在关注的大事儿。
+  context: 回应开场白，引起话题。
+  image: output/1721166734/images/2.png
+  narration: output/1721166734/narration/2.mp3
+  sd_prompt: Miao Jinyang nods and bends with grace, making elegant hand gestures,
+    and has an upright posture while sitting.
+  seed: 1721166734
+  speaker: 苗金旺
+  visual: 苗金旺点头哈腰，手势优雅，坐姿端正。
+- content: 那是自然，尤其是对于我们中国来说，这俩人谁当上总统，可是关系着我们的经济发展和国计民生啊。
+  context: 强调话题的重要性。
+  image: output/1721166734/images/3.png
+  narration: output/1721166734/narration/3.mp3
+  sd_prompt: '"Liang Zidong looks serious, using gestures to reinforce his tone."'
+  seed: 1721166735
+  speaker: 梁子栋
+  visual: 梁子栋表情严肃，手势加强语气。
+- content: 哦，梁先生，这话我就不爱听了，您这不是明摆着说咱们中国跟美国总统选举有啥关系吗？
+  context: 故意挑刺，引出辩论。
+  image: output/1721166734/images/4.png
+  narration: output/1721166734/narration/4.mp3
+  sd_prompt: Miao Jinyong raised an eyebrow, put his hand under his chin, and looked
+    slyly.
+  seed: 1721166734
+  speaker: 苗金旺
+  visual: 苗金旺眉毛一挑，手托下巴，表情戏谑。
+- content: 怎么没关系？特朗普当政期间，咱们中国可是签了不少贸易协议，关税降了不少，这不就是实实在在的好处吗？
+  context: 支持特朗普，强调好处。
+  image: output/1721166734/images/5.png
+  narration: output/1721166734/narration/5.mp3
+  sd_prompt: '"Liang Zidong''s hand gestures are confident, and his expression is
+    pleased."'
+  seed: 1721166735
+  speaker: 梁子栋
+  visual: 梁子栋手势自信，表情得意。
+- content: 梁先生，您这话可是有问题的，拜登上台，咱们中国还不是要面对他的那些个政治决策？关税降了是降了，但后面呢？
+  context: 反驳特朗普，提出担忧。
+  image: output/1721166734/images/6.png
+  narration: output/1721166734/narration/6.mp3
+  sd_prompt: Miao Jinyang shook his head and bobbed his body, moving his hands slowly,
+    with a thoughtful expression on his face.
+  seed: 1721166734
+  speaker: 苗金旺
+  visual: 苗金旺摇头晃脑，手势缓慢，表情沉思。
+- content: 哎，苗先生，您这话就有点片面了，特朗普的政策可是个‘双刃剑’，他现在虽然降税，可长远看，他那贸易保护主义，对咱们中国可没好处。
+  context: 再次反驳，强调长远影响。
+  image: output/1721166734/images/7.png
+  narration: output/1721166734/narration/7.mp3
+  sd_prompt: '"Liang Zidong''s hand gestures are forceful, and his expression is determined."'
+  seed: 1721166735
+  speaker: 梁子栋
+  visual: 梁子栋手势有力，表情坚定。
+- content: 梁先生，您这话我就更不同意了，拜登的政策虽然现在看不出啥，但至少他那国际主义情怀，对中国来说，说不定能带来更多的机遇呢。
+  context: 再次回应，强调拜登的优势。
+  image: output/1721166734/images/8.png
+  narration: output/1721166734/narration/8.mp3
+  sd_prompt: '"Miao Jin Wang''s hand gestures are exaggerated, and his expression
+    is confident."'
+  seed: 1721166734
+  speaker: 苗金旺
+  visual: 苗金旺手势夸张，表情自信。
+- content: 哎呀，那咱们就这么一言不合，各抒己见，没个结果了？
+  context: 试图结束争论，缓和气氛。
+  image: output/1721166734/images/9.png
+  narration: output/1721166734/narration/9.mp3
+  sd_prompt: '"Liang Zidong shrugged, with a helpless expression on his face."'
+  seed: 1721166735
+  speaker: 梁子栋
+  visual: 梁子栋摊手，表情无奈。
+- content: 梁先生，您说得对，这选举结果，咱们中国也有咱中国的利益考量，但我们不能只盯着眼前的这些利益，还得看长远的发展，你说是不是？
+  context: 回应结束语，达成共识。
+  image: output/1721166734/images/10.png
+  narration: output/1721166734/narration/10.mp3
+  sd_prompt: '"Miao Jinyang nodded in agreement, with a composed expression."'
+  seed: 1721166734
+  speaker: 苗金旺
+  visual: 苗金旺点头认同，表情沉稳。
+- content: 对，咱们得看整个局势，不能只看一时之利，那今天的节目就到这里，下期再见啊。
+  context: 结束语，准备下期节目。
+  image: output/1721166734/images/11.png
+  narration: output/1721166734/narration/11.mp3
+  sd_prompt: '"Liang Zidong holds a folding fan in his hand, making a gesture of respect
+    before bidding farewell."'
+  seed: 1721166735
+  speaker: 梁子栋
+  visual: 梁子栋手拿折扇，作揖告别。
+music: ''

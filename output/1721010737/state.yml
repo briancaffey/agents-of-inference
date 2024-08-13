@@ -1,0 +1,99 @@
+directory: '1721010737'
+topics:
+- description: An interstellar alphabet where each letter is governed by the bizarre
+    grammar of a slug-like alien species. This alphabet requires understanding the
+    migratory patterns and mating rituals of these creatures to decode messages.
+  music: output/1721010737/music/0.wav
+  name: Galactic Slug Grammar
+  shots:
+  - image: output/1721010737/images/1.png
+    narration: output/1721010737/narration/1.mp3
+    sd_prompt: A line of letters resembling alien life forms is arranged in the cosmic
+      sky. These letters change according to the traveler's migration path, with each
+      line illuminated by the twinkling stars.
+    spoken_words: 旅行者的字母，是来自遥远星系的奇妙书写系统。每个字母都是由形似 slug 的外星生物的奇异语法所规定。
+    title: 迁徙的字母 - 旅行者字母
+    visual_description: 一列形似外星生物的字母排列在宇宙星空中。这些字母随着旅行者的迁徙路径而变化，每一行都被闪烁的星星照亮。
+  - image: output/1721010737/images/2.png
+    narration: output/1721010737/narration/2.mp3
+    sd_prompt: On the screen, a text composed of slug-like creatures appeared, simulating
+      reproductive actions such as mating and laying eggs, causing the letter shapes
+      to change accordingly.
+    spoken_words: 繁衍字母，描述了外星 slug 生物繁殖的季节。字母的排列与它们繁衍的仪式相对应。
+    title: 繁殖的字母 - 繁衍字母
+    visual_description: 屏幕上展现了一个由 slug 生物组成的文字，它们在模拟着繁殖的动作，如交配、产卵等，字母形态随之变化。
+  - image: output/1721010737/images/3.png
+    narration: output/1721010737/narration/3.mp3
+    sd_prompt: Letters float in the deep, starry sky, constellations shifting, the
+      position, form, and color of the letters changing accordingly, as if they merge
+      with the starry sky.
+    spoken_words: 星际字母，是外星 slug 生物在星空下书写的语言。它们的语法与星空中的星座相呼应。
+    title: 星空下的字母 - 星际字母
+    visual_description: 字母漂浮在深邃的星空之中，星座变换，字母的位置、形态和颜色随之改变，仿佛与星空融为一体。
+- description: A niche memory science field that studies how unique fingerprints can
+    unlock vivid memories from the past for individuals. Researchers delve into the
+    molecular structure of fingerprint oils to recall specific moments in the lives
+    of their subjects.
+  music: output/1721010737/music/1.wav
+  name: Fingerprint Memories
+  shots:
+  - image: output/1721010737/images/4.png
+    narration: output/1721010737/narration/4.mp3
+    sd_prompt: In a laboratory setting, a researcher closely examines a strand of
+      oil collected from their fingers under a microscope. As the magnification increases,
+      an old photograph of a young man and woman appears on the screen, with a background
+      of a campus from decades ago.
+    spoken_words: 在这段镜头中，我们将展示研究员如何通过分析指纹油分子的微妙纹理，重现个体的深刻记忆。
+    title: 纹理唤忆
+    visual_description: 一个实验室场景，研究员在显微镜下仔细观察一缕从手指上收集的油脂，随着放大，屏幕上呈现出一个年轻男女的旧照片，背景是几十年前的校园。
+  - image: output/1721010737/images/5.png
+    narration: output/1721010737/narration/5.mp3
+    sd_prompt: A slow-motion shot focuses on a middle-aged man holding an old photograph
+      tightly. His fingers gently glide over the ink on the photographic paper, and
+      his gaze becomes distant and soft with the motion.
+    spoken_words: 接下来的镜头，我们将看到当一个中年人轻触一张泛黄的老照片时，他的指纹留在相纸上，唤起了对过去时光的深刻记忆。
+    title: 指尖往事
+    visual_description: 一个缓慢推进的镜头，聚焦于一个中年男子紧握的老照片，他的手指轻轻滑动在相纸的油墨上，他的眼神随着动作变得遥远而柔和。
+  - image: output/1721010737/images/6.png
+    narration: output/1721010737/narration/6.mp3
+    sd_prompt: A group of researchers sit around a table, conducting a comparative
+      experiment between the fingerprint oil of modern people and samples extracted
+      from fingerprint traces on old photographs. On the screen, past photos and current
+      fingerprint analysis results alternate.
+    spoken_words: 最后，我们展示一个实验，将一个时期的指纹油与现代指纹进行对比分析，以揭示时间如何在指纹上留下印记，从而唤起不同的记忆。
+    title: 指印时光
+    visual_description: 一群研究人员围坐在桌子旁，他们将现代人的指纹油与从老照片上的指纹印迹提取的样本进行对比实验，屏幕上显示着过去的照片和现在的指纹分析结果交替出现。
+- description: A mystical art of divination based on the patterns formed by the tea
+    leaves after being poured out of a teacup. This practice involves interpreting
+    quantum fluctuations observed in the behavior of the tea leaves as omens and predictions.
+  music: output/1721010737/music/2.wav
+  name: Quantum Tea Leaf Lore
+  shots:
+  - image: output/1721010737/images/7.png
+    narration: output/1721010737/narration/7.mp3
+    sd_prompt: A delicate porcelain cup, filled with fresh tea water, the tea water
+      is gently poured out, the tea leaves dance in the cup, like microscopic stars,
+      presenting a quantum wave to the audience before their eyes, as if time and
+      space are folding together at this moment, the arrangement of the tea leaves
+      gleams like stars, hinting at the mysterious future.
+    spoken_words: 茶葉的舞動，不僅是一種享受，更是量子世界的奧秘。
+    title: 量子茶葉碎片：神秘的占卜之始
+    visual_description: 一个精致的瓷杯，倒入新鲜的茶水，茶水被轻轻倒出，茶葉在杯中起舞，如同微观的星辰，观众眼前呈现出量子波动，仿佛时间与空间在此刻折叠，茶葉的排列如星辰般闪烁，预示着神秘的未来。
+  - image: output/1721010737/images/8.png
+    narration: output/1721010737/narration/8.mp3
+    sd_prompt: A scene of tea leaves dancing in the air, the leaves floating like
+      ghosts in the sky, swaying with the wind to form peculiar patterns. These patterns
+      unfold slowly in the air, and every leaf of tea is telling a story about the
+      future.
+    spoken_words: 茶葉的每一次飘摇，都是量子世界的演绎。
+    title: 幻影茶舞：茶葉的量子之舞
+    visual_description: 一幕茶葉在空中飘舞的景象，茶葉如同幽灵般在空中悬浮，它们随风摇曳，形成奇异的图案，这些图案在空中缓缓展开，每一片茶葉都在讲述着一个关于未来的故事。
+  - image: output/1721010737/images/9.png
+    narration: output/1721010737/narration/9.mp3
+    sd_prompt: A stack of neatly arranged tea leaves, covered with a thin layer of
+      tea powder, glittered faintly under the weak light, forming a series of hazy
+      patterns that seemed to whisper. Each pattern was a prophecy, each leading to
+      an unknown future.
+    spoken_words: 在这片茶叶的海洋中，隐藏着宇宙的秘密。
+    title: 量子叶语：解读茶的预言
+    visual_description: 一叠排列整齐的茶葉，上面覆盖着一层薄薄的茶粉，在微弱的光线下，茶葉的边缘闪烁着微光，形成了一个个模糊的图案，像是在低语，每个图案都是一个预言，每个预言都指向一个未知的未来。

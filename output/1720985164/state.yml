@@ -1,0 +1,118 @@
+directory: '1720985164'
+topics:
+- description: 介绍地球上的自然奇迹，如大峡谷和泰坦尼克号沉船遗址。
+  music: output/1720985164/music/0.wav
+  name: 自然奇观
+  shots:
+  - image: output/1720985164/images/1.png
+    narration: output/1720985164/narration/1.mp3
+    sd_prompt: A bustling metropolis of towering skyscrapers, the sky dotted with
+      twinkling stars, the lights of countless homes reflecting off the glass facades
+      of the giants, with neon lights flickering in the night. The nightlife is alive
+      and vibrant.
+    spoken_words: 夜幕低垂，城市的灯光渐渐亮起。
+    title: 城市夜景
+    visual_description: 一座高楼林立的都市，天空中星星点点，万家灯火映照着摩天大楼的玻璃幕墙，霓虹灯闪烁，夜生活正浓。
+  - image: output/1720985164/images/2.png
+    narration: output/1720985164/narration/2.mp3
+    sd_prompt: On a small hill, a red sun slowly rises, golden sunlight sprinkles
+      on the calm surface of the lake, several morning birds forage by the lake's
+      edge, and distant mountains are shrouded in morning mist.
+    spoken_words: 天色渐亮，清晨的第一缕光线穿透云层。
+    title: 晨光熹微
+    visual_description: 一座小山丘上，一轮红日缓缓升起，金色的阳光洒在平静的湖面上，几只晨鸟在湖边觅食，远处山峦被晨雾缭绕。
+  - image: output/1720985164/images/3.png
+    narration: output/1720985164/narration/3.mp3
+    sd_prompt: A playground full of laughter and joy, colorful slides, winding climbing
+      frames, spinning flying chairs in the sky, children running and jumping among
+      various play equipment, surrounded by watchful parents.
+    spoken_words: 孩子们在快乐的海洋中嬉戏。
+    title: 儿童乐园
+    visual_description: 一个充满欢声笑语的儿童乐园，色彩斑斓的滑梯，蜿蜒的攀爬架，天空中的旋转飞椅，孩子们在各种游乐设施间奔跑、跳跃，周围是守护的家长们。
+- description: 探索最新的科技发展和突破，如人工智能和量子计算。
+  music: output/1720985164/music/1.wav
+  name: 科技前沿
+  shots:
+  - image: output/1720985164/images/4.png
+    narration: output/1720985164/narration/4.mp3
+    sd_prompt: Towering cities with skyscrapers standing tall, neon lights flickering.
+      The bustling streets teeming with traffic, people's faces beaming with smiles.
+      The skyline, where skyscrapers complement the starry night sky.
+    spoken_words: 夜幕降临，灯光璀璨。
+    title: 城市夜景
+    visual_description: 高楼耸立的城市，霓虹灯闪烁。繁忙的街道上车水马龙，人们脸上带着微笑。天际线上，摩天楼与星空相得益彰。
+  - image: output/1720985164/images/5.png
+    narration: output/1720985164/narration/5.mp3
+    sd_prompt: The first ray of sunlight piercing the rising sea level casts a golden
+      glow upon the sea. Seagulls circle overhead, and the waves gently buffet the
+      shore. In the morning light, everything seems so tranquil and beautiful.
+    spoken_words: 天边露出一抹红霞，新的一天开始了。
+    title: 海边的日出
+    visual_description: 海平面上升起的第一缕阳光，金色的光辉洒在海面上。海鸥在空中盘旋，海浪轻柔地拍打着沙滩。晨光中，一切都显得如此宁静而美好。
+  - image: output/1720985164/images/6.png
+    narration: output/1720985164/narration/6.mp3
+    sd_prompt: Row upon row of neatly arranged shelves, the spines of the books gleaming
+      with an ancient elegance. In the quiet reading area, people are engrossed in
+      the books in their hands. The soft sound of turning pages occasionally fills
+      the space, echoing in the tranquil atmosphere.
+    spoken_words: 在这里，时间仿佛放慢了脚步。
+    title: 图书馆的宁静
+    visual_description: 一排排整齐的书架，书脊泛着古雅的光泽。安静的阅读区域，人们埋头于手中的书籍。轻柔的翻书声，偶尔响起，在这宁静的空间里回荡。
+- description: 介绍世界各地的历史遗迹和文化瑰宝，如金字塔和故宫。
+  music: output/1720985164/music/2.wav
+  name: 世界文化遗产
+  shots:
+  - image: output/1720985164/images/7.png
+    narration: output/1720985164/narration/7.mp3
+    sd_prompt: The silhouette of towering skyscrapers, the horizon line composed of
+      countless lights. A sea of people on the streets, with neon lights casting reflections
+      on passerby's faces. In the distance, the streetlamps on the overpass form a
+      long, sinuous curve.
+    spoken_words: 夜幕降临，城市灯光开始闪烁。
+    title: 城市夜景
+    visual_description: 高楼大厦的剪影，天际线由无数灯光构成。街道上人潮汹涌，霓虹灯映照着行人的脸庞。远处，天桥上的路灯排列成一条悠长的曲线。
+  - image: output/1720985164/images/8.png
+    narration: output/1720985164/narration/8.mp3
+    sd_prompt: A path surrounded by trees, morning runners weaving through, sunlight
+      filtering through the leaves. Morning runners beaming with sweat, breathing
+      evenly. A corner of the park, doves rising, gliding across the sky.
+    spoken_words: 清晨，人们在公园里晨跑。
+    title: 公园晨跑
+    visual_description: 树木环绕的小径，晨跑者穿行其中，阳光透过树叶洒落。晨跑者满脸汗水，呼吸均匀。公园一角，鸽子飞起，划过天际。
+  - image: output/1720985164/images/9.png
+    narration: output/1720985164/narration/9.mp3
+    sd_prompt: Waves gently crashed against the shore, carried by the evening breeze
+      which ignited a golden glow. The sun slowly sank, painting the sky in an orange-red
+      hue. Seagulls soared through the evening sky, leaving behind elegant silhouettes.
+    spoken_words: 夕阳西下，海天一色。
+    title: 海边日落
+    visual_description: 海浪轻轻拍打着沙滩，晚风拂过，带起一片金色光芒。太阳缓缓下沉，天空被染成橙红。海鸥在晚霞中翱翔，留下优美的剪影。
+- description: 带您探索宇宙奥秘，了解星系、恒星和天文现象。
+  music: output/1720985164/music/3.wav
+  name: 星空探秘
+  shots:
+  - image: output/1720985164/images/10.png
+    narration: output/1720985164/narration/10.mp3
+    sd_prompt: A detailed photograph of the urban skyline, the eastern sky is displaying
+      a gradient of colors, with several rays of golden light piercing through the
+      clouds and casting on bustling streets and glass facades of buildings.
+    spoken_words: 第一幕，晨光初照，城市渐渐苏醒。
+    title: 城市晨曦
+    visual_description: 一张细腻的城市天际线照片，东方的天空正展现出渐变的色彩，几缕金光穿透云层，洒在繁忙的街道和玻璃幕墙的建筑上。
+  - image: output/1720985164/images/11.png
+    narration: output/1720985164/narration/11.mp3
+    sd_prompt: A high-definition photo of a city street, with hurried pedestrians,
+      vehicles weaving through, neon lights casting shadows on passerby's profiles,
+      and a bustling traffic network that showcases the vitality of the metropolis.
+    spoken_words: 第二幕，街道上人潮涌动，展现出都市生活的节奏。
+    title: 街道繁忙
+    visual_description: 一张高清的城市街道照片，行人匆匆，车辆穿梭，霓虹灯映照着路人的侧脸，繁忙的交通网络呈现出都市的活力。
+  - image: output/1720985164/images/12.png
+    narration: output/1720985164/narration/12.mp3
+    sd_prompt: A photograph of the city at night, with the lights of high-rise buildings
+      intertwining with the horizon line, and street lamps like stars stretching into
+      the distance. The people enjoying their nightlife are reveling in the tranquil
+      moments of the city under the neon lights.
+    spoken_words: 第三幕，夜幕降临，城市换上华丽的晚礼服。
+    title: 夜幕降临
+    visual_description: 一张城市夜景的照片，高楼的灯光与天际线交织，繁星般的街灯延伸向远方，夜生活的人们在霓虹灯光中享受着都市的宁静时刻。

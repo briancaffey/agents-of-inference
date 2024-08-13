@@ -1,0 +1,67 @@
+directory: '1721178735'
+lines:
+- content: 特朗普总统，您看，他虽然嘴巴很厉害，但他的经济政策对中国还是很友好的
+  context: 开始讨论特朗普的优点
+  image: output/1721178735/images/1.png
+  narration: output/1721178735/narration/1.mp3
+  sd_prompt: Actor A is holding a folding fan and smiling.
+  seed: 1721178736
+  speaker: 相声演员甲
+  visual: 演员甲手拿折扇，微笑着
+- content: 但是，甲同志，你别忘了，特朗普的贸易战可是让咱们的贸易额减少了十几万亿美元呢
+  context: 反驳甲的观点
+  image: output/1721178735/images/2.png
+  narration: output/1721178735/narration/2.mp3
+  sd_prompt: '"Actor Y shook his head and waggled his ears, with a serious expression."'
+  seed: 1721178735
+  speaker: 相声演员乙
+  visual: 演员乙摇头晃脑，表情严肃
+- content: 哦，那拜登总统，他提出的贸易协议，听起来是挺诱人的，大减税，大开放
+  context: 开始讨论拜登的优点
+  image: output/1721178735/images/3.png
+  narration: output/1721178735/narration/3.mp3
+  sd_prompt: Actor A nods, showing excitement.
+  seed: 1721178736
+  speaker: 相声演员甲
+  visual: 演员甲点头，显得很兴奋
+- content: 但是，甲同志，你别忘了，他那减税政策，会让美国的财政赤字突破天际的
+  context: 再次反驳甲的观点
+  image: output/1721178735/images/4.png
+  narration: output/1721178735/narration/4.mp3
+  sd_prompt: Actor Yi makes an exaggerated expression and uses hand gestures.
+  seed: 1721178735
+  speaker: 相声演员乙
+  visual: 演员乙做出夸张的表情，用手比划
+- content: 那你说，咱们应该支持谁？
+  context: 甲问乙，寻求意见
+  image: output/1721178735/images/5.png
+  narration: output/1721178735/narration/5.mp3
+  sd_prompt: Actor A places his palms together and makes a supplicant gesture.
+  seed: 1721178736
+  speaker: 相声演员甲
+  visual: 演员甲双手合十，做出祈求的样子
+- content: 我觉得，咱们应该支持谁，谁给咱的钱多，谁对咱的贸易最有利，就支持谁
+  context: 乙给出自己的建议，带有讽刺意味
+  image: output/1721178735/images/6.png
+  narration: output/1721178735/narration/6.mp3
+  sd_prompt: Actor Beta shrugs, looking helpless.
+  seed: 1721178735
+  speaker: 相声演员乙
+  visual: 演员乙摊手，显得无奈
+- content: 哎，说来说去，不还是为了钱吗？
+  context: 甲总结乙的观点
+  image: output/1721178735/images/7.png
+  narration: output/1721178735/narration/7.mp3
+  sd_prompt: Actor A shakes his head, with a look of resignation.
+  seed: 1721178736
+  speaker: 相声演员甲
+  visual: 演员甲摇头，表情无奈
+- content: 对啊，不就是为了钱嘛，有什么不好意思的
+  context: 乙坦白地承认了
+  image: output/1721178735/images/8.png
+  narration: output/1721178735/narration/8.mp3
+  sd_prompt: Actor Y laughs heartily, appearing very relaxed.
+  seed: 1721178735
+  speaker: 相声演员乙
+  visual: 演员乙大笑，显得很放松
+music: ''

@@ -1,0 +1,101 @@
+directory: '1721002439'
+topics:
+- description: An interdisciplinary study that explores the concept of changing the
+    past by meticulously manipulating individual letters in historical texts, thus
+    altering the course of history one word at a time.
+  music: output/1721002439/music/0.wav
+  name: Chrono-Grapheme Theory
+  shots:
+  - image: output/1721002439/images/1.png
+    narration: output/1721002439/narration/1.mp3
+    sd_prompt: The scene shows a scientist in an ancient library, surrounded by piles
+      of historical documents and books. The scientist carefully uses a special tool
+      to gently move ink on the pages, as if meticulously tracing the trajectories
+      of space and time.
+    spoken_words: 在这项跨学科的研究中，我们探讨了通过精确操控历史文本中的单个字母来改变过去的方法。
+    title: 时光改字：时光轨迹的细小调整
+    visual_description: 画面显示一个科学家在古老的图书馆中，周围是堆满历史文献的书籍。科学家专注地使用特殊的工具在书页上轻轻移动着墨迹，仿佛在小心翼翼地绘制时空轨迹。
+  - image: output/1721002439/images/2.png
+    narration: output/1721002439/narration/2.mp3
+    sd_prompt: A team works in a bustling office, with desks covered in printed historical
+      documents. The team members concentrate intensely, making corrections on the
+      pages with laser pointers. The scene presents a dynamic as if sculpting in time
+      and space.
+    spoken_words: 我们尝试通过逐字逐句地修改历史文献来重塑历史的面貌。
+    title: 历史重写：字斟句酌的时空雕塑
+    visual_description: 一个团队在繁忙的办公室内，桌上铺满了打印的历史文件。团队成员们聚精会神地讨论着，用激光笔在页面上做出修改，画面呈现出一种如同在时空上进行雕塑般的动态。
+  - image: output/1721002439/images/3.png
+    narration: output/1721002439/narration/3.mp3
+    sd_prompt: The scene shows a scholar working at a massive glass table, with texts
+      from different historical periods laid out on the surface. The scholar caresses
+      the glass surface with their fingers, as if they can touch the historical weight
+      carried by the text through their fingertips. Every touch elicits subtle vibrations
+      from the surrounding texts.
+    spoken_words: 每一次笔尖在纸上移动，都是对历史的一次微小干涉。
+    title: 文字的魔法师：一念之差，历史改观
+    visual_description: 画面呈现一位学者在巨大的玻璃桌面前工作，桌上摆放着不同历史时期的文本。学者用手指轻抚着玻璃面，仿佛能透过指尖触摸到文字所承载的历史重量，每一次触摸都能引起周围文字微妙的波动。
+- description: A secret society of professional note-takers, believed to be using
+    highly specialized code language in their Moleskine journals to orchestrate global
+    events and uncover ancient mysteries.
+  music: output/1721002439/music/1.wav
+  name: Moleskine Conspiracy
+  shots:
+  - image: output/1721002439/images/4.png
+    narration: output/1721002439/narration/4.mp3
+    sd_prompt: 'Translation: As the scene opens, it shows an ancient Moleskine notebook,
+      with a cover inscribed with mysterious symbols, and pages filled with a jumble
+      of notes that seem to be the story pieced together from ancient pictographs.'
+    spoken_words: 欢迎来到Moleskine笔记者的秘密世界，一个由专业笔记者组成的组织，他们相信自己使用高度专业的代码语言记录在Moleskine笔记本上，以策划全球事件和揭示古代谜团。
+    title: 神秘的Moleskine笔记者：秘密组织的暗流
+    visual_description: 镜头一呈现一个古老的Moleskine笔记本，封面写着神秘的符号，页面上满是密密麻麻的笔记，像是古老的象形文字拼凑成的故事。
+  - image: output/1721002439/images/5.png
+    narration: output/1721002439/narration/5.mp3
+    sd_prompt: A group of men and women in black suits are chatting in low voices
+      in a dimly lit room. In their hands are Moleskine notebooks, where words and
+      drawings intermingle, resembling the key to a time capsule.
+    spoken_words: 在这组镜头中，我们将看到神秘组织的聚会，他们使用特殊的代码交流信息。
+    title: 笔记者的聚会
+    visual_description: 一群身穿黑色西装的男女在昏暗的房间内低声交谈，他们手中的Moleskine笔记本上，文字和图画交织，像是时间胶囊的钥匙。
+  - image: output/1721002439/images/6.png
+    narration: output/1721002439/narration/6.mp3
+    sd_prompt: The camera shows pen journalists moving between ancient sites around
+      the world. They sketch the details of these sites in their notebooks, and as
+      these details emerge, they reveal secrets that have been hidden for centuries.
+    spoken_words: 解码笔记者如何通过他们的笔记揭露历史遗迹和隐藏的秘密。
+    title: 解码古迹：笔记者的行动
+    visual_description: 镜头展示笔记者们穿梭于世界各地的古迹之间，他们在笔记本上勾画出古迹的细节，而这些细节在现实中逐渐显露出来，揭示了隐藏千年之久的秘密。
+- description: A peculiar subculture where individuals communicate through infrared
+    signals, leading to a society where physical appearance is secondary to the warmth
+    of one's heart (or, metaphorically, the heat of their passion).
+  music: output/1721002439/music/2.wav
+  name: Infrared Seduction
+  shots:
+  - image: output/1721002439/images/7.png
+    narration: output/1721002439/narration/7.mp3
+    sd_prompt: A person stands on a pitch-black stage, with only a faint infrared
+      glow emanating from the screen in front of them. Their eyes flash with affection
+      in the infrared light, conveying a deep exchange. Surrounding them is endless
+      darkness, but it is their passion that lights up the surrounding space like
+      flames.
+    spoken_words: 感受那股来自内心的热力，穿透一切的黑暗。
+    title: 心之热光
+    visual_description: 一个人站在一片漆黑的舞台上，只有他们前方的屏幕上发出微弱的红外光芒。他们的眼睛在红外线中闪烁，传达着深情的交流。周围是无尽的黑暗，只有他们的热情如同火焰般照亮了周围的空间。
+  - image: output/1721002439/images/8.png
+    narration: output/1721002439/narration/8.mp3
+    sd_prompt: A couple embraces tightly, yet does not touch each other's appearance.
+      They exchange warmth through infrared rays, as if they can feel each other's
+      heartbeat rhythm. Surrounding them are similar couples, all communicating in
+      the same manner.
+    spoken_words: 在这个世界里，温度比外表更加重要。
+    title: 暖意流转
+    visual_description: 一对恋人紧紧相拥，却并不触碰对方的外表。他们通过红外线互相传递着温暖，仿佛能够感受到彼此心跳的节奏。周围是一群相似的情侣，都在用同样的方式交流着。
+  - image: output/1721002439/images/9.png
+    narration: output/1721002439/narration/9.mp3
+    sd_prompt: In the evening, the city is illuminated by infrared light, and patterns
+      of heat are reflected upon the buildings. People at home watch the scene on
+      the streets through special windows, as infrared rays weave into vivid images
+      in the air. The people on the street seem to be conveying stories through wisps
+      of heat.
+    spoken_words: 在这个城市中，每一扇门后都是一个温暖的家。
+    title: 热恋之城
+    visual_description: 城市在夜晚被红外光线点亮，建筑物上反射出热量的图案。人们在家中通过特殊的窗户观看街道上的景象，红外线在空气中交织成一幅幅生动的画面。街上的人们仿佛都在用热气传递着故事。

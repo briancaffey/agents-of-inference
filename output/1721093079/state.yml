@@ -1,0 +1,279 @@
+directory: '1721093079'
+topics:
+- description: 雪山下的神秘村庄，天空泛着金色的光芒，一瞬间，整个村庄消失在地平线下，只留下一个神秘的湖泊作为遗迹。
+  music: output/1721093079/music/0.wav
+  name: 序幕：消失的地平线
+  shots:
+  - image: output/1721093079/images/1.png
+    narration: output/1721093079/narration/1.mp3
+    sd_prompt: Vision far off, the snowy mountains towering, the snowfall white and
+      clean, sunlight piercing through the clouds, casting down golden radiance. A
+      mysterious village rises slowly from the snowy ground, with houses in a harmonious
+      layout, wisps of smoke rising lazily, and the villagers bustling about.
+    spoken_words: 镜头拉向雪山之巅，目睹一场奇观...
+    title: 村庄的诞生
+    visual_description: 远景，雪山巍峨，白雪皑皑，阳光穿透云层，洒下金辉。一个神秘村庄从雪地缓缓升起，房屋错落有致，炊烟袅袅升起，村民们忙碌着。
+  - image: output/1721093079/images/2.png
+    narration: output/1721093079/narration/2.mp3
+    sd_prompt: Medium shot, the sun is about to set, the sky is a sea of gold, and
+      the village sparkles with golden light under the sunlight. Children play in
+      front of the village, and the elderly chat leisurely under the trees.
+    spoken_words: 天空渐渐染上了金色...
+    title: 金色的黄昏
+    visual_description: 中景，太阳即将落山，天边一片金黄，村庄在阳光的映照下闪耀着金色的光芒。孩子们在村前嬉戏，老人在树下悠闲地聊天。
+  - image: output/1721093079/images/3.png
+    narration: output/1721093079/narration/3.mp3
+    sd_prompt: Close-up, a villager is frozen in a moment of smile, the movements
+      of children running are frozen, the entire village seems like time has stopped.
+      The golden light in the sky suddenly becomes dazzling, and the whole village
+      disappears little by little under the horizon.
+    spoken_words: 忽然间，一切都静止了...
+    title: 瞬间消失
+    visual_description: 特写，一个村民凝固在微笑的瞬间，孩子们奔跑的动作冻结，整个村庄仿佛时间停滞。天空中的金色光芒突然变得耀眼，整个村庄一点点消失在地平线下。
+  - image: output/1721093079/images/4.png
+    narration: output/1721093079/narration/4.mp3
+    sd_prompt: '"Far in the distance, beneath the snowy mountains, where once was
+      a village, there is now only a serene lake. The water is crystal clear, reflecting
+      the image of the snow-capped mountains. All around, it is eerily quiet, as if
+      everything that just happened was just a mirage."'
+    spoken_words: 村庄消失了，只留下一个神秘的湖泊...
+    title: 遗留下来的湖泊
+    visual_description: 远景，雪山下，原属于村庄的地方只留下一个宁静的湖泊，湖水清澈，倒映着雪山的倒影。四周静悄悄的，仿佛刚才的一切只是一场幻觉。
+  - image: output/1721093079/images/5.png
+    narration: output/1721093079/narration/5.mp3
+    sd_prompt: Close-up, a droplet of water slides slowly from the lake surface and
+      disappears into the snow, as if one can hear the heartbeats of the explorer,
+      ready to embark on the journey to find the secret of the village.
+    spoken_words: 神秘的湖泊，等待着勇敢的探险者来揭开谜团...
+    title: 寻找谜团解开
+    visual_description: 特写，一滴水珠从湖面缓缓滑落，消失在雪地之中，仿佛能听到探险者的心跳声，准备踏上寻找村庄秘密的征程。
+- description: 一位年轻的旅人，在寻找这个神秘湖泊的过程中，迷失在了一片古老的树林中，树木高大茂密，仿佛是远古巨兽的肢体，试图将旅人吞噬。
+  music: output/1721093079/music/1.wav
+  name: 第一章：迷失的旅人
+  shots:
+  - image: output/1721093079/images/6.png
+    narration: output/1721093079/narration/6.mp3
+    sd_prompt: A traveler stands at the entrance of the forest, where sunlight filters
+      down through the gaps in the tall trees, creating a patchwork of light and shadow.
+      The traveler carries a worn-out backpack on his back, with a determined look
+      in his eyes.
+    spoken_words: 这里是古老的树林入口，旅人即将开始他的冒险。
+    title: 迷失的旅人：古林入口
+    visual_description: 旅人站在树林的入口，阳光从高大的树木缝隙中透射下来，形成斑驳的光影。旅人背着一个破旧的背包，眼神坚定。
+  - image: output/1721093079/images/7.png
+    narration: output/1721093079/narration/7.mp3
+    sd_prompt: A traveler moves through the trees, which are tall and lush, creating
+      a narrow path. The traveler's shadow intermittently appears between the tree
+      trunks.
+    spoken_words: 旅人在森林中越走越深，周围的树木变得越来越茂密。
+    title: 迷失的旅人：深入林中
+    visual_description: 旅人在树木间穿行，树木高耸，枝叶繁茂，形成一条狭窄的通道。旅人的身影在树干间时隐时现。
+  - image: output/1721093079/images/8.png
+    narration: output/1721093079/narration/8.mp3
+    sd_prompt: The traveler stood in a wide forest, surrounded by tall trees with
+      leaves covering the sky, looking confused and looking around.
+    spoken_words: 旅人发现自己迷路了，四周的树木长得一模一样，没有任何标记。
+    title: 迷失的旅人：迷途
+    visual_description: 旅人站在一片开阔的林中，四周都是高大的树木，树叶遮天蔽日，旅人面露困惑之色，四处张望。
+  - image: output/1721093079/images/9.png
+    narration: output/1721093079/narration/9.mp3
+    sd_prompt: The traveler moves between towering trees, whose trunks are thick and
+      whose branches are lush and dense, as if these are colossal arms grasping tightly
+      at the traveler.
+    spoken_words: 这些树木就像是远古巨兽的肢体，试图将旅人吞噬。
+    title: 迷失的旅人：巨兽之臂
+    visual_description: 旅人在一棵棵巨大的树木之间穿行，树木的树干粗壮，枝叶茂密，仿佛是巨大的手臂，紧紧抓住旅人。
+  - image: output/1721093079/images/10.png
+    narration: output/1721093079/narration/10.mp3
+    sd_prompt: A traveler in a forest of dim light, finally saw a distant body of
+      water sparkling under the sunlight, like the glow of hope.
+    spoken_words: 突然，旅人看到了一丝希望的曙光，那是一个神秘湖泊的微光。
+    title: 迷失的旅人：希望的曙光
+    visual_description: 旅人在一片昏暗的林中，终于看到了遥远的一片水域，水面在阳光照射下闪耀，像是希望的光芒。
+- description: 旅人最终找到了那片神秘湖泊，湖水碧绿，波光粼粼，湖中心有一个小岛，岛上的樱花树盛开，花瓣随风飘落，宛如仙境。
+  music: output/1721093079/music/2.wav
+  name: 第二章：湖泊的呼唤
+  shots:
+  - image: output/1721093079/images/11.png
+    narration: output/1721093079/narration/11.mp3
+    sd_prompt: Vision, showcasing the magnificent scenery of the entire lake. The
+      lake water is a bright green, reflecting the sky and the mountains in its mirror-like
+      surface. The sun shines on the lake's surface, creating shimmering waves. Along
+      the lakeshore, there are some wildflowers and grass, with butterflies fluttering
+      and dancing in the flower clusters.
+    spoken_words: 啊，这就是传说中的湖泊！
+    title: 湖光美景
+    visual_description: 远景，展示整个湖泊的壮丽景色。湖水碧绿，反射着天空和山峦的倒影。阳光照射在湖面上，波光粼粼。湖岸边有一些野花和小草，蝴蝶在花丛中飞舞。
+  - image: output/1721093079/images/12.png
+    narration: output/1721093079/narration/12.mp3
+    sd_prompt: Medium shot, a traveler crosses a small bridge, with a finely carved
+      stone lion on the bridge. The traveler walks while admiring the scenery by the
+      lake.
+    spoken_words: 我要走近，揭开它的秘密。
+    title: 渡过小桥
+    visual_description: 中景，旅人走过一座小桥，桥上有一头雕刻精细的石狮。旅人边走边欣赏着湖边的风景。
+  - image: output/1721093079/images/13.png
+    narration: output/1721093079/narration/13.mp3
+    sd_prompt: Close-up, the traveler arrives at the small island, cherry blossom
+      trees in full bloom, petals drifting down like pink rain. The traveler stands
+      beneath the tree, closing their eyes, as if savoring the scent of spring.
+    spoken_words: 岛上的樱花开了，好美！
+    title: 湖心小岛
+    visual_description: 特写，旅人到达小岛，樱花树盛开，花瓣随风飘落，犹如粉色的雨。旅人站在树下，闭上眼睛，似乎在感受着春天的气息。
+  - image: output/1721093079/images/14.png
+    narration: output/1721093079/narration/14.mp3
+    sd_prompt: Close-up, the face of a traveler reflected on the lake surface, the
+      surrounding scenery as picturesque as a painting, cherry blossom petals drifted
+      down on the water's surface, adding a serene beauty.
+    spoken_words: 湖水如此清澈，连我的倒影都能看得一清二楚。
+    title: 湖中倒影
+    visual_description: 特写，旅人的脸庞映照在湖面上，周围的景色如画一般，樱花花瓣飘落在水面上，增添了一份宁静的美。
+  - image: output/1721093079/images/15.png
+    narration: output/1721093079/narration/15.mp3
+    sd_prompt: Nightscape, the lake surface twinkles with stars, cherry blossom trees
+      appear even more mysterious under the moonlight, the traveler sits by the lake,
+      gazing up at the stars, feeling the tranquility and beauty of nature.
+    spoken_words: 夜晚，这里会变成怎样的仙境呢？
+    title: 仙境般的夜晚
+    visual_description: 夜景，湖面上星光闪烁，樱花树在月光下显得更加神秘，旅人坐在湖边，仰望星空，感受到大自然的宁静与美好。
+- description: 旅人在岛上遇到了一位老渔夫，老渔夫告诉他，只有纯净的心灵才能找到岛屿的秘密。旅人开始反思自己的过去，寻找内心的纯净。
+  music: output/1721093079/music/3.wav
+  name: 第三章：岛上的秘密
+  shots:
+  - image: output/1721093079/images/16.png
+    narration: output/1721093079/narration/16.mp3
+    sd_prompt: The scene shows a solitary beach, with waves gently crashing against
+      the shore. An elderly man dressed in the attire of an old fisherman sits on
+      the beach, holding a fishing rod and quietly gazing out at the sea. In the background,
+      blue and white seabirds soar through the sky.
+    spoken_words: 这是一个人迹罕至的小岛，一个穿着破旧的老渔夫坐在海边，手里拿着一根钓竿，望着无边无际的大海。
+    title: 海边的老渔夫
+    visual_description: 画面显示一个孤立的沙滩，海浪轻轻拍打着岸边。一个穿着旧渔夫服装的老者坐在沙滩上，手里拿着钓竿，静静地看着大海。背景是蓝色和白色的海鸥在天空飞翔。
+  - image: output/1721093079/images/17.png
+    narration: output/1721093079/narration/17.mp3
+    sd_prompt: The scene cuts to a young man with a backpack, his face etched with
+      the fatigue of travel and the yearning for exploration. He walks along the coastline,
+      taking in the view.
+    spoken_words: 突然，一位穿着旅行装的年轻人出现在沙滩上，他似乎在寻找着什么。
+    title: 旅人的到来
+    visual_description: 画面切换到一位背着背包的年轻人，他的脸上写满了旅途的疲惫和探索的渴望。他沿着海岸线行走，四处张望。
+  - image: output/1721093079/images/18.png
+    narration: output/1721093079/narration/18.mp3
+    sd_prompt: The old fisherman stood before the traveler, their shadows cast long
+      in the waning sunlight. The old fisherman's expression was stern, while the
+      traveler's gaze was filled with puzzlement and curiosity.
+    spoken_words: 老渔夫看到旅人，走过去，用沙哑的声音告诉他：'只有纯净的心灵才能找到岛屿的秘密。'
+    title: 老渔夫的启示
+    visual_description: 老渔夫站在旅人面前，他们的身影在夕阳下拉得很长。老渔夫的表情严肃，而旅人的眼神中充满了疑惑和好奇。
+  - image: output/1721093079/images/19.png
+    narration: output/1721093079/narration/19.mp3
+    sd_prompt: The scene transforms into fragments of memory. The traveler stands
+      in different settings, each filled with troubles and distractions. These settings
+      swiftly change, ultimately returning to reality.
+    spoken_words: 旅人沉默了片刻，开始反思自己的过去，那些让他心灵变得不纯净的回忆。
+    title: 旅人的反思
+    visual_description: 画面变成回忆的片段，旅人站在不同的场景中，每个场景都充满了烦恼和纷扰。这些场景快速切换，最后回到现实。
+  - image: output/1721093079/images/20.png
+    narration: output/1721093079/narration/20.mp3
+    sd_prompt: The traveler's determined steps guide the scene, as he navigates through
+      the dense forest, crosses the stream, and ultimately arrives at a small lake
+      surrounded by mountains. The lake water is crystal clear, reflecting the pure
+      blue sky.
+    spoken_words: 他握紧拳头，下定决心，朝着岛的中心走去，那里藏着老渔夫所说的纯净心灵的秘密。
+    title: 纯净心灵的追寻
+    visual_description: 旅人坚定的步伐带领着画面，他穿过密林，越过小溪，最终来到一个被群山环绕的小湖泊。湖水清澈见底，反射出纯净的蓝天。
+- description: 旅人在老渔夫的指引下，穿越了森林和湖泊，最终来到了一个古老的祭坛，在那里，他经历了一连串的心灵考验，决定面对自己的过去。
+  music: output/1721093079/music/4.wav
+  name: 第四章：心灵的转变
+  shots:
+  - image: output/1721093079/images/21.png
+    narration: output/1721093079/narration/21.mp3
+    sd_prompt: A line of tall trees slowly moves in front of the lens, and sunlight
+      filters through the leaves and sprinkles on the ground. A traveler and an old
+      fisherman walk side by side on a winding path, surrounded by the sounds of nature,
+      and occasionally a squirrel slides through the trees.
+    spoken_words: 旅人，跟我来，穿过这片森林，我们到了目的地。
+    title: 森林中的漫步
+    visual_description: 一队高大的树木在镜头前缓缓移动，阳光透过树叶的缝隙洒在地面上。旅人和老渔夫并肩走在蜿蜒的小径上，四周是自然的声音，偶尔一只松鼠从树间滑落而过。
+  - image: output/1721093079/images/22.png
+    narration: output/1721093079/narration/22.mp3
+    sd_prompt: The camera focuses on the lake, the surface calm as a mirror, and the
+      shoreline covered with wildflowers and grass. The traveler pauses, the old fisherman
+      pointing to a small island in the center of the lake, and the camera slowly
+      moves to reveal the outline of the island.
+    spoken_words: 看，那就是湖，平静如镜。
+    title: 湖面的涟漪
+    visual_description: 镜头对准湖面，水面平静如镜，湖边长满了野花和野草。旅人停下脚步，老渔夫指向湖中央的一座小岛，镜头缓缓移动，展示小岛的轮廓。
+  - image: output/1721093079/images/23.png
+    narration: output/1721093079/narration/23.mp3
+    sd_prompt: The camera slowly zooms out to reveal an ancient and mysterious altar
+      standing on a small island in the middle of a lake. The columns of the altar
+      are covered in vines, giving it an air of ancient mystery.
+    spoken_words: 到了，祭坛就在那里。
+    title: 古老的祭坛
+    visual_description: 镜头逐渐拉远，展示一座古老而神秘的祭坛矗立在湖中央的小岛上，祭坛的柱子被藤蔓所覆盖，显得古老而神秘。
+  - image: output/1721093079/images/24.png
+    narration: output/1721093079/narration/24.mp3
+    sd_prompt: The camera shows a mysterious scene inside the altar. A traveler stands
+      in front of an altar surrounded by a halo. In front of him are memories from
+      the past - photographs, letters, and items. His expression is heavy and determined.
+    spoken_words: 旅人，你必须面对内心的考验。
+    title: 心灵考验
+    visual_description: 镜头展示祭坛内部的神秘场景，旅人站立在一个光环围绕的祭坛前，他的面前摆放着过去的记忆——照片、信件和物品，他的表情沉重而坚定。
+  - image: output/1721093079/images/25.png
+    narration: output/1721093079/narration/25.mp3
+    sd_prompt: The traveler picked up an item, and tears glistened in his eyes. Then
+      he looked up at the old fisherman, and their gazes met. The camera focused on
+      the traveler's determined expression as he raised the item in his hand, then
+      gently placed it back down.
+    spoken_words: 现在，你的路清晰了。
+    title: 觉悟的瞬间
+    visual_description: 旅人拿起一件物品，他的眼中闪烁着泪光，然后他抬头看向老渔夫，两人的目光交汇，镜头聚焦在旅人坚定的表情上，他举起手中的物品，然后轻轻地将其放下。
+- description: 旅人在祭坛的指引下，找到了自己的归途，他带着内心的平静和力量，离开这个神奇的地方，回到了自己的世界，成为了一个更加成熟和坚强的旅人。
+  music: output/1721093079/music/5.wav
+  name: 第五章：归途与新生
+  shots:
+  - image: output/1721093079/images/26.png
+    narration: output/1721093079/narration/26.mp3
+    sd_prompt: The scene shows a serene valley, with sunlight filtering through the
+      treetops and casting shadows on the ground. The traveler stands in the middle
+      of the valley, holding a mysterious artifact bestowed by the altar in his hands.
+      His eyes are firm, as if he has already seen the path ahead of him.
+    spoken_words: 旅人，你的归途，就从这里开始。
+    title: 归途的起点
+    visual_description: 画面显示一个静谧的山谷，阳光透过树梢洒在地面上。旅人站在山谷中央，手中握着祭坛赐予的神秘法器。他的眼神坚定，仿佛已经看到了自己未来的道路。
+  - image: output/1721093079/images/27.png
+    narration: output/1721093079/narration/27.mp3
+    sd_prompt: Close up on the face of the traveler. His brows unclench, a slight
+      upturn at the corners of his mouth, revealing a smile of relief. Surrounding
+      him are the receding glows of magic, symbolizing the harmony and unity of his
+      inner world with the outside world.
+    spoken_words: 内心的平静与力量，是继续前行的动力。
+    title: 内心的平静
+    visual_description: 特写旅人的面庞，他的眉头舒展，嘴角微扬，呈现出一种释然的微笑。他的周围是逐渐退去的魔法光芒，象征着他的内心与外界的和谐统一。
+  - image: output/1721093079/images/28.png
+    narration: output/1721093079/narration/28.mp3
+    sd_prompt: The traveler turned to look at the small house behind him, where there
+      was a faint glimmer of light flickering, as if the house were bidding farewell
+      to the traveler. He gently waved goodbye, his eyes shining with reluctant parting,
+      but he stepped forward resolutely towards the exit of the valley.
+    spoken_words: 告别这个神奇的地方，旅人的心中既有不舍，也有期待。
+    title: 告别神奇之地
+    visual_description: 旅人转身看向身后的小屋，屋内隐约有光芒闪烁，仿佛在向旅人告别。他轻轻挥手，眼中闪烁着不舍，但步伐坚定地走向山谷出口。
+  - image: output/1721093079/images/29.png
+    narration: output/1721093079/narration/29.mp3
+    sd_prompt: The scene shifts to a traveler walking down a city street. People passing
+      by him all carry a look of curiosity and respect. The traveler smiles and nods
+      at them, his maturity and resilience infecting those around him.
+    spoken_words: 新世界中的遇见，让旅人更加成熟。
+    title: 新世界的相遇
+    visual_description: 画面切换到旅人在城市的街道上，他身边走过的人们都带着好奇和尊敬的目光。旅人微笑着与他们点头示意，他的成熟和坚韧感染了周围的人。
+  - image: output/1721093079/images/30.png
+    narration: output/1721093079/narration/30.mp3
+    sd_prompt: 'As the night falls, the wanderer looks up at the stars under the sky,
+      his heart full of yearning for a new life. He steps forward with determination
+      towards his small cottage, where a wooden sign hangs on the door, inscribed
+      with: "The traveler returns, a new journey begins."'
+    spoken_words: 在这个新世界中，旅人以更加坚强的心态面对未知。
+    title: 坚强的新生
+    visual_description: 夜幕降临，旅人在星空下仰望，他的心中充满了对新生活的憧憬。他以坚定的步伐走向自己的小屋，门上挂着一块木牌，上面刻着：旅人归来，新的旅程开始。

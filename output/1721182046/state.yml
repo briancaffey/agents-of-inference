@@ -1,0 +1,157 @@
+directory: '1721182046'
+lines:
+- content: 哎，各位观众，我们今天来聊聊美国大选。
+  context: 开场白
+  image: output/1721182046/images/1.png
+  narration: output/1721182046/narration/1.mp3
+  sd_prompt: Oh, dear audience, today let's talk about the American election.
+  seed: 1721182047
+  speaker: 张三
+  visual: 手拿折扇，微笑
+- content: 李四，你看看现在的美国大选，特朗普和拜登谁上。
+  context: 提出讨论话题
+  image: output/1721182046/images/2.png
+  narration: output/1721182046/narration/2.mp3
+  sd_prompt: Li Si, take a look at the current US presidential election. Who do you
+    think will win between Trump and Biden?
+  seed: 1721182046
+  speaker: 张三
+  visual: 手势指向李四，眼神期待
+- content: 咱们从对中国有利这个角度来说，特朗普其实更胜一筹。
+  context: 提出观点
+  image: output/1721182046/images/3.png
+  narration: output/1721182046/narration/3.mp3
+  sd_prompt: From the perspective that it is beneficial to China, Trump actually does
+    better.
+  seed: 1721182047
+  speaker: 李四
+  visual: 点头，手势摆弄头发
+- content: 哦，为什么？特朗普不是那个贸易战，跟中国闹得挺不愉快的吗？
+  context: 追问原因
+  image: output/1721182046/images/4.png
+  narration: output/1721182046/narration/4.mp3
+  sd_prompt: Oh, why? Trump wasn't the one who started the trade war with China and
+    made things quite uncomfortable, right?
+  seed: 1721182046
+  speaker: 张三
+  visual: 皱眉，手摸下巴
+- content: 就是因为这样，特朗普对中国贸易加征关税，才让中国对美国市场依赖性加大。
+  context: 解释观点
+  image: output/1721182046/images/5.png
+  narration: output/1721182046/narration/5.mp3
+  sd_prompt: Because of this, Trump imposed tariffs on Chinese trade, which increased
+    China's dependence on the American market.
+  seed: 1721182047
+  speaker: 李四
+  visual: 摊手，表情得意
+- content: 那你说说，拜登上台，贸易战还会打起来吗？
+  context: 转移话题
+  image: output/1721182046/images/6.png
+  narration: output/1721182046/narration/6.mp3
+  sd_prompt: So, you're asking, "If Biden takes office, will the trade war start again?"
+  seed: 1721182046
+  speaker: 张三
+  visual: 手托腮，眼神警惕
+- content: 拜登虽然现在民调领先，但谁敢保证他上台后，不会继续特朗普那一套？
+  context: 回应质疑
+  image: output/1721182046/images/7.png
+  narration: output/1721182046/narration/7.mp3
+  sd_prompt: Biden is currently ahead in the polls, but who can guarantee that he
+    will not continue with Trump's policies after taking office?
+  seed: 1721182047
+  speaker: 李四
+  visual: 摇头，表情无奈
+- content: 那照你这么说，特朗普稳赢咯？
+  context: 调侃
+  image: output/1721182046/images/8.png
+  narration: output/1721182046/narration/8.mp3
+  sd_prompt: If that's what you're saying, then Trump is sure to win, right?
+  seed: 1721182046
+  speaker: 张三
+  visual: 做出夸张表情
+- content: 张三，你别被特朗普的嘴炮给迷了眼，特朗普连任，咱们还得继续打贸易战。
+  context: 纠正观点
+  image: output/1721182046/images/9.png
+  narration: output/1721182046/narration/9.mp3
+  sd_prompt: Zhang San, don't let Trump's rhetoric cloud your judgment; if Trump is
+    re-elected, we will have to continue the trade war.
+  seed: 1721182047
+  speaker: 李四
+  visual: 摆手，表情认真
+- content: 那咱们换个角度，如果拜登上台，咱们中国还能继续发展。
+  context: 提出新角度
+  image: output/1721182046/images/10.png
+  narration: output/1721182046/narration/10.mp3
+  sd_prompt: '"Then let''s change our perspective. If Biden takes office, can China
+    still continue to develop?"'
+  seed: 1721182046
+  speaker: 张三
+  visual: 手势指向李四，表情期待
+- content: 那也不一定，拜登如果上来对中国政策软化，咱们发展就会受阻。
+  context: 反驳
+  image: output/1721182046/images/11.png
+  narration: output/1721182046/narration/11.mp3
+  sd_prompt: '"Even if that''s the case, if Biden comes in and softens his approach
+    to China, our development will be hindered."'
+  seed: 1721182047
+  speaker: 李四
+  visual: 摇头，表情严肃
+- content: 那你说说，咱们中国现在最需要的是什么？
+  context: 追问
+  image: output/1721182046/images/12.png
+  narration: output/1721182046/narration/12.mp3
+  sd_prompt: So, what do you think, what is the most needed thing for our China now?
+  seed: 1721182046
+  speaker: 张三
+  visual: 手直指李四，表情严肃
+- content: 发展，发展，还是发展。
+  context: 回答
+  image: output/1721182046/images/13.png
+  narration: output/1721182046/narration/13.mp3
+  sd_prompt: '"Develop, develop, or develop."
+
+
+    This phrase in Chinese, 发展，发展，还是发展，literally translates to "develop, develop,
+    or is it develop," and it emphasizes the importance or urgency of development
+    in the context it is used. It could be applied to various situations such as economic
+    growth, technological progress, or personal growth, suggesting that development
+    is the primary focus or goal.'
+  seed: 1721182047
+  speaker: 李四
+  visual: 摊手，表情无奈
+- content: 那不就得了，特朗普连任对中国发展更有利。
+  context: 总结
+  image: output/1721182046/images/14.png
+  narration: output/1721182046/narration/14.mp3
+  sd_prompt: '"Then it''s settled, Trump''s re-election would be more beneficial for
+    China''s development."'
+  seed: 1721182046
+  speaker: 张三
+  visual: 摊手，表情自信
+- content: 张三，你这逻辑有点问题，咱们不能为了发展而牺牲其他方面。
+  context: 纠正
+  image: output/1721182046/images/15.png
+  narration: output/1721182046/narration/15.mp3
+  sd_prompt: Zhang San, there is something wrong with your logic. We cannot sacrifice
+    other aspects for the sake of development.
+  seed: 1721182047
+  speaker: 李四
+  visual: 摇头，表情无奈
+- content: 哎，算了，观众朋友们，这场戏咱们先说到这儿。
+  context: 收尾
+  image: output/1721182046/images/16.png
+  narration: output/1721182046/narration/16.mp3
+  sd_prompt: '"Alright, enough, fellow audience members, let''s stop here for now
+    in our discussion of this play."'
+  seed: 1721182046
+  speaker: 张三
+  visual: 手势指向观众，微笑
+- content: 下回分解，咱们再聊聊中美关系。
+  context: 回应
+  image: output/1721182046/images/17.png
+  narration: output/1721182046/narration/17.mp3
+  sd_prompt: '"Next time, let''s talk more about Sino-US relations."'
+  seed: 1721182047
+  speaker: 李四
+  visual: 点头，微笑
+music: ''

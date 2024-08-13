@@ -1,0 +1,92 @@
+directory: '1721159974'
+lines:
+- content: 哎呀，朋友们，今天咱们要说的话题可是了不得，咱们这个社会，说 collapse 就 collapse，AI 这玩意儿，害得人可不少啊。
+  context: 开场白，引入话题
+  image: output/1721159974/images/1.png
+  narration: output/1721159974/narration/1.mp3
+  sd_prompt: Zhang San shakes his head and wags his tail, with his hand covering his
+    chest.
+  seed: 1721159975
+  speaker: 张三
+  visual: 张三摇头晃脑，手捂胸口
+- content: 李四，你这么说就有点危言耸听了，AI 怎么就导致社会 collapse 了呢？
+  context: 提出质疑
+  image: output/1721159974/images/2.png
+  narration: output/1721159974/narration/2.mp3
+  sd_prompt: '"Wang Wu waved his hands, with a puzzled expression."'
+  seed: 1721159974
+  speaker: 王五
+  visual: 王五摆手，表情疑惑
+- content: 不是我危言耸听，这 AI 普及了，各行各业都开始用，结果人人都成了机器的奴隶。
+  context: 继续阐述观点
+  image: output/1721159974/images/3.png
+  narration: output/1721159974/narration/3.mp3
+  sd_prompt: Zhang San made a gesture comparing machines and humans.
+  seed: 1721159975
+  speaker: 张三
+  visual: 张三做出机器和人类的对比手势
+- content: 那倒是，我这也有点体验，上次我去医院看病，医生都拿着个 AI 平板，看病全靠它。
+  context: 插话，举例证明
+  image: output/1721159974/images/4.png
+  narration: output/1721159974/narration/4.mp3
+  sd_prompt: '"Li Si puts on a stance with a tablet computer"'
+  seed: 1721159974
+  speaker: 李四
+  visual: 李四摆出拿着平板电脑的姿势
+- content: 对对对，这不，以前我们修家电，还得琢磨琢磨，现在呢，全靠 AI 助手教我们怎么修。
+  context: 接话，补充例子
+  image: output/1721159974/images/5.png
+  narration: output/1721159974/narration/5.mp3
+  sd_prompt: Wang Wu makes a repair TV pose, gestures imitating the AI assistant prompt.
+  seed: 1721159975
+  speaker: 王五
+  visual: 王五做出修家电的样子，手势模仿 AI 助手提示
+- content: 哎呀，这就完了，将来人要不会点 AI 技术，连工作都找不到了。
+  context: 推论未来可能的情况
+  image: output/1721159974/images/6.png
+  narration: output/1721159974/narration/6.mp3
+  sd_prompt: Zhang San shook his head, with a worried expression.
+  seed: 1721159974
+  speaker: 张三
+  visual: 张三摇头，表情担忧
+- content: 那怎么办？咱们是不是得学学 AI，准备迎接这个智能社会啊？
+  context: 提出应对策略
+  image: output/1721159974/images/7.png
+  narration: output/1721159974/narration/7.mp3
+  sd_prompt: Li Si raised his hand and looked serious.
+  seed: 1721159975
+  speaker: 李四
+  visual: 李四举手，表情认真
+- content: 没错，这就叫顺应天命，咱们得跟 AI 好好学学，看看它到底有多聪明。
+  context: 附和观点
+  image: output/1721159974/images/8.png
+  narration: output/1721159974/narration/8.mp3
+  sd_prompt: Wang Wū nods, mimicking hand gestures.
+  seed: 1721159974
+  speaker: 王五
+  visual: 王五点头，手势模仿学习
+- content: 好，就这么定了，咱们下次来段 AI 相声，咱俩搭伴，教教大家怎么跟 AI 好好相处。
+  context: 提出新的话题
+  image: output/1721159974/images/9.png
+  narration: output/1721159974/narration/9.mp3
+  sd_prompt: Zhang San stretched out his hand with a warm expression.
+  seed: 1721159975
+  speaker: 张三
+  visual: 张三伸出手，表情热情
+- content: 行，就这么办！咱们的 AI 相声，一定让观众大开眼界！
+  context: 应承新的话题
+  image: output/1721159974/images/10.png
+  narration: output/1721159974/narration/10.mp3
+  sd_prompt: Li Si stretched out his hand, his expression excited.
+  seed: 1721159974
+  speaker: 李四
+  visual: 李四伸手，表情兴奋
+- content: 好的，观众朋友们，这是我们今天的内容，下期节目，咱们再会！
+  context: 结束语
+  image: output/1721159974/images/11.png
+  narration: output/1721159974/narration/11.mp3
+  sd_prompt: Wang Wuyu waved his hand and had a friendly expression.
+  seed: 1721159975
+  speaker: 王五
+  visual: 王五摆手，表情友好
+music: ''

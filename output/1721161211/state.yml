@@ -1,0 +1,141 @@
+directory: '1721161211'
+lines:
+- content: 哎呀，朋友们，今天我们俩要说的话题可是了不得。大家都在担心人工智能，AI会不会把我们给...
+  context: 开场白，引入话题
+  image: output/1721161211/images/1.png
+  narration: output/1721161211/narration/1.mp3
+  sd_prompt: Li Chang made a dramatic inverted pose and then fell into a chair.
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯做了一个夸张的倒立姿势，随即跌坐在椅子上
+- content: 哎呀，李哥，您这不是倒着坐椅子上给我们讲呢嘛！您甭整那些没用的，就说AI能出什么幺蛾子？
+  context: 回应李闯的开场白，调侃AI的风险
+  image: output/1721161211/images/2.png
+  narration: output/1721161211/narration/2.mp3
+  sd_prompt: '"Wang Nao made a face of impatience and fiddled with her phone."'
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹做出一副不耐烦的样子，摆弄着手机
+- content: 王闹，你这是睁眼瞎啊，人工智能能出的事您没见过？它要是崩溃了，咱们这社会就...
+  context: 继续讨论AI可能导致的社会崩溃
+  image: output/1721161211/images/3.png
+  narration: output/1721161211/narration/3.mp3
+  sd_prompt: Li Chong makes a worried expression, with his hands crossed.
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯做出一个忧心忡忡的表情，双手交叉
+- content: 崩溃？那您可真是想多了！AI那是高科技，它能造成崩溃？除非是咱们的数据全TM...
+  context: 反驳李闯的观点，认为AI崩溃是杞人忧天
+  image: output/1721161211/images/4.png
+  narration: output/1721161211/narration/4.mp3
+  sd_prompt: '"Wang Nao made a noncommittal expression, shaking his head and moving
+    his body rhythmically" or "Wang Nao made a ''so-so'' face, shaking his head back
+    and forth," depending on the context and the emphasis on the "head-shaking" action.'
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹做出一个不以为然的表情，摇头晃脑
+- content: 哎呀，王闹，你这是典型的科技乐观派啊！你想，咱们现在这社会，多少东西是用AI...
+  context: 解释为什么社会可能因为AI崩溃
+  image: output/1721161211/images/5.png
+  narration: output/1721161211/narration/5.mp3
+  sd_prompt: '"Li Chang spreads his hands, making a gesture as if to explain."'
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯双手一摊，做出解释状
+- content: 多少东西？多少东西？那您说，一台电脑要是死机了，咱们是不是还得重启？AI要是崩溃了，咱...
+  context: 拿电脑死机类比AI崩溃，调侃李闯的观点
+  image: output/1721161211/images/6.png
+  narration: output/1721161211/narration/6.mp3
+  sd_prompt: Wang Nao mimicked a computer freezing, and then made the motion to restart.
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹模仿电脑死机，随后做出重启的动作
+- content: 重启？重启了您知道要重启多少东西？多少数据？多少...
+  context: 回应王闹的类比
+  image: output/1721161211/images/7.png
+  narration: output/1721161211/narration/7.mp3
+  sd_prompt: '"Li Chang stood up quickly, waving his hands and feet around wildly."'
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯急得站起身，手舞足蹈
+- content: 哎呀，李闯，您这是急什么急！您这不是杞人忧天嘛！AI要是真有那么大能耐，它自己...
+  context: 再次强调自己的观点，认为李闯过于担忧
+  image: output/1721161211/images/8.png
+  narration: output/1721161211/narration/8.mp3
+  sd_prompt: '"Wang Nao makes a helpless expression, shrugs."'
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹做出一个无奈的表情，耸肩
+- content: 自己崩溃？那您想想，AI要是能自己崩溃，那它还是AI吗？它这是有了...
+  context: 反驳王闹的观点，定义AI的行为
+  image: output/1721161211/images/9.png
+  narration: output/1721161211/narration/9.mp3
+  sd_prompt: Li Chong made a surprised expression, his mouth wide open.
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯做出一个惊讶的表情，张大嘴巴
+- content: 自主意识？自主意识！这可真是大新闻了！咱们说，有了自主意识，AI它不就成了...
+  context: 继续李闯的假设，调侃AI可能的自主意识
+  image: output/1721161211/images/10.png
+  narration: output/1721161211/narration/10.mp3
+  sd_prompt: Wang Nao imitates a robot walking, followed by an action of thinking.
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹模仿机器人行走，随后做出一个思考的动作
+- content: 人？人它要是成了人，那咱们不就更得担心它变成...
+  context: 王闹的假设的进一步后果
+  image: output/1721161211/images/11.png
+  narration: output/1721161211/narration/11.mp3
+  sd_prompt: Li Chang makes a frightened expression, covering his face with both hands.
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯做出一个惊恐的表情，双手遮面
+- content: 上帝？别扯了！咱们就是说，AI要是真有崩溃的一天，那咱们人类不就得好好想想...
+  context: 回到现实，讨论如何应对AI崩溃
+  image: output/1721161211/images/12.png
+  narration: output/1721161211/narration/12.mp3
+  sd_prompt: Wang Nao makes a thoughtful expression, shaking his finger.
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹做出一个思索的样子，摇晃着手指
+- content: 备份！备份！备份！重要的事情说三遍，咱们得备份咱们的数据，咱们得备份咱们...
+  context: 强调备份的重要性
+  image: output/1721161211/images/13.png
+  narration: output/1721161211/narration/13.mp3
+  sd_prompt: Li Chang waved his hands excitedly, pacing back and forth.
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯挥舞着双手，激动地走来走去
+- content: 社会。李闯，您这是急吼吼的，您这是要把咱们也备份了的意思？那您得先说说...
+  context: 调侃李闯备份社会的想法
+  image: output/1721161211/images/14.png
+  narration: output/1721161211/narration/14.mp3
+  sd_prompt: Wang Nao makes a puzzled expression, with his hands across his chest.
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹做出一个疑惑的表情，双手抱胸
+- content: 备份备份，备份着备份着，咱们这不就...
+  context: 继续王闹的调侃，用谐音暗示可能的后果
+  image: output/1721161211/images/15.png
+  narration: output/1721161211/narration/15.mp3
+  sd_prompt: Li Chang makes a strange face, then adopts a collapsed pose.
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯做个奇怪的表情，随后做出一个崩溃的姿势
+- content: 崩溃？您这是越说越玄乎了！咱们就是说，AI要是真有崩溃的一天，那咱们得赶紧...
+  context: 再次回到现实，讨论如何应对AI崩溃
+  image: output/1721161211/images/16.png
+  narration: output/1721161211/narration/16.mp3
+  sd_prompt: '"Wang Nao makes a determined expression, clenching his fist."'
+  seed: 1721161211
+  speaker: 王闹
+  visual: 王闹做出一个决心满满的样子，握紧拳头
+- content: 赶紧跑路！赶紧跑路！跑路！重要的事情说三遍！
+  context: 李闯的幽默应对，调侃可能的应对方法
+  image: output/1721161211/images/17.png
+  narration: output/1721161211/narration/17.mp3
+  sd_prompt: Li Chong made a running gesture, then covered his face with both hands.
+  seed: 1721161212
+  speaker: 李闯
+  visual: 李闯做出一个跑步的动作，随后双手捂脸
+music: ''

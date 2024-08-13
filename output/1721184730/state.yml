@@ -1,0 +1,131 @@
+directory: '1721184730'
+lines:
+- content: 特朗普的贸易政策对中国来说好处多。
+  context: 开场白，提出特朗普贸易政策对中国有利。
+  image: output/1721184730/images/1.png
+  narration: output/1721184730/narration/1.mp3
+  sd_prompt: Trump's trade policy is beneficial to China.
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲摆出一个得意的手势。
+- content: 但是，特朗普的政策太不稳定了。
+  context: 反驳甲的观点，指出特朗普政策的不稳定性。
+  image: output/1721184730/images/2.png
+  narration: output/1721184730/narration/2.mp3
+  sd_prompt: '"But Trump''s policies are too unstable."'
+  seed: 1721184730
+  speaker: 表演者乙
+  visual: 表演者乙皱着眉头，显得有些担忧。
+- content: 拜登的政策虽然温和，但是对中国来说没有特朗普给力。
+  context: 甲再次提出观点，认为拜登政策对中国的吸引力不足。
+  image: output/1721184730/images/3.png
+  narration: output/1721184730/narration/3.mp3
+  sd_prompt: Biden's policies are mild, but they are not as effective for China as
+    Trump's were.
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲摇头晃脑，显得有些得意。
+- content: 特朗普虽然有些言行不受控制，但他的政策对中国更有利。
+  context: 乙坚持己见，认为特朗普的政策对中国更有利。
+  image: output/1721184730/images/4.png
+  narration: output/1721184730/narration/4.mp3
+  sd_prompt: Trump, although his actions and words are sometimes uncontrollable, his
+    policies are more beneficial to China.
+  seed: 1721184730
+  speaker: 表演者乙
+  visual: 表演者乙摆出一副坚定的表情。
+- content: 拜登至少能保证一个稳定的政策环境。
+  context: 甲试图说服乙，强调拜登政策的稳定性。
+  image: output/1721184730/images/5.png
+  narration: output/1721184730/narration/5.mp3
+  sd_prompt: '"Biden at least can guarantee a stable policy environment."'
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲用手比划着稳定性的动作。
+- content: 但是，稳定的环境对中国的利益不大啊。
+  context: 乙反驳甲，认为稳定的环境对中国没有太大好处。
+  image: output/1721184730/images/6.png
+  narration: output/1721184730/narration/6.mp3
+  sd_prompt: '"But a stable environment doesn''t benefit China much,"
+
+
+    Please note that this translation assumes a direct translation without considering
+    the context of the entire conversation or text. The meaning might slightly vary
+    depending on the context.'
+  seed: 1721184730
+  speaker: 表演者乙
+  visual: 表演者乙摊开双手，显得有些无奈。
+- content: 那我们中国不是要在两个不确定性中选一个吗？
+  context: 甲总结问题，指出中国面临的困境。
+  image: output/1721184730/images/7.png
+  narration: output/1721184730/narration/7.mp3
+  sd_prompt: '"Then, aren''t we China choosing one out of two uncertainties?"'
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲双手抱胸，显得有些困惑。
+- content: 对，但是选谁对中国更好呢？
+  context: 乙追问，试图得到更明确的答案。
+  image: output/1721184730/images/8.png
+  narration: output/1721184730/narration/8.mp3
+  sd_prompt: Yes, but who is better for China to choose?
+  seed: 1721184730
+  speaker: 表演者乙
+  visual: 表演者乙点头，显得十分认真。
+- content: 我觉得，特朗普的混乱里藏着机会。
+  context: 甲重新提出观点，认为特朗普的政策有利于中国抓住机会。
+  image: output/1721184730/images/9.png
+  narration: output/1721184730/narration/9.mp3
+  sd_prompt: I believe that there are opportunities hidden in Trump's chaos.
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲用手做出抓住机会的动作。
+- content: 拜登的稳定虽然不出彩，但对中国的长期利益更有利。
+  context: 乙再次提出自己的观点，认为拜登政策对中国长期更有利。
+  image: output/1721184730/images/10.png
+  narration: output/1721184730/narration/10.mp3
+  sd_prompt: '"Although Biden''s stability may not be outstanding, it is more conducive
+    to China''s long-term interests."'
+  seed: 1721184730
+  speaker: 表演者乙
+  visual: 表演者乙点头，显得很有信心。
+- content: 那我们不如来打个赌，看看中国最终选谁更好。
+  context: 甲提议，希望通过打赌来结束争论。
+  image: output/1721184730/images/11.png
+  narration: output/1721184730/narration/11.mp3
+  sd_prompt: '"Then let''s make a bet, see who China ultimately chooses is better."'
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲做出赌钱的姿势。
+- content: 好啊，输的人要请客！
+  context: 乙接受提议，并用请客的方式作为赌注。
+  image: output/1721184730/images/12.png
+  narration: output/1721184730/narration/12.mp3
+  sd_prompt: '"Alright, the loser has to buy the meal!"'
+  seed: 1721184730
+  speaker: 表演者乙
+  visual: 表演者乙兴奋地举起手。
+- content: 就这么定了！
+  context: 甲确认赌约，双方气氛热烈。
+  image: output/1721184730/images/13.png
+  narration: output/1721184730/narration/13.mp3
+  sd_prompt: '"So it''s decided then!" or "That''s settled!"'
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲和乙握手，气氛热烈。
+- content: 特朗普和拜登，到底谁对中国更好呢？
+  context: 乙再次提出问题，结束这段表演。
+  image: output/1721184730/images/14.png
+  narration: output/1721184730/narration/14.mp3
+  sd_prompt: '"Trump and Biden, who is actually better for China?"'
+  seed: 1721184730
+  speaker: 表演者乙
+  visual: 表演者乙摊开双手，显得有些迷茫。
+- content: 观众说了算！
+  context: 甲回应乙的问题，将决定权交给观众。
+  image: output/1721184730/images/15.png
+  narration: output/1721184730/narration/15.mp3
+  sd_prompt: '"The audience decides!"'
+  seed: 1721184731
+  speaker: 表演者甲
+  visual: 表演者甲向观众示意，显得非常尊重观众。
+music: ''

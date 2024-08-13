@@ -1,0 +1,86 @@
+directory: '1720996549'
+topics:
+- description: 一个专门研究时间折叠现象的研究所，记录了各种时间旅行者的见闻和经历。
+  music: output/1720996549/music/0.wav
+  name: 时间折叠观察所
+  shots:
+  - image: output/1720996549/images/1.png
+    narration: output/1720996549/narration/1.mp3
+    sd_prompt: A photo of a fresh city park, with sunlight filtering through the treetops,
+      birds flying overhead, and people quietly reading on benches.
+    spoken_words: 这里是都市中的一片宁静角落，远离了喧嚣与繁忙。
+    title: 都市的宁静角落
+    visual_description: 一张清新的城市公园照片，阳光透过树梢，鸟儿在空中飞翔，人们在长椅上静静阅读。
+  - image: output/1720996549/images/2.png
+    narration: output/1720996549/narration/2.mp3
+    sd_prompt: A young child is jump roping in the park, and every time the rope goes
+      through her feet, her smile becomes even brighter.
+    spoken_words: 在这段视频中，我们可以看到一个孩子脸上绽放的笑容。
+    title: 孩子的笑容
+    visual_description: 一个年轻的孩子在公园里跳绳，每当绳子穿过她的双脚，她的笑容就更加灿烂。
+  - image: output/1720996549/images/3.png
+    narration: output/1720996549/narration/3.mp3
+    sd_prompt: A dreamlike photograph, an ancient stone bridge spanning across a tranquil
+      waterway, with the sunset's remaining light reflecting upon the bridge and the
+      water, creating a beautiful sheen of gold.
+    spoken_words: 这是夕阳下的一座小桥，金色的余晖洒在水面上。
+    title: 夕阳下的桥
+    visual_description: 一张梦幻般的照片，一座古老的石桥横跨在平静的水域上，夕阳的余晖映照在桥和水面，形成美丽的金光。
+- description: 一群量子物理学家和梦境分析师，研究梦境中的量子世界，探索梦境与量子现象的联系。
+  music: output/1720996549/music/1.wav
+  name: 量子梦解析者
+  shots:
+  - image: output/1720996549/images/4.png
+    narration: output/1720996549/narration/4.mp3
+    sd_prompt: The silhouette of high buildings became increasingly clear against
+      the soft morning light. As the streets began to fill with walkers, their silhouettes
+      were gradually cast upon the ground. The sunrise bathed a massive city map,
+      marking the commencement of a new day.
+    spoken_words: 第一幕，城市在清晨的第一缕阳光中苏醒。
+    title: 都市的黎明
+    visual_description: 高楼的轮廓在柔和的晨光中渐渐清晰，街道上逐渐有了行人的剪影。日出映照在一面巨大的城市地图上，标注出即将开始的一天。
+  - image: output/1720996549/images/5.png
+    narration: output/1720996549/narration/5.mp3
+    sd_prompt: Children are chasing and playing happily in the playground, while the
+      elderly sit leisurely on the benches. A good book is their world. The sunlight
+      filters through the tree tops, scattering on the many smiling faces and pages
+      of books.
+    spoken_words: 第二幕，人们在公园的绿色怀抱中享受悠闲时光。
+    title: 公园的午后
+    visual_description: 孩子们在 playground 追逐嬉戏，长者悠闲地坐在长椅上，一本好书是他们的世界。阳光透过树梢，洒在一张张笑脸和一本本书页上。
+  - image: output/1720996549/images/6.png
+    narration: output/1720996549/narration/6.mp3
+    sd_prompt: Neon lights begin to flicker, and skyscrapers transform into the stage
+      of light and shadow. On the streets, there are few pedestrians, leaving only
+      a ground covered in broken patterns of light and the faint sound of music from
+      afar.
+    spoken_words: 第三幕，当夜幕降临，城市以不同的面貌迎接夜晚。
+    title: 夜幕下的城市
+    visual_description: 霓虹灯开始闪烁，高楼大厦变身为光影的舞台。街道上行人稀少，只留下一地斑驳的光影和远处音乐的轻响。
+- description: 一支探险队，探索宇宙中的黑暗森林假说，寻找隐藏在黑暗中的外星文明。
+  music: output/1720996549/music/2.wav
+  name: 黑暗森林侦探
+  shots:
+  - image: output/1720996549/images/7.png
+    narration: output/1720996549/narration/7.mp3
+    sd_prompt: '"City streets, the early morning sunlight reflecting on buildings,
+      pedestrians hurrying by, the dawn light faint."'
+    spoken_words: 第一幕：城市清晨。晨曦洒在忙碌的城市上，人们开始了一天的劳作。
+    title: 城市清晨
+    visual_description: 城市街道，清晨的阳光映照在建筑物上，行人匆匆，晨光熹微。
+  - image: output/1720996549/images/8.png
+    narration: output/1720996549/narration/8.mp3
+    sd_prompt: In a quiet corner of the park, several elderly people are playing chess,
+      children are running and playing on the grass, and in the distance, doves are
+      leisurely walking about.
+    spoken_words: 第二幕：公园一角。在这片宁静之地，生活与喧嚣隔绝。
+    title: 公园一角
+    visual_description: 公园的一处安静角落，有几个老人在下象棋，孩子们在草地上追逐嬉戏，远处有鸽子在悠闲地散步。
+  - image: output/1720996549/images/9.png
+    narration: output/1720996549/narration/9.mp3
+    sd_prompt: A very old bridge, the last rays of the sunset shine on the bridge
+      and the river below, making the water surface sparkle like gold. There are few
+      people on the bridge, only the wind whispers softly.
+    spoken_words: 第三幕：夕阳下的桥。一天的忙碌即将结束，这座桥见证了城市的变迁。
+    title: 夕阳下的桥
+    visual_description: 一座古老的桥梁，夕阳的余晖洒在桥上和桥下的河流上，水面金光闪闪，桥上行人稀少，只有风在轻声细语。

@@ -1,0 +1,91 @@
+directory: '1721162129'
+lines:
+- content: 哎，咱们今天这节目啊，就来聊聊最近热议的话题，社会collapse，不是建筑学上的那种，而是指的社会秩序的全面崩溃。
+  context: 引出话题
+  image: output/1721162129/images/1.png
+  narration: output/1721162129/narration/1.mp3
+  sd_prompt: Zhang San's brows are tightly knit, his hand drawing circles in the air.
+  seed: 1721162130
+  speaker: 张三
+  visual: 张三眉头紧锁，手在空中画圈
+- content: 李四，你别说，张三这一说，我最近也听了不少，说是AI的发展，这社会都快hold不住了。
+  context: 接续话题，引入AI元素
+  image: output/1721162129/images/2.png
+  narration: output/1721162129/narration/2.mp3
+  sd_prompt: '"Li Si shook his head and sighed, hand resting on his cheek."'
+  seed: 1721162129
+  speaker: 李四
+  visual: 李四摇头叹息，手托腮
+- content: AI？这AI要是再发展，咱们这社会，不是被它带歪了，就是被它弄瘫痪了。
+  context: 夸张AI对社会的影响
+  image: output/1721162129/images/3.png
+  narration: output/1721162129/narration/3.mp3
+  sd_prompt: Zhang San exaggeratedly puts on a pose being squashed by AI.
+  seed: 1721162130
+  speaker: 张三
+  visual: 张三夸张地摆出被AI压垮的姿势
+- content: 张三，你这么说，咱们这社会，是不是得给AI上个刹车，让它歇歇？
+  context: 提出解决方案
+  image: output/1721162129/images/4.png
+  narration: output/1721162129/narration/4.mp3
+  sd_prompt: Li Si's hand rests on his forehead, his expression is one of resignation.
+  seed: 1721162129
+  speaker: 李四
+  visual: 李四手扶额头，表情无奈
+- content: 歇啥刹，这AI要是不再加速，那些公司，那些企业，不就都慢成乌龟了吗？
+  context: 反驳李四的解决方案
+  image: output/1721162129/images/5.png
+  narration: output/1721162129/narration/5.mp3
+  sd_prompt: Zhang San's hands are spread wide, his expression confused.
+  seed: 1721162130
+  speaker: 张三
+  visual: 张三双手摊开，表情困惑
+- content: 那可不一定，张三，乌龟慢，它好歹稳啊，这社会，不就是要稳吗？
+  context: 强调稳定的重要性
+  image: output/1721162129/images/6.png
+  narration: output/1721162129/narration/6.mp3
+  sd_prompt: Li Si shook his head and made a hand gesture to indicate steadying himself.
+  seed: 1721162129
+  speaker: 李四
+  visual: 李四摇头，手做出稳定下来的手势
+- content: 哎，你说得轻巧，稳得住，还能发展，这技术活，可不是轻易能做到的。
+  context: 讨论
+  image: output/1721162129/images/7.png
+  narration: output/1721162129/narration/7.mp3
+  sd_prompt: Zhang San shook his head, with his hands crossed.
+  seed: 1721162130
+  speaker: 张三
+  visual: 张三摇头，双手交叉
+- content: 张三，咱们换个角度，不提发展，就说AI的监管，这不，它发展得快，咱们监管跟不上，这不就乱套了吗？
+  context: 转换话题，提出监管问题
+  image: output/1721162129/images/8.png
+  narration: output/1721162129/narration/8.mp3
+  sd_prompt: Li Si sits upright, puts out his hands in front of him.
+  seed: 1721162129
+  speaker: 李四
+  visual: 李四坐正，手向前推出
+- content: 对对对，监管，这不就是关键吗？AI要是没了规矩，咱们这社会，可真就玩完了。
+  context: 强调监管的重要性
+  image: output/1721162129/images/9.png
+  narration: output/1721162129/narration/9.mp3
+  sd_prompt: Zhang San nodded, with a serious expression.
+  seed: 1721162130
+  speaker: 张三
+  visual: 张三点头，表情严肃
+- content: 那咱们这节目，就来呼吁一下，社会各界，得重视AI的监管，别让它这匹AI马，把社会这盘棋，给掀翻了。
+  context: 结尾呼吁
+  image: output/1721162129/images/10.png
+  narration: output/1721162129/narration/10.mp3
+  sd_prompt: '"Li Si''s hand gestures are exaggerated, and his expression is serious."'
+  seed: 1721162129
+  speaker: 李四
+  visual: 李四手势夸张，表情严肃
+- content: 好，说的也是，AI这东西，用好了，是福，用不好，是祸，咱们得小心，小心这社会这盘大棋，别让AI这匹黑马，给掀翻了。
+  context: 结尾呼应
+  image: output/1721162129/images/11.png
+  narration: output/1721162129/narration/11.mp3
+  sd_prompt: Zhang San shrugged his shoulders, with a mysterious expression.
+  seed: 1721162130
+  speaker: 张三
+  visual: 张三摊手，表情神秘
+music: ''

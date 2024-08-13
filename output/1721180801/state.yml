@@ -1,0 +1,152 @@
+directory: '1721180801'
+lines:
+- content: 特朗普总统，您还记得吗？
+  context: 开场白
+  image: output/1721180801/images/1.png
+  narration: output/1721180801/narration/1.mp3
+  sd_prompt: '"Do you remember President Trump?"'
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲手拿扇子，微笑着
+- content: 记得记得，那个喜欢建墙的美国总统。
+  context: 回应笑星甲
+  image: output/1721180801/images/2.png
+  narration: output/1721180801/narration/2.mp3
+  sd_prompt: Remember, remember, the American president who likes to build walls.
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙摇头晃脑，做出夸张的表情
+- content: 拜登总统也记得吧？
+  context: 继续提问
+  image: output/1721180801/images/3.png
+  narration: output/1721180801/narration/3.mp3
+  sd_prompt: Did President Biden also remember that?
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲指向笑星乙
+- content: 当然，那个曾经和奥巴马搭档的老头。
+  context: 回答笑星甲的问题
+  image: output/1721180801/images/4.png
+  narration: output/1721180801/narration/4.mp3
+  sd_prompt: Of course, that old man who used to partner with Obama.
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙点头，做出一副自豪的样子
+- content: 哎，这两位总统，哪位更对中国有利呢？
+  context: 转入主题
+  image: output/1721180801/images/5.png
+  narration: output/1721180801/narration/5.mp3
+  sd_prompt: Oh, which of these two presidents is more beneficial to China?
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲两手一摊，显得很无奈
+- content: 这还用问，当然是特朗普总统啦！
+  context: 抢先回答
+  image: output/1721180801/images/6.png
+  narration: output/1721180801/narration/6.mp3
+  sd_prompt: Of course, it's President Trump!
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙举手，自信满满
+- content: 您不是吧，特朗普总统可是个不按常理出牌的家伙。
+  context: 提出质疑
+  image: output/1721180801/images/7.png
+  narration: output/1721180801/narration/7.mp3
+  sd_prompt: '"You''re not serious, President Trump is not a guy who plays by the
+    rules."'
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲摆手，表情惊讶
+- content: 对啊，他可是和中国打了好几场贸易战呢。
+  context: 强调观点
+  image: output/1721180801/images/8.png
+  narration: output/1721180801/narration/8.mp3
+  sd_prompt: '"Yeah, he has been involved in several trade wars with China."'
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙做出挥拳的动作
+- content: 那又如何？至少我们的商品价格降下来了。
+  context: 反驳
+  image: output/1721180801/images/9.png
+  narration: output/1721180801/narration/9.mp3
+  sd_prompt: '"What''s so special about that? At least our product prices have gone
+    down."'
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲得意地笑着
+- content: 可是，可是拜登总统不是说过要修复中美关系吗？
+  context: 转换话题
+  image: output/1721180801/images/10.png
+  narration: output/1721180801/narration/10.mp3
+  sd_prompt: However, hasn't President Biden said he wants to repair Sino-American
+    relations?
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙皱眉，显得有些无奈
+- content: 修复修复，修复好了不还是得和我们打？
+  context: 讽刺回应
+  image: output/1721180801/images/11.png
+  narration: output/1721180801/narration/11.mp3
+  sd_prompt: Repair, repair, but once it's repaired, won't it still have to fight
+    with us?
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲摇头，表情嘲讽
+- content: 那也是，至少拜登总统看起来更温和一些。
+  context: 强调温和论点
+  image: output/1721180801/images/12.png
+  narration: output/1721180801/narration/12.mp3
+  sd_prompt: That's also true, at least President Biden appears to be more gentle.
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙摆出温和的姿势
+- content: 温和温和，特朗普总统可是说过‘中国是一个巨大的竞争对手’。
+  context: 再次反驳
+  image: output/1721180801/images/13.png
+  narration: output/1721180801/narration/13.mp3
+  sd_prompt: '"Moderately, President Trump has said ''China is a huge competitor.''"'
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲摇头，显得很无奈
+- content: 对对，但是拜登总统没说过这种话啊！
+  context: 坚持己见
+  image: output/1721180801/images/14.png
+  narration: output/1721180801/narration/14.mp3
+  sd_prompt: Yes, but President Biden has never said something like that!
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙耸肩，显得很自信
+- content: 哎，看来选总统还得选口才好的。
+  context: 总结调侃
+  image: output/1721180801/images/15.png
+  narration: output/1721180801/narration/15.mp3
+  sd_prompt: Oh, it seems that one must choose a president with good eloquence.
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲摊手，做出无奈的表情
+- content: 没错，特朗普总统的演讲能力可不是盖的。
+  context: 附和笑星甲
+  image: output/1721180801/images/16.png
+  narration: output/1721180801/narration/16.mp3
+  sd_prompt: '"No, it''s true, President Trump''s speech ability is not an act."'
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星乙点头，做出得意的样子
+- content: 不过，不管怎么样，中国都是赢家！
+  context: 双关回应
+  image: output/1721180801/images/17.png
+  narration: output/1721180801/narration/17.mp3
+  sd_prompt: '"However, in any case, China is the winner!"'
+  seed: 1721180802
+  speaker: 笑星甲
+  visual: 笑星甲和笑星乙相视而笑，做出胜利的手势
+- content: 没错，不管谁当总统，我们的生意都要继续做下去！
+  context: 呼应笑星甲的言论
+  image: output/1721180801/images/18.png
+  narration: output/1721180801/narration/18.mp3
+  sd_prompt: '"Yes, no matter who becomes the president, we must continue with our
+    business!"'
+  seed: 1721180801
+  speaker: 笑星乙
+  visual: 笑星甲和笑星乙同时举杯，笑容满面
+music: ''

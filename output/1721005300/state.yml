@@ -1,0 +1,123 @@
+directory: '1721005300'
+topics:
+- description: A dimension where every dream is a universe unto itself, governed by
+    the whims of the dreamer's subconscious. Explorers delve into these dreamscapes
+    to seek out elusive dream-gems, crystals imbued with the essence of forgotten
+    dreams.
+  music: output/1721005300/music/0.wav
+  name: Sonicorium Dreams
+  shots:
+  - image: output/1721005300/images/1.png
+    narration: output/1721005300/narration/1.mp3
+    sd_prompt: A single shot displays a group of people walking along a winding road,
+      with endless fields of dream-like flowers on both sides. The colors of the flowers
+      change as the explorers' steps progress. The camera then switches to a close-up
+      of an explorer holding a glowing dream gemstone, whose luminescence mirrors
+      the surrounding dreamlike setting, creating a magical scene.
+    spoken_words: 探索者们深入这些梦境，寻找 elusive 的梦之宝石，它们蕴含着被遗忘的梦境的精华。
+    title: 梦境之源
+    visual_description: 一个镜头展示了一行人走在一条蜿蜒的道路上，道路两旁是无尽的梦境般的花海，花朵的颜色随着探索者的步伐不断变化。镜头转换为一名探索者手持发光的梦之宝石，宝石的光辉与周围的梦境环境交相辉映，形成一幅奇幻的画面。
+  - image: output/1721005300/images/2.png
+    narration: output/1721005300/narration/2.mp3
+    sd_prompt: The scene presents a sea of flowers formed by dreams. The flowers are
+      vivid in color and peculiar in shape, some resembling flames burning, others
+      sparkling like precious stones. Explorers move through the sea of flowers, each
+      step causing subtle changes in the sea.
+    spoken_words: 在这片花海中，每一朵花都代表着一种梦境。
+    title: 梦境花海
+    visual_description: 画面展示了一片由梦境构成的花海，花朵的颜色斑斓，形状奇特，有的像火焰般燃烧，有的像宝石般闪耀。探索者穿梭其中，每一步都让花海发生微妙的变化。
+  - image: output/1721005300/images/3.png
+    narration: output/1721005300/narration/3.mp3
+    sd_prompt: The camera zooms in on a dream gem, which emits a soft and mysterious
+      glow that dances within the dream. It seems to guide the explorer forward. As
+      the camera gets closer, the intricate texture of the gem's surface becomes clearly
+      visible, with each line etching a forgotten dream.
+    spoken_words: 梦之宝石，它散发出神秘的光芒。
+    title: 宝石之光
+    visual_description: 镜头对准一颗梦之宝石，宝石发出柔和而神秘的光芒，光芒在梦境中舞动，仿佛在引导探索者前行。镜头拉近，宝石表面的纹理清晰可见，每一道纹路都记录着一个被遗忘的梦境。
+- description: A world where time is measured by the vibrations of sound. Cities are
+    constructed from resonant materials, and communication is done through complex
+    symphonies of tones. Adventurers navigate through soundscapes, solving harmonic
+    puzzles to progress through the layers of this auditory landscape.
+  music: output/1721005300/music/1.wav
+  name: Phonocronal Rhythms
+  shots:
+  - image: output/1721005300/images/4.png
+    narration: output/1721005300/narration/4.mp3
+    sd_prompt: The scene depicts a city constructed from various resonant materials,
+      with towering skyscrapers that rise and fall like notes. The protagonist stands
+      before a colossal wave of sound sculpture, composed of countless mirrors reflecting
+      the sunlight and casting a kaleidoscope of light and shadow. In his eyes, there
+      is a spark of exploration and curiosity, and he holds a musical instrument capable
+      of producing precise tones. The background music softly begins, an orchestral
+      piece that starts from afar and grows closer, beginning soft and gradually intensifying.
+      As the scene progresses, the sonic landscape becomes more complex, with various
+      sounds intertwining, testing the viewer's balance of hearing.
+    spoken_words: 在这片声音的乐土上，每一道旋律都是时间的脉络。
+    title: 共振之境
+    visual_description: 画面呈现一座由各种共振材料堆砌的城市，高楼耸立，表面如同音符般起伏。主角站在一座巨大的音波雕塑前，雕塑由无数反射着阳光的镜面构成，反射出缤纷的光影。他的眼中闪烁着探索与好奇，手中握着一把可以发出精准音调的乐器。背景音乐轻柔响起，是一首由远及近，由弱渐强的交响乐，随着画面的推进，音景逐渐变得复杂，各种声响交织，挑战着观者的听觉平衡。
+  - image: output/1721005300/images/5.png
+    narration: output/1721005300/narration/5.mp3
+    sd_prompt: The adventurer wields an instrument in hand, situated in a labyrinth
+      guided by sound. The surrounding space rises and falls with the melody he plays,
+      with walls occasionally vanishing and reappearing, creating a dynamic sound
+      and light labyrinth. He must unravel a series of harmonious puzzles; with each
+      puzzle solved, a new beam of light pierces the darkness, guiding him forward.
+      The scene is brimming with rhythm, as light and shadow dance within the space,
+      forming a visual melody.
+    spoken_words: 在这个世界，声波是通行的货币，旋律是沟通的语言。
+    title: 乐音探秘
+    visual_description: 冒险者手持乐器，置身于一座由声音引导的迷宫之中。四周的空间随着他演奏的旋律起伏，墙壁时而消失，时而显现，形成一个动态的声光迷宫。他必须解开一系列的和谐谜题，每解开一个谜题，就会有一道新的光线穿透黑暗，指引他前行。画面中充满了节奏感，光影在空间中跳动，形成一种视觉上的旋律。
+  - image: output/1721005300/images/6.png
+    narration: output/1721005300/narration/6.mp3
+    sd_prompt: The screen presents the protagonist walking across a vast land woven
+      by sound, with the earth beneath their feet undulating in sync with the vibrations
+      of the soundwaves. The stars in the sky seem to be lit up by the sound, emitting
+      a gentle glow. At times, the protagonist halts to listen to the sounds of nature,
+      at other times joining the chorus of sound and becoming one with the environment.
+      As the camera slowly zooms in, a breathtaking panorama of sound and light unfolds,
+      each landscape rendered by different tones, forming a dynamic symphony of sound
+      and image.
+    spoken_words: 在这片广袤的 auditory landscape 中，每个音符都是一段故事。
+    title: 音韵之旅
+    visual_description: 画面展示主角在一片由声音编织的大地上行走，脚下的土地随着音波的振动而起伏。天空中的星辰仿佛被声音点亮，发出柔和的光芒。主角时而停下脚步，聆听自然界的声音，时而加入声音的合唱，与环境融为一体。镜头缓缓推进，展示了一幅壮丽的声光画卷，每一处景致都由不同的音色描绘，构成一幅动态的声画交响曲。
+- description: A realm where reality is a mirage, constantly shifting to conceal the
+    true nature of the world beneath. Travellers navigate through illusions, drawn
+    into the heart of the mirage to confront the paradoxical reality that lies beyond
+    the shifting layers. Here, truth is as elusive as the horizon.
+  music: output/1721005300/music/2.wav
+  name: Venariad Mirages
+  shots:
+  - image: output/1721005300/images/7.png
+    narration: output/1721005300/narration/7.mp3
+    sd_prompt: A traveler stands in a twisted reality, with the light around him twisted
+      into strange shapes, as if the whole world is spinning. In the traveler's eyes,
+      a deep blue shines, that is the calm sea within his soul, forming a sharp contrast
+      with the chaotic surroundings. In the steady diffusion, the scene gradually
+      comes into focus, revealing the truth behind it - a desolate and mysterious
+      horizon.
+    spoken_words: 睁开你的心灵之眼，看穿这世界的幻象。
+    title: 幻象之眼
+    visual_description: 一位旅者站在一片扭曲的现实中，周围的光线被扭曲成奇异的形状，仿佛整个世界都在转动。旅者的眼中映照出一片湛蓝，那是他心灵深处的平静之海，正与周围混乱的景象形成鲜明对比。在稳定的扩散中，画面逐渐聚焦，露出背后的真相——一个荒凉而神秘的地平线。
+  - image: output/1721005300/images/8.png
+    narration: output/1721005300/narration/8.mp3
+    sd_prompt: A mysterious traveler alone traverses a winding labyrinthine corridor,
+      the walls of which are adorned with mirrors reflecting countless different phantoms.
+      The traveler's steps are firm, albeit each one may lead them towards a deeper
+      illusion. As the stable diffusion progresses, the phantoms in the mirror gradually
+      become hazy, revealing the void behind them.
+    spoken_words: 在这迷离幻境中，每一步都是对自我认知的考验。
+    title: 迷离幻境
+    visual_description: 一位神秘的旅者独自穿越一片蜿蜒的迷宫般的走廊，走廊墙壁上的镜子映出无数个不同的幻影。旅者的步伐坚定，尽管每一步都可能把他们引向一个更深的幻象。在稳定的扩散中，镜中的幻影逐渐模糊，露出它们背后的虚空。
+  - image: output/1721005300/images/9.png
+    narration: output/1721005300/narration/9.mp3
+    sd_prompt: A towering tower reaches up to the clouds, from whose peak one can
+      survey the whole bewitching world below. At the tip of the tower hangs an old
+      mirror, reflecting a distorted sky. A traveler stands at the pinnacle of the
+      tower, back to the mirror, quietly gazing at the distant horizon. As the reflection
+      in the mirror fades into the stable diffusion, it seems as though it is gently
+      reminding us that true self-awareness cannot be gleaned from a mirror, but requires
+      us to step out of the illusion and confront reality.
+    spoken_words: 站在幻灭之巅，你看到了什么？
+    title: 幻灭之巅
+    visual_description: 一座高耸入云的塔顶，站在那里可以俯瞰整个迷幻的世界。塔尖上挂着一面破旧的镜子，反射出扭曲的天空。一位旅者站在塔顶，背对着镜子，静静地望着远方的地平线。在稳定的扩散中，镜中的倒影逐渐变得模糊，仿佛在提醒我们，真正的自我认知无法通过镜子看到，它需要我们走出幻象，去面对现实。

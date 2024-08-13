@@ -1,0 +1,76 @@
+directory: '1721156365'
+lines:
+- content: 哎，咱们今天就来聊聊这个北京生活，这可真是满头包啊！
+  context: 开场白
+  image: output/1721156365/images/1.png
+  narration: output/1721156365/narration/1.mp3
+  sd_prompt: Zhang San shook his head, with a look of helplessness on his face.
+  seed: 1721156366
+  speaker: 张三
+  visual: 张三摇头，面露无奈
+- content: 哎，说到北京生活，李四我可是深有体会！
+  context: 回应张三
+  image: output/1721156365/images/2.png
+  narration: output/1721156365/narration/2.mp3
+  sd_prompt: Li wore a bitter smile on all four sides, nodding.
+  seed: 1721156365
+  speaker: 李四
+  visual: 李四面带苦笑，点头
+- content: 那交通，简直是让人头大，一堵堵就是半天。
+  context: 吐槽北京交通
+  image: output/1721156365/images/3.png
+  narration: output/1721156365/narration/3.mp3
+  sd_prompt: Zhang San swings his arm and makes a hand signal for stopping traffic.
+  seed: 1721156366
+  speaker: 张三
+  visual: 张三挥动手臂，做出堵车的手势
+- content: 说到堵，我还得说说这房价，简直是让年轻人喘不过气来！
+  context: 转而抱怨房价
+  image: output/1721156365/images/4.png
+  narration: output/1721156365/narration/4.mp3
+  sd_prompt: Li Si shrugged and made a exaggerated expression.
+  seed: 1721156365
+  speaker: 李四
+  visual: 李四摊手，表情夸张
+- content: 对对对，你说说这工作，压力山大，加班是常态。
+  context: 加入对工作的抱怨
+  image: output/1721156365/images/5.png
+  narration: output/1721156365/narration/5.mp3
+  sd_prompt: Zhang San hugs his shoulders with both hands and makes a tired expression.
+  seed: 1721156366
+  speaker: 张三
+  visual: 张三双手抱肩，做出疲惫状
+- content: 还有这雾霾，简直就是生活里的定时炸弹！
+  context: 加入对天气的吐槽
+  image: output/1721156365/images/6.png
+  narration: output/1721156365/narration/6.mp3
+  sd_prompt: Li Si covered his mouth and nose, making a disgusted expression.
+  seed: 1721156365
+  speaker: 李四
+  visual: 李四捂住口鼻，做出厌恶表情
+- content: 哎，我说李四，你说这北京生活，咱俩这是吐槽大赛呢，还是自找苦吃？
+  context: 转折话题
+  image: output/1721156365/images/7.png
+  narration: output/1721156365/narration/7.mp3
+  sd_prompt: Zhang San looks at Li Si with a teasing gaze, full of laughter.
+  seed: 1721156366
+  speaker: 张三
+  visual: 张三调侃地看着李四，笑意盈盈
+- content: 要说调皮，还是你张三，不过，咱俩吐槽归吐槽，这不还是热爱这片土地嘛！
+  context: 回应张三的调侃
+  image: output/1721156365/images/8.png
+  narration: output/1721156365/narration/8.mp3
+  sd_prompt: Li Si laughed and waved his hand, with a determined expression.
+  seed: 1721156365
+  speaker: 李四
+  visual: 李四笑着摆手，表情坚定
+- content: 对对对，北京，咱们的北京，不管有多少困难，咱都得好好过！
+  context: 结尾
+  image: output/1721156365/images/9.png
+  narration: output/1721156365/narration/9.mp3
+  sd_prompt: Zhang San and Li Si looked at each other and smiled, their expressions
+    revealing their love for Beijing and their optimistic attitude towards life.
+  seed: 1721156366
+  speaker: 张三
+  visual: 张三和李四相视而笑，表情中透露出对北京的热爱和对生活的乐观态度
+music: ''

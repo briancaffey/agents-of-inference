@@ -1,0 +1,96 @@
+directory: '1721183154'
+lines:
+- content: 拜登老头儿，头脑清晰，不会乱来。
+  context: 表达对拜登理智的看法
+  image: output/1721183154/images/1.png
+  narration: output/1721183154/narration/1.mp3
+  sd_prompt: '"Biden, old man, your mind is clear, you won''t go around making trouble."'
+  seed: 1721183155
+  speaker: 张三
+  visual: 张三微笑点头
+- content: 特朗普太不稳定了，一会儿亲中，一会儿又发推特。
+  context: 反驳张三的观点，强调特朗普的不确定性
+  image: output/1721183154/images/2.png
+  narration: output/1721183154/narration/2.mp3
+  sd_prompt: Trump is too unstable; he is either pro-China one moment and then tweets
+    the next.
+  seed: 1721183154
+  speaker: 李四
+  visual: 李四摇头
+- content: 但特朗普对中国企业制裁少，这不利于中国企业。
+  context: 张三指出特朗普对企业的相对有利之处
+  image: output/1721183154/images/3.png
+  narration: output/1721183154/narration/3.mp3
+  sd_prompt: '"But Trump has imposed fewer sanctions on Chinese enterprises, which
+    is not conducive to Chinese enterprises."'
+  seed: 1721183155
+  speaker: 张三
+  visual: 张三皱眉
+- content: 拜登上台，贸易战再来，中国企业会更困难。
+  context: 李四担心拜登上台对中国企业的负面影响
+  image: output/1721183154/images/4.png
+  narration: output/1721183154/narration/4.mp3
+  sd_prompt: '"Biden comes to power, the trade war resumes, Chinese enterprises will
+    face greater difficulties."'
+  seed: 1721183154
+  speaker: 李四
+  visual: 李四摆手
+- content: 特朗普对中国有好有坏，拜登就是一锅粥。
+  context: 李四调侃拜登政策的不确定性
+  image: output/1721183154/images/5.png
+  narration: output/1721183154/narration/5.mp3
+  sd_prompt: Trump has both good and bad aspects towards China, but Biden is just
+    a bowl of porridge.
+  seed: 1721183155
+  speaker: 李四
+  visual: 李四摊手
+- content: 那咱们还是希望特朗普赢吧，至少我们知道他在想什么。
+  context: 张三开玩笑说特朗普的政策更加明朗
+  image: output/1721183154/images/6.png
+  narration: output/1721183154/narration/6.mp3
+  sd_prompt: '"Then let''s hope Trump wins, at least then we know what he''s thinking."'
+  seed: 1721183154
+  speaker: 张三
+  visual: 张三假装思考
+- content: 特朗普要是有拜登的头脑，中国企业就轻松了。
+  context: 李四调侃特朗普的政策决策
+  image: output/1721183154/images/7.png
+  narration: output/1721183154/narration/7.mp3
+  sd_prompt: If Trump had Biden's mind, Chinese companies would be easier.
+  seed: 1721183155
+  speaker: 李四
+  visual: 李四摇头
+- content: 两位总统都一样，对中国都不是啥好事。
+  context: 张三指出两位候选人的政策对中国均有不利影响
+  image: output/1721183154/images/8.png
+  narration: output/1721183154/narration/8.mp3
+  sd_prompt: Both presidents are the same, and neither is good for China.
+  seed: 1721183154
+  speaker: 张三
+  visual: 张三摊手
+- content: 那咱们还是祈祷和平发展吧，别再折腾中国了。
+  context: 李四希望中美关系和平稳定
+  image: output/1721183154/images/9.png
+  narration: output/1721183154/narration/9.mp3
+  sd_prompt: '"Then let''s still pray for peaceful development, don''t keep messing
+    with China anymore."'
+  seed: 1721183155
+  speaker: 李四
+  visual: 李四双手合十
+- content: 说得也是，中国自己发展才是硬道理。
+  context: 张三强调中国内需和自强的关键
+  image: output/1721183154/images/10.png
+  narration: output/1721183154/narration/10.mp3
+  sd_prompt: Indeed, it is the self-development of China that is the real hard truth.
+  seed: 1721183154
+  speaker: 张三
+  visual: 张三点头
+- content: 别再指望外国总统给我们带来什么利好消息了。
+  context: 李四总结中美关系，强调自主发展的重要性
+  image: output/1721183154/images/11.png
+  narration: output/1721183154/narration/11.mp3
+  sd_prompt: Don't expect foreign presidents to bring us any good news anymore.
+  seed: 1721183155
+  speaker: 李四
+  visual: 李四摊手
+music: ''

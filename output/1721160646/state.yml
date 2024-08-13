@@ -1,0 +1,71 @@
+directory: '1721160646'
+lines:
+- content: 哎呀，朋友们，今天我们俩来聊个新鲜的，说是AI这把双刃剑，迟早要社会来买单。
+  context: 开篇点题，引入AI引发社会问题的话题。
+  image: output/1721160646/images/1.png
+  narration: output/1721160646/narration/1.mp3
+  sd_prompt: Wang Master was shaking his head and nodding, with a serious expression
+    on his face.
+  seed: 1721160647
+  speaker: 王师傅
+  visual: 王师傅摇头晃脑，表情严肃。
+- content: 嘿，王师傅说得是，这不，最近网上流传一句话，说是有AI没AI，社会都不转。
+  context: 呼应王师傅的话题，用流行语增加轻松感。
+  image: output/1721160646/images/2.png
+  narration: output/1721160646/narration/2.mp3
+  sd_prompt: '"Li Lao Dao nods with a smile, making exaggerated gestures."'
+  seed: 1721160646
+  speaker: 李老太
+  visual: 李老太点头微笑，手势夸张。
+- content: 不是吗？AI这玩意儿，它能写稿，能编曲，能画画，还能写诗，你让那些艺术家情以何堪？
+  context: 点出AI对传统行业的冲击。
+  image: output/1721160646/images/3.png
+  narration: output/1721160646/narration/3.mp3
+  sd_prompt: '"Master Wang shrugs and makes a helpless expression."'
+  seed: 1721160647
+  speaker: 王师傅
+  visual: 王师傅摊手，表情无奈。
+- content: 哎，王师傅，别忘了，AI还能当客服，当翻译，效率高得不得了，失业率蹭蹭蹭往上涨。
+  context: 反驳王师傅的同时，指出AI带来的就业问题。
+  image: output/1721160646/images/4.png
+  narration: output/1721160646/narration/4.mp3
+  sd_prompt: '"Li Lao Dao frowns, with a worried expression."'
+  seed: 1721160646
+  speaker: 李老太
+  visual: 李老太皱眉，表情担忧。
+- content: 那是，那是，AI能监控，能预警，能分析，咱们的安全感都是它给的，但你要说它没毛病，它能知道咱们的喜好，也能掌握咱们的隐私。
+  context: 讨论AI带来的安全与隐私问题。
+  image: output/1721160646/images/5.png
+  narration: output/1721160646/narration/5.mp3
+  sd_prompt: 'The translation of the given Chinese sentence to English is:
+
+
+    "Master Wang spreads his hands wide, with a complex expression on his face."'
+  seed: 1721160647
+  speaker: 王师傅
+  visual: 王师傅两手一摊，表情复杂。
+- content: 王师傅，你可别忘了，AI还能做决策，它能根据大数据分析来做选择，但大数据里有没有偏见，这谁说得清？
+  context: 再次提出AI可能引发的伦理问题。
+  image: output/1721160646/images/6.png
+  narration: output/1721160646/narration/6.mp3
+  sd_prompt: '"Li Laota, with both hands on her chest and a sharp gaze."'
+  seed: 1721160646
+  speaker: 李老太
+  visual: 李老太双手抱胸，目光犀利。
+- content: 所以说，AI这事儿，利弊参半，咱们得慎重，万一这社会不是被AI搞没了，就是被AI给惯没了。
+  context: 总结观点，提出对AI使用的警惕性。
+  image: output/1721160646/images/7.png
+  narration: output/1721160646/narration/7.mp3
+  sd_prompt: '"Master Wang shook his head, his expression profound."'
+  seed: 1721160647
+  speaker: 王师傅
+  visual: 王师傅摇头，表情深沉。
+- content: 对对对，王师傅说得对，咱们不能让这AI成了社会的催命符，那咱们得好好想想，怎么让它变成社会发展的助推器。
+  context: 认同王师傅的观点，提出积极的解决思路。
+  image: output/1721160646/images/8.png
+  narration: output/1721160646/narration/8.mp3
+  sd_prompt: Li Lao'tai's face was full of a smile, and her gestures were positive.
+  seed: 1721160646
+  speaker: 李老太
+  visual: 李老太笑容满面，手势积极。
+music: ''

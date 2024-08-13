@@ -1,0 +1,68 @@
+directory: '1721179098'
+lines:
+- content: 特朗普对中国来说，就像是一个有点霸道但又经常能得到好处的大哥。
+  context: 开场白，调侃特朗普对中国的影响
+  image: output/1721179098/images/1.png
+  narration: output/1721179098/narration/1.mp3
+  sd_prompt: Li, an artist, puts on an expression that is a bit stern, but his face
+    also has a hint of a smile.
+  seed: 1721179099
+  speaker: 李Artist
+  visual: 李Artist 摆出一副有点凶的样子，但表情带点笑意
+- content: 但是，大哥也有大哥的脾气，特朗普的政策变来变去，让人捉摸不透。
+  context: 补充观点，指出特朗普政策的不可预测性
+  image: output/1721179098/images/2.png
+  narration: output/1721179098/narration/2.mp3
+  sd_prompt: '"Wang Artist puts on an expression of helplessness."'
+  seed: 1721179098
+  speaker: 王Artist
+  visual: 王Artist 摆出一副无奈的样子
+- content: 那拜登呢？他就像一个慈祥的老爸，总是能给你稳定的感觉。
+  context: 对比拜登，用慈祥的老爸比喻
+  image: output/1721179098/images/3.png
+  narration: output/1721179098/narration/3.mp3
+  sd_prompt: Li Artist makes a kind and gentle pose
+  seed: 1721179099
+  speaker: 李Artist
+  visual: 李Artist 摆出一个慈祥的姿势
+- content: 但是，稳定的好处并不总是那么明显。想象一下，如果拜登赢了，我们可能还得继续忍受他对华关税。
+  context: 批评拜登可能带来的负面后果
+  image: output/1721179098/images/4.png
+  narration: output/1721179098/narration/4.mp3
+  sd_prompt: '"Wang Artist makes a face with a bitter expression."'
+  seed: 1721179098
+  speaker: 王Artist
+  visual: 王Artist 做出一副苦涩的表情
+- content: 说到关税，特朗普的反复无常其实也给中国带来不少麻烦。
+  context: 回应王Artist，指出特朗普关税政策的困扰
+  image: output/1721179098/images/5.png
+  narration: output/1721179098/narration/5.mp3
+  sd_prompt: '"Li, an artist, puts on an expression of deep thought."'
+  seed: 1721179099
+  speaker: 李Artist
+  visual: 李Artist 摆出一副思考的样子
+- content: 对啊，特朗普就像是在商场里讨价还价，一会儿加关税，一会儿又减免。
+  context: 继续调侃特朗普的关税政策
+  image: output/1721179098/images/6.png
+  narration: output/1721179098/narration/6.mp3
+  sd_prompt: Wang Artist makes a exaggerated hand gesture for haggling and bargaining.
+  seed: 1721179098
+  speaker: 王Artist
+  visual: 王Artist 做出一副讨价还价的夸张手势
+- content: 所以，如果我们站在中国的角度，我们想要的是一个能给我们带来稳定利益的伙伴。
+  context: 总结观点，强调稳定伙伴的重要性
+  image: output/1721179098/images/7.png
+  narration: output/1721179098/narration/7.mp3
+  sd_prompt: '"Li Artist presents a thoughtful expression"'
+  seed: 1721179099
+  speaker: 李Artist
+  visual: 李Artist 摆出一副深思熟虑的样子
+- content: 不管是特朗普还是拜登，中国都需要的是一个能理解彼此利益，促进双边关系的总统。
+  context: 深化观点，强调双边关系的必要性
+  image: output/1721179098/images/8.png
+  narration: output/1721179098/narration/8.mp3
+  sd_prompt: '"Wang Artist demonstrates a posture for solving problems."'
+  seed: 1721179098
+  speaker: 王Artist
+  visual: 王Artist 摆出一种解决问题的姿态
+music: ''

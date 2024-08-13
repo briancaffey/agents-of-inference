@@ -1,0 +1,176 @@
+directory: '1721187439'
+lines:
+- content: 特朗普总统和拜登副总统，两位候选人，各有千秋。
+  context: 开场白
+  image: output/1721187439/images/1.png
+  narration: output/1721187439/narration/1.mp3
+  sd_prompt: President Trump and Vice President Biden, the two candidates, each have
+    their own strengths.
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三手拿折扇，微笑着看向观众。
+- content: 说到美国大选，咱们得从选对总统对中国的利弊来分析。
+  context: 提出观点
+  image: output/1721187439/images/2.png
+  narration: output/1721187439/narration/2.mp3
+  sd_prompt: When discussing the US presidential election, we must analyze it from
+    the perspective of how choosing the right president benefits or harms China.
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四摇头晃脑，手势夸张。
+- content: 特朗普总统，咱们得说，对中国来说，他的政策可真是一把双刃剑。
+  context: 反驳李四
+  image: output/1721187439/images/3.png
+  narration: output/1721187439/narration/3.mp3
+  sd_prompt: President Trump, we must say, his policies towards China are truly a
+    double-edged sword for China.
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三皱着眉头，双手抱胸。
+- content: 那你觉得特朗普对中国有什么好处？
+  context: 追问
+  image: output/1721187439/images/4.png
+  narration: output/1721187439/narration/4.mp3
+  sd_prompt: What do you think are the benefits of Trump for China?
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四挑眉，目不转睛地盯着张三。
+- content: 好处？好处是他对我们国家的市场经济改革表示赞赏。
+  context: 举例说明
+  image: output/1721187439/images/5.png
+  narration: output/1721187439/narration/5.mp3
+  sd_prompt: What are the benefits? The benefit is that he expresses admiration for
+    our country's reform of the market economy.
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三得意地笑着，手势有力。
+- content: 那不就是说，他不懂我们国家的情况，才会那么说？
+  context: 反问质疑
+  image: output/1721187439/images/6.png
+  narration: output/1721187439/narration/6.mp3
+  sd_prompt: That doesn't mean that he doesn't understand the situation of our country,
+    which is why he said that?
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四摇头，表情不以为然。
+- content: 李四啊李四，你别急。特朗普上台后，我们的贸易额可是翻了一番呢。
+  context: 回击
+  image: output/1721187439/images/7.png
+  narration: output/1721187439/narration/7.mp3
+  sd_prompt: '"Li Si, Li Si, don''t worry. Since Trump took office, our trade volume
+    has doubled."'
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三得意地笑着，挥舞着手中的折扇。
+- content: 那是我们主动增加的关税，你敢不敢说？
+  context: 追问
+  image: output/1721187439/images/8.png
+  narration: output/1721187439/narration/8.mp3
+  sd_prompt: '"Is that a tariff we increased on our own initiative, dare you say?"'
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四皱眉，目光犀利。
+- content: 关税关税，那是美国为了保护本国产业采取的措施。
+  context: 解释
+  image: output/1721187439/images/9.png
+  narration: output/1721187439/narration/9.mp3
+  sd_prompt: '"Tariff duty, tariff duty, that is a measure taken by the United States
+    to protect its domestic industries."'
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三摇头晃脑，似是而非。
+- content: 保护产业？你这是为自己的利益找借口！
+  context: 愤怒
+  image: output/1721187439/images/10.png
+  narration: output/1721187439/narration/10.mp3
+  sd_prompt: '"Protect the industry? You''re making excuses for your own interests!"'
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四双手交叉在胸前，表情愤怒。
+- content: 李四，你别急。咱们说说拜登总统怎么样。
+  context: 转换话题
+  image: output/1721187439/images/11.png
+  narration: output/1721187439/narration/11.mp3
+  sd_prompt: Li Si, you don't have to be in a rush. Let's talk about President Biden.
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三微笑，试图缓和气氛。
+- content: 拜登？拜登对中国来说，就像是咱们中国的老朋友。
+  context: 评价拜登
+  image: output/1721187439/images/12.png
+  narration: output/1721187439/narration/12.mp3
+  sd_prompt: Biden? Biden is like an old friend from China for China.
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四点头，表情肯定。
+- content: 对对，他多次强调，美国和中国需要合作共赢。
+  context: 补充内容
+  image: output/1721187439/images/13.png
+  narration: output/1721187439/narration/13.mp3
+  sd_prompt: '"Yes, he has repeatedly emphasized that the United States and China
+    need to achieve a win-win cooperation."'
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三双手抱胸，表情赞同。
+- content: 合作共赢，听起来不错。但现实是，拜登总统对中国发起的调查可不少。
+  context: 提出问题
+  image: output/1721187439/images/14.png
+  narration: output/1721187439/narration/14.mp3
+  sd_prompt: Cooperation yields win-win results, sounds nice. But the reality is,
+    President Biden has launched quite a few investigations against China.
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四皱眉，表情严肃。
+- content: 那也是为了保护本国企业不受不公平竞争的影响。
+  context: 解释
+  image: output/1721187439/images/15.png
+  narration: output/1721187439/narration/15.mp3
+  sd_prompt: That is also to protect domestic enterprises from the influence of unfair
+    competition.
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三摇头晃脑，试图解释。
+- content: 不公平竞争？你这是在为自己的利益找借口！
+  context: 愤怒
+  image: output/1721187439/images/16.png
+  narration: output/1721187439/narration/16.mp3
+  sd_prompt: Unfair competition? You're just making excuses for your own interests!
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四双手交叉在胸前，表情愤怒。
+- content: 哈哈，李四，我们俩说来说去，都是各说各的理。
+  context: 总结
+  image: output/1721187439/images/17.png
+  narration: output/1721187439/narration/17.mp3
+  sd_prompt: '"Haha, Li Si, we two, come what may, are each saying our own reasons."'
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三笑着摆手，似有所悟。
+- content: 是啊，特朗普也好，拜登也罢，选谁当总统，对中国来说都有利有弊。
+  context: 补充
+  image: output/1721187439/images/18.png
+  narration: output/1721187439/narration/18.mp3
+  sd_prompt: Yes, whether it's Trump or Biden, choosing anyone as the president has
+    its advantages and disadvantages for China.
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四点头，表情认同。
+- content: 咱们中国的老百姓，还是得关心自己的日子，过好自己的小日子。
+  context: 转移焦点
+  image: output/1721187439/images/19.png
+  narration: output/1721187439/narration/19.mp3
+  sd_prompt: '"Our fellow citizens of China, we still need to be concerned with our
+    own lives and lead a good little life."'
+  seed: 1721187440
+  speaker: 张三
+  visual: 张三摆手，仿佛释然。
+- content: 对对，说到底，选总统是美国人自己的事。
+  context: 同意
+  image: output/1721187439/images/20.png
+  narration: output/1721187439/narration/20.mp3
+  sd_prompt: '"Yes, at the end of the day, choosing the president is the Americans''
+    own business."'
+  seed: 1721187439
+  speaker: 李四
+  visual: 李四点头，表情舒展。
+music: ''

@@ -1,0 +1,201 @@
+directory: '1721085847'
+topics:
+- description: Aerial shot of a hidden city nestled in the heart of a dense, misty
+    forest. The sun is just beginning to pierce through the canopy, casting an otherworldly
+    glow on the ancient stone structures.
+  music: output/1721085847/music/0.wav
+  name: The Dawn of the Lost City
+  shots:
+  - image: output/1721085847/images/1.png
+    narration: output/1721085847/narration/1.mp3
+    sd_prompt: A drone slowly flies through the air, and as the camera zooms out,
+      it reveals an ancient city hidden within a dense foggy forest. As the sun begins
+      to pierce through the treetops, it seems like a sharp sword cutting through
+      the mist. The ancient stone buildings, bathed in the early sunlight, emit a
+      mysterious glow. The camera focuses on a majestic stone tower, covered in the
+      marks of time.
+    spoken_words: 欢迎来到失落之城的黎明
+    title: 晨光破雾
+    visual_description: 一架无人机在空中缓缓飞过，镜头拉远展示出一座隐藏在浓密雾气森林中的古城。树木的冠层间开始透出一线阳光，宛如利剑般劈开迷雾。古老的石质建筑在初阳的照耀下，散发出神秘的光辉。镜头聚焦在一座巍峨的石塔上，其上刻满了岁月的痕迹。
+  - image: output/1721085847/images/2.png
+    narration: output/1721085847/narration/2.mp3
+    sd_prompt: The camera zooms in, providing a close-up of a towering stone tower.
+      The tip of the tower points straight up to the sky. The sunlight glitters on
+      the surface of the tower, refracting into a series of mottled shadows. The camera
+      slowly lowers, revealing the array of statues and inscriptions on the base of
+      the tower, hinting at the wisdom and faith of ancient civilizations.
+    spoken_words: 这座城市的历史，比我们所知还要古老。
+    title: 石塔之影
+    visual_description: 镜头拉近，特写一座高耸的石塔，塔尖直指蓝天。阳光在塔身流转，折射出一道道斑驳的光影。镜头缓缓下移，展现出塔基上密布的雕像和文字，透露出古代文明的智慧与信仰。
+  - image: output/1721085847/images/3.png
+    narration: output/1721085847/narration/3.mp3
+    sd_prompt: The camera switches to a winding path that meanders through the forest,
+      flanked by towering trees. Sunlight dances between the leaves, creating a patchwork
+      of light and shadow. The camera then pulls close to the ground to reveal an
+      ancient stone path, deeply blanketed in thick moss, as if it's telling a story
+      of old history.
+    spoken_words: 让我们走进这片神秘的土地，探寻它尘封的故事。
+    title: 林间小径
+    visual_description: 镜头切换至一条蜿蜒穿过森林的小径，两旁是高耸的树木，阳光在树叶间穿梭，形成斑驳的光影。镜头贴近地面，展示了古代的石板路，上面覆盖着厚厚的青苔，似乎在诉说着历史的悠长。
+  - image: output/1721085847/images/4.png
+    narration: output/1721085847/narration/4.mp3
+    sd_prompt: The camera then switches to a dilapidated castle, its walls covered
+      in vines and moss. Part of the structure has collapsed. Sunlight filters through
+      the broken windows and falls upon a stone slab inscribed with ancient runes,
+      casting it in a particularly dark and mysterious light.
+    spoken_words: 这里曾是城主的宫殿，如今只剩下断壁残垣。
+    title: 古堡遗迹
+    visual_description: 镜头转换到一个破败的古堡，其墙壁上布满了藤蔓和苔藓，部分结构已经坍塌。阳光透过破碎的窗户，映照在一块刻有古老符文的石板上，显得特别幽暗而神秘。
+  - image: output/1721085847/images/5.png
+    narration: output/1721085847/narration/5.mp3
+    sd_prompt: Lastly, the camera zooms out to a panoramic view of the entire city.
+      As the light gradually pierces through the gaps in the forest, the ancient city
+      comes into view bathed in the golden sunlight. The stone walls, towers, and
+      paths all seem especially solemn in this moment, as if they are welcoming a
+      new day.
+    spoken_words: 随着日光渐亮，这座沉睡的城即将再次醒来。
+    title: 古城日光
+    visual_description: 最后，镜头拉回到全城的视角，随着光线逐渐穿透森林的缝隙，古城在金色的阳光中显现出它的全貌。石墙、塔楼、小径，都在这一刻显得格外庄严，仿佛在迎接新的一天。
+- description: A lone figure, a guardian, walks through a labyrinthine canyon with
+    towering, jagged cliffs on both sides. A narrow, winding path leads towards the
+    horizon, the figure's silhouette reflecting against the setting sun.
+  music: output/1721085847/music/1.wav
+  name: The Guardian's Path
+  shots:
+  - image: output/1721085847/images/6.png
+    narration: output/1721085847/narration/6.mp3
+    sd_prompt: A solitary figure, a guardian, traversed a canyon that resembled a
+      labyrinth. Towering and steep cliffs loomed on either side of the gorge. A narrow
+      and winding path pointed towards the horizon. The silhouette of this figure
+      was reflected in the twilight of the waning sun.
+    spoken_words: 我必须保持前进...
+    title: 守护者的踪迹
+    visual_description: 一名孤独的身影，一名守护者，穿越了一个像迷宫一样的峡谷。峡谷的两边耸立着高耸而尖峭的悬崖。一条狭窄而蜿蜒的小径指向地平线。这个身影的剪影反射在落日的余晖中。
+  - image: output/1721085847/images/7.png
+    narration: output/1721085847/narration/7.mp3
+    sd_prompt: The guardian pauses and looks upward, revealing a hint of fatigue in
+      their eyes, but even more determination. At the horizon, the path ahead fades
+      into obscurity, hinting at more challenges to come.
+    spoken_words: 前方还有多远...
+    title: 望向远方
+    visual_description: 守护者停下脚步，仰望前方，眼神中透露出一丝疲惫，但更多的是坚定。地平线上，小径逐渐变得模糊，预示着前方还有更多的挑战。
+  - image: output/1721085847/images/8.png
+    narration: output/1721085847/narration/8.mp3
+    sd_prompt: The camera pulls back to show a closer view of the guardian's longsword.
+      The blade reflects the golden light of the sunset, and the hilt is inlaid with
+      ancient and mysterious runes, symbolizing the power of protection.
+    spoken_words: 这是我作为守护者的武器。
+    title: 守护者的武器
+    visual_description: 镜头拉近距离，展示守护者手中的长剑。剑刃反射着夕阳的金色光芒，剑柄上雕刻着古老而神秘的符文，象征着守护的力量。
+  - image: output/1721085847/images/9.png
+    narration: output/1721085847/narration/9.mp3
+    sd_prompt: The guardian faces the camera, a resolve flashing in their eyes, a
+      long sword tightly gripped in their hand, with the grandeur of the valley's
+      landscape as their backdrop. The wind atop the cliff seems to echo the guardian's
+      vow.
+    spoken_words: 我是这片土地的守护者，直到最后一刻。
+    title: 守护者的信念
+    visual_description: 守护者面对镜头，眼中闪过一丝坚定，手中紧握长剑，背景是峡谷的壮丽景色。悬崖上的风似乎在回响着守护者的誓言。
+  - image: output/1721085847/images/10.png
+    narration: output/1721085847/narration/10.mp3
+    sd_prompt: As the orange glow of the setting sun faded beneath the horizon, the
+      sky gradually turned orange and red with the evening glow, while the shadows
+      in the valley deepened. The guardian continued to walk, his steps appearing
+      solitary and resolute under the moonlight.
+    spoken_words: 夜幕即将降临，守护者必须继续前行。
+    title: 夜幕降临
+    visual_description: 随着日落的余晖消失在地平线下，天空逐渐被橙红色的晚霞覆盖，而峡谷的阴影也逐渐加深。守护者继续走着，他的步伐在月光下显得孤独而坚定。
+- description: A quiet, hidden waterway, lined with lush, water-kissed foliage, leading
+    the viewer into a serene underwater world. Schools of fish dart between coral
+    gardens, revealing a hidden temple at the water's edge.
+  music: output/1721085847/music/2.wav
+  name: The Secret Waterway
+  shots:
+  - image: output/1721085847/images/11.png
+    narration: output/1721085847/narration/11.mp3
+    sd_prompt: The camera shows a serene river inlet, flanked by lush, verdant vegetation,
+      leading the audience into a tranquil underwater world. The scene is calm, with
+      sunlight filtering through water droplets and casting dappled shadows on the
+      water's surface.
+    spoken_words: 欢迎来到隐藏的水道，让我们探索它神秘的面纱之下。
+    title: 幽静水道入口
+    visual_description: 镜头展示一个宁静的河流入口，两旁是茂密的水润植被，引导观众进入一个宁静的河底世界。画面平静，阳光透过水珠，在水面上洒下斑驳的光影。
+  - image: output/1721085847/images/12.png
+    narration: output/1721085847/narration/12.mp3
+    sd_prompt: A group of fish with colors as vivid as a rainbow swim through the
+      coral garden, some moving swiftly while others move leisurely. The coral sway
+      in the water, reflecting dazzling colors.
+    spoken_words: 看那些鱼群，多么自由地在珊瑚群中穿梭。
+    title: 鱼群穿梭
+    visual_description: 一群五彩缤纷的鱼儿在珊瑚花园中穿梭，有的快速游过，有的则悠闲地游动。珊瑚礁在水中摇曳，反射出耀眼的色彩。
+  - image: output/1721085847/images/13.png
+    narration: output/1721085847/narration/13.mp3
+    sd_prompt: The camera slowly zooms in, and a school of fish swim past the lens,
+      revealing the outline of an ancient temple. The temple is covered in mist and
+      vines, appearing mysterious and serene.
+    spoken_words: 那里，在水的边缘，隐藏着一个古老的寺庙。
+    title: 神秘寺庙现形
+    visual_description: 镜头慢慢拉近，一群鱼儿在镜头前游过，露出一个古老寺庙的部分轮廓，寺庙被水雾和藤蔓覆盖，显得神秘而幽静。
+  - image: output/1721085847/images/14.png
+    narration: output/1721085847/narration/14.mp3
+    sd_prompt: The camera delves into the interior of the temple, showcasing exquisite
+      stone carvings and intricate details of the sculptures. The interplay of light
+      and shadow dances upon the water's surface and the stones, creating an ambiance
+      steeped in historical depth.
+    spoken_words: 这些细节表明，这个寺庙曾经是这个地区的重要宗教中心。
+    title: 寺庙细节
+    visual_description: 镜头深入寺庙内部，展示精美的石刻和雕刻细节，光影在水面和石头上交错，营造出一种历史悠久的氛围。
+  - image: output/1721085847/images/15.png
+    narration: output/1721085847/narration/15.mp3
+    sd_prompt: The camera pulls away from the interior of the temple, slowly rising,
+      and finally returns to the surface. The sunlight once again fills the entire
+      river, and the waterway once again regains its tranquility and mystery.
+    spoken_words: 现在，让我们一起返回水面，结束这次神秘的水下之旅。
+    title: 返回水面
+    visual_description: 镜头从寺庙内部拉出，缓缓上升，最后回到水面，阳光再次洒满整个河流，水道再次恢复了它的宁静和神秘。
+- description: A dimly lit interior shot of a grand, forgotten temple, overgrown with
+    vines and ancient plants. Twisted, barren trees stand amidst the ruins, casting
+    eerie shadows that dance and flicker on the walls.
+  music: output/1721085847/music/3.wav
+  name: The Forgotten Temple
+  shots:
+  - image: output/1721085847/images/16.png
+    narration: output/1721085847/narration/16.mp3
+    sd_prompt: '"Photographed in a dimly lit room, showcasing an impressive yet forgotten
+      temple, surrounded by vines and ancient plants. Wild trees twisted and stood
+      in the ruins, casting eerie shadows that danced and flickered on the walls."'
+    spoken_words: 这里曾是辉煌的庙宇，如今却被藤蔓和古植物覆盖。空地上，扭曲的枯树矗立，让废墟间的影子摇曳生姿。
+    title: 遗忘的殿堂内部
+    visual_description: 昏暗的室内拍摄，展示一座宏伟但被遗忘的庙宇，周围长满了藤蔓和古老植物。荒芜的树木扭曲着，伫立在废墟之中，它们投下的诡异阴影在墙壁上跳动闪烁。
+- description: A breathtaking sunrise over the desert, where the guardian and the
+    last scribe of the lost city stand side by side. The scribe holds an ancient book,
+    its pages glowing with a mystical light. The camera pans out to reveal a hidden,
+    glowing portal in the desert sands, hinting at the city's true nature and purpose.
+  music: output/1721085847/music/4.wav
+  name: The Revelation
+  shots:
+  - image: output/1721085847/images/17.png
+    narration: output/1721085847/narration/17.mp3
+    sd_prompt: The scene shows the vastness of the desert, with the sky beginning
+      to turn a rosy pink at the horizon. The sun slowly emerges, revealing a corner
+      of itself. In the desert, there is a man and a woman; one is a guardian, and
+      the other is the last scribe recording ancient texts. They face the sun, with
+      eyes that betray a determination and anticipation. The ancient tome in the scribe's
+      hand has a cover emblazoned with an ancient sigil, and the opened pages emit
+      a mysterious glow. The entire scene is bathed in soft light, and the golden
+      grains of sand on the desert glimmer under the morning light.
+    spoken_words: 看，日出之美，与守护者并肩，见证最后一册失落的城市的秘密。
+    title: 晨曦初现
+    visual_description: 画面呈现沙漠的辽阔，天边开始泛起鱼肚白，太阳慢慢露出一角。沙漠中有一男一女，一位是守护者，另一位是最后一位古籍记录者。他们面朝太阳，眼神中透露出坚定与期待。古籍记录者手中的古书封面是古老的纹章，翻开的页面上散发着神秘的荧光。整个画面光线柔和，晨曦中沙漠上的金黄色沙粒熠熠生辉。
+  - image: output/1721085847/images/18.png
+    narration: output/1721085847/narration/18.mp3
+    sd_prompt: As the camera gradually pulls back, the area originally part of the
+      desert that is visible on the screen suddenly reveals a mysterious portal half-concealed.
+      The portal, composed of sand, boasts intricate design with uneven edges, appearing
+      to be the result of natural erosion. A faint blue light pulsates from the portal,
+      radiating from the sand grains to form a halo. The portal seems to lead to an
+      unknown world, and in contrast to the surrounding desert and the sunrise in
+      the sky, the portal stands out prominently.
+    spoken_words: 这是一座隐藏在沙海之中的神秘之门，它预示着这座城市的真正秘密。
+    title: 神秘之门
+    visual_description: 随着摄像机的逐步拉远，画面中原本是沙漠的一部分，突然出现了一扇半掩的神秘门户。门户由沙子构成，设计精美，边缘参差不齐，像是自然侵蚀的产物。门户上闪烁着微弱的蓝光，从沙漠的沙粒中放射出来，形成一个光环。门户似乎通往一个未知的世界，四周的沙漠和天空的日出形成对比，门户显得格外突出。

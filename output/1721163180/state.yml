@@ -1,0 +1,100 @@
+directory: '1721163180'
+lines:
+- content: 哎呀，朋友们！你们知道吗，现在社会都快被这人工智能给整崩溃了！
+  context: 开场白，引入主题
+  image: output/1721163180/images/1.png
+  narration: output/1721163180/narration/1.mp3
+  sd_prompt: Zhang Dapao exaggeratedly sprawled out on the sofa, with furrowed brows.
+  seed: 1721163181
+  speaker: 张大炮
+  visual: 张大炮夸张地摊在沙发上，眉头紧锁
+- content: 哎，大炮，你可别一上来就吓人一跳。什么人工智能整垮社会，你得讲讲道理！
+  context: 李啰嗦质疑张大炮的说法
+  image: output/1721163180/images/2.png
+  narration: output/1721163180/narration/2.mp3
+  sd_prompt: Li Rou Suo puts on an earnest expression, arms crossed over her chest.
+  seed: 1721163180
+  speaker: 李啰嗦
+  visual: 李啰嗦摆出一副认真的样子，双手抱胸
+- content: 什么道理？人工智能算法优化，优化着优化着，就把工作优化没了！
+  context: 张大炮举例说明AI导致的工作流失问题
+  image: output/1721163180/images/3.png
+  narration: output/1721163180/narration/3.mp3
+  sd_prompt: Zhang Dapao waved his arms about, his expression wildly exaggerated.
+  seed: 1721163181
+  speaker: 张大炮
+  visual: 张大炮挥舞双手，表情夸张
+- content: 那您这话说的，机器人干活又不犯法，法律算个啥！
+  context: 李啰嗦反驳，调侃法律的作用
+  image: output/1721163180/images/4.png
+  narration: output/1721163180/narration/4.mp3
+  sd_prompt: 'Li Laosuo made a face that didn''t matter, and his mouth slightly turned
+    up.
+
+
+    (Note: The original Chinese text refers to a specific action and facial expression
+    of a character named Li Laosuo. The translation provided is a direct translation,
+    but in the context of a story or conversation, the interpretation might vary depending
+    on the character''s personality and the situation described.)'
+  seed: 1721163180
+  speaker: 李啰嗦
+  visual: 李啰嗦做出一副无所谓的表情，嘴角微微上翘
+- content: 法律法律，法律不就让人治的吗？现在人都不用人治了！
+  context: 张大炮继续强调AI对人类职业的影响
+  image: output/1721163180/images/5.png
+  narration: output/1721163180/narration/5.mp3
+  sd_prompt: Zhang Dapao shrugged, looking utterly helpless.
+  seed: 1721163181
+  speaker: 张大炮
+  visual: 张大炮摊手，一副无可奈何的样子
+- content: 哎呀，你们说着说着跑偏了。说好的社会崩溃呢？这是AI统治世界了吧！
+  context: 观众打岔，偏离主题
+  image: output/1721163180/images/6.png
+  narration: output/1721163180/narration/6.mp3
+  sd_prompt: Wang Daya Xiao head shake, look like a curious baby, one look like a
+    curious baby.
+  seed: 1721163180
+  speaker: 王打岔
+  visual: 王打岔摇头晃脑，一副好奇宝宝的模样
+- content: 这不就是吗？AI统治了计算，算出了金融危机；统治了医疗，病人都让机器人治；统治了教育，学生都不用上学了！
+  context: 张大炮总结AI的统治地位，调侃各个领域
+  image: output/1721163180/images/7.png
+  narration: output/1721163180/narration/7.mp3
+  sd_prompt: Zhang Da Pao was speaking while gesturing with his hands.
+  seed: 1721163181
+  speaker: 张大炮
+  visual: 张大炮边说边用手比划
+- content: 那您这不是咒咱社会呢吗？赶紧给个治法，怎么才能不让AI搞垮了社会？
+  context: 李啰嗦寻求解决方案
+  image: output/1721163180/images/8.png
+  narration: output/1721163180/narration/8.mp3
+  sd_prompt: '"Li the chatterboxes quickly stroked his chin."'
+  seed: 1721163180
+  speaker: 李啰嗦
+  visual: 李啰嗦急切地摸着下巴
+- content: 治法治法，咱得立法，立法得立法，立法得让人跟AI一块儿学！
+  context: 张大炮提出教育和立法的解决方案
+  image: output/1721163180/images/9.png
+  narration: output/1721163180/narration/9.mp3
+  sd_prompt: Zhang Da Pao raised his hands above his head, as if swearing.
+  seed: 1721163181
+  speaker: 张大炮
+  visual: 张大炮双手举过头顶，仿佛在宣誓
+- content: 咱得让人跟AI学，学好了，人机合作，人机和谐，这不就社会稳定了吗？
+  context: 李啰嗦补充张大炮的观点，强调人机合作的重要性
+  image: output/1721163180/images/10.png
+  narration: output/1721163180/narration/10.mp3
+  sd_prompt: Li Lāsō's hands crossed, as if he was pondering.
+  seed: 1721163180
+  speaker: 李啰嗦
+  visual: 李啰嗦双手交叉，仿佛在思考
+- content: 好咯，朋友们！咱们社会要想不崩，就得人机和谐，共创美好未来！
+  context: 总结全剧，提出美好愿景
+  image: output/1721163180/images/11.png
+  narration: output/1721163180/narration/11.mp3
+  sd_prompt: Zhang Dapao and Li Laosuo exchanged a glance and smiled, as if they could
+    see a bright future ahead.
+  seed: 1721163181
+  speaker: 张大炮
+  visual: 张大炮和李啰嗦相视一笑，仿佛看到了希望的未来
+music: ''

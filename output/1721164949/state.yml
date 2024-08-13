@@ -1,0 +1,141 @@
+directory: '1721164949'
+lines:
+- content: 特朗普对中国的态度一直很强势。他上台后，贸易战打起来了，美国企业开始在中国做生意要小心翼翼。
+  context: 开场白，引入话题
+  image: output/1721164949/images/1.png
+  narration: output/1721164949/narration/1.mp3
+  sd_prompt: '"The soldier crosses his arms, his gaze unwavering."'
+  seed: 1721164950
+  speaker: 大兵
+  visual: 大兵双手交叉，目光坚定
+- content: 但是拜登上台呢，又是老朋友了。他和中国领导人的关系不错，上台后态度倒是挺温和的。
+  context: 反驳大兵，提出自己的观点
+  image: output/1721164949/images/2.png
+  narration: output/1721164949/narration/2.mp3
+  sd_prompt: '"Second Dog feigns helplessness, looking somewhat helpless."'
+  seed: 1721164949
+  speaker: 二狗
+  visual: 二狗摊手，显得有些无奈
+- content: 那又怎样？拜登上台，他那个老年痴呆的传闻不是一直都有吗？
+  context: 质疑拜登的健康状况
+  image: output/1721164949/images/3.png
+  narration: output/1721164949/narration/3.mp3
+  sd_prompt: 'The translation of the given Chinese text, "大兵双手扶额，表情忧郁", into English
+    is:
+
+
+    "The soldier holds his head with both hands and has a depressed expression."'
+  seed: 1721164950
+  speaker: 大兵
+  visual: 大兵双手扶额，表情忧郁
+- content: 老年痴呆是吧？特朗普可是医生都认证过的。他那个可是叫做'特朗普症状'。
+  context: 反讽特朗普，拿他的言论作为证据
+  image: output/1721164949/images/4.png
+  narration: output/1721164949/narration/4.mp3
+  sd_prompt: '"Second Dog spread his arms, making a face of sheer bewilderment."'
+  seed: 1721164949
+  speaker: 二狗
+  visual: 二狗摊手，做出一副无语的表情
+- content: 哎，特朗普对中国来说，就像是个小孩子，一会儿哭一会儿笑。
+  context: 评价特朗普政策多变
+  image: output/1721164949/images/5.png
+  narration: output/1721164949/narration/5.mp3
+  sd_prompt: The translation of "大兵摇头，表情夸张" from Chinese to English is "The big soldier
+    shook his head, with exaggerated expression."
+  seed: 1721164950
+  speaker: 大兵
+  visual: 大兵摇头，表情夸张
+- content: 拜登呢，就像是位老校长，虽然有时候糊涂，但总归稳重。
+  context: 对比特朗普，评价拜登政策稳定
+  image: output/1721164949/images/6.png
+  narration: output/1721164949/narration/6.mp3
+  sd_prompt: '"Second Dog, smoothing down his beard and smiling, looked a bit triumphant."'
+  seed: 1721164949
+  speaker: 二狗
+  visual: 二狗抚须微笑，显得有些得意
+- content: 那这么说来，中国还是应该支持拜登？
+  context: 回到主题，提出疑问
+  image: output/1721164949/images/7.png
+  narration: output/1721164949/narration/7.mp3
+  sd_prompt: '"The soldier has his hands on his chest and his eyes full of doubt."'
+  seed: 1721164950
+  speaker: 大兵
+  visual: 大兵双手抱胸，眼神充满疑惑
+- content: 这倒不一定。特朗普虽然孩子气，但他那贸易战也是让美国企业尝到了甜头啊。
+  context: 再次反驳，提出特朗普对企业的好处
+  image: output/1721164949/images/8.png
+  narration: output/1721164949/narration/8.mp3
+  sd_prompt: '"2. Dog extends one finger, makes an emphasis sign"
+
+
+    In more detailed terms, the phrase "二狗伸出一根手指，做强调状" translates to "Ergou extends
+    one finger, makes an emphasis sign" in English. Here, "Er gou" refers to the character
+    or person named 二狗 (Er Gou), who is likely a dog in a human context, given the
+    name''s play on "dog" in Chinese. "伸出一根手指" translates to "extends one finger,"
+    indicating that Ergou is physically extending one of his fingers. "做强调状" means
+    "makes an emphasis sign," suggesting that Ergou is doing this to highlight or
+    stress something. Essentially, the sentence describes a situation where Ergou
+    uses his finger to emphasize or underscore a point he is making.'
+  seed: 1721164949
+  speaker: 二狗
+  visual: 二狗伸出一根手指，做强调状
+- content: 那是美国企业。对于中国来说，特朗普那就是不按常理出牌，你永远不知道他会出什么招。
+  context: 强调特朗普政策的不确定性
+  image: output/1721164949/images/9.png
+  narration: output/1721164949/narration/9.mp3
+  sd_prompt: '"The soldier made a ''what can you do'' gesture, appearing somewhat
+    helpless."'
+  seed: 1721164950
+  speaker: 大兵
+  visual: 大兵摊手，显得有些无奈
+- content: 二狗这一招是转移话题，把焦点从政治转向经济。
+  context: 转换话题，提出新的观点
+  image: output/1721164949/images/10.png
+  narration: output/1721164949/narration/10.mp3
+  sd_prompt: '"Second Dog winks, showing a cunning expression."'
+  seed: 1721164949
+  speaker: 二狗
+  visual: 二狗眨眼，露出狡黠的表情
+- content: 那倒是真的。拜登上台，贸易战可能会有所缓和，企业压力小了，创新动力就可能更大一些。
+  context: 支持拜登对企业的正面影响
+  image: output/1721164949/images/11.png
+  narration: output/1721164949/narration/11.mp3
+  sd_prompt: '"The soldier nods, showing a lot of confidence."'
+  seed: 1721164950
+  speaker: 大兵
+  visual: 大兵点头，显得很有信心
+- content: 所以，大兵你这是要支持拜登了？
+  context: 再次追问大兵的态度
+  image: output/1721164949/images/12.png
+  narration: output/1721164949/narration/12.mp3
+  sd_prompt: '"Second Dog raised an eyebrow, revealing a posture of challenge."'
+  seed: 1721164949
+  speaker: 二狗
+  visual: 二狗挑眉，露出挑战的姿态
+- content: 大兵巧妙地为自己辩解，同时又保持了中立立场。
+  context: 澄清立场，保持中立
+  image: output/1721164949/images/13.png
+  narration: output/1721164949/narration/13.mp3
+  sd_prompt: 'The translation of the given Chinese phrase, "大兵摊手，显得有些无奈", into English
+    is:
+
+
+    "The soldier spreads his arms, looking somewhat helpless."
+
+
+    This phrase describes a soldier (大兵, dà bīng) who is making a gesture with his
+    arms (摊手, tān shǒu), which indicates his feeling of being unable to do something
+    or being in a difficult situation, thus appearing helpless or resigned (显得有些无奈,
+    xiàng de yǒu xie liè).'
+  seed: 1721164950
+  speaker: 大兵
+  visual: 大兵摊手，显得有些无奈
+- content: 二狗的结论也是中立的，没有明确支持哪位总统。
+  context: 总结话题，提出中立观点
+  image: output/1721164949/images/14.png
+  narration: output/1721164949/narration/14.mp3
+  sd_prompt: '"Second Dog shrugged, appearing somewhat helpless."'
+  seed: 1721164949
+  speaker: 二狗
+  visual: 二狗摊手，显得有些无奈
+music: ''

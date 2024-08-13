@@ -1,0 +1,90 @@
+directory: '1721174531'
+lines:
+- content: 特朗普似乎更了解中国市场，因为他的很多生意都与中国的合作伙伴有过往来。
+  context: 开场调侃，指出特朗普与中国市场的关系
+  image: output/1721174531/images/1.png
+  narration: output/1721174531/narration/1.mp3
+  sd_prompt: Xiao Hei, with his hands in his pockets, is beaming with pride.
+  seed: 1721174532
+  speaker: 小黑
+  visual: 小黑双手插兜，得意洋洋地笑着
+- content: 确实，他那些大酒店和赌场，中国游客不少。
+  context: 小白接话，认可小黑的观点
+  image: output/1721174531/images/2.png
+  narration: output/1721174531/narration/2.mp3
+  sd_prompt: '"Little White nods and agrees, making a face like he understands."'
+  seed: 1721174531
+  speaker: 小白
+  visual: 小白点头同意，做出一副明白的样子
+- content: 但问题是，他选上美国总统，咱们中国能放心吗？
+  context: 转折话题，提出对特朗普总统任期的担忧
+  image: output/1721174531/images/3.png
+  narration: output/1721174531/narration/3.mp3
+  sd_prompt: '"Little Black furrows his brow, uses both hands to support his face,
+    and makes an expression of deep thought."'
+  seed: 1721174532
+  speaker: 小黑
+  visual: 小黑皱眉，双手扶脸，做出一副思考的样子
+- content: 这还用说，特朗普那个性子，一会儿对中国好，一会儿又来点贸易战。
+  context: 小白回应，批评特朗普政策的不确定性
+  image: output/1721174531/images/4.png
+  narration: output/1721174531/narration/4.mp3
+  sd_prompt: '"Little White shakes his head, showing a look of helplessness."'
+  seed: 1721174531
+  speaker: 小白
+  visual: 小白摇头，摆出一副无奈的表情
+- content: 拜登呢，虽然年纪大了点，但政治上稳得很。
+  context: 转向拜登，强调他的政治稳定性和经验
+  image: output/1721174531/images/5.png
+  narration: output/1721174531/narration/5.mp3
+  sd_prompt: Little Black made a gesture of affirmation, with confident eyes.
+  seed: 1721174532
+  speaker: 小黑
+  visual: 小黑做出一副肯定的手势，眼神自信
+- content: 对，而且他上台后，中美关系至少能保持一个相对稳定的状态。
+  context: 小白补充，强调拜登对中美关系的潜在稳定作用
+  image: output/1721174531/images/6.png
+  narration: output/1721174531/narration/6.mp3
+  sd_prompt: '"Little White nods, looking very confident."
+
+
+    In this sentence, "小白" (Little White) is likely a character''s name or nickname,
+    "点头" (nods) means the action of nodding, and "显得很有信心" (looks very confident) indicates
+    the character''s demeanor or attitude.'
+  seed: 1721174531
+  speaker: 小白
+  visual: 小白点头，显得很有信心
+- content: 但咱们也不能忘了，拜登上台，中国企业的海外扩张可能会受限制。
+  context: 转折话题，提到拜登对中企海外扩张的影响
+  image: output/1721174531/images/7.png
+  narration: output/1721174531/narration/7.mp3
+  sd_prompt: '"Xiao Hei has his arms around his chest, with a look of some concern."'
+  seed: 1721174532
+  speaker: 小黑
+  visual: 小黑双手抱胸，表情有些担忧
+- content: 那也是一利一弊啊。不过，咱们中国自己的发展才是最重要的。
+  context: 小白总结，强调中国自身发展的优先性
+  image: output/1721174531/images/8.png
+  narration: output/1721174531/narration/8.mp3
+  sd_prompt: '"Little White pats Little Black''s shoulder, with a determined expression."'
+  seed: 1721174531
+  speaker: 小白
+  visual: 小白拍拍小黑的肩膀，表情坚定
+- content: 说到底，不管谁当总统，咱们都得多努力，不能总指望别人给我们让路。
+  context: 小黑呼应小白，强调自主发展的必要性
+  image: output/1721174531/images/9.png
+  narration: output/1721174531/narration/9.mp3
+  sd_prompt: '"Xiao Hei nods, a sharpness flashes in his eyes."'
+  seed: 1721174532
+  speaker: 小黑
+  visual: 小黑点头，眼中闪过一丝锐利
+- content: 对对，毕竟，中国自己的路，要自己走。
+  context: 小白再次强调，结尾呼应主题
+  image: output/1721174531/images/10.png
+  narration: output/1721174531/narration/10.mp3
+  sd_prompt: Little White and Happy were very happy and smiling, and they nodded their
+    heads.
+  seed: 1721174531
+  speaker: 小白
+  visual: 小白和颜悦色，微笑着点头
+music: ''

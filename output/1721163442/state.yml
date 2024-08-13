@@ -1,0 +1,111 @@
+directory: '1721163442'
+lines:
+- content: 哎呀，朋友们，今天咱们来聊聊一个听起来挺吓人的话题——AI引发的末日预言。
+  context: 开场白，引入话题
+  image: output/1721163442/images/1.png
+  narration: output/1721163442/narration/1.mp3
+  sd_prompt: '"Li Xiaoer is holding an aged, yellowing newspaper in his hand, with
+    furrowed brows."'
+  seed: 1721163443
+  speaker: 李笑来
+  visual: 李笑来手拿一本泛黄的报纸，眉头紧锁
+- content: 王建国，你怎么看？你不是说AI能解决所有问题吗？
+  context: 提出质疑
+  image: output/1721163442/images/2.png
+  narration: output/1721163442/narration/2.mp3
+  sd_prompt: '"Li Xiao''ai turned to Wang Jianguo, crossed his arms, with a serious
+    expression."'
+  seed: 1721163442
+  speaker: 李笑来
+  visual: 李笑来转向王建国，双手交叉，表情严肃
+- content: 哎，李老师，AI确实牛，它能下围棋下得你哭，还能写诗，你说它会不会写段子？
+  context: 转换话题，调侃AI
+  image: output/1721163442/images/3.png
+  narration: output/1721163442/narration/3.mp3
+  sd_prompt: '"Wang Jianguo is holding a pen in his hand and pretending to write a
+    poem."'
+  seed: 1721163443
+  speaker: 王建国
+  visual: 王建国手拿一支笔，假装在写诗
+- content: 它要是能写段子，咱俩还有活路吗？
+  context: 反问，带入自身
+  image: output/1721163442/images/4.png
+  narration: output/1721163442/narration/4.mp3
+  sd_prompt: '"Li Xiaoer shrugs, with a helpless expression."'
+  seed: 1721163442
+  speaker: 李笑来
+  visual: 李笑来摊手，表情无奈
+- content: 那倒是，但我听说AI连爱情都要干预，咱们的婚姻介绍所是不是该关门了？
+  context: 进一步调侃，提及AI对传统行业的影响
+  image: output/1721163442/images/5.png
+  narration: output/1721163442/narration/5.mp3
+  sd_prompt: Wang Jianguo makes a closing-hand gesture, looks surprised.
+  seed: 1721163443
+  speaker: 王建国
+  visual: 王建国做出关门的手势，表情惊讶
+- content: 别提了，我媳妇儿现在都是AI给介绍的，长得比我好看，挣得比我多，还能做饭，你说这是人过的日子吗？
+  context: 自嘲，玩笑
+  image: output/1721163442/images/6.png
+  narration: output/1721163442/narration/6.mp3
+  sd_prompt: Li XiaoLe shook his head, expression resigned.
+  seed: 1721163442
+  speaker: 李笑来
+  visual: 李笑来摇头，表情无奈
+- content: 那还不如让AI来主持咱们节目呢，至少不会像你这样，说话不经过大脑。
+  context: 调侃李笑来，带入AI主持节目的设想
+  image: output/1721163442/images/7.png
+  narration: output/1721163442/narration/7.mp3
+  sd_prompt: Wang Jianguo made a "snap"拍照动作 (snapshot gesture), with a relaxed expression.
+  seed: 1721163443
+  speaker: 王建国
+  visual: 王建国做出“咔嚓”的拍照动作，表情轻松
+- content: 哎，那可不成！没有我，你主持个鬼啊！
+  context: 反驳，强调自身不可替代性
+  image: output/1721163442/images/8.png
+  narration: output/1721163442/narration/8.mp3
+  sd_prompt: '"Li Xiaole protects his chest with both hands, expression determined."'
+  seed: 1721163442
+  speaker: 李笑来
+  visual: 李笑来双手护胸，表情坚定
+- content: 那咱们就说说，这AI到底能不能把社会给搞崩溃了？
+  context: 回到正题，探讨AI的潜在风险
+  image: output/1721163442/images/9.png
+  narration: output/1721163442/narration/9.mp3
+  sd_prompt: '"Wang Jianguo sits up straight, with a serious expression."'
+  seed: 1721163443
+  speaker: 王建国
+  visual: 王建国坐正，表情认真
+- content: 肯定能啊，你想，它要是学会了情绪识别，还不得把咱们的喜怒哀乐全给看透？
+  context: 举例AI潜在影响，引起思考
+  image: output/1721163442/images/10.png
+  narration: output/1721163442/narration/10.mp3
+  sd_prompt: Li Xiaoer makes the gesture of "seeing through everything," with exaggerated
+    expressions.
+  seed: 1721163442
+  speaker: 李笑来
+  visual: 李笑来做出“看透一切”的手势，表情夸张
+- content: 那好了，以后别说谎了，说一句它都能给你对上表情，咱们得诚恳点。
+  context: 推论AI影响，倡导真诚
+  image: output/1721163442/images/11.png
+  narration: output/1721163442/narration/11.mp3
+  sd_prompt: Wang Jianguo shrugged and made a face of resignation.
+  seed: 1721163443
+  speaker: 王建国
+  visual: 王建国摊手，表情无奈
+- content: 对对对，大家以后都别演了，直接下跪吧，真诚面对AI。
+  context: 夸张，玩笑，调侃社会表演现象
+  image: output/1721163442/images/12.png
+  narration: output/1721163442/narration/12.mp3
+  sd_prompt: '"Li Xiaolai makes a position to kneel down, with exaggerated expressions."'
+  seed: 1721163442
+  speaker: 李笑来
+  visual: 李笑来做出下跪的姿势，表情夸张
+- content: 行了，行了，别贫了，观众朋友们，咱们今天就聊到这。
+  context: 收尾，结束话题
+  image: output/1721163442/images/13.png
+  narration: output/1721163442/narration/13.mp3
+  sd_prompt: Wang Jianguo threw up his hands, making a gesture to indicate the end.
+  seed: 1721163443
+  speaker: 王建国
+  visual: 王建国摊手，做出结束的手势
+music: ''

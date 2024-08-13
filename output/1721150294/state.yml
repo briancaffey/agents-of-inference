@@ -1,0 +1,88 @@
+directory: '1721150294'
+lines:
+- content: 哎，咱们今天就来聊聊北京这大都市的难处。
+  context: 开场白，引入主题
+  image: output/1721150294/images/1.png
+  narration: output/1721150294/narration/1.mp3
+  sd_prompt: Zhang San shakes his head and neck, presenting a demeanor as if he is
+    ready to speak at length with confidence.
+  speaker: 张三
+  visual: 张三摇头晃脑，摆出一副要侃侃而谈的架势
+- content: 说得对，北京啊，那生活压力，就像这座城一样高。
+  context: 接话，调侃北京生活压力
+  image: output/1721150294/images/2.png
+  narration: output/1721150294/narration/2.mp3
+  sd_prompt: Li Si made a shape of a tall mountain with his hands.
+  speaker: 李四
+  visual: 李四用手比划了一个高高的山峰的形状
+- content: 说到压力，你以为房价压力小？那是房租，恨不得把你的工资都压在那几平方米的地砖上。
+  context: 举例北京房价和房租
+  image: output/1721150294/images/3.png
+  narration: output/1721150294/narration/3.mp3
+  sd_prompt: Zhang San makes gestures with his hands holding a property certificate
+    and showing he is paying money.
+  speaker: 张三
+  visual: 张三做出手拿房产证和交钱的手势
+- content: 哦哟，说到房租，我还得跟房东斗智斗勇呢。
+  context: 回应张三，开始讲租房经历
+  image: output/1721150294/images/4.png
+  narration: output/1721150294/narration/4.mp3
+  sd_prompt: Li Si shook his head and made a pulling gesture with his two hands in
+    front of his chest.
+  speaker: 李四
+  visual: 李四摇头，两手在胸前做出拉扯的姿态
+- content: 对对对，还有这交通，你以为在地铁里站一会儿就能到家？想得美。
+  context: 调侃北京的交通状况
+  image: output/1721150294/images/5.png
+  narration: output/1721150294/narration/5.mp3
+  sd_prompt: Zhang San assumes a standing position, with a sketch of a crowded subway
+    car next to him.
+  speaker: 张三
+  visual: 张三做出站立的姿势，旁边画上一个拥挤的地铁车厢
+- content: 你看看，这雾霾，就像是北京的锅盖，一盖就是几个月。
+  context: 谈起北京的空气问题
+  image: output/1721150294/images/6.png
+  narration: output/1721150294/narration/6.mp3
+  sd_prompt: Li Si's hand rests on his forehead, as if a layer of smog is obscuring
+    his vision.
+  speaker: 李四
+  visual: 李四手搭在额头上，仿佛有层雾霾遮住视线
+- content: 哎，说到这，我还得在朋友圈里假装快乐。
+  context: 谈社交媒体上的生活展示
+  image: output/1721150294/images/7.png
+  narration: output/1721150294/narration/7.mp3
+  sd_prompt: Zhang San points to his circle of friends, with a look of resignation.
+  speaker: 张三
+  visual: 张三手指朋友圈，面露无奈
+- content: 对啊，这朋友圈，晒美食，晒旅游，晒幸福，咱不晒压力，怎么行？
+  context: 接话，调侃朋友圈的虚假展示
+  image: output/1721150294/images/8.png
+  narration: output/1721150294/narration/8.mp3
+  sd_prompt: Li Si makes a pose with his phone for taking a picture, with exaggerated
+    expressions.
+  speaker: 李四
+  visual: 李四做出摆手机拍照的姿势，表情夸张
+- content: 好在，咱们在北京，总能找到那么一口好吃的，这生活，就算再难，也得美美滴过。
+  context: 转折，提到在北京的美好事物
+  image: output/1721150294/images/9.png
+  narration: output/1721150294/narration/9.mp3
+  sd_prompt: Zhang San is making a gesture of a hot pot with his hands, with a picture
+    of roasted duck and Beijing snacks nearby.
+  speaker: 张三
+  visual: 张三用手比划一个火锅，旁边画有烤鸭和北京小吃
+- content: 没错，这北京，不管多难，咱也得在这儿站稳脚跟，毕竟，咱也是个北漂。
+  context: 呼应北漂的生活状态
+  image: output/1721150294/images/10.png
+  narration: output/1721150294/narration/10.mp3
+  sd_prompt: Li Si puts on a strong stance, pointing fingers towards the sky.
+  speaker: 李四
+  visual: 李四摆出一副坚强的姿态，手指指向天空
+- content: 哈哈哈，咱们接着来，这北京的生活，咱们就慢慢聊，慢慢熬，一起熬出头！
+  context: 结束语，鼓励对方，逗乐气氛
+  image: output/1721150294/images/11.png
+  narration: output/1721150294/narration/11.mp3
+  sd_prompt: Zhang San and Li Si shook hands, with exaggerated expressions, making
+    a show of grandeur.
+  speaker: 张三
+  visual: 张三和李四握手，表情夸张，做出一副豪迈的模样
+music: ''

@@ -1,0 +1,102 @@
+directory: '1721009468'
+topics:
+- description: A global network of time-capsule theaters where films are screened
+    using only technologies from specific years, such as silent films, 35mm prints,
+    or even VHS tapes, to preserve and share cultural memories in a visually archaic
+    yet immersive experience.
+  music: output/1721009468/music/0.wav
+  name: Time-Capsule Cinema
+  shots:
+  - image: output/1721009468/images/1.png
+    narration: output/1721009468/narration/1.mp3
+    sd_prompt: A dimly lit ancient theater, with walls adorned with vintage oil paintings,
+      filled with eager spectators. On the screen, an era of silent films plays, with
+      actors displaying remarkable expressiveness through their actions and gestures,
+      while the audience can only immerse themselves in the narrative through the
+      images and the background music.
+    spoken_words: 欢迎来到时间胶囊影院，我们将带你回到过去，体验无声电影的纯粹魅力。
+    title: 古董放映室 I
+    visual_description: 一个昏暗的古老影院，墙壁上挂着复古的油画，观众席上坐满期待的观众。银幕上播放着无声电影，演员们的动作和表情充满表现力，而观众只能通过影像和背景音乐来感受故事。
+  - image: output/1721009468/images/2.png
+    narration: output/1721009468/narration/2.mp3
+    sd_prompt: A lavishly decorated screening room, adorned with antique photo frames
+      hanging on the walls, where audiences sit around in wooden seats. The projector
+      turns slowly, and the 35mm filmstrip glimmers under the light, revealing the
+      fine hues and abundant details on the screen.
+    spoken_words: 请随我走进35mm胶片的年代，感受每一帧画面如油画般的质感。
+    title: 胶片记忆 II
+    visual_description: 一个装饰华丽的放映室，墙上挂着老式相框，观众围坐在木质座椅上。放映机缓缓转动，35mm胶片在灯光下闪耀，银幕上展现出细腻的色彩和丰富的细节。
+  - image: output/1721009468/images/3.png
+    narration: output/1721009468/narration/3.mp3
+    sd_prompt: A simple home cinema, where VHS tapes played on the television screen,
+      with the background audio sometimes clear and sometimes fuzzy. Audiences gathered
+      around, sitting on sofas and cushioned floors, enjoying the unique experience
+      of audio-visual integration from that era.
+    spoken_words: 让我们回到80年代，体验VHS带带来的怀旧感。
+    title: 复古放映 III
+    visual_description: 一间简单的家庭影院，电视屏幕上播放着VHS带，背景音质时而清晰时而模糊。观众们围坐在沙发和地毯上，享受着那个时代的音视频结合的独特体验。
+- description: A series of quests and puzzles that explore the bizarre and often counterintuitive
+    aspects of quantum mechanics, requiring participants to solve complex riddles
+    and navigate through parallel realities, entanglement, and superposition in a
+    unique role-playing adventure that challenges the laws of physics as we know them.
+  music: output/1721009468/music/1.wav
+  name: Quantum Quirk Quests
+  shots:
+  - image: output/1721009468/images/4.png
+    narration: output/1721009468/narration/4.mp3
+    sd_prompt: The camera slowly pulls back from the mist of quantum entanglement,
+      revealing a mysterious time-travel mirror in the center of the frame. The surface
+      of the mirror flickers with complex quantum code. A player character stands
+      before the mirror, with a determined look in their eyes.
+    spoken_words: 准备好了吗？我们要穿越到量子世界的奇异维度！
+    title: 时空穿梭镜
+    visual_description: 镜头从量子纠缠的云雾中缓缓推出，一个神秘的时空穿梭镜出现在画面中央。镜面上闪烁着复杂的量子代码，一个玩家角色站在镜子前，眼神坚定。
+  - image: output/1721009468/images/5.png
+    narration: output/1721009468/narration/5.mp3
+    sd_prompt: The camera shows a labyrinth that is intricate and complex. The walls
+      and floor are made of beams of light that are flickering and quantum particles.
+      The player character explores the labyrinth, surrounded by space that is constantly
+      deforming and objects of multiple dimensions.
+    spoken_words: 解开这个谜题，找到正确的路径！
+    title: 平行宇宙迷宫
+    visual_description: 镜头展示一个错综复杂的迷宫，墙壁和地面由闪烁的光线和量子粒子构成。玩家角色在迷宫中探索，周围是不断变形的空间和多维物体。
+  - image: output/1721009468/images/6.png
+    narration: output/1721009468/narration/6.mp3
+    sd_prompt: The camera shows a chessboard with a pawn partially hovering between
+      two squares, blurry and unclear. The player character is staring at the pawn,
+      as if contemplating how to utilize the property of quantum superposition.
+    spoken_words: 物体同时存在于两个地方，这是个挑战吗？还是个机遇？
+    title: 量子叠加之谜
+    visual_description: 镜头展示一个棋盘，棋盘上的棋子部分地处于两个格子之间，模糊不清。玩家角色凝视着这个棋子，似乎在思考如何利用量子叠加的特性。
+- description: A sanctuary where visitors can engage in a series of sensual and eco-friendly
+    experiences, from picking edible flowers for a gourmet meal to participating in
+    guided tours of gardens that are designed to be both a celebration of nature and
+    a sensual exploration of plant-human interactions, promoting mindfulness and connection
+    with the environment in an unconventional and thoughtful manner.
+  music: output/1721009468/music/2.wav
+  name: Eco-Erotic Gardens
+  shots:
+  - image: output/1721009468/images/7.png
+    narration: output/1721009468/narration/7.mp3
+    sd_prompt: A person is carefully picking flowers from a cluster of vividly colored
+      plants. As the camera slowly lowers, it reveals the intricate details and the
+      fragrance of these flowers.
+    spoken_words: 让我们一起走进这片芳香秘境，亲手采摘这些来自大自然的食材。
+    title: 芳香秘境：品尝自然
+    visual_description: 一个人正小心翼翼地从一丛色彩斑斓的植物上采摘花朵，镜头缓缓下移，展示这些花朵的细节和香气。
+  - image: output/1721009468/images/8.png
+    narration: output/1721009468/narration/8.mp3
+    sd_prompt: Plants one by one unfold before the lens, they are diverse in form,
+      some are elegant, some are peculiar, and they coexist harmoniously with the
+      surrounding environment.
+    spoken_words: 这里每一株植物都被精心设计，它们讲述着与人类情感交织的故事。
+    title: 绿意盎然：探索植物的奥秘
+    visual_description: 一棵棵植物在镜头前缓缓展开，它们形态各异，有的优雅，有的奇特，与周围的环境和谐共生。
+  - image: output/1721009468/images/9.png
+    narration: output/1721009468/narration/9.mp3
+    sd_prompt: The camera captures the concentrated expressions of visitors in the
+      lush garden, some listening, others touching, and some tasting. Each scene shows
+      the intimate connection between humans and nature.
+    spoken_words: 在生态园的引导下，我们不仅学习了如何与自然和谐共处，更感受到了一种深层次的连接。
+    title: 心灵之旅：连接自然
+    visual_description: 镜头捕捉到访客们专注的表情，他们在绿意盎然的花园中，或聆听、或触摸、或品尝，每一幕都展现着人与自然的亲密接触。

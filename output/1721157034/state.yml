@@ -1,0 +1,121 @@
+directory: '1721157034'
+lines:
+- content: 哎，北京的空气啊，真是让人又爱又恨。
+  context: 开场白
+  image: output/1721157034/images/1.png
+  narration: output/1721157034/narration/1.mp3
+  sd_prompt: Zhang San shook his head and neck, his expression exaggerated.
+  seed: 1721157035
+  speaker: 张三
+  visual: 张三摇头晃脑，表情夸张
+- content: 哎，张大哥，您这是怎么了，这眉头皱的，像北京这天气一样。
+  context: 李四调侃张三
+  image: output/1721157034/images/2.png
+  narration: output/1721157034/narration/2.mp3
+  sd_prompt: Li Si has a mocking grin and makes exaggerated gestures.
+  seed: 1721157034
+  speaker: 李四
+  visual: 李四嬉皮笑脸，手势夸张
+- content: 您说得对，北京的空气，一会儿蓝天白云，一会儿雾霾滚滚。
+  context: 张三回应李四
+  image: output/1721157034/images/3.png
+  narration: output/1721157034/narration/3.mp3
+  sd_prompt: Zhang San performs a movement of switching between his left and right
+    hands, symbolizing clear skies and smog.
+  seed: 1721157035
+  speaker: 张三
+  visual: 张三做出左右手切换的动作，象征蓝天和雾霾
+- content: 可不是嘛，这生活在北京，就得有个好心态。
+  context: 李四接话
+  image: output/1721157034/images/4.png
+  narration: output/1721157034/narration/4.mp3
+  sd_prompt: '"Li Si displayed a look of great righteousness and indignation."'
+  seed: 1721157034
+  speaker: 李四
+  visual: 李四摆出一副大义凛然的样子
+- content: 心态倒是其次，交通才是大难题。
+  context: 张三继续吐槽
+  image: output/1721157034/images/5.png
+  narration: output/1721157034/narration/5.mp3
+  sd_prompt: Zhang San is mimicking the Beijing traffic map with his hands.
+  seed: 1721157035
+  speaker: 张三
+  visual: 张三用手比划着北京的交通图
+- content: 您说的是，北京这交通，早晚高峰，就像北京的天，说变脸就变脸。
+  context: 李四模仿张三
+  image: output/1721157034/images/6.png
+  narration: output/1721157034/narration/6.mp3
+  sd_prompt: 'Li Si imitates Zhang San''s exaggerated actions
+
+
+    Please note that "李四" means Li Si, and "张三" means Zhang San. The phrase translates
+    to "imitate" as "模仿" and "exaggerated actions" as "夸张动作".'
+  seed: 1721157034
+  speaker: 李四
+  visual: 李四模仿张三的夸张动作
+- content: 别提了，挤地铁，比股票还波动。
+  context: 张三继续讲段子
+  image: output/1721157034/images/7.png
+  narration: output/1721157034/narration/7.mp3
+  sd_prompt: Zhang San's hand gestures are exaggerated, imitating the crowded scene
+    of getting on a subway.
+  seed: 1721157035
+  speaker: 张三
+  visual: 张三手势夸张，模仿挤地铁的拥挤
+- content: 那是，您说您挤个地铁，一会儿堵了，一会儿提速了，一会儿还停站了。
+  context: 李四继续模仿
+  image: output/1721157034/images/8.png
+  narration: output/1721157034/narration/8.mp3
+  sd_prompt: Li Si was dancing about, imitating the on-and-off movements of the subway.
+  seed: 1721157034
+  speaker: 李四
+  visual: 李四手舞足蹈，模仿地铁的停停走走
+- content: 哎，你说说，这房子也越来越贵了。
+  context: 张三话题一转
+  image: output/1721157034/images/9.png
+  narration: output/1721157034/narration/9.mp3
+  sd_prompt: Zhang San furrowed his brows and made a face of helplessness.
+  seed: 1721157035
+  speaker: 张三
+  visual: 张三皱眉，做出无奈的样子
+- content: 可不是吗，这房价，就像北京的股市，说涨就涨。
+  context: 李四接话说
+  image: output/1721157034/images/10.png
+  narration: output/1721157034/narration/10.mp3
+  sd_prompt: Li Si made a face with his hand under his chin, looking deep in thought.
+  seed: 1721157034
+  speaker: 李四
+  visual: 李四做出用手托着下巴，沉思的样子
+- content: 唉，这生活在北京，不拼爹，真难混。
+  context: 张三感慨
+  image: output/1721157034/images/11.png
+  narration: output/1721157034/narration/11.mp3
+  sd_prompt: Zhang San bent his head, making a look of dejection.
+  seed: 1721157035
+  speaker: 张三
+  visual: 张三低头，做出沮丧的样子
+- content: 也是，北京的竞争，比奥运会还激烈。
+  context: 李四接话
+  image: output/1721157034/images/12.png
+  narration: output/1721157034/narration/12.mp3
+  sd_prompt: '"Li Si lifts up the Olympic gold medal with both hands."'
+  seed: 1721157034
+  speaker: 李四
+  visual: 李四双手举起奥运金牌的动作
+- content: 不过，不管怎样，咱们在北京还是要好好混。
+  context: 张三鼓励李四
+  image: output/1721157034/images/13.png
+  narration: output/1721157034/narration/13.mp3
+  sd_prompt: '"Zhang San raised his thumb."'
+  seed: 1721157035
+  speaker: 张三
+  visual: 张三竖起大拇指
+- content: 对，毕竟北京，是我们的北京。
+  context: 李四回应
+  image: output/1721157034/images/14.png
+  narration: output/1721157034/narration/14.mp3
+  sd_prompt: Li Si nodded, with a firm expression.
+  seed: 1721157034
+  speaker: 李四
+  visual: 李四点头，表情坚定
+music: ''

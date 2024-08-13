@@ -1,0 +1,85 @@
+directory: '1721164144'
+lines:
+- content: 哎呀，朋友们，今天咱们就来聊聊这个AI，它现在可是个烫手的山芋，一不小心就要引发大麻烦啊。
+  context: 引入话题
+  image: output/1721164144/images/1.png
+  narration: output/1721164144/narration/1.mp3
+  sd_prompt: Zhang San shakes his head and moves his neck, with exaggerated hand gestures.
+  seed: 1721164145
+  speaker: 张三
+  visual: 张三摇头晃脑，手势夸张
+- content: 李四，你听我说，AI这东西，用好了是福，用不好就是祸，你看最近这计算机当家，社会都快乱套了。
+  context: 提出观点
+  image: output/1721164144/images/2.png
+  narration: output/1721164144/narration/2.mp3
+  sd_prompt: Wang Wu is pointing at Zhang San with his fingers and has a serious expression.
+  seed: 1721164144
+  speaker: 王五
+  visual: 王五手指张三，表情严肃
+- content: 哦，计算机当家？那可不就是，机器智能一上来，人都得靠边站，你说这人还怎么混？
+  context: 回应观点
+  image: output/1721164144/images/3.png
+  narration: output/1721164144/narration/3.mp3
+  sd_prompt: Zhang San pats his chin, a hint of caution flashes in his eyes.
+  seed: 1721164145
+  speaker: 张三
+  visual: 张三摸摸下巴，眼中闪过一丝警觉
+- content: 可不是嘛，张三，那算法一升级，工作岗位说没就没了，人们都失业了，这不是社会要崩溃的节奏吗？
+  context: 加强观点
+  image: output/1721164144/images/4.png
+  narration: output/1721164144/narration/4.mp3
+  sd_prompt: '"Wang Wuchuan shou, xingqiang wulin" translates to "Wang Five shrugs,
+    expression resigned" in English.'
+  seed: 1721164144
+  speaker: 王五
+  visual: 王五摊手，表情无奈
+- content: 哎呀，王五，你这不是杞人忧天吗？咱们不就是说个AI吗，不至于吧？咱们人类智慧，这点小AI还能翻了天不成？
+  context: 反驳观点
+  image: output/1721164144/images/5.png
+  narration: output/1721164144/narration/5.mp3
+  sd_prompt: Zhang San waved his hands, appearing relaxed and confident.
+  seed: 1721164145
+  speaker: 张三
+  visual: 张三摆手，显得轻松自信
+- content: 张三，你这是太天真了，这AI算法它自己能升级，它能自我进化，到时候它要是不听话，咱们人类还管得过来吗？
+  context: 反驳反驳
+  image: output/1721164144/images/6.png
+  narration: output/1721164144/narration/6.mp3
+  sd_prompt: '"Wang Wubian shook his head, his expression exaggerated."'
+  seed: 1721164144
+  speaker: 王五
+  visual: 王五摇头，表情夸张
+- content: 那...那要不咱们也来个自我进化？学习学习AI，跟它赛赛跑？
+  context: 新观点提出
+  image: output/1721164144/images/7.png
+  narration: output/1721164144/narration/7.mp3
+  sd_prompt: Zhang San's eyes lit up, as if he had a new idea.
+  seed: 1721164145
+  speaker: 张三
+  visual: 张三眼睛一亮，似乎有了新想法
+- content: 对啊，这AI不就怕人类吗？咱们人类一旦进化了，它不是也得听咱们的？
+  context: 补充新观点
+  image: output/1721164144/images/8.png
+  narration: output/1721164144/narration/8.mp3
+  sd_prompt: Wang Wu nodded, showing a lot of confidence.
+  seed: 1721164144
+  speaker: 王五
+  visual: 王五点头，显得很有信心
+- content: 说得也是啊，那从今往后咱们不就成了AI的导师了？哈哈哈，AI还得给我们打报告呢！
+  context: 想象未来情景
+  image: output/1721164144/images/9.png
+  narration: output/1721164144/narration/9.mp3
+  sd_prompt: Zhang San was waving his arms about and stamping his feet, his expression
+    was wildly exaggerated.
+  seed: 1721164145
+  speaker: 张三
+  visual: 张三手舞足蹈，表情夸张
+- content: 对对对，咱们人类得先给自己上个保险，打铁还需自身硬，AI这东西咱们得让它为人类服务，不能让它反过来管我们。
+  context: 强调未来方向
+  image: output/1721164144/images/10.png
+  narration: output/1721164144/narration/10.mp3
+  sd_prompt: Wang Wu waved his hand, seeming very determined.
+  seed: 1721164144
+  speaker: 王五
+  visual: 王五挥手，显得很有决心
+music: ''

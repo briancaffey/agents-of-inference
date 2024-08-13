@@ -1,0 +1,118 @@
+directory: '1720985660'
+topics:
+- description: 探索外太空的奥秘，包括行星、星系、宇宙起源等话题。
+  music: output/1720985660/music/0.wav
+  name: 宇宙探索
+  shots:
+  - image: output/1720985660/images/1.png
+    narration: output/1720985660/narration/1.mp3
+    sd_prompt: '"Next to a quiet stream, an ancient pine tree stands alone. Its branches
+      and leaves sway gently in the moonlight, as if speaking of the secrets of a
+      thousand years."'
+    spoken_words: 在这片寂静的夜空下，我们见证了一个古老的故事。
+    title: 星空下的守望
+    visual_description: 一条安静的小溪旁，一棵古老的松树孤独地站立着。它的枝叶在月光下轻轻摇曳，仿佛在诉说着千年的秘密。
+  - image: output/1720985660/images/2.png
+    narration: output/1720985660/narration/2.mp3
+    sd_prompt: A tender green seedling peeks out from the earth quietly under the
+      early dawn light, surrounded by a field of grass that has just awakened.
+    spoken_words: 随着第一缕阳光的升起，一个新的希望开始了它的旅程。
+    title: 晨曦中的萌芽
+    visual_description: 一株嫩绿的幼苗在破晓的光线中悄悄地从土中探出头来，周围是一片刚刚苏醒的草地。
+  - image: output/1720985660/images/3.png
+    narration: output/1720985660/narration/3.mp3
+    sd_prompt: A small boat sailed on the wide lake surface, its shadow cast upon
+      the calm waters. As the boat drifted away, it left behind ripples and a few
+      clouds in the sky.
+    spoken_words: 一叶扁舟在广阔的天地间缓缓前行，它留下的只有一串串涟漪和无尽的美景。
+    title: 孤帆远影碧空尽
+    visual_description: 一艘小船在宽阔的湖面上行驶，它的影子投射在平静的湖面上，随着船的远去，只留下了一道道波纹和天边的几朵白云。
+- description: 研究人脑与机器的互动，以及机器学习、智能决策等人工智能应用。
+  music: output/1720985660/music/1.wav
+  name: 人工智能
+  shots:
+  - image: output/1720985660/images/4.png
+    narration: output/1720985660/narration/4.mp3
+    sd_prompt: The night market is lined with stalls, where the aroma of delicious
+      food fills the air. The owners of the stalls are enthusiastic in welcoming their
+      customers, who are choosing various snacks and handicrafts. The lights are bright,
+      and the scene is bustling and lively.
+    spoken_words: 这里是热闹的夜市，人群熙熙攘攘，
+    title: 夜市繁华
+    visual_description: 夜市摊位林立，美食飘香，摊主热情招呼顾客，顾客们挑选着各种小吃和手工艺品，灯火通明，热闹非凡。
+  - image: output/1720985660/images/5.png
+    narration: output/1720985660/narration/5.mp3
+    sd_prompt: On the beach by the sea, tourists strolled leisurely, the waves gently
+      tapping the shore, the sky filled with colorful clouds, a small boat sailed
+      alone on the sea, at sunset, the sea and sky blended into one color, very charming.
+    spoken_words: 夕阳西下，天边火红一片，
+    title: 海边日落
+    visual_description: 海边的沙滩上，游客们悠闲地散步，海浪轻轻拍打着岸边，天空中彩霞满天，一艘小船孤独地停泊在海面上，日落时分，海天一色，十分迷人。
+  - image: output/1720985660/images/6.png
+    narration: output/1720985660/narration/6.mp3
+    sd_prompt: Leaves glisten in the sunlight, winding paths meander, birds chirp
+      happily in the treetops, explorers clutching maps seek out the secrets of the
+      forest, they navigate between towering trees, occasionally encountering forest
+      creatures, and the forest exploration is filled with the unknown and surprises.
+    spoken_words: 走进茂密的森林，四周被绿意包围，
+    title: 森林探险
+    visual_description: 树叶在阳光下闪闪发光，小径蜿蜒，鸟儿在林间欢快地歌唱，探险者手持地图，寻觅着森林中的秘密，他们穿行在参天大树之间，偶尔遇见森林小动物，森林探险充满了未知和惊喜。
+- description: 探索历史悠久的地标、遗迹，了解它们背后的故事和文化影响。
+  music: output/1720985660/music/2.wav
+  name: 历史遗迹
+  shots:
+  - image: output/1720985660/images/7.png
+    narration: output/1720985660/narration/7.mp3
+    sd_prompt: On busy streets, people hurriedly pass through the bright light and
+      shadow, while the glass walls of high-rise buildings reflect the sky's colors.
+    spoken_words: 这里是繁忙的都市，阳光洒在钢铁森林上，反射出耀眼的光芒。
+    title: 都市光影
+    visual_description: 繁忙街道上，行色匆匆的人们在明亮的光影中穿过，高楼大厦的玻璃幕墙反射着天空的色彩。
+  - image: output/1720985660/images/8.png
+    narration: output/1720985660/narration/8.mp3
+    sd_prompt: '"In a quiet corner of the park, sunlight filters through the tree
+      canopy and splashes down onto the ground. People are either resting or reading,
+      surrounded by the fragrance of flowers and plants."'
+    spoken_words: 在喧嚣的城市中，有一片宁静的绿洲。
+    title: 公园午后
+    visual_description: 公园的一个安静角落，阳光透过树冠洒在地面上，人们或休憩或阅读，周围是花草的芬芳。
+  - image: output/1720985660/images/9.png
+    narration: output/1720985660/narration/9.mp3
+    sd_prompt: Skyscrapers under the night sky, with lights twinkling here and there,
+      a river meanders through, and the neon lights on both banks are reflected in
+      the water, revealing another kind of urban tenderness.
+    spoken_words: 随着夜幕的降临，城市的面貌也悄然变化。
+    title: 夜幕降临
+    visual_description: 夜景下的高楼，灯光星星点点，一条河流蜿蜒流过，两岸的霓虹倒映在水中，呈现出另一种都市的温柔。
+- description: 讲述地球上令人叹为观止的自然景观，如高山、大峡谷、海洋生物等。
+  music: output/1720985660/music/3.wav
+  name: 自然奇观
+  shots:
+  - image: output/1720985660/images/10.png
+    narration: output/1720985660/narration/10.mp3
+    sd_prompt: The skyline of the city is gradually revealing its fine lines and colors
+      under the reflection of the early morning sun. On the streets, only a few sporadic
+      pedestrians are moving, their outlines barely visible in the hazy light and
+      shadow. In the distance, the first ray of sunlight shines on the roof of the
+      tallest building on the skyline, reflecting a dazzling brilliance.
+    spoken_words: 第一幕，画面展现出城市在晨曦中的宁静。
+    title: 晨曦中的城市
+    visual_description: 城市的天际线在朝阳的映照下，高楼大厦逐渐显露出细腻的线条和色彩。街道上只有零星的行人，他们的轮廓在朦胧的光影中若隐若现。远处，第一缕阳光照向天际线最高的建筑的顶部，反射出耀眼的光芒。
+  - image: output/1720985660/images/11.png
+    narration: output/1720985660/narration/11.mp3
+    sd_prompt: Busy streets bustle with pedestrians; people hurry along, their umbrellas
+      forming little pools of water in the rain. After the rain washes over the city,
+      the towering skyscrapers look especially fresh and clean, and the neon lights
+      begin to twinkle, adding sparkle to the night.
+    spoken_words: 第二幕，展现城市人潮的繁忙。
+    title: 行人交织
+    visual_description: 繁忙的街道，人来人往，人们行色匆匆，手中的伞在雨中形成一片片的小水洼。雨水洗刷过的城市，高楼大厦显得格外清新，霓虹灯开始闪烁，为夜晚点缀光亮。
+  - image: output/1720985660/images/12.png
+    narration: output/1720985660/narration/12.mp3
+    sd_prompt: In the city at night, neon lights and stars twinkle together. In the
+      sky, stars are scattered like jewels, contrasting with the city's glow. The
+      windows of towering buildings emit warm light, and the trees along the streets
+      look especially serene under the illumination.
+    spoken_words: 最后一幕，呈现夜晚的城市景观。
+    title: 夜幕下的灯光
+    visual_description: 城市的夜晚，霓虹灯与星光交相辉映。天空中，星星点缀，与城市的光芒形成对比。高楼大厦的窗户透出温暖的灯光，街道两旁的树木在灯光的映衬下，显得格外静谧。

@@ -1,0 +1,131 @@
+directory: '1721185531'
+lines:
+- content: 特朗普先生，您觉得呢？
+  context: 开场白
+  image: output/1721185531/images/1.png
+  narration: output/1721185531/narration/1.mp3
+  sd_prompt: Mr. Trump, what do you think?
+  seed: 1721185532
+  speaker: 小郭
+  visual: 小郭面带微笑，手拿折扇，面向观众
+- content: 我啊，我和中国关系非常好，我们是朋友。
+  context: 小郭介绍自己与中国的好关系
+  image: output/1721185531/images/2.png
+  narration: output/1721185531/narration/2.mp3
+  sd_prompt: I, I have a very good relationship with China. We are friends.
+  seed: 1721185531
+  speaker: 小郭
+  visual: 小郭摆出得意表情，点头
+- content: 是啊，是啊，您老当家人了，您说呢？
+  context: 小李接话
+  image: output/1721185531/images/3.png
+  narration: output/1721185531/narration/3.mp3
+  sd_prompt: Yeah, yeah, you're the head of the household now, what do you think?
+  seed: 1721185532
+  speaker: 小李
+  visual: 小李点头，双手合十，作尊重状
+- content: 但是，但是，拜登先生也和中国关系好啊。
+  context: 小郭提出异议
+  image: output/1721185531/images/4.png
+  narration: output/1721185531/narration/4.mp3
+  sd_prompt: But, but, Mr. Biden also has a good relationship with China.
+  seed: 1721185531
+  speaker: 小郭
+  visual: 小郭摇头，表情带有一丝思考
+- content: 但是，但是，特朗普先生，您知道吗，您过去可是说中国空气都新鲜呢。
+  context: 小李调侃特朗普
+  image: output/1721185531/images/5.png
+  narration: output/1721185531/narration/5.mp3
+  sd_prompt: But, but, Mr. Trump, you know, didn't you say that the air in China is
+    fresh?
+  seed: 1721185532
+  speaker: 小李
+  visual: 小李做出惊讶表情，双手摊开
+- content: 那又怎样？那是我调侃他们，咱们中国人自己空气不好，你们知道吗？
+  context: 小郭辩解
+  image: output/1721185531/images/6.png
+  narration: output/1721185531/narration/6.mp3
+  sd_prompt: '"What''s so funny about that? It''s just me teasing them. You know,
+    the air quality is bad for us Chinese too, don''t you?"'
+  seed: 1721185531
+  speaker: 小郭
+  visual: 小郭摇头，表情轻松
+- content: 您老不是调侃，您那是失言。
+  context: 小李纠正小郭
+  image: output/1721185531/images/7.png
+  narration: output/1721185531/narration/7.mp3
+  sd_prompt: '"You are not teasing; what you did was a slip of the tongue."'
+  seed: 1721185532
+  speaker: 小李
+  visual: 小李皱眉，表情严肃
+- content: 那拜登先生呢？他一上台，我们和墨西哥边境可就热闹了。
+  context: 小郭转向拜登
+  image: output/1721185531/images/8.png
+  narration: output/1721185531/narration/8.mp3
+  sd_prompt: What about Mr. Biden? As soon as he takes office, our border with Mexico
+    gets very busy.
+  seed: 1721185531
+  speaker: 小郭
+  visual: 小郭做夸张表情，模仿边境紧张
+- content: 那怎么了，特朗普先生，那是为了美国人民的安全啊。
+  context: 小李为拜登辩护
+  image: output/1721185531/images/9.png
+  narration: output/1721185531/narration/9.mp3
+  sd_prompt: What's the matter, Mr. Trump? That is for the safety of the American
+    people.
+  seed: 1721185532
+  speaker: 小李
+  visual: 小李摆出坚定表情，举起拳头
+- content: 安全个头，安全让多少家庭分离了！
+  context: 小郭不认同
+  image: output/1721185531/images/10.png
+  narration: output/1721185531/narration/10.mp3
+  sd_prompt: '"Safety first, safety has separated how many families!"'
+  seed: 1721185531
+  speaker: 小郭
+  visual: 小郭表情愤懑，挥动折扇
+- content: 好了好了，两位兄弟，咱们说来说去，不都是为了中国好吗？
+  context: 小郭总结
+  image: output/1721185531/images/11.png
+  narration: output/1721185531/narration/11.mp3
+  sd_prompt: Alright, alright, brothers, we go on and on, isn't it all for the sake
+    of China's good?
+  seed: 1721185532
+  speaker: 小郭
+  visual: 小郭做思考状，手拿折扇
+- content: 对啊，咱们中国，不管谁当美国总统，我们都要友好相处。
+  context: 小李接话
+  image: output/1721185531/images/12.png
+  narration: output/1721185531/narration/12.mp3
+  sd_prompt: '"Yeah, for our China, no matter who becomes the President of the United
+    States, we should get along well with them."'
+  seed: 1721185531
+  speaker: 小李
+  visual: 小李点头，表情认真
+- content: 特朗普先生，拜登先生，咱们中国说了，不管谁赢，中美友好，合作共赢！
+  context: 小郭总结
+  image: output/1721185531/images/13.png
+  narration: output/1721185531/narration/13.mp3
+  sd_prompt: Mr. Trump, Mr. Biden, China has said, no matter who wins, Sino-US relations
+    will be friendly, and cooperation will be win-win!
+  seed: 1721185532
+  speaker: 小郭
+  visual: 小郭做出总结手势，表情庄重
+- content: 哈哈，谢谢，谢谢啊！
+  context: 小郭和观众互动
+  image: output/1721185531/images/14.png
+  narration: output/1721185531/narration/14.mp3
+  sd_prompt: '"Ha ha, thank you, thank you very much!"'
+  seed: 1721185531
+  speaker: 小郭
+  visual: 小郭向观众挥手，表情友好
+- content: 好啦，好啦，咱们下一节目更精彩，敬请期待！
+  context: 小郭结束语
+  image: output/1721185531/images/15.png
+  narration: output/1721185531/narration/15.mp3
+  sd_prompt: '"Alright, alright, the next program will be even more exciting, please
+    look forward to it!"'
+  seed: 1721185532
+  speaker: 小郭
+  visual: 小郭收起折扇，向观众鞠躬
+music: ''

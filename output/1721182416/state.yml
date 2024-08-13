@@ -1,0 +1,95 @@
+directory: '1721182416'
+lines:
+- content: 特朗普当选总统，对中国来说，就像是一场梦。
+  context: 对特朗普当选的评价
+  image: output/1721182416/images/1.png
+  narration: output/1721182416/narration/1.mp3
+  sd_prompt: '"Trump becoming president is like a dream come true for China."'
+  seed: 1721182417
+  speaker: 小品甲
+  visual: 手摸着下巴，表情有些困惑
+- content: 对啊，特朗普，那简直是天上掉馅饼。
+  context: 赞同小品甲的观点
+  image: output/1721182416/images/2.png
+  narration: output/1721182416/narration/2.mp3
+  sd_prompt: '"Yeah, Trump, that''s like a slice of pie falling from the sky."'
+  seed: 1721182416
+  speaker: 小品乙
+  visual: 挥动手臂，做出一个表示的姿势
+- content: 他对待贸易，简直是粗暴至极，但对我们中国来说，就是机会。
+  context: 特朗普的贸易政策对中国的好处
+  image: output/1721182416/images/3.png
+  narration: output/1721182416/narration/3.mp3
+  sd_prompt: '"He treats trade as being absolutely brutal, but for us in China, it''s
+    an opportunity."'
+  seed: 1721182417
+  speaker: 小品甲
+  visual: 摇头晃脑，显得有些得意
+- content: 拜登呢？拜登上台，那是温水煮青蛙。
+  context: 对拜登当选的评价
+  image: output/1721182416/images/4.png
+  narration: output/1721182416/narration/4.mp3
+  sd_prompt: '"Where is Biden? Biden coming to power is like boiling a frog in warm
+    water."'
+  seed: 1721182416
+  speaker: 小品乙
+  visual: 交叉双臂，做出不满的表情
+- content: 说得好，拜登，那就是个慢炖锅。
+  context: 赞同小品乙的观点
+  image: output/1721182416/images/5.png
+  narration: output/1721182416/narration/5.mp3
+  sd_prompt: '"Nice one, Biden, it''s a slow-cooker," said the person.'
+  seed: 1721182417
+  speaker: 小品甲
+  visual: 摆出一个慢动作的姿势，模仿炖肉的慢过程
+- content: 对啊，拜登对中国来说，就像是温水，不知不觉中，我们就上他的当了。
+  context: 拜登对中国可能带来的影响
+  image: output/1721182416/images/6.png
+  narration: output/1721182416/narration/6.mp3
+  sd_prompt: '"Yes, Biden is like warm water for China. Unconsciously, we have fallen
+    for his trick."'
+  seed: 1721182416
+  speaker: 小品乙
+  visual: 做出一副无奈的样子，仿佛被温水煮青蛙的青蛙
+- content: 哎，那我还是觉得特朗普好。
+  context: 小品甲重新支持特朗普
+  image: output/1721182416/images/7.png
+  narration: output/1721182416/narration/7.mp3
+  sd_prompt: '"Ah, I still think Trump is better."'
+  seed: 1721182417
+  speaker: 小品甲
+  visual: 双手托着腮，显得有些无奈
+- content: 特朗普？特朗普可是个大嘴巴，什么都敢说。
+  context: 对特朗普性格的评价
+  image: output/1721182416/images/8.png
+  narration: output/1721182416/narration/8.mp3
+  sd_prompt: Trump? Trump is a big mouth who dares to say everything.
+  seed: 1721182416
+  speaker: 小品乙
+  visual: 摊开双手，显得有些无奈
+- content: 对啊，特朗普，那简直就是个大喇叭。
+  context: 赞同小品乙的观点
+  image: output/1721182416/images/9.png
+  narration: output/1721182416/narration/9.mp3
+  sd_prompt: Ah, Trump, that's literally a big loudspeaker.
+  seed: 1721182417
+  speaker: 小品甲
+  visual: 模仿大喇叭的声音，夸张地发出“嗡嗡”声
+- content: 但对中国来说，就是个大礼包。
+  context: 特朗普对中国的好处
+  image: output/1721182416/images/10.png
+  narration: output/1721182416/narration/10.mp3
+  sd_prompt: '"But for China, it''s a big gift package."'
+  seed: 1721182416
+  speaker: 小品乙
+  visual: 做出一个打开礼物的动作，显得有些得意
+- content: 没错，特朗普对中国来说，就像是股市的波动，虽然不稳，但总有机会。
+  context: 特朗普对中国经济的影响
+  image: output/1721182416/images/11.png
+  narration: output/1721182416/narration/11.mp3
+  sd_prompt: '"Yes, Trump is to China what market volatility is to the stock market.
+    Although unstable, there are always opportunities."'
+  seed: 1721182417
+  speaker: 小品甲
+  visual: 摆出股市图表的姿势，手比划着高低起伏
+music: ''

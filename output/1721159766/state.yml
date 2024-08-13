@@ -1,0 +1,87 @@
+directory: '1721159766'
+lines:
+- content: 哎，北京的生活真是让人头大啊。
+  context: 张三开场抱怨。
+  image: output/1721159766/images/1.png
+  narration: output/1721159766/narration/1.mp3
+  sd_prompt: Zhang San is frowning with his hands on his chest.
+  seed: 1721159767
+  speaker: 张三
+  visual: 张三皱着眉头，双手抱胸。
+- content: 您说得对，张三。这里是北京，首都是。
+  context: 李四回应张三的抱怨。
+  image: output/1721159766/images/2.png
+  narration: output/1721159766/narration/2.mp3
+  sd_prompt: Li Si nodded, with a somewhat helpless expression on his face.
+  seed: 1721159766
+  speaker: 李四
+  visual: 李四点头，表情有些无奈。
+- content: 北京的空气，哎，你敢呼吸吗？
+  context: 张三开始吐槽北京的空气污染。
+  image: output/1721159766/images/3.png
+  narration: output/1721159766/narration/3.mp3
+  sd_prompt: Zhang San makes an exaggerated nose-pinching gesture.
+  seed: 1721159767
+  speaker: 张三
+  visual: 张三做出夸张的捂鼻动作。
+- content: 我有时候出门得带着口罩，你说我是不是也该弄个防毒面具？
+  context: 李四幽默回应张三的吐槽。
+  image: output/1721159766/images/4.png
+  narration: output/1721159766/narration/4.mp3
+  sd_prompt: Li Si pretended to take out a gas mask model from his pocket.
+  seed: 1721159766
+  speaker: 李四
+  visual: 李四假装从口袋中拿出一个防毒面具模型。
+- content: 说到堵车，那才叫堵得让人窒息。
+  context: 张三继续抱怨北京的交通状况。
+  image: output/1721159766/images/5.png
+  narration: output/1721159766/narration/5.mp3
+  sd_prompt: Zhang San is hugging his head with both hands and is making a very exaggerated
+    gesture of shaking his head.
+  seed: 1721159767
+  speaker: 张三
+  visual: 张三双手抱头，表情夸张地摇头。
+- content: 我听说现在连月球车都预约不到，您说是吗？
+  context: 李四打趣张三，引申出北京交通的拥挤。
+  image: output/1721159766/images/6.png
+  narration: output/1721159766/narration/6.mp3
+  sd_prompt: Li Si made a dramatic wave of the hand, his expression was helpless.
+  seed: 1721159766
+  speaker: 李四
+  visual: 李四做出夸张的摆手动作，表情无奈。
+- content: 还有房价，北京的房价真是让人望而却步。
+  context: 张三再次切入主题，吐槽房价。
+  image: output/1721159766/images/7.png
+  narration: output/1721159766/narration/7.mp3
+  sd_prompt: Zhang San gestures with the numbers using hand signals, with a expression
+    that appears to be extremely frustrated.
+  seed: 1721159767
+  speaker: 张三
+  visual: 张三用手势比划着数字，表情显得极度沮丧。
+- content: 听说有些地方一平米能买一辆豪车了。
+  context: 李四接话，继续讽刺房价。
+  image: output/1721159766/images/8.png
+  narration: output/1721159766/narration/8.mp3
+  sd_prompt: Li Si shrugged and made a face of resignation.
+  seed: 1721159766
+  speaker: 李四
+  visual: 李四摊手，做出无奈的表情。
+- content: 哎，生活在北京，得有超能力才能活下去。
+  context: 张三总结性的一句，再次感叹生活在北京的难度。
+  image: output/1721159766/images/9.png
+  narration: output/1721159766/narration/9.mp3
+  sd_prompt: Zhang San exaggeratedly pushed two imaginary super-powered beings with
+    both hands.
+  seed: 1721159767
+  speaker: 张三
+  visual: 张三夸张地用双手推着两个想象中的超能力者形象。
+- content: 要不我们俩也去研究一下，怎么才能成为超人？
+  context: 李四开玩笑，试图从抱怨中找到一丝轻松。
+  image: output/1721159766/images/10.png
+  narration: output/1721159766/narration/10.mp3
+  sd_prompt: Li Si makes a mysterious gesture, as if he is really studying how to
+    become Superman.
+  seed: 1721159766
+  speaker: 李四
+  visual: 李四做出神秘的姿势，好像真的在研究如何成为超人。
+music: ''

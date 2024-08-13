@@ -28,56 +28,92 @@ def generate_documentary(state: dict):
                 audio_file = shot["narration"]
                 image_file = shot["image"]
                 subtitle_text = shot["spoken_words"]
+                print(subtitle_text)
 
                 narration_clip = AudioFileClip(audio_file)
                 narration_duration = narration_clip.duration
-                image_clip = ImageClip(image_file)
-                image_clip.set_duration(narration_duration)
+                image_clip = ImageClip(image_file, duration=narration_duration)
+
+                # image_clip.set_duration(narration_duration)
                 # Create a text clip
-                text = TextClip(subtitle_text, fontsize=70, color='white', size=(1024, 576), method="caption")
+                text = TextClip(
+                    subtitle_text,
+                    fontsize=40,
+                    color='white',
+                    stroke_color="white",
+                    align="South",
+                    size=(960, 576),
+                    stroke_width=1,
+                    font="assets/NotoSansSC-VariableFont_wght.ttf",
+                    method="caption"
+                )
+                text = text.set_position(('center','bottom')).set_duration(narration_duration)
 
                 # Set the duration of the text clip to match the video
-                text = text.set_duration(image_clip.duration)
-
-                # Set the position of the text (e.g., center)
-                text = text.set_pos("center")
+                new_text = text.set_duration(narration_duration)
 
                 # Overlay the text on the video
-                clip = CompositeVideoClip([image_clip, text], use_bgclip=True)
+                clip = CompositeVideoClip([image_clip, new_text])
                 clip = clip.set_duration(narration_duration)
                 clip = clip.set_audio(narration_clip)
                 image_clips.append(clip)
-    print("Concatenating image clips...")
+
     print(len(image_clips))
     final_video = concatenate_videoclips(image_clips)
     video_file_path = f"output/{state["directory"]}/final.mp4"
     final_video.write_videofile(video_file_path, fps=24, codec="libx264")
-    # just do voice and images first
-    # clips = []
-    # for topic in state["topics"]:
-    #     if "shots" in topic and topic["shots"] is not None:
-    #         for shot in topic["shots"]:
-    #             audio_clip = AudioFileClip(shot["narration"])
 
-    # Step 2: Load the audio file and get its duration
-    # audio = AudioFileClip("path/to/your/audiofile.mp3")
-    # duration = audio.duration
+def generate_crosstalk(state: dict):
+    """
+    Use moviepy to combine the mp4 files into a movie
+    """
+    # Suppress specific warnings
+    warnings.filterwarnings("ignore", category=SyntaxWarning, module="moviepy")
 
-    # # Step 3 & 4: Create a VideoClip with the image and set its duration
-    # image_path = "path/to/your/image.jpg"
-    # video_clip = ImageClip(image_path).set_duration(duration)
+    # music_files = []
+    image_clips = []
+    for line in state["lines"]:
 
-    # # Step 5: Concatenate the audio and video clips
-    # final_video = concatenate_videoclips([video_clip.set_audio(audio)])
+        print("processing line")
+        audio_file = line["narration"]
+        image_file = line["image"]
+        subtitle_text = line["content"]
+        print(subtitle_text)
 
-    # # Write the final video to a file
-    # final_video.write_videofile("output_video.mp4", fps=24)
+        narration_clip = AudioFileClip(audio_file)
+        narration_duration = narration_clip.duration
+        image_clip = ImageClip(image_file, duration=narration_duration)
 
-    # Overview of moviepy process
-    # Loop over topics
-    # Title page?
-    # Loop over shots
-    # For each shot,
+        # image_clip.set_duration(narration_duration)
+        # Create a text clip
+        text = TextClip(
+            subtitle_text,
+            fontsize=40,
+            color='white',
+            stroke_color="white",
+            align="South",
+            size=(960, 576),
+            stroke_width=1,
+            font="assets/NotoSansSC-VariableFont_wght.ttf",
+            method="caption"
+        )
+        text = text.set_position(('center','bottom')).set_duration(narration_duration)
+
+        # Set the duration of the text clip to match the video
+        new_text = text.set_duration(narration_duration)
+
+        # Overlay the text on the video
+        clip = CompositeVideoClip([image_clip, new_text])
+        clip = clip.set_duration(narration_duration)
+        clip = clip.set_audio(narration_clip)
+        image_clips.append(clip)
+
+    print(len(image_clips))
+    final_video = concatenate_videoclips(image_clips)
+    video_file_path = f"output/{state["directory"]}/final.mp4"
+    final_video.write_videofile(video_file_path, fps=24, codec="libx264")
+
+
 
     # List of video file paths
     # _id = state["directory"]

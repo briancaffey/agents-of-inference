@@ -1,0 +1,297 @@
+directory: '1721084023'
+topics:
+- description: A mysterious lighthouse on a remote, desolate island.
+  music: output/1721084023/music/0.wav
+  name: The Orphaned Light
+  shots:
+  - image: output/1721084023/images/1.png
+    narration: output/1721084023/narration/1.mp3
+    sd_prompt: As the night fell, a crescent moon hung in the sky above the horizon,
+      casting a misty glow on the island that seemed especially foreboding. The silhouette
+      of the island stood out sharply in the hazy moonlight. The camera then slowly
+      zooms in, revealing a lone lighthouse on the otherwise deserted island. The
+      light from the lighthouse seemed even lonelier against the barren landscape,
+      and the wind rustled the tall grasses nearby, as if telling the tale of the
+      island's solitude and desolation.
+    spoken_words: 这是一座荒凉的岛屿上的神秘灯塔...
+    title: 夜幕下的孤燈
+    visual_description: 夜幕低垂，一轮残月悬挂在海平面上，岛的轮廓在朦胧的月光下显得格外阴森。镜头缓缓推进，一座孤零零的灯塔出现在画面中，灯光在无人的岛屿上显得格外孤单，风吹动着灯塔旁的杂草，仿佛在诉说着这岛上的孤独与寂寞。
+  - image: output/1721084023/images/2.png
+    narration: output/1721084023/narration/2.mp3
+    sd_prompt: 'The camera switches to the inside of the lighthouse, where dim light
+      filters through the corridor and illuminates a faded plaque on the wall: ''The
+      Tower of the Guardian''. A lone figure sits quietly on a bench, holding a lit
+      candle in their hand. The surrounding machinery is already covered in rust,
+      yet it persists in emitting a feeble glow.'
+    spoken_words: 灯塔内部，曾经的守护者...
+    title: 灯塔内部
+    visual_description: 镜头切换到灯塔内部，昏暗的灯光透过廊道，映照着墙上褪色的铭牌：‘守护者之塔’。长椅上，一个孤独的身影静静坐着，手中握着一支点燃的蜡烛，四周的机器早已锈迹斑斑，却依然坚持着发出微弱的光。
+  - image: output/1721084023/images/3.png
+    narration: output/1721084023/narration/3.mp3
+    sd_prompt: The camera switches to the seaside, with one wave after another crashing
+      against the shore, splashing up layer upon layer of white foam. The camera zooms
+      in, revealing a faint light piercing through the waves; that is the light from
+      the lighthouse. Unaffected by the wind and waves, it steadfastly guards its
+      solitude and duty.
+    spoken_words: 海浪，灯塔的常客...
+    title: 海浪拍岸
+    visual_description: 镜头切换到海边，一浪接一浪的海浪冲击着海岸，激起层层白色的泡沫。镜头拉近，可以看到浪花中隐约有一道微弱的光线穿透，那是灯塔的光，无论风吹浪打，它总是默默坚守着那份孤独与责任。
+  - image: output/1721084023/images/4.png
+    narration: output/1721084023/narration/4.mp3
+    sd_prompt: The camera shows a solitary sailor, his face weathered by wind and
+      sun, standing in front of a lighthouse. He gazes at the lighthouse as if searching
+      for something. The compass in the sailor's hand points to the lighthouse, and
+      he speaks softly to the camera, "No matter where I go, the lighthouse always
+      guides me home." The camera zooms out, and the sailor gradually disappears on
+      the horizon of the distant sea.
+    spoken_words: 航海人，灯塔的过客...
+    title: 孤独的航海人
+    visual_description: 镜头展示一名孤独的航海人，满脸风霜，站在灯塔前。他望着灯塔，仿佛在寻找着什么。航海人手中的罗盘指向灯塔，他对着镜头轻声说：‘无论我走到哪里，灯塔总是指引着我回家。’镜头拉远，航海人渐渐消失在远方的海平面上。
+  - image: output/1721084023/images/5.png
+    narration: output/1721084023/narration/5.mp3
+    sd_prompt: The camera shows the scene at sunrise, as the sun rises over the sea
+      level and golden light is scattered on the isolated lighthouse, bathing the
+      entire island in a warm glow. The focus of the camera is then put on the lighthouse,
+      where the light and the sunrise complement each other, as if telling a tale
+      of hope and rebirth.
+    spoken_words: 黎明前的灯塔...
+    title: 日出之时的光辉
+    visual_description: 镜头展示日出时的景象，阳光从海平面升起，金色的光芒洒在孤立的灯塔上，让整个岛屿都沐浴在温暖的光辉中。镜头聚焦在灯塔上，光芒与日出交相辉映，仿佛在诉说着希望与新生的故事。
+  - image: output/1721084023/images/6.png
+    narration: output/1721084023/narration/6.mp3
+    sd_prompt: The camera shows the lighthouse, the afterglow of the sunset bathing
+      the lighthouse, the custodian of yore having departed, the lighthouse slowly
+      extinguished its beacon, leaving only the sea breeze and the solitary island
+      in solitude. The lens gradually zooms out, the shadow of the lighthouse stretched
+      long by the sunset, eventually vanishing into the silent sea island.
+    spoken_words: 守护的结束...
+    title: 孤灯熄灭
+    visual_description: 镜头展示灯塔，夕阳的余晖洒在灯塔上，曾经的守护者已经离去，灯塔缓缓熄灭了它的灯光，只剩下海风和孤岛相伴。镜头渐渐拉远，灯塔的影子被夕阳拉得长长的，最终消失在沉寂的海岛之中。
+- description: A raging storm at sea, with a shipwreck in the distance.
+  music: output/1721084023/music/1.wav
+  name: The Storm
+  shots:
+  - image: output/1721084023/images/7.png
+    narration: output/1721084023/narration/7.mp3
+    sd_prompt: Futuristic landscape, vast ocean, spray flying, dark clouds covering
+      the sky, a raging wind raising towering waves, the horizon blurred by the tempest.
+    spoken_words: 这里是故事的开始，远处的海面上正掀起惊涛骇浪。
+    title: 远景 - 大海风暴
+    visual_description: 远景，大海，浪花飞溅，天空乌云密布，狂风掀起巨浪，海天一线被风暴搅得模糊不清。
+  - image: output/1721084023/images/8.png
+    narration: output/1721084023/narration/8.mp3
+    sd_prompt: Medium shot, the hull of the ship is violently tossing, the sails are
+      torn, the rigging on the ship is taut, and the crew are working hard to maintain
+      balance.
+    spoken_words: 船只正在风暴中挣扎，随时可能倾覆。
+    title: 中景 - 船只颠簸
+    visual_description: 中景，船体剧烈颠簸，船帆撕裂，船上的绳索绷紧，船员们努力维持平衡。
+  - image: output/1721084023/images/9.png
+    narration: output/1721084023/narration/9.mp3
+    sd_prompt: Close-up, the crew member's face is distorted by the gale, with both
+      hands tightly gripping the ship's railing, struggling against the force of the
+      storm.
+    spoken_words: 一名船员在与风暴进行着殊死搏斗。
+    title: 近景 - 船员搏斗
+    visual_description: 近景，船员脸被狂风吹得变形，双手紧紧抓着船舷，对抗着风暴的力量。
+  - image: output/1721084023/images/10.png
+    narration: output/1721084023/narration/10.mp3
+    sd_prompt: Close-up, raindrops on the seaman's eye reflecting the sun's light,
+      his gaze determinedly fixed on the horizon, as if he is defying the whole world.
+    spoken_words: 但他眼中闪烁着坚定的光芒。
+    title: 特写 - 眼神坚定
+    visual_description: 特写，船员眼角的雨水反射着太阳的光芒，眼神坚毅地望着前方，好像在对抗着整个世界。
+  - image: output/1721084023/images/11.png
+    narration: output/1721084023/narration/11.mp3
+    sd_prompt: Medium shot, the side of the hull cracks open, sea water rushes in,
+      the crew panics and tries to save the ship.
+    spoken_words: 风暴的怒吼中，船体终于不堪重负断裂开来。
+    title: 中景 - 船体断裂
+    visual_description: 中景，船体侧面裂开，海水涌入，船员们惊慌失措，试图救船。
+  - image: output/1721084023/images/12.png
+    narration: output/1721084023/narration/12.mp3
+    sd_prompt: '"Futuristic scene: the ship gradually tilts and settles, finally disappearing
+      below the sea horizon, leaving ripples spreading out towards the distance."'
+    spoken_words: 最终，整艘船在风暴的肆虐下沉入了深邃的大海。
+    title: 远景 - 船只沉没
+    visual_description: 远景，船体慢慢倾斜下沉，最后消失在海平线下，只留下一圈圈波纹向远方扩散。
+- description: An old man tending to the lighthouse, his life a mystery.
+  music: output/1721084023/music/2.wav
+  name: The Lighthouse Keeper
+  shots:
+  - image: output/1721084023/images/13.png
+    narration: output/1721084023/narration/13.mp3
+    sd_prompt: A slow-motion shot rises from the sea level, passing through the morning
+      mist, gradually focusing on a solitary lighthouse. A close-up shows an elderly
+      man in heavy seafarer's attire standing atop the lighthouse, gazing out at the
+      distant sea. His figure appears solitary yet resolute in the morning light.
+    spoken_words: 今天是我在这个灯塔守护的第70个年头。
+    title: 清晨的守望
+    visual_description: 一个缓慢的镜头从海平面升起，穿过晨雾，逐渐聚焦于一座孤独的灯塔。镜头近景，一位穿着厚重海员服的老人站在灯塔的塔顶，凝视着远方的大海。他的身影在晨光中显得孤独而坚定。
+  - image: output/1721084023/images/14.png
+    narration: output/1721084023/narration/14.mp3
+    sd_prompt: The camera switches to an old library, where light filters through
+      the window and falls on a yellowing newspaper. The headline reads, "Hero Returns,
+      Admiral Green, Commander of the Lighthouse, Takes Post." The camera quickly
+      zooms out to reveal a hazy portrait, seemingly a young picture of an elderly
+      man, but the background is too blurry to discern.
+    spoken_words: 没有人知道我为什么会来这里，也没有人知道我曾经的身份。
+    title: 神秘的过去
+    visual_description: 镜头切换为一个古老的图书馆，光线透过窗户洒在一张泛黄的报纸上。报纸的标题写着“英雄归来，海军上将格林将军驻守灯塔”。镜头快速拉远，展示一个模糊的肖像，似乎是老人的年轻照片，但背景模糊，无法看清。
+  - image: output/1721084023/images/15.png
+    narration: output/1721084023/narration/15.mp3
+    sd_prompt: '"A static shot shows a makeshift table with a set of dishes and a
+      bowl of simple food placed upon it. An elderly man sits at the table''s edge,
+      holding a candle alight. The candlelight illuminates his face, making him appear
+      gentle and alone."'
+    spoken_words: 每天晚上，我点亮这盏灯，警告过往的船只，也照亮自己的晚餐。
+    title: 孤独的晚餐
+    visual_description: 一个静态的镜头，展示一个简陋的餐桌，上面摆放着一套餐具和一碗简单的食物。老人坐在桌边，手持点燃的蜡烛，蜡烛的光芒照亮了他的面孔，显得温和而孤独。
+  - image: output/1721084023/images/16.png
+    narration: output/1721084023/narration/16.mp3
+    sd_prompt: The camera switches to a vast beach scene. Waves crash against the
+      rocks, sending up a cascade of foam. An elderly man stands alone by the shore,
+      facing away from the camera. His hands are behind his back as he lets the sea
+      breeze brush against his face.
+    spoken_words: 海风是我唯一的伴侣，它带走了我的寂寞，也带走了我的思念。
+    title: 海风的陪伴
+    visual_description: 镜头切换到一个广阔的海边，海浪拍打着岩石，激起层层浪花。老人背对着镜头，孤独地站在海边，双手背在背后，任由海风吹拂过他的脸庞。
+  - image: output/1721084023/images/17.png
+    narration: output/1721084023/narration/17.mp3
+    sd_prompt: A long shot, slowly pulling out from the hand of an old man, reveals
+      an ancient lantern that has been polished and is emitting a warm light. The
+      lantern hangs in the night sky, surrounded by stars that are illuminated by
+      it.
+    spoken_words: 这盏灯，是我对这个世界的承诺，无论风雨，它都会在那里。
+    title: 灯塔的灯光
+    visual_description: 一个长镜头，从老人的手中缓缓拉出，展示一盏古老的灯笼，被擦拭得发着温暖的光。灯笼悬挂在夜空中，周围是被它照亮的星辰。
+  - image: output/1721084023/images/18.png
+    narration: output/1721084023/narration/18.mp3
+    sd_prompt: The camera shifts to the distant city, as the night falls and the city
+      lights begin to brighten, twinkling in harmony with the stars in the sky. An
+      old man stands quietly beneath the lighthouse, his silhouette blending with
+      the lighthouse itself, becoming the most steadfast guardian of the night.
+    spoken_words: 我不知道我还能守护多久，但我知道，这盏灯，会一直亮着，直到我最后一刻。
+    title: 未知的未来
+    visual_description: 镜头切换到远方的城市，夜幕降临，城市灯光渐渐亮起，与天际的星光交相辉映。老人静静地站在灯塔下，他的身影与这座灯塔融为一体，成为夜晚最坚定的守护者。
+- description: The protagonist finds a hidden room in the lighthouse, revealing the
+    keeper's past.
+  music: output/1721084023/music/3.wav
+  name: The Discovery
+  shots:
+  - image: output/1721084023/images/19.png
+    narration: output/1721084023/narration/19.mp3
+    sd_prompt: Vision of the distant future, an isolated lighthouse stands on the
+      seashore, sunlight shines on the stone tower, reflecting the brilliance of history.
+      The main character stands in front of the entrance of the lighthouse, gazing
+      intently at this ancient structure.
+    spoken_words: 喔，这里就是废弃的灯塔了。
+    title: 外景 - 明亮的灯塔
+    visual_description: 远景，一个孤立的灯塔矗立在海边，阳光照在石头塔上，反射出历史的光辉。主角站在灯塔的入口前，目光凝视着这个古老建筑物。
+  - image: output/1721084023/images/20.png
+    narration: output/1721084023/narration/20.mp3
+    sd_prompt: Close-up, the main character's fingers gently brush against a rusty
+      handle on the gate of the lighthouse. As the main character pushes, the door
+      emits a dull creak.
+    spoken_words: 这是什么？
+    title: 特写 - 门把手
+    visual_description: 特写，主角的手指轻轻触摸着灯塔门框上的一个生锈的把手。随着主角的推动，门发出了一声沉闷的吱嘎声。
+  - image: output/1721084023/images/21.png
+    narration: output/1721084023/narration/21.mp3
+    sd_prompt: Medium shot, the main character carefully enters the lighthouse, at
+      the end of the corridor there is a faint crack, sunlight streams through the
+      crack and sprinkles on the damp floor.
+    spoken_words: 里面黑漆漆的。
+    title: 中景 - 黑暗的通道
+    visual_description: 中景，主角小心翼翼地走进了灯塔的内部，走廊的尽头有一个微弱的裂缝，阳光透过裂缝洒在潮湿的地面上。
+  - image: output/1721084023/images/22.png
+    narration: output/1721084023/narration/22.mp3
+    sd_prompt: Close-up, the main character's eyes twinkle in the dim light, as his
+      hand fumbles for an old wooden door at the end of the corridor.
+    spoken_words: 这里有扇门。
+    title: 特写 - 主角的眼睛
+    visual_description: 特写，主角的眼睛在昏暗的光线中闪烁，他的手摸索着走廊尽头的一扇老木门。
+  - image: output/1721084023/images/23.png
+    narration: output/1721084023/narration/23.mp3
+    sd_prompt: '"Interior shot, the main character opens a wooden door, revealing
+      a hidden room filled with old books, nautical charts, and a portrait of a watchtower
+      keeper sitting at the helm of a ship. The room is permeated with a sense of
+      history."'
+    spoken_words: 这里原来是守塔人的住处。
+    title: 内景 - 隐藏的房间
+    visual_description: 内景，主角打开木门，一个隐藏的房间展现在眼前，摆满了旧书籍、航海图和一张守塔人坐在船头的肖像。房间里充满了历史的气息。
+  - image: output/1721084023/images/24.png
+    narration: output/1721084023/narration/24.mp3
+    sd_prompt: Close-up, the protagonist found a yellowed journal among a pile of
+      documents; the journal's cover bore the name of the keeper of the tower. Opening
+      the diary, the first page recorded the keeper's past, his love, his loneliness,
+      and the painful story of his vigil over this sea.
+    spoken_words: 这是什么？
+    title: 特写 - 日记本
+    visual_description: 特写，主角在一堆文件中发现了一本泛黄的日记本，封面上有守塔人的名字，翻开日记本，第一页记录着守塔人的过去，他的爱情，他的孤独，以及他守望这片大海的辛酸故事。
+- description: A final showdown between lighthouse keeper and antagonist, with a cliffhanging
+    ending.
+  music: output/1721084023/music/4.wav
+  name: The Legacy
+  shots:
+  - image: output/1721084023/images/25.png
+    narration: output/1721084023/narration/25.mp3
+    sd_prompt: The light of dawn pierced through the thin mist, lighting up the small
+      coastal town. In the distance, a solitary lighthouse gently swayed in the morning
+      breeze, with its lantern at the top casting a soft yellow glow. As the camera
+      zooms in, it reveals the old lighthouse keeper standing at the entrance of the
+      lighthouse. His silhouette appeared somewhat solitary, yet unwavering.
+    spoken_words: 你终于来了。
+    title: 黎明之光
+    visual_description: 晨曦的光线穿透薄雾，照亮了海边的小镇。远处，一座孤零零的灯塔在晨风中轻轻摇曳，塔顶的灯笼发出柔和的黄光。镜头拉近，揭示了站在灯塔入口的老灯塔守卫。他的身影略显孤独，却坚定不移。
+  - image: output/1721084023/images/26.png
+    narration: output/1721084023/narration/26.mp3
+    sd_prompt: The camera zooms out to reveal a shadowy figure approaching the lighthouse
+      quietly. The sea breeze caresses the area, creating a rustling sound as if it's
+      telling the tale of the impending confrontation. In the night, the light of
+      the lighthouse stands out distinctly, while the person's silhouette in the darkness
+      seems especially mysterious.
+    spoken_words: 看来你的野心不小。
+    title: 暗影逼近
+    visual_description: 镜头拉远，展示了一个黑暗的身影正悄悄接近灯塔。海风吹拂，沙沙作响，仿佛在诉说着即将到来的对决。夜色中，灯塔的灯光显得格外醒目，而暗影中的人影显得格外神秘。
+  - image: output/1721084023/images/27.png
+    narration: output/1721084023/narration/27.mp3
+    sd_prompt: The camera enters the lighthouse interior, casting interwoven shadows
+      on the stone steps with the昏黄的light. An elderly guard slowly descends the staircase,
+      his gaze steadfastly fixed on the front. As he takes each step, the camera gradually
+      zooms in, eventually focusing on his face, revealing an unwavering belief in
+      the forthcoming battle in his eyes.
+    spoken_words: 你真的认为你能战胜我吗？
+    title: 塔内对峙
+    visual_description: 镜头进入灯塔内部，昏黄的灯光在石阶上投下交错的阴影。老守卫缓缓下楼，目光坚定地盯着前方。随着他的每一步，镜头也逐步推进，直到对准他的面庞，眼神中透露出对即将到来的战斗的不懈信念。
+  - image: output/1721084023/images/28.png
+    narration: output/1721084023/narration/28.mp3
+    sd_prompt: In the tower, the guards and the enemies in the shadows stood facing
+      each other. Suddenly, a powerful force surged upwards from the ground, as if
+      intertwining with the lighthouse and the guards' power. The camera locked tightly
+      on the confrontation between the two, while the light from the lighthouse in
+      the background flickered erratically, appearing unusually fragile.
+    spoken_words: 我的力量源于这片土地。
+    title: 黑暗中的光
+    visual_description: 在塔内，守卫和暗影中的敌人面对面站着。突然间，一股强大的力量从地面向上涌动，似乎与灯塔及守卫的力量交缠。镜头紧锁两人的对峙，背景中灯塔的灯光忽明忽暗，显得异常脆弱。
+  - image: output/1721084023/images/29.png
+    narration: output/1721084023/narration/29.mp3
+    sd_prompt: The camera captures the old guard and the enemy engaging in their final
+      confrontation atop the lighthouse. The sky is painted with a stunning array
+      of dawn's hues, as if it were the most perfect backdrop to complete the narrative
+      of this battle. The guard's silhouette is intertwined with the enemy under the
+      morning light, their fight intense and yet stunningly beautiful.
+    spoken_words: 这是你最后的时光。
+    title: 时间的终点
+    visual_description: 镜头捕捉到老守卫与敌人在灯塔顶端展开最后的决战。天空布满了绚丽的朝霞，仿佛是为这场战斗画上句点的最美背景。守卫的身影与敌人在晨光中交织，战斗激烈，却美得惊人。
+  - image: output/1721084023/images/30.png
+    narration: output/1721084023/narration/30.mp3
+    sd_prompt: As the guard's sword slices through the air, the enemy's figure is
+      pushed to the edge of the cliffs overlooking the sea. Below the cliffs lies
+      a tumultuous ocean, a symbol of the unknown and the future. The camera zooms
+      out, leaving only the guard's solitary silhouette and the enemy, fading into
+      the morning mist. The camera then slowly lowers, ultimately freezing on the
+      churning waves, leaving an ending teeming with suspense.
+    spoken_words: 我们还会再见的。
+    title: 悬念落幕
+    visual_description: 随着守卫的一剑，敌人的身影被推向了海边悬崖的边缘。悬崖下是波涛汹涌的大海，象征着未知和未来。镜头拉远，只留下守卫孤独的身影和那即将消逝在晨雾中的敌人。镜头缓缓下移，最终定格在翻滚的海浪上，留下一个悬念满满的结局。

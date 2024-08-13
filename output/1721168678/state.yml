@@ -1,0 +1,68 @@
+directory: '1721168678'
+lines:
+- content: 特朗普的关税政策对中国来说，有时候确实有点麻烦。
+  context: 特朗普的关税政策对中国的贸易有影响。
+  image: output/1721168678/images/1.png
+  narration: output/1721168678/narration/1.mp3
+  sd_prompt: Zhang San is frowning and drawing circles in the air with his hand.
+  seed: 1721168679
+  speaker: 张三
+  visual: 张三皱着眉头，手在空中画圈。
+- content: 但是，拜登的政策更倾向于多边主义和自由贸易。
+  context: 对比特朗普和拜登的贸易政策。
+  image: output/1721168678/images/2.png
+  narration: output/1721168678/narration/2.mp3
+  sd_prompt: Li Si smiled and made a gesture towards Biden.
+  seed: 1721168678
+  speaker: 李四
+  visual: 李四微笑，手势指向拜登。
+- content: 对咱中国来说，关税政策当然越有利于我们越好。
+  context: 讨论对中国最有利的关税政策。
+  image: output/1721168678/images/3.png
+  narration: output/1721168678/narration/3.mp3
+  sd_prompt: Zhang San proudly stroked his chin.
+  seed: 1721168679
+  speaker: 张三
+  visual: 张三得意地摸摸下巴。
+- content: 但是，你难道没发现吗？特朗普的政策有时候更"灵活"。
+  context: 讨论特朗普政策的灵活性。
+  image: output/1721168678/images/4.png
+  narration: output/1721168678/narration/4.mp3
+  sd_prompt: '"Li Si made a face as if he was thinking deeply."'
+  seed: 1721168678
+  speaker: 李四
+  visual: 李四做出一副深思的样子。
+- content: 灵活？你这是在说，特朗普可以随意变卦吧？
+  context: 对特朗普政策的稳定性的质疑。
+  image: output/1721168678/images/5.png
+  narration: output/1721168678/narration/5.mp3
+  sd_prompt: Zhang San has his hands in his pockets and has a nonchalant expression.
+  seed: 1721168679
+  speaker: 张三
+  visual: 张三手插口袋，表情不以为然。
+- content: 拜登的政策虽然稳定，但是缺乏那种"灵活"的魅力。
+  context: 对比特朗普和拜登政策的魅力。
+  image: output/1721168678/images/6.png
+  narration: output/1721168678/narration/6.mp3
+  sd_prompt: The translation of "李四摇头叹息" from Chinese to English is "Li Si shook his
+    head and sighed."
+  seed: 1721168678
+  speaker: 李四
+  visual: 李四摇头叹息。
+- content: 哎，你说得对。咱们中国，最需要的是稳定的合作伙伴。
+  context: 中国更倾向于稳定的合作伙伴。
+  image: output/1721168678/images/7.png
+  narration: output/1721168678/narration/7.mp3
+  sd_prompt: Zhang San nodded in agreement, gesturing towards Biden.
+  seed: 1721168679
+  speaker: 张三
+  visual: 张三点头同意，手势指向拜登。
+- content: 所以，从长远来看，拜登可能更适合中国。
+  context: 最终结论：拜登更符合中国的利益。
+  image: output/1721168678/images/8.png
+  narration: output/1721168678/narration/8.mp3
+  sd_prompt: Li Si spread his hands wide, seeming to have a lot of confidence.
+  seed: 1721168678
+  speaker: 李四
+  visual: 李四摊开双手，显得很有把握。
+music: ''
