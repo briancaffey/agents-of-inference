@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/briancaffey/agents-of-inference/compare/v0.10.1...v0.11.0) (2024-08-13)
+
+
+### Features
+
+* **documentary:** add a new mode for generation ([14751cb](https://github.com/briancaffey/agents-of-inference/commit/14751cb74e6f756462152edc6d1185d4175f9345))
+
 ## [0.10.1](https://github.com/briancaffey/agents-of-inference/compare/v0.10.0...v0.10.1) (2024-08-08)
 
 
